@@ -1,0 +1,102 @@
+[
+  {
+    "number": 1,
+    "events": [
+      "carousel",
+      "minions",
+      "minions",
+      "minions"
+    ],
+    "descriptions": ["1: Carousel", "2 ~ 4: Minions"]
+  },
+  {
+    "number": 2,
+    "events": [
+      "user",
+      "user",
+      "user",
+      "carousel",
+      "user",
+      "user",
+      "krugs"
+    ],
+    "descriptions": [
+      "1 ~ 3: Random User",
+      "4: Carousel",
+      "5 ~ 6: Random User",
+      "7: Krugs"
+    ]
+  },
+  {
+    "number": 3,
+    "events": [
+      "user",
+      "user",
+      "user",
+      "carousel",
+      "user",
+      "user",
+      "wolves"
+    ],
+    "descriptions": [
+      "1 ~ 3: Random User",
+      "4: Carousel",
+      "5 ~ 6: Random User",
+      "7: Murk Wolves"
+    ]
+  },
+  {
+    "number": 4,
+    "events": [
+      "user",
+      "user",
+      "user",
+      "carousel",
+      "user",
+      "user",
+      "raptors"
+    ],
+    "descriptions": [
+      "1 ~ 3: Random User",
+      "4: Carousel",
+      "5 ~ 6: Random User",
+      "7: Raptors"
+    ]
+  },
+  {
+    "number": 5,
+    "events": [
+      "user",
+      "user",
+      "user",
+      "carousel",
+      "user",
+      "user",
+      "dragon"
+    ],
+    "descriptions": [
+      "1 ~ 3: Random User",
+      "4: Carousel",
+      "5 ~ 6: Random User",
+      "7: Infernal Drake"
+    ]
+  },
+  {
+    "number": 6,
+    "events": [
+      "user",
+      "user",
+      "user",
+      "carousel",
+      "user",
+      "user",
+      "elder"
+    ],
+    "descriptions": [
+      "1 ~ 3: Random User",
+      "4: Carousel",
+      "5 ~ 6: Random User",
+      "7: Elder Dragon"
+    ]
+  }
+]

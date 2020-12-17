@@ -1,0 +1,39 @@
+.filter-label,
+.menu-item {
+  letter-spacing: 0.1em;
+  margin: 0.4em 0;
+  position: relative;
+  text-transform: uppercase;
+
+  &:not(.menu-item):after,
+  &:not(.filter-label) > a:after {
+    background: $primary;
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.1s;
+    width: 0;
+  }
+
+  &:hover:after,
+  &:hover > a:after,
+  &.is-active:after,
+  &.is-active > a:after {
+    transition: 0.3s ease-in;
+    width: 10px;
+  }
+
+  + ul, {
+    margin-left: 0.75em;
+  }
+}
+
+.filter-label,
+.filter-option-checkbox,
+.menu-item a {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: $shadow;
+}

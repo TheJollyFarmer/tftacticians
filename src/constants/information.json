@@ -1,0 +1,36 @@
+[
+  {
+    "label": "general",
+    "hasList":true,
+    "expanded": true,
+    "subs": [
+      {
+        "label": "season 3",
+        "hasList": false
+      },
+      {
+        "label": "season 4",
+        "hasList": false
+      }
+    ]
+  },
+  {
+    "label": "rounds"
+  },
+  {
+    "label": "experience",
+    "isActive": true
+  },
+  {
+    "label": "income"
+  },
+  {
+    "label": "rolling"
+  },
+  {
+    "label": "damage"
+  },
+  {
+    "label": "hotkeys"
+  }
+]

@@ -1,0 +1,15 @@
+// Table
+.table {
+  border-collapse: separate;
+  border-spacing: 0.35em;
+
+  td,
+  th {
+    box-shadow: $shadow;
+    border-radius: 3px;
+  }
+
+  thead tr:hover {
+    background-color: $primary;
+  }
+}

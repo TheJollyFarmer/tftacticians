@@ -1,0 +1,34 @@
+[
+  {
+    "labels": ["W"],
+    "action": "Deploy to Battlefield / Return to Bench"
+  },
+  {
+    "labels": [1, "Q"],
+    "action": "Scout Player (Clockwise)",
+    "class": "is-gold-outline"
+  },
+  {
+    "labels": ["E"],
+    "action": "Sell Champion"
+  },
+  {
+    "labels": [3, "R"],
+    "action": "Scout Player (Counter-Clockwise)",
+    "class": "is-gold-outline"
+  },
+  {
+    "labels": ["D"],
+    "action": "Refresh Store"
+  },
+  {
+    "labels": [2, "Space"],
+    "action": "Center Camera on Little Legend",
+    "class": "is-purple-outline is-bottom-right"
+  },
+  {
+    "labels": ["F"],
+    "action": "Buy XP",
+    "class": "is-left"
+  }
+]

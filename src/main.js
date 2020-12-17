@@ -1,7 +1,11 @@
-import Vue from "vue";
+require("./assets/sass/main.scss");
 import App from "./App.vue";
-import router from "./router";
 import store from "./store";
+import router from "./router";
+import Tooltips from "./directives/index";
+import Vue from "vue";
+
+Vue.use(Tooltips);
 
 Vue.config.productionTip = false;
 

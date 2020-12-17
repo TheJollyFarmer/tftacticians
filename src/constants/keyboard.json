@@ -1,0 +1,225 @@
+[
+  {
+    "label": "±"
+  },
+  {
+    "label": "1",
+    "class": "is-active is-gold-outline"
+  },
+  {
+    "label": "2",
+    "class": "is-active is-purple-outline"
+  },
+  {
+    "label": "3",
+    "class": "is-active is-gold-outline"
+  },
+  {
+    "label": "4"
+  },
+  {
+    "label": "5"
+  },
+  {
+    "label": "6"
+  },
+  {
+    "label": "7"
+  },
+  {
+    "label": "8"
+  },
+  {
+    "label": "9"
+  },
+  {
+    "label": "0"
+  },
+  {
+    "label": "-"
+  },
+  {
+    "label": "+"
+  },
+  {
+    "label": "←",
+    "class": "backspace is-right is-span-4"
+  },
+  {
+    "label": "⇥",
+    "class": "tab is-left is-span-3"
+  },
+  {
+    "label": "q",
+    "class": "is-active is-gold-outline"
+  },
+  {
+    "label": "w",
+    "class": "is-active"
+  },
+  {
+    "label": "e",
+    "class": "is-active"
+  },
+  {
+    "label": "r",
+    "class": "is-active is-gold-outline"
+  },
+  {
+    "label": "t"
+  },
+  {
+    "label": "y"
+  },
+  {
+    "label": "u"
+  },
+  {
+    "label": "i"
+  },
+  {
+    "label": "o"
+  },
+  {
+    "label": "p"
+  },
+  {
+    "label": "["
+  },
+  {
+    "label": "]"
+  },
+  {
+    "label": "\\",
+    "class": "is-span-3"
+  },
+  {
+    "label": "⇪",
+    "class": "is-left is-span-4"
+  },
+  {
+    "label": "a"
+  },
+  {
+    "label": "s"
+  },
+  {
+    "label": "d",
+    "class": "is-active"
+  },
+  {
+    "label": "f",
+    "class": "is-active"
+  },
+  {
+    "label": "g"
+  },
+  {
+    "label": "h"
+  },
+  {
+    "label": "j"
+  },
+  {
+    "label": "k"
+  },
+  {
+    "label": "l"
+  },
+  {
+    "label": ";"
+  },
+  {
+    "label": "'"
+  },
+  {
+    "label": "↵",
+    "class": "is-span-4"
+  },
+  {
+    "label": "⇧",
+    "class": "is-left is-span-3"
+  },
+  {
+    "label": "~"
+  },
+  {
+    "label": "z"
+  },
+  {
+    "label": "x"
+  },
+  {
+    "label": "c"
+  },
+  {
+    "label": "v"
+  },
+  {
+    "label": "b"
+  },
+  {
+    "label": "n"
+  },
+  {
+    "label": "m"
+  },
+  {
+    "label": ","
+  },
+  {
+    "label": "."
+  },
+  {
+    "label": "/"
+  },
+  {
+    "label": "⇧",
+    "class": "is-right is-span-5"
+  },
+  {
+    "label": "fn",
+    "class": "is-left is-small"
+  },
+  {
+    "label": "control",
+    "class": "is-right is-small"
+  },
+  {
+    "label": "alt",
+    "second": "option",
+    "class": "is-right is-small is-column"
+  },
+  {
+    "label": "⌘",
+    "second": "command",
+    "class": "is-right is-span-3 is-small is-column"
+  },
+  {
+    "label": "",
+    "class": "is-active is-span-10 is-purple-outline"
+  },
+  {
+    "label": "⌘",
+    "second": "command",
+    "class": "is-left is-span-3 is-small is-column"
+  },
+  {
+    "label": "alt",
+    "second": "option",
+    "class": "is-left is-small is-column"
+  },
+  {
+    "label": "◀",
+    "class": "is-small"
+  },
+  {
+    "label": "▲",
+    "second": "▼",
+    "class": "up-down is-small"
+  },
+  {
+    "label": "▶",
+    "class": "is-small"
+  }
+]

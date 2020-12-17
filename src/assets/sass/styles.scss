@@ -1,0 +1,37 @@
+@import "modules/cost";
+@import "modules/hover";
+@import "modules/hotkey";
+@import "modules/menu";
+@import "modules/table";
+@import "modules/tooltip";
+@import "modules/traits";
+
+// General
+[v-cloak] {
+  display: none;
+}
+
+body p {
+  margin-bottom: 0.75rem;
+}
+
+h1, h2, h3 {
+  font-weight: bold !important;
+}
+
+.ais-InstantSearch {
+  position: relative
+}
+
+.input::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.image-list {
+  display: flex;
+}
+
+// Popover Item List
+.popover.media .image-list {
+  margin-left: -0.2em;
+}

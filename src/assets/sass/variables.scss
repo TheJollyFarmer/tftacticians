@@ -1,0 +1,44 @@
+@import "~bulma/sass/utilities/all";
+
+// Color
+$primary: $red;
+$gold: $yellow;
+
+// Shadow
+$shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+// Transition
+$hover-in: 0.2s ease-in;
+$hover-out: 0.2s ease-out;
+
+// Typography
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+$family-sans-serif: "B612", sans-serif;
+$family-primary: $family-sans-serif;
+
+// Images
+$dimensions: 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 52 56 64 72 96 120 128 !default;
+
+// Nav
+$navbar-box-shadow-color: $grey-dark;
+$navbar-box-shadow-size: 0px -2px 20px 0px;
+$navbar-item-img-max-height: inherit;
+
+// Box
+$box-padding: 1rem;
+
+// Menu
+$menu-list-border-left: none;
+$menu-nested-list-margin: 0 0 0 0.75em;
+$menu-nested-list-padding-left: 0;
+
+// Table
+$table-head-cell-color: $white;
+$table-cell-border: 1px solid transparent;
+$table-head-background-color: $primary;
+
+// Links
+$link: $grey-dark;
+$link-hover: $blue;
+$dropdown-item-active-background-color: $white-ter;
+$dropdown-item-active-color: $black;

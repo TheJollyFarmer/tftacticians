@@ -1,0 +1,666 @@
+[
+  {
+    "key": "astro",
+    "name": "Astro",
+    "description": "Astro Champions have reduced mana cost.",
+    "type": "origin",
+    "champions": [
+      "Nautilus",
+      "Bard",
+      "Teemo",
+      "Gnar"
+    ],
+    "sets": [
+      {
+        "description": "Astro Champions reduce their mana costs by 30.",
+        "style": "gold",
+        "min": 3
+      }
+    ]
+  },
+  {
+    "key": "battlecast",
+    "name": "Battlecast",
+    "description": "Battlecast Champions, upon dealing or taking 10 instances of damage, heal if below half health, or deal magic damage to the nearest enemy if above half.",
+    "type": "origin",
+    "champions": [
+      "Illaoi",
+      "Nocturne",
+      "Kog'Maw",
+      "Cassiopeia",
+      "Viktor",
+      "Urgot"
+    ],
+    "sets": [
+      {
+        "description": "80 Healing or Damage.",
+        "style": "sandybrown",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "180 Healing or Damage.",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "480 Healing or Damage.",
+        "style": "gold",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "description": "880 Healing or Damage",
+        "style": "lightslategrey",
+        "min": 8
+      }
+    ]
+  },
+  {
+    "key": "blademaster",
+    "name": "Blademaster",
+    "description": "Blademasters' Basic Attacks have a chance to trigger two additional attacks against their target. These additional attacks deal damage like Basic Attacks and trigger on-hit effects.",
+    "type": "class",
+    "champions": [
+      "Fiora",
+      "Xayah",
+      "Shen",
+      "Master Yi",
+      "Yasuo",
+      "Irelia",
+      "Riven"
+    ],
+    "sets": [
+      {
+        "description": "30% Chance to trigger.",
+        "style": "sandybrown",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "65% Chance to trigger.",
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "description": "100% Chance to trigger.",
+        "style": "lightslategrey",
+        "min": 9
+      }
+    ]
+  },
+  {
+    "key": "blaster",
+    "name": "Blaster",
+    "description": "Every fourth Basic Attack from a Blaster fires additional attacks at random enemies. These additional attacks deal damage like Basic Attacks, trigger on-hit effects, and can critically hit.",
+    "type": "class",
+    "champions": [
+      "Graves",
+      "Kog'Maw",
+      "Lucian",
+      "Ezreal",
+      "Jinx"
+    ],
+    "sets": [
+      {
+        "description": "3 Additional Attacks.",
+        "style": "sandybrown",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "6 Additional Attacks.",
+        "style": "gold",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "brawler",
+    "name": "Brawler",
+    "description": "Brawlers gain bonus Maximum Health.",
+    "type": "class",
+    "champions": [
+      "Malphite",
+      "Illaoi",
+      "Blitzcrank",
+      "Vi",
+      "Gnar"
+    ],
+    "sets": [
+      {
+        "description": "350 Bonus Health.",
+        "style": "sandybrown",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "600 Bonus Health.",
+        "style": "gold",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "celestial",
+    "name": "Celestial",
+    "description": "All allies heal for some of the damage they deal with spells and attacks.",
+    "type": "origin",
+    "champions": [
+      "Xayah",
+      "Xin Zhao",
+      "Rakan",
+      "Ashe",
+      "Lulu"
+    ],
+    "sets": [
+      {
+        "description": "15% Healing.",
+        "style": "sandybrown",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "45% Healing.",
+        "style": "gold",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "150% Healing.",
+        "style": "lightslategrey",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "chrono",
+    "name": "Chrono",
+    "description": "All allies gain attack speed every few seconds.",
+    "type": "origin",
+    "champions": [
+      "Caitlyn",
+      "Shen",
+      "Twisted Fate",
+      "Blitzcrank",
+      "Ezreal",
+      "Wukong",
+      "Riven",
+      "Thresh"
+    ],
+    "sets": [
+      {
+        "description": "Every 8 seconds.",
+        "style": "sandybrown",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "Every 3.5 seconds.",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "Every 1.5 seconds.",
+        "style": "gold",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "description": "Every 0.75 seconds.",
+        "style": "lightslategrey",
+        "min": 8
+      }
+    ]
+  },
+  {
+    "key": "cybernetic",
+    "name": "Cybernetic",
+    "description": "Cybernetic champions with at least one item gain Health and Attack Damage.",
+    "type": "origin",
+    "champions": [
+      "Leona",
+      "Fiora",
+      "Lucian",
+      "Vayne",
+      "Vi",
+      "Irelia",
+      "Ekko"
+    ],
+    "sets": [
+      {
+        "description": "300 Health & 35 Attack Damage.",
+        "style": "sandybrown",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "550 Health & 70 Attack Damage.",
+        "style": "gold",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "darkstar",
+    "name": "Dark Star",
+    "description": "When a Dark Star champion dies they give increased damage, plus any previous stacks of this effect, to the nearest ally Dark Star champion.",
+    "type": "origin",
+    "champions": [
+      "Mordekaiser",
+      "Jarvan IV",
+      "Shaco",
+      "Karma",
+      "Jhin",
+      "Xerath"
+    ],
+    "sets": [
+      {
+        "description": "8 Attack Damage and Spell Power.",
+        "style": "sandybrown",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "18 Attack Damage and Spell Power.",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "28 Attack Damage and Spell Power.",
+        "style": "gold",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "description": "38 Attack Damage and Spell Power.",
+        "style": "lightslategrey",
+        "min": 8
+      }
+    ]
+  },
+  {
+    "key": "demolitionist",
+    "name": "Demolitionist",
+    "description": "Damage from Demolitionists' spellcasts stuns their targets for a few seconds. (Once per spellcast)",
+    "type": "class",
+    "champions": [
+      "Ziggs",
+      "Rumble",
+      "Gangplank"
+    ],
+    "sets": [
+      {
+        "description": "Damage from Demolitionists' spellcasts stun their targets for 1.50 seconds.",
+        "style": "gold",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "key": "infiltrator",
+    "name": "Infiltrator",
+    "innate": "At the start of combat, Infiltrators move to the enemy's backline.",
+    "description": "Infiltrators gain Attack Speed for a few seconds at the start of combat.",
+    "both": true,
+    "type": "class",
+    "champions": [
+      "Nocturne",
+      "Zed",
+      "Shaco",
+      "Fizz",
+      "Ekko"
+    ],
+    "sets": [
+      {
+        "description": "40% Bonus Attack Speed. Refreshes on Takedown.",
+        "style": "sandybrown",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "80% Bonus Attack Speed. Refreshes on Takedown.",
+        "style": "gold",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "120% Bonus Attack Speed. Refreshes on Takedown.",
+        "style": "lightslategrey",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "manareaver",
+    "name": "Mana-Reaver",
+    "description": "Mana-Reavers' Basic Attacks increase the mana cost of their target's next spellcast by a percentage.",
+    "type": "class",
+    "champions": [
+      "Darius",
+      "Irelia",
+      "Thresh"
+    ],
+    "sets": [
+      {
+        "description": "40%",
+        "style": "gold",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "key": "mechpilot",
+    "name": "Mech-Pilot",
+    "description": "",
+    "type": "origin",
+    "champions": [
+      "Annie",
+      "Rumble",
+      "Fizz"
+    ],
+    "sets": [
+      {
+        "description": "At the start of combat, three random Mech-Pilots are teleported into a Super-Mech. The Super-Mech has the combined Health, Attack Damage, and Traits of its pilots, as well as 3 random items from among them. When the Super-Mech dies the Pilots are ejected, granted Mana, and continue to fight.",
+        "style": "gold",
+        "min": 3
+      }
+    ]
+  },
+  {
+    "key": "mercenary",
+    "name": "Mercenary",
+    "innate": "Upgrades for Mercenaries' spells have a chance to appear in the shop.",
+    "type": "class",
+    "champions": [
+      "Gangplank"
+    ],
+    "sets": [
+      {
+        "description": "",
+        "style": "gold",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "key": "mystic",
+    "name": "Mystic",
+    "description": "All allies gain Magic Resistance.",
+    "type": "class",
+    "champions": [
+      "Karma",
+      "Cassiopeia",
+      "Bard",
+      "Soraka",
+      "Lulu"
+    ],
+    "sets": [
+      {
+        "description": "50 Magic Resistance.",
+        "style": "sandybrown",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "120 Magic Resistance.",
+        "style": "gold",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "paragon",
+    "name": "Paragon",
+    "description": "",
+    "type": "class",
+    "champions": [
+      "Janna"
+    ],
+    "sets": [
+      {
+        "description": "Ally Star Guardian basic attacks are converted to true damage. All other ally basic attacks are converted to magic damage.",
+        "style": "gold",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "key": "protector",
+    "name": "Protector",
+    "description": "Protectors shield themselves for a few seconds whenever they cast a spell. This shield doesn't stack.",
+    "type": "class",
+    "champions": [
+      "Jarvan IV",
+      "Rakan",
+      "Xin Zhao",
+      "Neeko",
+      "Urgot"
+    ],
+    "sets": [
+      {
+        "description": "30% Maximum Health Shield.",
+        "style": "sandybrown",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "40% Maximum Health Shield.",
+        "style": "gold",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "55% Maximum Health Shield.",
+        "style": "lightslategrey",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "rebel",
+    "name": "Rebel",
+    "description": "At the start of combat, Rebels gain a shield and bonus damage for each adjacent Rebel. The shield lasts for a few seconds.",
+    "type": "origin",
+    "champions": [
+      "Ziggs",
+      "Malphite",
+      "Yasuo",
+      "Master Yi",
+      "Zed",
+      "Jinx",
+      "Aurelion Sol"
+    ],
+    "sets": [
+      {
+        "description": "150 Shield & 10% Damage.",
+        "style": "sandybrown",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "210 Shield & 12% Damage.",
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "description": "330 Shield & 15% Damage.",
+        "style": "lightslategrey",
+        "min": 9
+      }
+    ]
+  },
+  {
+    "key": "sniper",
+    "name": "Sniper",
+    "description": "Snipers deal percentage increased damage for each hex between themselves and their target.",
+    "type": "class",
+    "champions": [
+      "Caitlyn",
+      "Ashe",
+      "Vayne",
+      "Teemo",
+      "Jhin"
+    ],
+    "sets": [
+      {
+        "description": "10% Increased Damage per hex.",
+        "style": "sandybrown",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "18% Increased Damage per hex.",
+        "style": "gold",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "sorcerer",
+    "name": "Sorcerer",
+    "description": "All allies have increased Spell Power.",
+    "type": "class",
+    "champions": [
+      "Zoe",
+      "Twisted Fate",
+      "Ahri",
+      "Annie",
+      "Syndra",
+      "Viktor",
+      "Xerath"
+    ],
+    "sets": [
+      {
+        "description": "20% Spell Power.",
+        "style": "sandybrown",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "40% Spell Power.",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "70% Spell Power.",
+        "style": "gold",
+        "min": 6,
+        "max": 7
+      }
+    ]
+  },
+  {
+    "key": "spacepirate",
+    "name": "Space Pirate",
+    "description": "Whenever a Space Pirate lands a killing blow on a Champion there is a chance to drop extra loot.",
+    "type": "origin",
+    "champions": [
+      "Graves",
+      "Darius",
+      "Jayce",
+      "Gangplank"
+    ],
+    "sets": [
+      {
+        "description": "50% for 1 Gold.",
+        "style": "sandybrown",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "50% for 1 Gold and 25% for a component item.",
+        "style": "gold",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "starguardian",
+    "name": "Star Guardian",
+    "description": "Star Guardians' spellcasts grant Mana to other Star Guardians, spread among them.",
+    "type": "origin",
+    "champions": [
+      "Zoe",
+      "Poppy",
+      "Ahri",
+      "Neeko",
+      "Syndra",
+      "Soraka",
+      "Janna"
+    ],
+    "sets": [
+      {
+        "description": "15 Total Mana.",
+        "style": "sandybrown",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "25 Total Mana.",
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "description": "45 Total Mana.",
+        "style": "lightslategrey",
+        "min": 9
+      }
+    ]
+  },
+  {
+    "key": "starship",
+    "name": "Starship",
+    "innate": "Starships gain mana per second, maneuver around the board, and are immune to movement impairing effects, but can't make Basic Attacks.",
+    "type": "class",
+    "champions": [
+      "Aurelion Sol"
+    ],
+    "sets": [
+      {
+        "style": "gold",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "key": "vanguard",
+    "name": "Vanguard",
+    "description": "Vanguard champions gain bonus Armor.",
+    "type": "class",
+    "champions": [
+      "Leona",
+      "Poppy",
+      "Mordekaiser",
+      "Nautilus",
+      "Jayce",
+      "Wukong"
+    ],
+    "sets": [
+      {
+        "description": "125 Armor.",
+        "style": "sandybrown",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "300 Armor.",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "1000 Armor.",
+        "style": "gold",
+        "min": 6
+      }
+    ]
+  }
+]

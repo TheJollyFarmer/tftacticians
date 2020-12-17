@@ -1,0 +1,14 @@
+.button,
+.filter-label,
+.filter-option-checkbox,
+.keyboard .key,
+.menu-item a,
+.round,
+.table tr {
+  transition: $hover-in;
+
+  &:hover {
+    background-color: $white-ter;
+    transition: $hover-out;
+  }
+}

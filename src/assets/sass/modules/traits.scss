@@ -1,0 +1,39 @@
+.is-sandybrown {
+  background-color: sandybrown;
+
+  &::before,
+  &::after {
+    border-bottom-color: sandybrown;
+    border-top-color: sandybrown;
+  }
+}
+
+.is-silver {
+  background-color: silver;
+
+  &::before,
+  &::after {
+    border-bottom-color: silver;
+    border-top-color: silver;
+  }
+}
+
+.is-gold {
+  background-color: gold;
+
+  &::before,
+  &::after {
+    border-bottom-color: gold;
+    border-top-color: gold;
+  }
+}
+
+.is-lightslategrey {
+  background-color: lightslategray;
+
+  &::before,
+  &::after {
+    border-bottom-color: lightslategray;
+    border-top-color: lightslategray;
+  }
+}
