@@ -1,17 +1,12 @@
 import request from "@/api/index";
 
-const key = process.env.RIOT_KEY;
+const key = "";
 
 export default {
   getSummoner(region, name) {
     return request(
       "get",
-      "https://" +
-        region +
-        "1.api.riotgames.com/tft/summoner/v1/summoners/by-name/" +
-        name +
-        "?api_key=" +
-        key
+      "https://kind-edison-e0eb7d.netlify.app/.netlify/functions/index"
     );
   },
 
