@@ -1,10 +1,10 @@
 <template>
-  <div class="">
-    <v-image
+  <div>
+    <VImage
       :image="trait"
       :has-border="false"
       :dimension="dimension"
-      dir="traits"/>
+      :dir="'traits/' + set"/>
     <span
       v-show="caption"
       v-text="trait"/>
@@ -13,6 +13,7 @@
 
 <script>
 import VImage from "@/components/utility/VImage";
+import { mapGetters } from "vuex";
 
 export default {
   name: "TraitImage",
@@ -34,27 +35,10 @@ export default {
     dimension: {
       type: String,
       required: false,
-      default: "26"
+      default: "24"
     }
-  }
+  },
+
+  computed: mapGetters({ set: "getActiveSet" })
 };
 </script>
-
-<style lang="scss" scoped>
-.champion-card-trait {
-  align-items: center;
-  display: flex;
-  padding: 0.1em;
-
-  .media {
-    height: 48px;
-  }
-  .image {
-    margin-right: 0.5em;
-  }
-
-  span {
-    line-height: 1;
-  }
-}
-</style>

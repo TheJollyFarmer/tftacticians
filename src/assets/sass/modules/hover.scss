@@ -1,14 +1,19 @@
 .button,
+.composition-list-item,
 .filter-label,
 .filter-option-checkbox,
+.item,
 .keyboard .key,
 .menu-item a,
 .round,
 .table tr {
   transition: $hover-in;
 
-  &:hover {
+  &:hover, &:focus {
     background-color: $white-ter;
     transition: $hover-out;
+    box-shadow: $shadow;
+    border-radius: 5px;
+    transform: scale(1.05);
   }
 }

@@ -1,1991 +1,3984 @@
-[
-  {
-    "name": "Star Guardian Sorcerers",
-    "type": "Slow Roll",
-    "rating": "S",
-    "champions": [
-      {
-        "name": "Neeko",
-        "position": 6,
-        "starred": false,
-        "items": [
-          "Guardian Angel",
-          "warmog's Armour",
-          "Ionic Spark"
-        ]
-      },
-      {
-        "name": "Rakan",
-        "position": 19,
-        "starred": false
-      },
-      {
-        "name": "Soraka",
-        "position": 20,
-        "starred": false
-      },
-      {
-        "name": "Ahri",
-        "position": 21,
-        "starred": false
-      },
-      {
-        "name": "Zoe",
-        "position": 25,
-        "starred": false
-      },
-      {
-        "name": "Syndra",
-        "position": 27,
-        "starred": false,
-        "items": [
-          "Blue Buff",
-          "Rabadon's Deathcap",
-          "Guardian Angel"
-        ]
-      },
-      {
-        "name": "Xerath",
-        "position": 26,
-        "starred": false
-      },
-      {
-        "name": "Janna",
-        "position": 28,
-        "starred": false
-      }
-    ],
-    "early": [
-      "Twisted Fate",
-      "Zoe",
-      "Ahri",
-      "Syndra",
-      "Neeko"
-    ],
-    "nine": "Lulu",
-    "alternatives": [
-      {
-        "names": [
-          "Rakan"
-        ],
-        "replacements": [
-          "Urgot"
-        ]
-      }
-    ],
-    "traits": [
-      {
-        "name": "Star Guardian",
-        "count": 6
-      },
-      {
-        "name": "Paragon",
-        "count": 1
-      },
-      {
-        "name": "Sorcerer",
-        "count": 4
-      },
-      {
-        "name": "Protector",
-        "count": 2
-      }
-    ],
-    "carousel": [
-      {
-        "component": "Tear of the Goddess",
-        "item": "Blue Buff"
-      },
-      {
-        "component": "Needlessly Large Rod",
-        "item": "Hextech Gunblade"
-      },
-      {
-        "component": "B.F. Sword",
-        "item": "Hextech Gunblade"
-      }
-    ]
-  },
-  {
-    "name": "Space Pirate Rebels",
-    "type": "Fast 8",
-    "rating": "A",
-    "champions": [
-      {
-        "name": "Graves",
-        "position": 8,
-        "starred": false
-      },
-      {
-        "name": "Ziggs",
-        "position": 24,
-        "starred": false
-      },
-      {
-        "name": "Darius",
-        "position": 14,
-        "starred": false
-      },
-      {
-        "name": "Jayce",
-        "position": 9,
-        "starred": false
-      },
-      {
-        "name": "Jinx",
-        "position": 25,
-        "starred": false,
-        "items": [
-          "Giant Slayer",
-          "Red Buff",
-          "Infinity Edge"
-        ]
-      },
-      {
-        "name": "Wukong",
-        "position": 12,
-        "starred": false
-      },
-      {
-        "name": "Aurelion Sol",
-        "position": 18,
-        "starred": false
-      },
-      {
-        "name": "Gangplank",
-        "position": 4,
-        "starred": false,
-        "items": [
-          "Guardian Angel",
-          "Ionic Spark",
-          "Morellonomicon"
-        ]
-      }
-    ],
-    "early": [
-      "Graves",
-      "Darius",
-      "Ezreal",
-      "Jayce",
-      "Wukong"
-    ],
-    "nine": "Thresh",
-    "alternatives": [],
-    "traits": [
-      {
-        "name": "Space Pirate",
-        "count": 4
-      },
-      {
-        "name": "Demolitionist",
-        "count": 2
-      },
-      {
-        "name": "Mercenary",
-        "count": 1
-      },
-      {
-        "name": "Starship",
-        "count": 1
-      },
-      {
-        "name": "Rebel",
-        "count": 3
-      },
-      {
-        "name": "Blaster",
-        "count": 2
-      },
-      {
-        "name": "Vanguard",
-        "count": 2
-      }
-    ],
-    "carousel": [
-      {
-        "component": "B.F. Sword",
-        "item": "Guardian Angel"
-      },
-      {
-        "component": "Chain Vest",
-        "item": "Guardian Angel"
-      },
-      {
-        "component": "Giant's Belt",
-        "item": "Red Buff"
-      }
-    ]
-  },
-  {
-    "name": "Astro Snipers",
-    "type": "Fast 8",
-    "rating": "A",
-    "champions": [
-      {
-        "name": "Caitlyn",
-        "position": 22,
-        "starred": false
-      },
-      {
-        "name": "Nautilus",
-        "position": 2,
-        "starred": false
-      },
-      {
-        "name": "Ashe",
-        "position": 25,
-        "starred": false
-      },
-      {
-        "name": "Karma",
-        "position": 28,
-        "starred": false
-      },
-      {
-        "name": "Jhin",
-        "position": 27,
-        "starred": false,
-        "items": [
-          "Infinity Edge",
-          "Last Whisper",
-          "Guardian Angel"
-        ]
-      },
-      {
-        "name": "Gnar",
-        "position": 6,
-        "starred": false
-      },
-      {
-        "name": "Teemo",
-        "position": 23,
-        "starred": true,
-        "items": [
-          "Blue Buff",
-          "Morellonomicon",
-          "Rabadon's Deathcap"
-        ]
-      },
-      {
-        "name": "Wukong",
-        "position": 4,
-        "starred": false
-      }
-    ],
-    "early": [
-      "Mordekaiser",
-      "Nautilus",
-      "Bard",
-      "Jhin",
-      "Teemo"
-    ],
-    "nine": "Lulu",
-    "alternatives": [
-      {
-        "names": [
-          "Thresh"
-        ],
-        "replacements": [
-          "Caitlyn"
-        ]
-      }
-    ],
-    "traits": [
-      {
-        "name": "Sniper",
-        "count": 4
-      },
-      {
-        "name": "Astro",
-        "count": 3
-      },
-      {
-        "name": "Vanguard",
-        "count": 2
-      },
-      {
-        "name": "Chrono",
-        "count": 2
-      },
-      {
-        "name": "Dark Star",
-        "count": 2
-      }
-    ],
-    "carousel": [
-      {
-        "component": "B.F. Sword",
-        "item": "Infinity Edge"
-      },
-      {
-        "component": "Sparring Gloves",
-        "item": "Infinity Edge"
-      },
-      {
-        "component": "Recurve Bow",
-        "item": "Last Whisper"
-      }
-    ]
-  },
-  {
-    "name": "Shredder",
-    "type": "Slow Roll",
-    "rating": "A",
-    "champions": [
-      {
-        "name": "Fiora",
-        "position": 7,
-        "starred": true
-      },
-      {
-        "name": "Jarvan IV",
-        "position": 6,
-        "starred": true,
-        "items": [
-          "Warmog's Armour",
-          "Bramble Vest"
-        ]
-      },
-      {
-        "name": "Xayah",
-        "position": 14,
-        "starred": true,
-        "items": [
-          "Last Whisper",
-          "Giant Slayer",
-          "Deathblade"
-        ]
-      },
-      {
-        "name": "Rakan",
-        "position": 21,
-        "starred": false
-      },
-      {
-        "name": "Shen",
-        "position": 5,
-        "starred": false
-      },
-      {
-        "name": "Master Yi",
-        "position": 28,
-        "starred": false
-      },
-      {
-        "name": "Irelia",
-        "position": 25,
-        "starred": false
-      },
-      {
-        "name": "Riven",
-        "position": 3,
-        "starred": false
-      }
-    ],
-    "early": [
-      "Caitlyn",
-      "Fiora",
-      "Jarvan IV",
-      "Xayah",
-      "Shen"
-    ],
-    "nine": "Ekko",
-    "alternatives": [
-      {
-        "names": [
-          "Master Yi",
-          "Irelia",
-          "Riven"
-        ],
-        "replacements": [
-          "Caitlyn",
-          "Ashe",
-          "Lulu"
-        ]
-      }
-    ],
-    "traits": [
-       {
-        "name": "Blademaster",
-        "count": 6
-      },
-       {
-        "name": "Protector",
-        "count": 2
-      },
-       {
-        "name": "Celestial",
-        "count": 2
-      },
-       {
-        "name": "Chrono",
-        "count": 2
-      }
-    ],
-    "carousel": [
-       {
-        "component": "B.F. Sword",
-        "item": "Infinity Edge"
-      },
-       {
-        "component": "Sparring Gloves",
-        "item": "Infinity Edge"
-      },
-       {
-        "component": "Recurve Bow",
-        "item": "Last Whisper"
-      }
-    ]
-  },
-  {
-    "name": "Dark Stars",
-    "type": "Standard",
-    "rating": "A",
-    "champions": [
-      {
-        "name": "Jarvan IV",
-        "position": 6,
-        "starred": false
-      },
-      {
-        "name": "Rakan",
-        "position": 3,
-        "starred": false
-      },
-      {
-        "name": "Ashe",
-        "position": 23,
-        "starred": false
-      },
-      {
-        "name": "Karma",
-        "position": 28,
-        "starred": false
-      },
-      {
-        "name": "Shaco",
-        "position": 25,
-        "starred": true
-      },
-      {
-        "name": "Jhin",
-        "position": 27,
-        "starred": true,
-        "items": [
-          "Infinity Edge",
-          "Last Whisper",
-          "Guardian Angel"
-        ]
-      },
-      {
-        "name": "Fizz",
-        "position": 24,
-        "starred": false
-      },
-      {
-        "name": "Soraka",
-        "position": 22,
-        "starred": false
-      }
-    ],
-    "early": [
-      "Caitlyn",
-      "Fiora",
-      "Jarvan IV",
-      "Xayah",
-      "Shen"
-    ],
-    "nine": "Xerath",
-    "alternatives": [],
-    "traits": [
-      {
-        "name": "Dark Star",
-        "count": 4
-      },
-      {
-        "name": "Infiltrator",
-        "count": 2
-      },
-      {
-        "name": "Protector",
-        "count": 2
-      },
-      {
-        "name": "Sniper",
-        "count": 2
-      },
-      {
-        "name": "Mystic",
-        "count": 2
-      },
-      {
-        "name": "Celestial",
-        "count": 2
-      }
-    ],
-    "carousel": [
-      {
-        "component": "B.F. Sword",
-        "item": "Infinity Edge"
-      },
-      {
-        "component": "Sparring Gloves",
-        "item": "Infinity Edge"
-      },
-      {
-        "component": "Recurve Bow",
-        "item": "Last Whisper"
-      }
-    ]
-  },
-  {
-    "name": "Mech Sorcerers",
-    "type": "Fast 8",
-    "rating": "A",
-    "champions": [
-      {
-        "name": "Annie",
-        "position": 4,
-        "starred": false
-      },
-      {
-        "name": "Cassiopeia",
-        "position": 22,
-        "starred": false
-      },
-      {
-        "name": "Rumble",
-        "position": 6,
-        "starred": false,
-        "items": [
-          "Titan's Resolve",
-          "Ionic Spark",
-          "Bramble Vest"
-        ]
-      },
-      {
-        "name": "Soraka",
-        "position": 28,
-        "starred": false
-      },
-      {
-        "name": "Viktor",
-        "position": 27,
-        "starred": false,
-        "items": [
-          "Blue Buff",
-          "Rabadon's Deathcap",
-          "Jeweled Gauntlet"
-        ]
-      },
-      {
-        "name": "Fizz",
-        "position": 7,
-        "starred": false
-      },
-      {
-        "name": "Ekko",
-        "position": 23,
-        "starred": false
-      },
-      {
-        "name": "Gangplank",
-        "position": 3,
-        "starred": false,
-        "items": ["Guardian Angel"]
-      }
-    ],
-    "early": [
-      "Nocturne",
-      "Annie",
-      "Rumble",
-      "Fizz",
-      "Viktor"
-    ],
-    "nine": "Thresh",
-    "alternatives": [
-      {
-        "names": [
-          "Cassiopeia",
-          "Soraka"
-        ],
-        "replacements": [
-          "Twisted Fate",
-          "Xerath"
-        ]
-      }
-    ],
-    "traits": [
-      {
-        "name": "Mech-Pilot",
-        "count": 3
-      },
-      {
-        "name": "Demolitionist",
-        "count": 2
-      },
-      {
-        "name": "Mercenary",
-        "count": 1
-      },
-      {
-        "name": "Battlecast",
-        "count": 2
-      },
-      {
-        "name": "Sorcerer",
-        "count": 2
-      },
-      {
-        "name": "Infiltrator",
-        "count": 2
-      },
-      {
-        "name": "Mystic",
-        "count": 2
-      }
-    ],
-    "carousel": [
-      {
-        "component": "Chain Vest",
-        "item": "Bramble Vest"
-      },
-      {
-        "component": "Tear of the Goddess",
-        "item": "Blue Buff"
-      },
-      {
-        "component": "Needlessly Large Rod",
-        "item": "Last Whisper"
-      }
-    ]
-  },
-  {
-    "name": "Protector Dark Stars",
-    "type": "Slow Roll",
-    "rating": "A",
-    "champions": [
-      {
-        "name": "Jarvan IV",
-        "position": 6,
-        "starred": true,
-        "items": [
-          "Warmog's Armour",
-          "Ionic Spark"
-        ]
-      },
-      {
-        "name": "Rakan",
-        "position": 5,
-        "starred": false
-      },
-      {
-        "name": "Xin Zhao",
-        "position": 7,
-        "starred": false
-      },
-      {
-        "name": "Neeko",
-        "position": 4,
-        "starred": false
-      },
-      {
-        "name": "Ashe",
-        "position": 23,
-        "starred": false
-      },
-      {
-        "name": "Karma",
-        "position": 28,
-        "starred": false
-      },
-      {
-        "name": "Jhin",
-        "position": 27,
-        "starred": true,
-        "items": [
-          "Guardian Angel",
-          "Infinity Edge",
-          "Last Whisper"
-        ]
-      },
-      {
-        "name": "Lulu",
-        "position": 22,
-        "starred": false
-      }
-    ],
-    "early": [
-      "Jarvan IV",
-      "Rakan",
-      "Xin Zhao",
-      "Neeko",
-      "Jhin"
-    ],
-    "nine": "Xerath",
-    "alternatives": [
-      {
-        "names": [
-          "Ashe",
-          "Karma",
-          "Jhin"
-        ],
-        "replacements": [
-          "Syndra",
-          "Soraka",
-          "Xerath"
-        ]
-      }
-    ],
-    "traits": [
-      {
-        "name": "Protector",
-        "count": 4
-      },
-      {
-        "name": "Celestial",
-        "count": 4
-      },
-      {
-        "name": "Dark Star",
-        "count": 3
-      },
-      {
-        "name": "Sniper",
-        "count": 2
-      },
-      {
-        "name": "Mystic",
-        "count": 2
-      }
-    ],
-    "carousel": [
-      {
-        "component": "Chain Vest",
-        "item": "Bramble Vest"
-      },
-      {
-        "component": "Sparring Gloves",
-        "item": "B.F. Sword"
-      },
-      {
-        "component": "B.F. Sword",
-        "item": "Infinity Edge"
-      }
-    ]
-  },
-  {
-    "name": "Rebel Blademasters",
-    "type": "Slow Roll",
-    "rating": "A",
-    "champions": [
-       {
-        "name": "Shen",
-        "position": 11,
-        "starred": true
-      },
-       {
-        "name": "Yasuo",
-        "position": 18,
-        "starred": true
-      },
-       {
-        "name": "Zed",
-        "position": 25,
-        "starred": true,
-         "items": [
-           "Blade of the Ruined King"
-         ]
-      },
-       {
-        "name": "Master Yi",
-        "position": 19,
-        "starred": true,
-         "items": [
-           "Rapid Firecannon",
-           "Jeweled Gauntlet",
-           "Quicksilver"
-         ]
-      },
-       {
-        "name": "Fizz",
-        "position": 26,
-        "starred": false
-      },
-       {
-        "name": "Irelia",
-        "position": 21,
-        "starred": false
-      },
-       {
-        "name": "Riven",
-        "position": 16,
-        "starred": false
-      }
-    ],
-    "early": [
-      "Nocturne",
-      "Shen",
-      "Yasuo",
-      "Zed",
-      "Master Yi"
-    ],
-    "nine": "",
-    "alternatives": [
-      {
-        "names": [
-          "Wukong",
-          "Thresh"
-        ],
-        "replacements": [
-          "Karma",
-          "Lulu"
-        ]
-      }
-    ],
-    "traits": [
-       {
-        "name": "Blademaster",
-        "count": 6
-      },
-       {
-        "name": "Rebel",
-        "count": 3
-      },
-       {
-        "name": "Chrono",
-        "count": 2
-      },
-       {
-        "name": "Infiltrator",
-        "count": 2
-      }
-    ],
-    "carousel": [
-       {
-        "component": "Recurve Bow",
-        "item": "Rapid Firecannon"
-      },
-       {
-        "component": "Needlessly Large Rod",
-        "item": "Guinsoo's Rageblade"
-      },
-       {
-        "component": "Sparring Gloves",
-        "item": "Quicksilver"
-      }
-    ]
-  },
-  {
-    "name": "Cybernetics",
-    "type": "Fast 8",
-    "rating": "A",
-    "champions": [
-       {
-        "name": "Fiora",
-        "position": 6,
-        "starred": true
-      },
-       {
-        "name": "Leona",
-        "position": 3,
-        "starred": false
-      },
-       {
-        "name": "Shen",
-        "position": 4,
-        "starred": false
-      },
-       {
-        "name": "Vayne",
-        "position": 23,
-        "starred": false,
-         "items": [
-           "Last Whisper",
-           "Infinity Edge",
-           "Giant Slayer"
-         ]
-      },
-       {
-        "name": "Vi",
-        "position": 1,
-        "starred": false
-      },
-       {
-        "name": "Irelia",
-        "position": 5,
-        "starred": true,
-         "items": [
-           "Infiltrators Talons"
-         ]
-      },
-       {
-        "name": "Ekko",
-        "position": 28,
-        "starred": false
-      },
-       {
-        "name": "Thresh",
-        "position": 22,
-        "starred": false
-      }
-    ],
-    "early": [
-      "Leona",
-      "Blitzcrank",
-      "Lucian",
-      "Ezreal",
-      "Vi"
-    ],
-    "nine": "",
-    "alternatives": [
-      {
-        "names": [
-          "Riven"
-        ],
-        "replacements": [
-          "Shen"
-        ]
-      },
-      {
-        "names": [
-          "Ashe",
-          "Wukong"
-        ],
-        "replacements": [
-          "Shen"
-        ]
-      }
-    ],
-    "traits": [
-       {
-        "name": "Cybernetic",
-        "count": 6
-      },
-       {
-        "name": "Mana-Reaver",
-        "count": 2
-      },
-       {
-        "name": "Blademaster",
-        "count": 3
-      },
-       {
-        "name": "Chrono",
-        "count": 2
-      }
-    ],
-    "carousel": [
-       {
-        "component": "Chain Vest",
-        "item": "Red Buff"
-      },
-       {
-        "component": "Giant's Belt",
-        "item": "Red Buff"
-      },
-       {
-        "component": "Sparring Gloves",
-        "item": "Infinity Edge"
-      }
-    ]
-  },
-  {
-    "name": "Rebel Demolitionists",
-    "type": "Fast 8",
-    "rating": "A",
-    "champions": [
-       {
-        "name": "Malphite",
-        "position": 6,
-        "starred": false
-      },
-       {
-        "name": "Ziggs",
-        "position": 21,
-        "starred": false
-      },
-       {
-        "name": "Blitzcrank",
-        "position": 22,
-        "starred": false
-      },
-       {
-        "name": "Yasuo",
-        "position": 12,
-        "starred": false
-      },
-       {
-        "name": "Master Yi",
-        "position": 7,
-        "starred": false
-      },
-       {
-        "name": "Jinx",
-        "position": 13,
-        "starred": true,
-         "items": [
-           "Giant Slayer",
-           "Red Buff",
-           "Last Whisper"
-         ]
-      },
-       {
-        "name": "Aurelion Sol",
-        "position": 14,
-        "starred": false
-      },
-       {
-        "name": "Gangplank",
-        "position": 3,
-        "starred": false,
-         "items": [
-           "Guardian Angel",
-           "Ionic Spark"
-         ]
-      }
-    ],
-    "early": [
-      "Ziggs",
-      "Malphite",
-      "Blitzcrank",
-      "Ezreal",
-      "Jinx"
-    ],
-    "nine": "",
-    "alternatives": [
-      {
-        "names": [
-          "Ziggs",
-          "Gangplank"
-        ],
-        "replacements": [
-          "Malphite",
-          "Vi"
-        ]
-      }
-    ],
-    "traits": [
-       {
-        "name": "Rebel",
-        "count": 6
-      },
-       {
-        "name": "Demolitionist",
-        "count": 2
-      },
-       {
-        "name": "Mercenary",
-        "count": 1
-      },
-       {
-        "name": "Starship",
-        "count": 1
-      },
-       {
-        "name": "Blaster",
-        "count": 2
-      },
-       {
-        "name": "Chrono",
-        "count": 2
-      },
-       {
-        "name": "Brawler",
-        "count": 2
-      }
-    ],
-    "carousel": [
-       {
-        "component": "B.F. Sword",
-        "item": "Giant Slayer"
-      },
-       {
-        "component": "Recurve Bow",
-        "item": "Giant Slayer"
-      },
-       {
-        "component": "Chain Vest",
-        "item": "Guardian Angel"
-      }
-    ]
-  },
-  {
-    "name": "Vanguard Mystics",
-    "type": "Slow Roll",
-    "rating": "A",
-    "champions": [
-       {
-        "name": "Mordekaiser",
-        "position": 3,
-        "starred": false
-      },
-       {
-        "name": "Nautilus",
-        "position": 1,
-        "starred": false
-      },
-       {
-        "name": "Cassiopeia",
-        "position": 27,
-        "starred": true,
-         "items": ["Blue Buff", "Morellonomicon", "Rapid Firecannon"]
-      },
-       {
-        "name": "Karma",
-        "position": 28,
-        "starred": false
-      },
-       {
-        "name": "Jayce",
-        "position": 5,
-        "starred": true,
-         "items": [
-           "Ionic Spark",
-           "Guardian Angel"
-         ]
-      },
-       {
-        "name": "Soraka",
-        "position": 22,
-        "starred": false
-      },
-       {
-        "name": "Wukong",
-        "position": 7,
-        "starred": false
-      },
-       {
-        "name": "Lulu",
-        "position": 25,
-        "starred": false
-      }
-    ],
-    "early": [
-      "Mordekaiser",
-      "Darius",
-      "Bard",
-      "Cassiopeia",
-      "Jayce"
-    ],
-    "nine": "Thresh",
-    "alternatives": [
-      {
-        "names": [
-          "Soraka",
-          "Lulu"
-        ],
-        "replacements": [
-          "Poppy",
-          "Leona"
-        ]
-      }
-    ],
-    "traits": [
-       {
-        "name": "Mystic",
-        "count": 4
-      },
-       {
-        "name": "Vanguard",
-        "count": 4
-      },
-       {
-        "name": "Dark Star",
-        "count": 2
-      }
-    ],
-    "carousel": [
-       {
-        "component": "Tear of the Goddess",
-        "item": "Blue Buff"
-      },
-       {
-        "component": "Needlessly Large Rod",
-        "item": "Morellonomicon"
-      },
-       {
-        "component": "Giant's Belt",
-        "item": "Morellonomicon"
-      }
-    ]
-  },
-  {
-    "name": "Battlecast",
-    "type": "Standard",
-    "rating": "B",
-    "champions": [
-       {
-        "name": "Illaoi",
-        "position": 3,
-        "starred": true
-      },
-       {
-        "name": "Nocturne",
-        "position": 22,
-        "starred": false
-      },
-       {
-        "name": "Blitzcrank",
-        "position": 5,
-        "starred": false
-      },
-       {
-        "name": "Kog'Maw",
-        "position": 27,
-        "starred": true,
-         "items": [
-           "Statikk Shiv",
-           "Red Buff",
-           "Runaan's Hurricane"
-         ]
-      },
-       {
-        "name": "Ezreal",
-        "position": 23,
-        "starred": false
-      },
-       {
-        "name": "Cassiopeia",
-        "position": 18,
-        "starred": false
-      },
-       {
-        "name": "Viktor",
-        "position": 25,
-        "starred": false
-      },
-       {
-        "name": "Urgot",
-        "position": 19,
-        "starred": false
-      }
-    ],
-    "early": [
-      "Illaoi",
-      "Blitzcrank",
-      "Kog'Maw",
-      "Bard",
-      "Ezreal"
-    ],
-    "nine": "Lulu",
-    "alternatives": [],
-    "traits": [
-       {
-        "name": "Battlecast",
-        "count": 6
-      },
-       {
-        "name": "Blaster",
-        "count": 2
-      },
-       {
-        "name": "Brawler",
-        "count": 2
-      },
-       {
-        "name": "Chrono",
-        "count": 2
-      }
-    ],
-    "carousel": [
-       {
-        "component": "Needlessly Large Rod",
-        "item": "Last Whisper"
-      },
-       {
-        "component": "Negatron Cloak",
-        "item": "Last Whisper"
-      },
-       {
-        "component": "Chain Vest",
-        "item": "Red Buff"
-      }
-    ]
-  },
-  {
-    "name": "Brawler Blasters",
-    "type": "Fast 8",
-    "rating": "B",
-    "champions": [
-       {
-        "name": "Malphite",
-        "position": 16,
-        "starred": false
-      },
-       {
-        "name": "Blitzcrank",
-        "position": 2,
-        "starred": false
-      },
-       {
-        "name": "Ezreal",
-        "position": 23,
-        "starred": false
-      },
-       {
-        "name": "Vi",
-        "position": 6,
-        "starred": false
-      },
-       {
-        "name": "Jinx",
-        "position": 23,
-        "starred": true,
-         "items": [
-           "Red Buff",
-           "Last Whisper",
-           "Deathblade"
-         ]
-      },
-       {
-        "name": "Gnar",
-        "position": 4,
-        "starred": false,
-         "items": [
-           "Guardian Angel",
-           "Ionic Spark"
-         ]
-      },
-       {
-        "name": "Soraka",
-        "position": 25,
-        "starred": false
-      },
-       {
-        "name": "Lulu",
-        "position": 28,
-        "starred": false
-      },
-       {
-        "name": "Aurelion Sol",
-        "position": 22,
-        "starred": false
-      }
-    ],
-    "early": [
-      "Leona",
-      "Blitzcrank",
-      "Lucian",
-      "Ezreal",
-      "Vi"
-    ],
-    "nine": "",
-    "alternatives": [
-      {
-        "names": [
-          "Illaoi",
-          "Kog'Maw"
-        ],
-        "replacements": [
-          "Blitzcrank",
-          "Ezreal"
-        ]
-      },
-      {
-        "names": [
-          "Illaoi",
-          "Cassiopeia"
-        ],
-        "replacements": [
-          "Malphite",
-          "Soraka"
-        ]
-      }
-    ],
-    "traits": [
-       {
-        "name": "Brawler",
-        "count": 4
-      },
-       {
-        "name": "Starship",
-        "count": 1
-      },
-       {
-        "name": "Rebel",
-        "count": 3
-      },
-       {
-        "name": "Blaster",
-        "count": 2
-      },
-       {
-        "name": "Mystic",
-        "count": 2
-      },
-       {
-        "name": "Chrono",
-        "count": 2
-      }
-    ],
-    "carousel": [
-       {
-        "component": "B.F. Sword",
-        "item": "Giant Slayer"
-      },
-       {
-        "component": "Recurve Bow",
-        "item": "Giant Slayer"
-      },
-       {
-        "component": "Chain Vest",
-        "item": "Red Buff"
-      }
-    ]
-  },
-  {
-    "name": "Mech Infiltrators",
-    "type": "Slow Roll",
-    "rating": "B",
-    "champions": [
-       {
-        "name": "Nocturne",
-        "position": 27,
-        "starred": false
-      },
-       {
-        "name": "Zed",
-        "position": 23,
-        "starred": true
-      },
-       {
-        "name": "Annie",
-        "position": 5,
-        "starred": true
-      },
-       {
-        "name": "Rumble",
-        "position": 3,
-        "starred": true,
-         "items": [
-           "Titan's Resolve",
-           "Quicksilver",
-           "Bramble Vest"
-         ]
-      },
-       {
-        "name": "Shaco",
-        "position": 22,
-        "starred": false,
-         "items": [
-           "Bloodthirster",
-           "Guardian Angel"
-         ]
-      },
-       {
-        "name": "Fizz",
-        "position": 4,
-        "starred": false
-      },
-       {
-        "name": "Viktor",
-        "position": 28,
-        "starred": false
-      }
-    ],
-    "early": [
-      "Nocturne",
-      "Annie",
-      "Rumble",
-      "Fizz",
-      "Viktor"
-    ],
-    "nine": "Janna",
-    "alternatives": [
-      {
-        "names": [
-          "Nocturne"
-        ],
-        "replacements": [
-          "Ekko"
-        ]
-      }
-    ],
-    "traits": [
-       {
-        "name": "Infiltrator",
-        "count": 4
-      },
-       {
-        "name": "Mech-Pilot",
-        "count": 3
-      },
-       {
-        "name": "Battlecast",
-        "count": 2
-      },
-       {
-        "name": "Sorcerer",
-        "count": 2
-      }
-    ],
-    "carousel": [
-       {
-        "component": "Chain Vest",
-        "item": "Bramble Vest"
-      },
-       {
-        "component": "Sparring Gloves",
-        "item": "Infinity Edge"
-      },
-       {
-        "component": "B.F Sword",
-        "item": "Infinity Edge"
-      }
-    ]
-  },
-  {
-    "name": "Protector Mystics",
-    "type": "Slow Roll",
-    "rating": "B",
-    "champions": [
-       {
-        "name": "Rakan",
-        "position": 3,
-        "starred": true,
-         "items": [
-           "Morellonomicon"
-         ]
-      },
-       {
-        "name": "Xin Zhao",
-        "position": 5,
-        "starred": true,
-         "items": [
-           "Bramble Vest"
-         ]
-      },
-       {
-        "name": "Ashe",
-        "position": 27,
-        "starred": false
-      },
-       {
-        "name": "Cassiopeia",
-        "position": 10,
-        "starred": true,
-         "items": [
-           "Blue Buff",
-           "Morellonomicon",
-           "Rapid Firecannon"
-         ]
-      },
-       {
-        "name": "Karma",
-        "position": 12,
-        "starred": false
-      },
-       {
-        "name": "Soraka",
-        "position": 22,
-        "starred": false
-      },
-       {
-        "name": "Lulu",
-        "position": 28,
-        "starred": false
-      },
-       {
-        "name": "Urgot",
-        "position": 9,
-        "starred": false
-      }
-    ],
-    "early": [
-      "Rakan",
-      "Xin Zhao",
-      "Kog'Maw",
-      "Bard",
-      "Cassiopeia"
-    ],
-    "nine": "Jhin",
-    "alternatives": [
-      {
-        "names": [
-          "Jarvan IV",
-          "Neeko"
-        ],
-        "replacements": [
-          "Karma",
-          "Soraka"
-        ]
-      }
-    ],
-    "traits": [
-       {
-        "name": "Mystic",
-        "count": 4
-      },
-       {
-        "name": "Protector",
-        "count": 4
-      },
-       {
-        "name": "Celestial",
-        "count": 4
-      },
-       {
-        "name": "Battlecast",
-        "count": 2
-      }
-    ],
-    "carousel": [
-       {
-        "component": "Spatula",
-        "item": "Protector's Chestguard"
-      },
-       {
-        "component": "Giant's Belt",
-        "item": "Protector's Chestguard"
-      },
-       {
-        "component": "Chain Vest",
-        "item": "Bramble Vest"
-      }
-    ]
-  },
-  {
-    "name": "Sorcerers",
-    "type": "Fast 8",
-    "rating": "B",
-    "champions": [
-       {
-        "name": "Twisted Fate",
-        "position": 28,
-        "starred": false
-      },
-       {
-        "name": "Zoe",
-        "position": 22,
-        "starred": false
-      },
-       {
-        "name": "Ahri",
-        "position": 24,
-        "starred": false
-      },
-       {
-        "name": "Annie",
-        "position": 5,
-        "starred": false
-      },
-       {
-        "name": "Syndra",
-        "position": 27,
-        "starred": false
-      },
-       {
-        "name": "Riven",
-        "position": 3,
-        "starred": true,
-         "items": [
-           "Guardian Angel",
-           "Rabadon's Deathcap",
-           "Quicksilver"
-         ]
-      },
-       {
-        "name": "Viktor",
-        "position": 26,
-        "starred": false,
-         "items": [
-           "Blue Buff",
-           "Rabadon's Deathcap"
-         ]
-      },
-       {
-        "name": "Janna",
-        "position": 25,
-        "starred": false
-      }
-    ],
-    "early": [
-      "Poppy",
-      "Twisted Fate",
-      "Zoe",
-      "Ahri",
-      "Syndra"
-    ],
-    "nine": "Soraka",
-    "alternatives": [
-      {
-        "names": [
-          "Riven"
-        ],
-        "replacements": [
-          "Gangplank"
-        ]
-      }
-    ],
-    "traits": [
-       {
-        "name": "Sorcerer",
-        "count": 6
-      },
-       {
-        "name": "Paragon",
-        "count": 1
-      },
-       {
-        "name": "Star Guardian",
-        "count": 3
-      },
-       {
-        "name": "Chrono",
-        "count": 2
-      }
-    ],
-    "carousel": [
-       {
-        "component": "B.F. Sword",
-        "item": "Guardian Angel"
-      },
-       {
-        "component": "Chain Vest",
-        "item": "Bramble Vest"
-      },
-       {
-        "component": "Needlessly Large Rod",
-        "item": "Rabadon's Deathcap"
-      }
-    ]
-  },
-  {
-    "name": "Hyperroll Sorcerers",
-    "type": "Hyperroll",
-    "rating": "B",
-    "champions": [
-       {
-        "name": "Poppy",
-        "position": 5,
-        "starred": true,
-         "items": [
-           "Bramble Vest",
-           "Ionic Spark",
-           "Dragon's Claw"
-         ]
-      },
-       {
-        "name": "Zoe",
-        "position": 22,
-        "starred": true
-      },
-       {
-        "name": "Twisted Fate",
-        "position": 26,
-        "starred": true
-      },
-       {
-        "name": "Ahri",
-        "position": 24,
-        "starred": false
-      },
-       {
-        "name": "Syndra",
-        "position": 28,
-        "starred": false
-      },
-       {
-        "name": "Wukong",
-        "position": 3,
-        "starred": false
-      },
-       {
-        "name": "Viktor",
-        "position": 27,
-        "starred": false
-      },
-       {
-        "name": "Xerath",
-        "position": 25,
-        "starred": false,
-         "items": [
-           "Quicksilver"
-         ]
-      }
-    ],
-    "early": [
-      "Poppy",
-      "Twisted Fate",
-      "Caitlyn",
-      "Zoe",
-      "Leona"
-    ],
-    "nine": "Soraka",
-    "alternatives": [
-      {
-        "names": [
-          "Leona",
-          "Jayce"
-        ],
-        "replacements": [
-          "Syndra",
-          "Viktor"
-        ]
-      },
-      {
-        "names": [
-          "Soraka",
-          "Lulu"
-        ],
-        "replacements": [
-          "Syndra",
-          "Viktor"
-        ]
-      }
-    ],
-    "traits": [
-       {
-        "name": "Sorcerer",
-        "count": 6
-      },
-       {
-        "name": "Star Guardian",
-        "count": 3
-      },
-       {
-        "name": "Vanguard",
-        "count": 2
-      },
-       {
-        "name": "Chrono",
-        "count": 2
-      }
-    ],
-    "carousel": [
-       {
-        "component": "Chain Vest",
-        "item": "Bramble Vest"
-      },
-       {
-        "component": "Needlessly Large Rod",
-        "item": "Rabadon's Deathcap"
-      },
-       {
-        "component": "Negatron Cloak",
-        "item": "Dragon's Claw"
-      }
-    ]
-  },
-  {
-    "name": "Mech Rebels",
-    "type": "Slow Roll",
-    "rating": "B",
-    "champions": [
-       {
-        "name": "Twisted Fate",
-        "position": 22,
-        "starred": false
-      },
-       {
-        "name": "Ziggs",
-        "position": 28,
-        "starred": false
-      },
-       {
-        "name": "Annie",
-        "position": 3,
-        "starred": true
-      },
-       {
-        "name": "Zed",
-        "position": 25,
-        "starred": false
-      },
-       {
-        "name": "Rumble",
-        "position": 4,
-        "starred": true,
-         "items": [
-           "Bramble Vest",
-           "Titan's Resolve",
-           "Quicksilver"
-         ]
-      },
-       {
-        "name": "Ezreal",
-        "position": 23,
-        "starred": false
-      },
-       {
-        "name": "Fizz",
-        "position": 6,
-        "starred": false,
-         "items": [
-           "Ionic Spark"
-         ]
-      },
-       {
-        "name": "Jinx",
-        "position": 27,
-        "starred": false,
-         "items": [
-           "Red Buff"
-         ]
-      }
-    ],
-    "early": [
-      "Ziggs",
-      "Annie",
-      "Zed",
-      "Rumble",
-      "Fizz"
-    ],
-    "nine": "Aurelion Sol",
-    "alternatives": [
-      {
-        "names": [
-          "Gangplank"
-        ],
-        "replacements": [
-          "Ziggs"
-        ]
-      }
-    ],
-    "traits": [
-       {
-        "name": "Mech-Pilot",
-        "count": 3
-      },
-       {
-        "name": "Demolitionist",
-        "count": 2
-      },
-       {
-        "name": "Rebel",
-        "count": 3
-      },
-       {
-        "name": "Chrono",
-        "count": 2
-      },
-       {
-        "name": "Infiltrator",
-        "count": 2
-      },
-       {
-        "name": "Blaster",
-        "count": 2
-      },
-       {
-        "name": "Sorcerer",
-        "count": 2
-      }
-    ],
-    "carousel": [
-       {
-        "component": "Chain Vest",
-        "item": "Bramble Vest"
-      },
-       {
-        "component": "Sparring Gloves",
-        "item": "Quicksilver"
-      },
-       {
-        "component": "Giant's Belt",
-        "item": "Red Buff"
-      }
-    ]
-  }
-]
+{
+  "set3": [
+    {
+      "name": "Star Guardian Sorcerers",
+      "type": "Slow Roll",
+      "rating": "S",
+      "champions": [
+        {
+          "name": "Neeko",
+          "position": 6,
+          "starred": false,
+          "items": [
+            "Guardian Angel",
+            "warmog's Armour",
+            "Ionic Spark"
+          ]
+        },
+        {
+          "name": "Rakan",
+          "position": 19,
+          "starred": false
+        },
+        {
+          "name": "Soraka",
+          "position": 20,
+          "starred": false
+        },
+        {
+          "name": "Ahri",
+          "position": 21,
+          "starred": false
+        },
+        {
+          "name": "Zoe",
+          "position": 25,
+          "starred": false
+        },
+        {
+          "name": "Syndra",
+          "position": 27,
+          "starred": false,
+          "items": [
+            "Blue Buff",
+            "Rabadon's Deathcap",
+            "Guardian Angel"
+          ]
+        },
+        {
+          "name": "Xerath",
+          "position": 26,
+          "starred": false
+        },
+        {
+          "name": "Janna",
+          "position": 28,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Twisted Fate",
+        "Zoe",
+        "Ahri",
+        "Syndra",
+        "Neeko"
+      ],
+      "nine": "Lulu",
+      "alternatives": [
+        {
+          "names": [
+            "Rakan"
+          ],
+          "replacements": [
+            "Urgot"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Star Guardian",
+          "count": 6
+        },
+        {
+          "name": "Paragon",
+          "count": 1
+        },
+        {
+          "name": "Sorcerer",
+          "count": 4
+        },
+        {
+          "name": "Protector",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Tear of the Goddess",
+          "item": "Blue Buff"
+        },
+        {
+          "component": "Needlessly Large Rod",
+          "item": "Hextech Gunblade"
+        },
+        {
+          "component": "B.F. Sword",
+          "item": "Hextech Gunblade"
+        }
+      ]
+    },
+    {
+      "name": "Space Pirate Rebels",
+      "type": "Fast 8",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Graves",
+          "position": 8,
+          "starred": false
+        },
+        {
+          "name": "Ziggs",
+          "position": 24,
+          "starred": false
+        },
+        {
+          "name": "Darius",
+          "position": 14,
+          "starred": false
+        },
+        {
+          "name": "Jayce",
+          "position": 9,
+          "starred": false
+        },
+        {
+          "name": "Jinx",
+          "position": 25,
+          "starred": false,
+          "items": [
+            "Giant Slayer",
+            "Red Buff",
+            "Infinity Edge"
+          ]
+        },
+        {
+          "name": "Wukong",
+          "position": 12,
+          "starred": false
+        },
+        {
+          "name": "Aurelion Sol",
+          "position": 18,
+          "starred": false
+        },
+        {
+          "name": "Gangplank",
+          "position": 4,
+          "starred": false,
+          "items": [
+            "Guardian Angel",
+            "Ionic Spark",
+            "Morellonomicon"
+          ]
+        }
+      ],
+      "early": [
+        "Graves",
+        "Darius",
+        "Ezreal",
+        "Jayce",
+        "Wukong"
+      ],
+      "nine": "Thresh",
+      "alternatives": [],
+      "traits": [
+        {
+          "name": "Space Pirate",
+          "count": 4
+        },
+        {
+          "name": "Demolitionist",
+          "count": 2
+        },
+        {
+          "name": "Mercenary",
+          "count": 1
+        },
+        {
+          "name": "Starship",
+          "count": 1
+        },
+        {
+          "name": "Rebel",
+          "count": 3
+        },
+        {
+          "name": "Blaster",
+          "count": 2
+        },
+        {
+          "name": "Vanguard",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Guardian Angel"
+        },
+        {
+          "component": "Chain Vest",
+          "item": "Guardian Angel"
+        },
+        {
+          "component": "Giant's Belt",
+          "item": "Red Buff"
+        }
+      ]
+    },
+    {
+      "name": "Astro Snipers",
+      "type": "Fast 8",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Caitlyn",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Nautilus",
+          "position": 2,
+          "starred": false
+        },
+        {
+          "name": "Ashe",
+          "position": 25,
+          "starred": false
+        },
+        {
+          "name": "Karma",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Jhin",
+          "position": 27,
+          "starred": false,
+          "items": [
+            "Infinity Edge",
+            "Last Whisper",
+            "Guardian Angel"
+          ]
+        },
+        {
+          "name": "Gnar",
+          "position": 6,
+          "starred": false
+        },
+        {
+          "name": "Teemo",
+          "position": 23,
+          "starred": true,
+          "items": [
+            "Blue Buff",
+            "Morellonomicon",
+            "Rabadon's Deathcap"
+          ]
+        },
+        {
+          "name": "Wukong",
+          "position": 4,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Mordekaiser",
+        "Nautilus",
+        "Bard",
+        "Jhin",
+        "Teemo"
+      ],
+      "nine": "Lulu",
+      "alternatives": [
+        {
+          "names": [
+            "Thresh"
+          ],
+          "replacements": [
+            "Caitlyn"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Sniper",
+          "count": 4
+        },
+        {
+          "name": "Astro",
+          "count": 3
+        },
+        {
+          "name": "Vanguard",
+          "count": 2
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        },
+        {
+          "name": "Dark Star",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "Recurve Bow",
+          "item": "Last Whisper"
+        }
+      ]
+    },
+    {
+      "name": "Shredder",
+      "type": "Slow Roll",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Fiora",
+          "position": 7,
+          "starred": true
+        },
+        {
+          "name": "Jarvan IV",
+          "position": 6,
+          "starred": true,
+          "items": [
+            "Warmog's Armour",
+            "Bramble Vest"
+          ]
+        },
+        {
+          "name": "Xayah",
+          "position": 14,
+          "starred": true,
+          "items": [
+            "Last Whisper",
+            "Giant Slayer",
+            "Deathblade"
+          ]
+        },
+        {
+          "name": "Rakan",
+          "position": 21,
+          "starred": false
+        },
+        {
+          "name": "Shen",
+          "position": 5,
+          "starred": false
+        },
+        {
+          "name": "Master Yi",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Irelia",
+          "position": 25,
+          "starred": false
+        },
+        {
+          "name": "Riven",
+          "position": 3,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Caitlyn",
+        "Fiora",
+        "Jarvan IV",
+        "Xayah",
+        "Shen"
+      ],
+      "nine": "Ekko",
+      "alternatives": [
+        {
+          "names": [
+            "Master Yi",
+            "Irelia",
+            "Riven"
+          ],
+          "replacements": [
+            "Caitlyn",
+            "Ashe",
+            "Lulu"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Blademaster",
+          "count": 6
+        },
+        {
+          "name": "Protector",
+          "count": 2
+        },
+        {
+          "name": "Celestial",
+          "count": 2
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "Recurve Bow",
+          "item": "Last Whisper"
+        }
+      ]
+    },
+    {
+      "name": "Dark Stars",
+      "type": "Standard",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Jarvan IV",
+          "position": 6,
+          "starred": false
+        },
+        {
+          "name": "Rakan",
+          "position": 3,
+          "starred": false
+        },
+        {
+          "name": "Ashe",
+          "position": 23,
+          "starred": false
+        },
+        {
+          "name": "Karma",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Shaco",
+          "position": 25,
+          "starred": true
+        },
+        {
+          "name": "Jhin",
+          "position": 27,
+          "starred": true,
+          "items": [
+            "Infinity Edge",
+            "Last Whisper",
+            "Guardian Angel"
+          ]
+        },
+        {
+          "name": "Fizz",
+          "position": 24,
+          "starred": false
+        },
+        {
+          "name": "Soraka",
+          "position": 22,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Caitlyn",
+        "Fiora",
+        "Jarvan IV",
+        "Xayah",
+        "Shen"
+      ],
+      "nine": "Xerath",
+      "alternatives": [],
+      "traits": [
+        {
+          "name": "Dark Star",
+          "count": 4
+        },
+        {
+          "name": "Infiltrator",
+          "count": 2
+        },
+        {
+          "name": "Protector",
+          "count": 2
+        },
+        {
+          "name": "Sniper",
+          "count": 2
+        },
+        {
+          "name": "Mystic",
+          "count": 2
+        },
+        {
+          "name": "Celestial",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "Recurve Bow",
+          "item": "Last Whisper"
+        }
+      ]
+    },
+    {
+      "name": "Mech Sorcerers",
+      "type": "Fast 8",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Annie",
+          "position": 4,
+          "starred": false
+        },
+        {
+          "name": "Cassiopeia",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Rumble",
+          "position": 6,
+          "starred": false,
+          "items": [
+            "Titan's Resolve",
+            "Ionic Spark",
+            "Bramble Vest"
+          ]
+        },
+        {
+          "name": "Soraka",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Viktor",
+          "position": 27,
+          "starred": false,
+          "items": [
+            "Blue Buff",
+            "Rabadon's Deathcap",
+            "Jeweled Gauntlet"
+          ]
+        },
+        {
+          "name": "Fizz",
+          "position": 7,
+          "starred": false
+        },
+        {
+          "name": "Ekko",
+          "position": 23,
+          "starred": false
+        },
+        {
+          "name": "Gangplank",
+          "position": 3,
+          "starred": false,
+          "items": ["Guardian Angel"]
+        }
+      ],
+      "early": [
+        "Nocturne",
+        "Annie",
+        "Rumble",
+        "Fizz",
+        "Viktor"
+      ],
+      "nine": "Thresh",
+      "alternatives": [
+        {
+          "names": [
+            "Cassiopeia",
+            "Soraka"
+          ],
+          "replacements": [
+            "Twisted Fate",
+            "Xerath"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Mech-Pilot",
+          "count": 3
+        },
+        {
+          "name": "Demolitionist",
+          "count": 2
+        },
+        {
+          "name": "Mercenary",
+          "count": 1
+        },
+        {
+          "name": "Battlecast",
+          "count": 2
+        },
+        {
+          "name": "Sorcerer",
+          "count": 2
+        },
+        {
+          "name": "Infiltrator",
+          "count": 2
+        },
+        {
+          "name": "Mystic",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        },
+        {
+          "component": "Tear of the Goddess",
+          "item": "Blue Buff"
+        },
+        {
+          "component": "Needlessly Large Rod",
+          "item": "Last Whisper"
+        }
+      ]
+    },
+    {
+      "name": "Protector Dark Stars",
+      "type": "Slow Roll",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Jarvan IV",
+          "position": 6,
+          "starred": true,
+          "items": [
+            "Warmog's Armour",
+            "Ionic Spark"
+          ]
+        },
+        {
+          "name": "Rakan",
+          "position": 5,
+          "starred": false
+        },
+        {
+          "name": "Xin Zhao",
+          "position": 7,
+          "starred": false
+        },
+        {
+          "name": "Neeko",
+          "position": 4,
+          "starred": false
+        },
+        {
+          "name": "Ashe",
+          "position": 23,
+          "starred": false
+        },
+        {
+          "name": "Karma",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Jhin",
+          "position": 27,
+          "starred": true,
+          "items": [
+            "Guardian Angel",
+            "Infinity Edge",
+            "Last Whisper"
+          ]
+        },
+        {
+          "name": "Lulu",
+          "position": 22,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Jarvan IV",
+        "Rakan",
+        "Xin Zhao",
+        "Neeko",
+        "Jhin"
+      ],
+      "nine": "Xerath",
+      "alternatives": [
+        {
+          "names": [
+            "Ashe",
+            "Karma",
+            "Jhin"
+          ],
+          "replacements": [
+            "Syndra",
+            "Soraka",
+            "Xerath"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Protector",
+          "count": 4
+        },
+        {
+          "name": "Celestial",
+          "count": 4
+        },
+        {
+          "name": "Dark Star",
+          "count": 3
+        },
+        {
+          "name": "Sniper",
+          "count": 2
+        },
+        {
+          "name": "Mystic",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "B.F. Sword"
+        },
+        {
+          "component": "B.F. Sword",
+          "item": "Infinity Edge"
+        }
+      ]
+    },
+    {
+      "name": "Rebel Blademasters",
+      "type": "Slow Roll",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Shen",
+          "position": 11,
+          "starred": true
+        },
+        {
+          "name": "Yasuo",
+          "position": 18,
+          "starred": true
+        },
+        {
+          "name": "Zed",
+          "position": 25,
+          "starred": true,
+          "items": [
+            "Blade of the Ruined King"
+          ]
+        },
+        {
+          "name": "Master Yi",
+          "position": 19,
+          "starred": true,
+          "items": [
+            "Rapid Firecannon",
+            "Jeweled Gauntlet",
+            "Quicksilver"
+          ]
+        },
+        {
+          "name": "Fizz",
+          "position": 26,
+          "starred": false
+        },
+        {
+          "name": "Irelia",
+          "position": 21,
+          "starred": false
+        },
+        {
+          "name": "Riven",
+          "position": 16,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Nocturne",
+        "Shen",
+        "Yasuo",
+        "Zed",
+        "Master Yi"
+      ],
+      "nine": "",
+      "alternatives": [
+        {
+          "names": [
+            "Wukong",
+            "Thresh"
+          ],
+          "replacements": [
+            "Karma",
+            "Lulu"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Blademaster",
+          "count": 6
+        },
+        {
+          "name": "Rebel",
+          "count": 3
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        },
+        {
+          "name": "Infiltrator",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Recurve Bow",
+          "item": "Rapid Firecannon"
+        },
+        {
+          "component": "Needlessly Large Rod",
+          "item": "Guinsoo's Rageblade"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Quicksilver"
+        }
+      ]
+    },
+    {
+      "name": "Cybernetics",
+      "type": "Fast 8",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Fiora",
+          "position": 6,
+          "starred": true
+        },
+        {
+          "name": "Leona",
+          "position": 3,
+          "starred": false
+        },
+        {
+          "name": "Shen",
+          "position": 4,
+          "starred": false
+        },
+        {
+          "name": "Vayne",
+          "position": 23,
+          "starred": false,
+          "items": [
+            "Last Whisper",
+            "Infinity Edge",
+            "Giant Slayer"
+          ]
+        },
+        {
+          "name": "Vi",
+          "position": 1,
+          "starred": false
+        },
+        {
+          "name": "Irelia",
+          "position": 5,
+          "starred": true,
+          "items": [
+            "Infiltrators Talons"
+          ]
+        },
+        {
+          "name": "Ekko",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Thresh",
+          "position": 22,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Leona",
+        "Blitzcrank",
+        "Lucian",
+        "Ezreal",
+        "Vi"
+      ],
+      "nine": "",
+      "alternatives": [
+        {
+          "names": [
+            "Riven"
+          ],
+          "replacements": [
+            "Shen"
+          ]
+        },
+        {
+          "names": [
+            "Ashe",
+            "Wukong"
+          ],
+          "replacements": [
+            "Shen"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Cybernetic",
+          "count": 6
+        },
+        {
+          "name": "Mana-Reaver",
+          "count": 2
+        },
+        {
+          "name": "Blademaster",
+          "count": 3
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Chain Vest",
+          "item": "Red Buff"
+        },
+        {
+          "component": "Giant's Belt",
+          "item": "Red Buff"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Infinity Edge"
+        }
+      ]
+    },
+    {
+      "name": "Rebel Demolitionists",
+      "type": "Fast 8",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Malphite",
+          "position": 6,
+          "starred": false
+        },
+        {
+          "name": "Ziggs",
+          "position": 21,
+          "starred": false
+        },
+        {
+          "name": "Blitzcrank",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Yasuo",
+          "position": 12,
+          "starred": false
+        },
+        {
+          "name": "Master Yi",
+          "position": 7,
+          "starred": false
+        },
+        {
+          "name": "Jinx",
+          "position": 13,
+          "starred": true,
+          "items": [
+            "Giant Slayer",
+            "Red Buff",
+            "Last Whisper"
+          ]
+        },
+        {
+          "name": "Aurelion Sol",
+          "position": 14,
+          "starred": false
+        },
+        {
+          "name": "Gangplank",
+          "position": 3,
+          "starred": false,
+          "items": [
+            "Guardian Angel",
+            "Ionic Spark"
+          ]
+        }
+      ],
+      "early": [
+        "Ziggs",
+        "Malphite",
+        "Blitzcrank",
+        "Ezreal",
+        "Jinx"
+      ],
+      "nine": "",
+      "alternatives": [
+        {
+          "names": [
+            "Ziggs",
+            "Gangplank"
+          ],
+          "replacements": [
+            "Malphite",
+            "Vi"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Rebel",
+          "count": 6
+        },
+        {
+          "name": "Demolitionist",
+          "count": 2
+        },
+        {
+          "name": "Mercenary",
+          "count": 1
+        },
+        {
+          "name": "Starship",
+          "count": 1
+        },
+        {
+          "name": "Blaster",
+          "count": 2
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        },
+        {
+          "name": "Brawler",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Giant Slayer"
+        },
+        {
+          "component": "Recurve Bow",
+          "item": "Giant Slayer"
+        },
+        {
+          "component": "Chain Vest",
+          "item": "Guardian Angel"
+        }
+      ]
+    },
+    {
+      "name": "Vanguard Mystics",
+      "type": "Slow Roll",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Mordekaiser",
+          "position": 3,
+          "starred": false
+        },
+        {
+          "name": "Nautilus",
+          "position": 1,
+          "starred": false
+        },
+        {
+          "name": "Cassiopeia",
+          "position": 27,
+          "starred": true,
+          "items": ["Blue Buff", "Morellonomicon", "Rapid Firecannon"]
+        },
+        {
+          "name": "Karma",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Jayce",
+          "position": 5,
+          "starred": true,
+          "items": [
+            "Ionic Spark",
+            "Guardian Angel"
+          ]
+        },
+        {
+          "name": "Soraka",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Wukong",
+          "position": 7,
+          "starred": false
+        },
+        {
+          "name": "Lulu",
+          "position": 25,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Mordekaiser",
+        "Darius",
+        "Bard",
+        "Cassiopeia",
+        "Jayce"
+      ],
+      "nine": "Thresh",
+      "alternatives": [
+        {
+          "names": [
+            "Soraka",
+            "Lulu"
+          ],
+          "replacements": [
+            "Poppy",
+            "Leona"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Mystic",
+          "count": 4
+        },
+        {
+          "name": "Vanguard",
+          "count": 4
+        },
+        {
+          "name": "Dark Star",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Tear of the Goddess",
+          "item": "Blue Buff"
+        },
+        {
+          "component": "Needlessly Large Rod",
+          "item": "Morellonomicon"
+        },
+        {
+          "component": "Giant's Belt",
+          "item": "Morellonomicon"
+        }
+      ]
+    },
+    {
+      "name": "Battlecast",
+      "type": "Standard",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Illaoi",
+          "position": 3,
+          "starred": true
+        },
+        {
+          "name": "Nocturne",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Blitzcrank",
+          "position": 5,
+          "starred": false
+        },
+        {
+          "name": "Kog'Maw",
+          "position": 27,
+          "starred": true,
+          "items": [
+            "Statikk Shiv",
+            "Red Buff",
+            "Runaan's Hurricane"
+          ]
+        },
+        {
+          "name": "Ezreal",
+          "position": 23,
+          "starred": false
+        },
+        {
+          "name": "Cassiopeia",
+          "position": 18,
+          "starred": false
+        },
+        {
+          "name": "Viktor",
+          "position": 25,
+          "starred": false
+        },
+        {
+          "name": "Urgot",
+          "position": 19,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Illaoi",
+        "Blitzcrank",
+        "Kog'Maw",
+        "Bard",
+        "Ezreal"
+      ],
+      "nine": "Lulu",
+      "alternatives": [],
+      "traits": [
+        {
+          "name": "Battlecast",
+          "count": 6
+        },
+        {
+          "name": "Blaster",
+          "count": 2
+        },
+        {
+          "name": "Brawler",
+          "count": 2
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Needlessly Large Rod",
+          "item": "Last Whisper"
+        },
+        {
+          "component": "Negatron Cloak",
+          "item": "Last Whisper"
+        },
+        {
+          "component": "Chain Vest",
+          "item": "Red Buff"
+        }
+      ]
+    },
+    {
+      "name": "Brawler Blasters",
+      "type": "Fast 8",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Malphite",
+          "position": 16,
+          "starred": false
+        },
+        {
+          "name": "Blitzcrank",
+          "position": 2,
+          "starred": false
+        },
+        {
+          "name": "Ezreal",
+          "position": 23,
+          "starred": false
+        },
+        {
+          "name": "Vi",
+          "position": 6,
+          "starred": false
+        },
+        {
+          "name": "Jinx",
+          "position": 23,
+          "starred": true,
+          "items": [
+            "Red Buff",
+            "Last Whisper",
+            "Deathblade"
+          ]
+        },
+        {
+          "name": "Gnar",
+          "position": 4,
+          "starred": false,
+          "items": [
+            "Guardian Angel",
+            "Ionic Spark"
+          ]
+        },
+        {
+          "name": "Soraka",
+          "position": 25,
+          "starred": false
+        },
+        {
+          "name": "Lulu",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Aurelion Sol",
+          "position": 22,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Leona",
+        "Blitzcrank",
+        "Lucian",
+        "Ezreal",
+        "Vi"
+      ],
+      "nine": "",
+      "alternatives": [
+        {
+          "names": [
+            "Illaoi",
+            "Kog'Maw"
+          ],
+          "replacements": [
+            "Blitzcrank",
+            "Ezreal"
+          ]
+        },
+        {
+          "names": [
+            "Illaoi",
+            "Cassiopeia"
+          ],
+          "replacements": [
+            "Malphite",
+            "Soraka"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Brawler",
+          "count": 4
+        },
+        {
+          "name": "Starship",
+          "count": 1
+        },
+        {
+          "name": "Rebel",
+          "count": 3
+        },
+        {
+          "name": "Blaster",
+          "count": 2
+        },
+        {
+          "name": "Mystic",
+          "count": 2
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Giant Slayer"
+        },
+        {
+          "component": "Recurve Bow",
+          "item": "Giant Slayer"
+        },
+        {
+          "component": "Chain Vest",
+          "item": "Red Buff"
+        }
+      ]
+    },
+    {
+      "name": "Mech Infiltrators",
+      "type": "Slow Roll",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Nocturne",
+          "position": 27,
+          "starred": false
+        },
+        {
+          "name": "Zed",
+          "position": 23,
+          "starred": true
+        },
+        {
+          "name": "Annie",
+          "position": 5,
+          "starred": true
+        },
+        {
+          "name": "Rumble",
+          "position": 3,
+          "starred": true,
+          "items": [
+            "Titan's Resolve",
+            "Quicksilver",
+            "Bramble Vest"
+          ]
+        },
+        {
+          "name": "Shaco",
+          "position": 22,
+          "starred": false,
+          "items": [
+            "Bloodthirster",
+            "Guardian Angel"
+          ]
+        },
+        {
+          "name": "Fizz",
+          "position": 4,
+          "starred": false
+        },
+        {
+          "name": "Viktor",
+          "position": 28,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Nocturne",
+        "Annie",
+        "Rumble",
+        "Fizz",
+        "Viktor"
+      ],
+      "nine": "Janna",
+      "alternatives": [
+        {
+          "names": [
+            "Nocturne"
+          ],
+          "replacements": [
+            "Ekko"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Infiltrator",
+          "count": 4
+        },
+        {
+          "name": "Mech-Pilot",
+          "count": 3
+        },
+        {
+          "name": "Battlecast",
+          "count": 2
+        },
+        {
+          "name": "Sorcerer",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "B.F Sword",
+          "item": "Infinity Edge"
+        }
+      ]
+    },
+    {
+      "name": "Protector Mystics",
+      "type": "Slow Roll",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Rakan",
+          "position": 3,
+          "starred": true,
+          "items": [
+            "Morellonomicon"
+          ]
+        },
+        {
+          "name": "Xin Zhao",
+          "position": 5,
+          "starred": true,
+          "items": [
+            "Bramble Vest"
+          ]
+        },
+        {
+          "name": "Ashe",
+          "position": 27,
+          "starred": false
+        },
+        {
+          "name": "Cassiopeia",
+          "position": 10,
+          "starred": true,
+          "items": [
+            "Blue Buff",
+            "Morellonomicon",
+            "Rapid Firecannon"
+          ]
+        },
+        {
+          "name": "Karma",
+          "position": 12,
+          "starred": false
+        },
+        {
+          "name": "Soraka",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Lulu",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Urgot",
+          "position": 9,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Rakan",
+        "Xin Zhao",
+        "Kog'Maw",
+        "Bard",
+        "Cassiopeia"
+      ],
+      "nine": "Jhin",
+      "alternatives": [
+        {
+          "names": [
+            "Jarvan IV",
+            "Neeko"
+          ],
+          "replacements": [
+            "Karma",
+            "Soraka"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Mystic",
+          "count": 4
+        },
+        {
+          "name": "Protector",
+          "count": 4
+        },
+        {
+          "name": "Celestial",
+          "count": 4
+        },
+        {
+          "name": "Battlecast",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Spatula",
+          "item": "Protector's Chestguard"
+        },
+        {
+          "component": "Giant's Belt",
+          "item": "Protector's Chestguard"
+        },
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        }
+      ]
+    },
+    {
+      "name": "Sorcerers",
+      "type": "Fast 8",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Twisted Fate",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Zoe",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Ahri",
+          "position": 24,
+          "starred": false
+        },
+        {
+          "name": "Annie",
+          "position": 5,
+          "starred": false
+        },
+        {
+          "name": "Syndra",
+          "position": 27,
+          "starred": false
+        },
+        {
+          "name": "Riven",
+          "position": 3,
+          "starred": true,
+          "items": [
+            "Guardian Angel",
+            "Rabadon's Deathcap",
+            "Quicksilver"
+          ]
+        },
+        {
+          "name": "Viktor",
+          "position": 26,
+          "starred": false,
+          "items": [
+            "Blue Buff",
+            "Rabadon's Deathcap"
+          ]
+        },
+        {
+          "name": "Janna",
+          "position": 25,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Poppy",
+        "Twisted Fate",
+        "Zoe",
+        "Ahri",
+        "Syndra"
+      ],
+      "nine": "Soraka",
+      "alternatives": [
+        {
+          "names": [
+            "Riven"
+          ],
+          "replacements": [
+            "Gangplank"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Sorcerer",
+          "count": 6
+        },
+        {
+          "name": "Paragon",
+          "count": 1
+        },
+        {
+          "name": "Star Guardian",
+          "count": 3
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Guardian Angel"
+        },
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        },
+        {
+          "component": "Needlessly Large Rod",
+          "item": "Rabadon's Deathcap"
+        }
+      ]
+    },
+    {
+      "name": "Hyperroll Sorcerers",
+      "type": "Hyperroll",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Poppy",
+          "position": 5,
+          "starred": true,
+          "items": [
+            "Bramble Vest",
+            "Ionic Spark",
+            "Dragon's Claw"
+          ]
+        },
+        {
+          "name": "Zoe",
+          "position": 22,
+          "starred": true
+        },
+        {
+          "name": "Twisted Fate",
+          "position": 26,
+          "starred": true
+        },
+        {
+          "name": "Ahri",
+          "position": 24,
+          "starred": false
+        },
+        {
+          "name": "Syndra",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Wukong",
+          "position": 3,
+          "starred": false
+        },
+        {
+          "name": "Viktor",
+          "position": 27,
+          "starred": false
+        },
+        {
+          "name": "Xerath",
+          "position": 25,
+          "starred": false,
+          "items": [
+            "Quicksilver"
+          ]
+        }
+      ],
+      "early": [
+        "Poppy",
+        "Twisted Fate",
+        "Caitlyn",
+        "Zoe",
+        "Leona"
+      ],
+      "nine": "Soraka",
+      "alternatives": [
+        {
+          "names": [
+            "Leona",
+            "Jayce"
+          ],
+          "replacements": [
+            "Syndra",
+            "Viktor"
+          ]
+        },
+        {
+          "names": [
+            "Soraka",
+            "Lulu"
+          ],
+          "replacements": [
+            "Syndra",
+            "Viktor"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Sorcerer",
+          "count": 6
+        },
+        {
+          "name": "Star Guardian",
+          "count": 3
+        },
+        {
+          "name": "Vanguard",
+          "count": 2
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        },
+        {
+          "component": "Needlessly Large Rod",
+          "item": "Rabadon's Deathcap"
+        },
+        {
+          "component": "Negatron Cloak",
+          "item": "Dragon's Claw"
+        }
+      ]
+    },
+    {
+      "name": "Mech Rebels",
+      "type": "Slow Roll",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Twisted Fate",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Ziggs",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Annie",
+          "position": 3,
+          "starred": true
+        },
+        {
+          "name": "Zed",
+          "position": 25,
+          "starred": false
+        },
+        {
+          "name": "Rumble",
+          "position": 4,
+          "starred": true,
+          "items": [
+            "Bramble Vest",
+            "Titan's Resolve",
+            "Quicksilver"
+          ]
+        },
+        {
+          "name": "Ezreal",
+          "position": 23,
+          "starred": false
+        },
+        {
+          "name": "Fizz",
+          "position": 6,
+          "starred": false,
+          "items": [
+            "Ionic Spark"
+          ]
+        },
+        {
+          "name": "Jinx",
+          "position": 27,
+          "starred": false,
+          "items": [
+            "Red Buff"
+          ]
+        }
+      ],
+      "early": [
+        "Ziggs",
+        "Annie",
+        "Zed",
+        "Rumble",
+        "Fizz"
+      ],
+      "nine": "Aurelion Sol",
+      "alternatives": [
+        {
+          "names": [
+            "Gangplank"
+          ],
+          "replacements": [
+            "Ziggs"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Mech-Pilot",
+          "count": 3
+        },
+        {
+          "name": "Demolitionist",
+          "count": 2
+        },
+        {
+          "name": "Rebel",
+          "count": 3
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        },
+        {
+          "name": "Infiltrator",
+          "count": 2
+        },
+        {
+          "name": "Blaster",
+          "count": 2
+        },
+        {
+          "name": "Sorcerer",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Quicksilver"
+        },
+        {
+          "component": "Giant's Belt",
+          "item": "Red Buff"
+        }
+      ]
+    }
+  ],
+  "set4": [
+    {
+      "name": "Chosen Brawlers",
+      "type": "Standard",
+      "rating": "S",
+      "champions": [
+        {
+          "name": "Maokai",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Tahm Kench",
+          "position": 1,
+          "starred": false
+        },
+        {
+          "name": "Vi",
+          "position": 4,
+          "starred": false
+        },
+        {
+          "name": "Nunu & Willump",
+          "position": 6,
+          "starred": false
+        },
+        {
+          "name": "Shyvana",
+          "position": 2,
+          "starred": true,
+          "items": [
+            "Guinsoo's Rageblade",
+            "Hand of Justice",
+            "Runaan's Hurricane"
+          ]
+        },
+        {
+          "name": "Cho'Gath",
+          "position": 5,
+          "starred": false
+        },
+        {
+          "name": "Ornn",
+          "position": 7,
+          "starred": false
+        },
+        {
+          "name": "Sett",
+          "position": 3,
+          "starred": false,
+          "items": [
+            "Ionic Spark",
+            "Jeweled Gauntlet",
+            "Sunfire Cape"
+          ]
+        }
+      ],
+      "early": [
+        "Maokai",
+        "Lulu",
+        "Nunu & Willump",
+        "Shyvana",
+        "Cho'Gath"
+      ],
+      "nine": "",
+      "alternatives": [
+        {
+          "names": [
+            "Ornn"
+          ],
+          "replacements": [
+            "Sivir"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Brawler",
+          "count": 8
+        },
+        {
+          "name": "The Boss",
+          "count": 1
+        },
+        {
+          "name": "Blacksmith",
+          "count": 1
+        },
+        {
+          "name": "Elderwood",
+          "count": 3
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Recurve Bow",
+          "item": "Runaan's Hurricane"
+        },
+        {
+          "component": "Negatron Cloak",
+          "item": "Runaan's Hurricane"
+        },
+        {
+          "component": "Giant's Belt",
+          "item": "Sunfire Cape"
+        }
+      ]
+    },
+    {
+      "name": "Space Pirate Rebels",
+      "type": "Fast 8",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Graves",
+          "position": 8,
+          "starred": false
+        },
+        {
+          "name": "Ziggs",
+          "position": 24,
+          "starred": false
+        },
+        {
+          "name": "Darius",
+          "position": 14,
+          "starred": false
+        },
+        {
+          "name": "Jayce",
+          "position": 9,
+          "starred": false
+        },
+        {
+          "name": "Jinx",
+          "position": 25,
+          "starred": false,
+          "items": [
+            "Giant Slayer",
+            "Red Buff",
+            "Infinity Edge"
+          ]
+        },
+        {
+          "name": "Wukong",
+          "position": 12,
+          "starred": false
+        },
+        {
+          "name": "Aurelion Sol",
+          "position": 18,
+          "starred": false
+        },
+        {
+          "name": "Gangplank",
+          "position": 4,
+          "starred": false,
+          "items": [
+            "Guardian Angel",
+            "Ionic Spark",
+            "Morellonomicon"
+          ]
+        }
+      ],
+      "early": [
+        "Graves",
+        "Darius",
+        "Ezreal",
+        "Jayce",
+        "Wukong"
+      ],
+      "nine": "Thresh",
+      "alternatives": [],
+      "traits": [
+        {
+          "name": "Space Pirate",
+          "count": 4
+        },
+        {
+          "name": "Demolitionist",
+          "count": 2
+        },
+        {
+          "name": "Mercenary",
+          "count": 1
+        },
+        {
+          "name": "Starship",
+          "count": 1
+        },
+        {
+          "name": "Rebel",
+          "count": 3
+        },
+        {
+          "name": "Blaster",
+          "count": 2
+        },
+        {
+          "name": "Vanguard",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Guardian Angel"
+        },
+        {
+          "component": "Chain Vest",
+          "item": "Guardian Angel"
+        },
+        {
+          "component": "Giant's Belt",
+          "item": "Red Buff"
+        }
+      ]
+    },
+    {
+      "name": "Astro Snipers",
+      "type": "Fast 8",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Caitlyn",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Nautilus",
+          "position": 2,
+          "starred": false
+        },
+        {
+          "name": "Ashe",
+          "position": 25,
+          "starred": false
+        },
+        {
+          "name": "Karma",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Jhin",
+          "position": 27,
+          "starred": false,
+          "items": [
+            "Infinity Edge",
+            "Last Whisper",
+            "Guardian Angel"
+          ]
+        },
+        {
+          "name": "Gnar",
+          "position": 6,
+          "starred": false
+        },
+        {
+          "name": "Teemo",
+          "position": 23,
+          "starred": true,
+          "items": [
+            "Blue Buff",
+            "Morellonomicon",
+            "Rabadon's Deathcap"
+          ]
+        },
+        {
+          "name": "Wukong",
+          "position": 4,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Mordekaiser",
+        "Nautilus",
+        "Bard",
+        "Jhin",
+        "Teemo"
+      ],
+      "nine": "Lulu",
+      "alternatives": [
+        {
+          "names": [
+            "Thresh"
+          ],
+          "replacements": [
+            "Caitlyn"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Sniper",
+          "count": 4
+        },
+        {
+          "name": "Astro",
+          "count": 3
+        },
+        {
+          "name": "Vanguard",
+          "count": 2
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        },
+        {
+          "name": "Dark Star",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "Recurve Bow",
+          "item": "Last Whisper"
+        }
+      ]
+    },
+    {
+      "name": "Shredder",
+      "type": "Slow Roll",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Fiora",
+          "position": 7,
+          "starred": true
+        },
+        {
+          "name": "Jarvan IV",
+          "position": 6,
+          "starred": true,
+          "items": [
+            "Warmog's Armour",
+            "Bramble Vest"
+          ]
+        },
+        {
+          "name": "Xayah",
+          "position": 14,
+          "starred": true,
+          "items": [
+            "Last Whisper",
+            "Giant Slayer",
+            "Deathblade"
+          ]
+        },
+        {
+          "name": "Rakan",
+          "position": 21,
+          "starred": false
+        },
+        {
+          "name": "Shen",
+          "position": 5,
+          "starred": false
+        },
+        {
+          "name": "Master Yi",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Irelia",
+          "position": 25,
+          "starred": false
+        },
+        {
+          "name": "Riven",
+          "position": 3,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Caitlyn",
+        "Fiora",
+        "Jarvan IV",
+        "Xayah",
+        "Shen"
+      ],
+      "nine": "Ekko",
+      "alternatives": [
+        {
+          "names": [
+            "Master Yi",
+            "Irelia",
+            "Riven"
+          ],
+          "replacements": [
+            "Caitlyn",
+            "Ashe",
+            "Lulu"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Blademaster",
+          "count": 6
+        },
+        {
+          "name": "Protector",
+          "count": 2
+        },
+        {
+          "name": "Celestial",
+          "count": 2
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "Recurve Bow",
+          "item": "Last Whisper"
+        }
+      ]
+    },
+    {
+      "name": "Dark Stars",
+      "type": "Standard",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Jarvan IV",
+          "position": 6,
+          "starred": false
+        },
+        {
+          "name": "Rakan",
+          "position": 3,
+          "starred": false
+        },
+        {
+          "name": "Ashe",
+          "position": 23,
+          "starred": false
+        },
+        {
+          "name": "Karma",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Shaco",
+          "position": 25,
+          "starred": true
+        },
+        {
+          "name": "Jhin",
+          "position": 27,
+          "starred": true,
+          "items": [
+            "Infinity Edge",
+            "Last Whisper",
+            "Guardian Angel"
+          ]
+        },
+        {
+          "name": "Fizz",
+          "position": 24,
+          "starred": false
+        },
+        {
+          "name": "Soraka",
+          "position": 22,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Caitlyn",
+        "Fiora",
+        "Jarvan IV",
+        "Xayah",
+        "Shen"
+      ],
+      "nine": "Xerath",
+      "alternatives": [],
+      "traits": [
+        {
+          "name": "Dark Star",
+          "count": 4
+        },
+        {
+          "name": "Infiltrator",
+          "count": 2
+        },
+        {
+          "name": "Protector",
+          "count": 2
+        },
+        {
+          "name": "Sniper",
+          "count": 2
+        },
+        {
+          "name": "Mystic",
+          "count": 2
+        },
+        {
+          "name": "Celestial",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "Recurve Bow",
+          "item": "Last Whisper"
+        }
+      ]
+    },
+    {
+      "name": "Mech Sorcerers",
+      "type": "Fast 8",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Annie",
+          "position": 4,
+          "starred": false
+        },
+        {
+          "name": "Cassiopeia",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Rumble",
+          "position": 6,
+          "starred": false,
+          "items": [
+            "Titan's Resolve",
+            "Ionic Spark",
+            "Bramble Vest"
+          ]
+        },
+        {
+          "name": "Soraka",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Viktor",
+          "position": 27,
+          "starred": false,
+          "items": [
+            "Blue Buff",
+            "Rabadon's Deathcap",
+            "Jeweled Gauntlet"
+          ]
+        },
+        {
+          "name": "Fizz",
+          "position": 7,
+          "starred": false
+        },
+        {
+          "name": "Ekko",
+          "position": 23,
+          "starred": false
+        },
+        {
+          "name": "Gangplank",
+          "position": 3,
+          "starred": false,
+          "items": ["Guardian Angel"]
+        }
+      ],
+      "early": [
+        "Nocturne",
+        "Annie",
+        "Rumble",
+        "Fizz",
+        "Viktor"
+      ],
+      "nine": "Thresh",
+      "alternatives": [
+        {
+          "names": [
+            "Cassiopeia",
+            "Soraka"
+          ],
+          "replacements": [
+            "Twisted Fate",
+            "Xerath"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Mech-Pilot",
+          "count": 3
+        },
+        {
+          "name": "Demolitionist",
+          "count": 2
+        },
+        {
+          "name": "Mercenary",
+          "count": 1
+        },
+        {
+          "name": "Battlecast",
+          "count": 2
+        },
+        {
+          "name": "Sorcerer",
+          "count": 2
+        },
+        {
+          "name": "Infiltrator",
+          "count": 2
+        },
+        {
+          "name": "Mystic",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        },
+        {
+          "component": "Tear of the Goddess",
+          "item": "Blue Buff"
+        },
+        {
+          "component": "Needlessly Large Rod",
+          "item": "Last Whisper"
+        }
+      ]
+    },
+    {
+      "name": "Protector Dark Stars",
+      "type": "Slow Roll",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Jarvan IV",
+          "position": 6,
+          "starred": true,
+          "items": [
+            "Warmog's Armour",
+            "Ionic Spark"
+          ]
+        },
+        {
+          "name": "Rakan",
+          "position": 5,
+          "starred": false
+        },
+        {
+          "name": "Xin Zhao",
+          "position": 7,
+          "starred": false
+        },
+        {
+          "name": "Neeko",
+          "position": 4,
+          "starred": false
+        },
+        {
+          "name": "Ashe",
+          "position": 23,
+          "starred": false
+        },
+        {
+          "name": "Karma",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Jhin",
+          "position": 27,
+          "starred": true,
+          "items": [
+            "Guardian Angel",
+            "Infinity Edge",
+            "Last Whisper"
+          ]
+        },
+        {
+          "name": "Lulu",
+          "position": 22,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Jarvan IV",
+        "Rakan",
+        "Xin Zhao",
+        "Neeko",
+        "Jhin"
+      ],
+      "nine": "Xerath",
+      "alternatives": [
+        {
+          "names": [
+            "Ashe",
+            "Karma",
+            "Jhin"
+          ],
+          "replacements": [
+            "Syndra",
+            "Soraka",
+            "Xerath"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Protector",
+          "count": 4
+        },
+        {
+          "name": "Celestial",
+          "count": 4
+        },
+        {
+          "name": "Dark Star",
+          "count": 3
+        },
+        {
+          "name": "Sniper",
+          "count": 2
+        },
+        {
+          "name": "Mystic",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "B.F. Sword"
+        },
+        {
+          "component": "B.F. Sword",
+          "item": "Infinity Edge"
+        }
+      ]
+    },
+    {
+      "name": "Rebel Blademasters",
+      "type": "Slow Roll",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Shen",
+          "position": 11,
+          "starred": true
+        },
+        {
+          "name": "Yasuo",
+          "position": 18,
+          "starred": true
+        },
+        {
+          "name": "Zed",
+          "position": 25,
+          "starred": true,
+          "items": [
+            "Blade of the Ruined King"
+          ]
+        },
+        {
+          "name": "Master Yi",
+          "position": 19,
+          "starred": true,
+          "items": [
+            "Rapid Firecannon",
+            "Jeweled Gauntlet",
+            "Quicksilver"
+          ]
+        },
+        {
+          "name": "Fizz",
+          "position": 26,
+          "starred": false
+        },
+        {
+          "name": "Irelia",
+          "position": 21,
+          "starred": false
+        },
+        {
+          "name": "Riven",
+          "position": 16,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Nocturne",
+        "Shen",
+        "Yasuo",
+        "Zed",
+        "Master Yi"
+      ],
+      "nine": "",
+      "alternatives": [
+        {
+          "names": [
+            "Wukong",
+            "Thresh"
+          ],
+          "replacements": [
+            "Karma",
+            "Lulu"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Blademaster",
+          "count": 6
+        },
+        {
+          "name": "Rebel",
+          "count": 3
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        },
+        {
+          "name": "Infiltrator",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Recurve Bow",
+          "item": "Rapid Firecannon"
+        },
+        {
+          "component": "Needlessly Large Rod",
+          "item": "Guinsoo's Rageblade"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Quicksilver"
+        }
+      ]
+    },
+    {
+      "name": "Cybernetics",
+      "type": "Fast 8",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Fiora",
+          "position": 6,
+          "starred": true
+        },
+        {
+          "name": "Leona",
+          "position": 3,
+          "starred": false
+        },
+        {
+          "name": "Shen",
+          "position": 4,
+          "starred": false
+        },
+        {
+          "name": "Vayne",
+          "position": 23,
+          "starred": false,
+          "items": [
+            "Last Whisper",
+            "Infinity Edge",
+            "Giant Slayer"
+          ]
+        },
+        {
+          "name": "Vi",
+          "position": 1,
+          "starred": false
+        },
+        {
+          "name": "Irelia",
+          "position": 5,
+          "starred": true,
+          "items": [
+            "Infiltrators Talons"
+          ]
+        },
+        {
+          "name": "Ekko",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Thresh",
+          "position": 22,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Leona",
+        "Blitzcrank",
+        "Lucian",
+        "Ezreal",
+        "Vi"
+      ],
+      "nine": "",
+      "alternatives": [
+        {
+          "names": [
+            "Riven"
+          ],
+          "replacements": [
+            "Shen"
+          ]
+        },
+        {
+          "names": [
+            "Ashe",
+            "Wukong"
+          ],
+          "replacements": [
+            "Shen"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Cybernetic",
+          "count": 6
+        },
+        {
+          "name": "Mana-Reaver",
+          "count": 2
+        },
+        {
+          "name": "Blademaster",
+          "count": 3
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Chain Vest",
+          "item": "Red Buff"
+        },
+        {
+          "component": "Giant's Belt",
+          "item": "Red Buff"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Infinity Edge"
+        }
+      ]
+    },
+    {
+      "name": "Rebel Demolitionists",
+      "type": "Fast 8",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Malphite",
+          "position": 6,
+          "starred": false
+        },
+        {
+          "name": "Ziggs",
+          "position": 21,
+          "starred": false
+        },
+        {
+          "name": "Blitzcrank",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Yasuo",
+          "position": 12,
+          "starred": false
+        },
+        {
+          "name": "Master Yi",
+          "position": 7,
+          "starred": false
+        },
+        {
+          "name": "Jinx",
+          "position": 13,
+          "starred": true,
+          "items": [
+            "Giant Slayer",
+            "Red Buff",
+            "Last Whisper"
+          ]
+        },
+        {
+          "name": "Aurelion Sol",
+          "position": 14,
+          "starred": false
+        },
+        {
+          "name": "Gangplank",
+          "position": 3,
+          "starred": false,
+          "items": [
+            "Guardian Angel",
+            "Ionic Spark"
+          ]
+        }
+      ],
+      "early": [
+        "Ziggs",
+        "Malphite",
+        "Blitzcrank",
+        "Ezreal",
+        "Jinx"
+      ],
+      "nine": "",
+      "alternatives": [
+        {
+          "names": [
+            "Ziggs",
+            "Gangplank"
+          ],
+          "replacements": [
+            "Malphite",
+            "Vi"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Rebel",
+          "count": 6
+        },
+        {
+          "name": "Demolitionist",
+          "count": 2
+        },
+        {
+          "name": "Mercenary",
+          "count": 1
+        },
+        {
+          "name": "Starship",
+          "count": 1
+        },
+        {
+          "name": "Blaster",
+          "count": 2
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        },
+        {
+          "name": "Brawler",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Giant Slayer"
+        },
+        {
+          "component": "Recurve Bow",
+          "item": "Giant Slayer"
+        },
+        {
+          "component": "Chain Vest",
+          "item": "Guardian Angel"
+        }
+      ]
+    },
+    {
+      "name": "Vanguard Mystics",
+      "type": "Slow Roll",
+      "rating": "A",
+      "champions": [
+        {
+          "name": "Mordekaiser",
+          "position": 3,
+          "starred": false
+        },
+        {
+          "name": "Nautilus",
+          "position": 1,
+          "starred": false
+        },
+        {
+          "name": "Cassiopeia",
+          "position": 27,
+          "starred": true,
+          "items": ["Blue Buff", "Morellonomicon", "Rapid Firecannon"]
+        },
+        {
+          "name": "Karma",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Jayce",
+          "position": 5,
+          "starred": true,
+          "items": [
+            "Ionic Spark",
+            "Guardian Angel"
+          ]
+        },
+        {
+          "name": "Soraka",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Wukong",
+          "position": 7,
+          "starred": false
+        },
+        {
+          "name": "Lulu",
+          "position": 25,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Mordekaiser",
+        "Darius",
+        "Bard",
+        "Cassiopeia",
+        "Jayce"
+      ],
+      "nine": "Thresh",
+      "alternatives": [
+        {
+          "names": [
+            "Soraka",
+            "Lulu"
+          ],
+          "replacements": [
+            "Poppy",
+            "Leona"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Mystic",
+          "count": 4
+        },
+        {
+          "name": "Vanguard",
+          "count": 4
+        },
+        {
+          "name": "Dark Star",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Tear of the Goddess",
+          "item": "Blue Buff"
+        },
+        {
+          "component": "Needlessly Large Rod",
+          "item": "Morellonomicon"
+        },
+        {
+          "component": "Giant's Belt",
+          "item": "Morellonomicon"
+        }
+      ]
+    },
+    {
+      "name": "Battlecast",
+      "type": "Standard",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Illaoi",
+          "position": 3,
+          "starred": true
+        },
+        {
+          "name": "Nocturne",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Blitzcrank",
+          "position": 5,
+          "starred": false
+        },
+        {
+          "name": "Kog'Maw",
+          "position": 27,
+          "starred": true,
+          "items": [
+            "Statikk Shiv",
+            "Red Buff",
+            "Runaan's Hurricane"
+          ]
+        },
+        {
+          "name": "Ezreal",
+          "position": 23,
+          "starred": false
+        },
+        {
+          "name": "Cassiopeia",
+          "position": 18,
+          "starred": false
+        },
+        {
+          "name": "Viktor",
+          "position": 25,
+          "starred": false
+        },
+        {
+          "name": "Urgot",
+          "position": 19,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Illaoi",
+        "Blitzcrank",
+        "Kog'Maw",
+        "Bard",
+        "Ezreal"
+      ],
+      "nine": "Lulu",
+      "alternatives": [],
+      "traits": [
+        {
+          "name": "Battlecast",
+          "count": 6
+        },
+        {
+          "name": "Blaster",
+          "count": 2
+        },
+        {
+          "name": "Brawler",
+          "count": 2
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Needlessly Large Rod",
+          "item": "Last Whisper"
+        },
+        {
+          "component": "Negatron Cloak",
+          "item": "Last Whisper"
+        },
+        {
+          "component": "Chain Vest",
+          "item": "Red Buff"
+        }
+      ]
+    },
+    {
+      "name": "Brawler Blasters",
+      "type": "Fast 8",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Malphite",
+          "position": 16,
+          "starred": false
+        },
+        {
+          "name": "Blitzcrank",
+          "position": 2,
+          "starred": false
+        },
+        {
+          "name": "Ezreal",
+          "position": 23,
+          "starred": false
+        },
+        {
+          "name": "Vi",
+          "position": 6,
+          "starred": false
+        },
+        {
+          "name": "Jinx",
+          "position": 23,
+          "starred": true,
+          "items": [
+            "Red Buff",
+            "Last Whisper",
+            "Deathblade"
+          ]
+        },
+        {
+          "name": "Gnar",
+          "position": 4,
+          "starred": false,
+          "items": [
+            "Guardian Angel",
+            "Ionic Spark"
+          ]
+        },
+        {
+          "name": "Soraka",
+          "position": 25,
+          "starred": false
+        },
+        {
+          "name": "Lulu",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Aurelion Sol",
+          "position": 22,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Leona",
+        "Blitzcrank",
+        "Lucian",
+        "Ezreal",
+        "Vi"
+      ],
+      "nine": "",
+      "alternatives": [
+        {
+          "names": [
+            "Illaoi",
+            "Kog'Maw"
+          ],
+          "replacements": [
+            "Blitzcrank",
+            "Ezreal"
+          ]
+        },
+        {
+          "names": [
+            "Illaoi",
+            "Cassiopeia"
+          ],
+          "replacements": [
+            "Malphite",
+            "Soraka"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Brawler",
+          "count": 4
+        },
+        {
+          "name": "Starship",
+          "count": 1
+        },
+        {
+          "name": "Rebel",
+          "count": 3
+        },
+        {
+          "name": "Blaster",
+          "count": 2
+        },
+        {
+          "name": "Mystic",
+          "count": 2
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Giant Slayer"
+        },
+        {
+          "component": "Recurve Bow",
+          "item": "Giant Slayer"
+        },
+        {
+          "component": "Chain Vest",
+          "item": "Red Buff"
+        }
+      ]
+    },
+    {
+      "name": "Mech Infiltrators",
+      "type": "Slow Roll",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Nocturne",
+          "position": 27,
+          "starred": false
+        },
+        {
+          "name": "Zed",
+          "position": 23,
+          "starred": true
+        },
+        {
+          "name": "Annie",
+          "position": 5,
+          "starred": true
+        },
+        {
+          "name": "Rumble",
+          "position": 3,
+          "starred": true,
+          "items": [
+            "Titan's Resolve",
+            "Quicksilver",
+            "Bramble Vest"
+          ]
+        },
+        {
+          "name": "Shaco",
+          "position": 22,
+          "starred": false,
+          "items": [
+            "Bloodthirster",
+            "Guardian Angel"
+          ]
+        },
+        {
+          "name": "Fizz",
+          "position": 4,
+          "starred": false
+        },
+        {
+          "name": "Viktor",
+          "position": 28,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Nocturne",
+        "Annie",
+        "Rumble",
+        "Fizz",
+        "Viktor"
+      ],
+      "nine": "Janna",
+      "alternatives": [
+        {
+          "names": [
+            "Nocturne"
+          ],
+          "replacements": [
+            "Ekko"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Infiltrator",
+          "count": 4
+        },
+        {
+          "name": "Mech-Pilot",
+          "count": 3
+        },
+        {
+          "name": "Battlecast",
+          "count": 2
+        },
+        {
+          "name": "Sorcerer",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Infinity Edge"
+        },
+        {
+          "component": "B.F Sword",
+          "item": "Infinity Edge"
+        }
+      ]
+    },
+    {
+      "name": "Protector Mystics",
+      "type": "Slow Roll",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Rakan",
+          "position": 3,
+          "starred": true,
+          "items": [
+            "Morellonomicon"
+          ]
+        },
+        {
+          "name": "Xin Zhao",
+          "position": 5,
+          "starred": true,
+          "items": [
+            "Bramble Vest"
+          ]
+        },
+        {
+          "name": "Ashe",
+          "position": 27,
+          "starred": false
+        },
+        {
+          "name": "Cassiopeia",
+          "position": 10,
+          "starred": true,
+          "items": [
+            "Blue Buff",
+            "Morellonomicon",
+            "Rapid Firecannon"
+          ]
+        },
+        {
+          "name": "Karma",
+          "position": 12,
+          "starred": false
+        },
+        {
+          "name": "Soraka",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Lulu",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Urgot",
+          "position": 9,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Rakan",
+        "Xin Zhao",
+        "Kog'Maw",
+        "Bard",
+        "Cassiopeia"
+      ],
+      "nine": "Jhin",
+      "alternatives": [
+        {
+          "names": [
+            "Jarvan IV",
+            "Neeko"
+          ],
+          "replacements": [
+            "Karma",
+            "Soraka"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Mystic",
+          "count": 4
+        },
+        {
+          "name": "Protector",
+          "count": 4
+        },
+        {
+          "name": "Celestial",
+          "count": 4
+        },
+        {
+          "name": "Battlecast",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Spatula",
+          "item": "Protector's Chestguard"
+        },
+        {
+          "component": "Giant's Belt",
+          "item": "Protector's Chestguard"
+        },
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        }
+      ]
+    },
+    {
+      "name": "Sorcerers",
+      "type": "Fast 8",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Twisted Fate",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Zoe",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Ahri",
+          "position": 24,
+          "starred": false
+        },
+        {
+          "name": "Annie",
+          "position": 5,
+          "starred": false
+        },
+        {
+          "name": "Syndra",
+          "position": 27,
+          "starred": false
+        },
+        {
+          "name": "Riven",
+          "position": 3,
+          "starred": true,
+          "items": [
+            "Guardian Angel",
+            "Rabadon's Deathcap",
+            "Quicksilver"
+          ]
+        },
+        {
+          "name": "Viktor",
+          "position": 26,
+          "starred": false,
+          "items": [
+            "Blue Buff",
+            "Rabadon's Deathcap"
+          ]
+        },
+        {
+          "name": "Janna",
+          "position": 25,
+          "starred": false
+        }
+      ],
+      "early": [
+        "Poppy",
+        "Twisted Fate",
+        "Zoe",
+        "Ahri",
+        "Syndra"
+      ],
+      "nine": "Soraka",
+      "alternatives": [
+        {
+          "names": [
+            "Riven"
+          ],
+          "replacements": [
+            "Gangplank"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Sorcerer",
+          "count": 6
+        },
+        {
+          "name": "Paragon",
+          "count": 1
+        },
+        {
+          "name": "Star Guardian",
+          "count": 3
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "B.F. Sword",
+          "item": "Guardian Angel"
+        },
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        },
+        {
+          "component": "Needlessly Large Rod",
+          "item": "Rabadon's Deathcap"
+        }
+      ]
+    },
+    {
+      "name": "Hyperroll Sorcerers",
+      "type": "Hyperroll",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Poppy",
+          "position": 5,
+          "starred": true,
+          "items": [
+            "Bramble Vest",
+            "Ionic Spark",
+            "Dragon's Claw"
+          ]
+        },
+        {
+          "name": "Zoe",
+          "position": 22,
+          "starred": true
+        },
+        {
+          "name": "Twisted Fate",
+          "position": 26,
+          "starred": true
+        },
+        {
+          "name": "Ahri",
+          "position": 24,
+          "starred": false
+        },
+        {
+          "name": "Syndra",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Wukong",
+          "position": 3,
+          "starred": false
+        },
+        {
+          "name": "Viktor",
+          "position": 27,
+          "starred": false
+        },
+        {
+          "name": "Xerath",
+          "position": 25,
+          "starred": false,
+          "items": [
+            "Quicksilver"
+          ]
+        }
+      ],
+      "early": [
+        "Poppy",
+        "Twisted Fate",
+        "Caitlyn",
+        "Zoe",
+        "Leona"
+      ],
+      "nine": "Soraka",
+      "alternatives": [
+        {
+          "names": [
+            "Leona",
+            "Jayce"
+          ],
+          "replacements": [
+            "Syndra",
+            "Viktor"
+          ]
+        },
+        {
+          "names": [
+            "Soraka",
+            "Lulu"
+          ],
+          "replacements": [
+            "Syndra",
+            "Viktor"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Sorcerer",
+          "count": 6
+        },
+        {
+          "name": "Star Guardian",
+          "count": 3
+        },
+        {
+          "name": "Vanguard",
+          "count": 2
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        },
+        {
+          "component": "Needlessly Large Rod",
+          "item": "Rabadon's Deathcap"
+        },
+        {
+          "component": "Negatron Cloak",
+          "item": "Dragon's Claw"
+        }
+      ]
+    },
+    {
+      "name": "Mech Rebels",
+      "type": "Slow Roll",
+      "rating": "B",
+      "champions": [
+        {
+          "name": "Twisted Fate",
+          "position": 22,
+          "starred": false
+        },
+        {
+          "name": "Ziggs",
+          "position": 28,
+          "starred": false
+        },
+        {
+          "name": "Annie",
+          "position": 3,
+          "starred": true
+        },
+        {
+          "name": "Zed",
+          "position": 25,
+          "starred": false
+        },
+        {
+          "name": "Rumble",
+          "position": 4,
+          "starred": true,
+          "items": [
+            "Bramble Vest",
+            "Titan's Resolve",
+            "Quicksilver"
+          ]
+        },
+        {
+          "name": "Ezreal",
+          "position": 23,
+          "starred": false
+        },
+        {
+          "name": "Fizz",
+          "position": 6,
+          "starred": false,
+          "items": [
+            "Ionic Spark"
+          ]
+        },
+        {
+          "name": "Jinx",
+          "position": 27,
+          "starred": false,
+          "items": [
+            "Red Buff"
+          ]
+        }
+      ],
+      "early": [
+        "Ziggs",
+        "Annie",
+        "Zed",
+        "Rumble",
+        "Fizz"
+      ],
+      "nine": "Aurelion Sol",
+      "alternatives": [
+        {
+          "names": [
+            "Gangplank"
+          ],
+          "replacements": [
+            "Ziggs"
+          ]
+        }
+      ],
+      "traits": [
+        {
+          "name": "Mech-Pilot",
+          "count": 3
+        },
+        {
+          "name": "Demolitionist",
+          "count": 2
+        },
+        {
+          "name": "Rebel",
+          "count": 3
+        },
+        {
+          "name": "Chrono",
+          "count": 2
+        },
+        {
+          "name": "Infiltrator",
+          "count": 2
+        },
+        {
+          "name": "Blaster",
+          "count": 2
+        },
+        {
+          "name": "Sorcerer",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": "Chain Vest",
+          "item": "Bramble Vest"
+        },
+        {
+          "component": "Sparring Gloves",
+          "item": "Quicksilver"
+        },
+        {
+          "component": "Giant's Belt",
+          "item": "Red Buff"
+        }
+      ]
+    }
+  ]
+}

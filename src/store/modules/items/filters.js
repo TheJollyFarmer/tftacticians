@@ -8,3 +8,7 @@ export function itemFilter(filter, getters) {
         : item.name === filter.item
   );
 }
+
+export function itemByKey(getters, key, type) {
+  return getters.getArray.find(item => item[type] === key);
+}

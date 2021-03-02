@@ -11,7 +11,7 @@ export default {
 
   computed: {
     type() {
-      return this.view ? this.view.name : this.$options.name;
+      return this.$options.name;
     }
   },
 
@@ -25,7 +25,7 @@ export default {
     displayPopover() {
       if (this.hasPopover) {
         this.display({
-          name: this.name,
+          id: this.id,
           type: this.type,
           el: this.$el
         });

@@ -2,7 +2,7 @@
   <CompositionSection
     v-if="champion"
     title="level 9">
-    <Champion :name="champion"/>
+    <Champion :id="champion"/>
   </CompositionSection>
 </template>
 <script>

@@ -3,7 +3,7 @@
     <VHeader :text="title"/>
     <VButton
       v-if="canReset"
-      type="is-danger is-fullwidth"
+      type="is-primary is-fullwidth"
       icon="undo"
       @onClick="resetEvent"/>
     <slot/>

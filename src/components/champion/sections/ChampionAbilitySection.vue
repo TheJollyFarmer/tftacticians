@@ -1,7 +1,5 @@
 <template>
-  <ChampionSection
-    title="ability"
-    icon="bolt">
+  <ChampionSection title="ability">
     <ChampionAbility :champion="champion"/>
   </ChampionSection>
 </template>

@@ -2,7 +2,7 @@
   <VMediaObject>
     <template #mediaLeft>
       <Champion
-        :name="champion.name"
+        :id="champion.id"
         :has-popover="false"
         caption
         dimension="48"/>
@@ -48,10 +48,16 @@ export default {
 .champion-card-trait {
   align-items: center;
   display: flex;
-  height: 100%;
+  font-size: 0.9em;
+  padding: 0.2em 0.4em 0.2em 0;
+  white-space: nowrap;
 
-  &:first-of-type {
-    margin-bottom: 0.5em;
+  ::v-deep .image {
+    margin-right: 0.5em;
+  }
+
+  ::v-deep span {
+    line-height: 1;
   }
 }
 </style>

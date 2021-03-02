@@ -5,6 +5,7 @@ import getters from "./getters";
 import items from "./modules/items/index";
 import mutations from "./mutations";
 import state from "./state";
+import summoner from "@/store/modules/summoner/index";
 import Vue from "vue";
 import Vuex from "vuex";
 
@@ -14,7 +15,8 @@ export default new Vuex.Store({
   modules: {
     champions,
     compositions,
-    items
+    items,
+    summoner
   },
 
   state,

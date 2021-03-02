@@ -1,12 +1,10 @@
 <template>
-  <div id="app">
-    <nav-bar/>
-    <div class="container">
-      <transition-fade>
-        <router-view :key="$route.path"/>
-      </transition-fade>
-    </div>
-    <popover/>
+  <div>
+    <NavBar/>
+    <TransitionFade>
+      <RouterView :key="$route.path"/>
+    </TransitionFade>
+    <Popover/>
   </div>
 </template>
 
@@ -32,9 +30,3 @@ export default {
   methods: mapActions(["setData"])
 };
 </script>
-
-<style scoped>
-.container {
-  margin-top: 3rem;
-}
-</style>

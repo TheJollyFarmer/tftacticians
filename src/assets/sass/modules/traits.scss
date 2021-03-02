@@ -1,3 +1,13 @@
+.is-grey {
+  background-color: darkgrey;
+
+  &::before,
+  &::after {
+    border-bottom-color: darkgrey;
+    border-top-color: darkgrey;
+  }
+}
+
 .is-sandybrown {
   background-color: sandybrown;
 

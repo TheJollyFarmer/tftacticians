@@ -3,9 +3,9 @@ import types from "./types";
 import { getKeys, normalise } from "@/utils/helpers";
 
 export default {
-  setCompositions({ commit, dispatch, state }) {
-    commit(types.SET_DATA, normalise(compositions, "name"));
-    commit(types.SET_KEYS, getKeys(compositions, "name"));
+  setCompositions({ commit, dispatch, state }, set) {
+    commit(types.SET_DATA, normalise(compositions[set], "name"));
+    commit(types.SET_KEYS, getKeys(compositions[set], "name"));
 
     dispatch("setComposition", state.keys[0]);
   },

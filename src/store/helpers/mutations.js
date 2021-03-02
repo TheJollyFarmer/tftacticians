@@ -11,6 +11,8 @@ export const addData = key => (state, data) =>
 
 export const pushData = key => (state, data) => state[key].push(...data);
 
+export const pushDatum = key => (state, datum) => state[key].push(datum);
+
 export const pushToProp = path => (state, value) =>
   getPath(state, path).push(value);
 
@@ -19,6 +21,8 @@ export const deleteProp = path => (state, value) =>
 
 export const clearProp = (path, prop, value = []) => state =>
   Vue.set(getPath(state, path), prop, value);
+
+export const toggleState = key => state => (state[key] = !state[key]);
 
 export const toggleProp = (path, prop) => state =>
   Vue.set(getPath(state, path), prop, !getPath(state, path)[prop]);

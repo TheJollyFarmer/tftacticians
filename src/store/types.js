@@ -1,5 +1,6 @@
 export default {
-  SET_POPOVER_NAME: "setPopoverName",
+  SET_ACTIVE_SET: "setActiveSet",
+  SET_POPOVER_ID: "setPopoverId",
   SET_POPOVER_TYPE: "setPopoverType",
   SET_POPOVER_ELEMENT: "setPopoverElement",
   SET_POPOVER_DISPLAY: "setPopoverDisplay",

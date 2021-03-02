@@ -3,7 +3,7 @@
     <transition-fade>
       <div
         v-if="editing"
-        key="edit">
+        :key="'edit'">
         <input
           :id="uniqueId"
           :value="value"
@@ -18,14 +18,13 @@
       </div>
       <div
         v-else
-        key="read"
+        :key="'read'"
         v-html="value"/>
     </transition-fade>
   </div>
 </template>
 
 <script>
-import Trix from "trix";
 import uuid from "lodash/uniqueId";
 import TransitionFade from "../transitions/TransitionFade";
 

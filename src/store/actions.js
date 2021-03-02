@@ -2,12 +2,14 @@ import types from "@/store/types";
 import debounce from "lodash/debounce";
 
 export default {
-  setData({ dispatch }) {
-    dispatch("champions/setChampions");
-    dispatch("champions/traits/setTraits");
-    dispatch("compositions/setCompositions");
-    dispatch("items/setItems");
+  setData({ dispatch, getters }) {
+    dispatch("champions/setChampions", getters.getActiveSet);
+    dispatch("champions/traits/setTraits", getters.getActiveSet);
+    dispatch("compositions/setCompositions", getters.getActiveSet);
+    dispatch("items/setItems", getters.getActiveSet);
   },
+
+  setActiveSet: ({ commit }, set) => commit(types.SET_ACTIVE_SET, set),
 
   displayPopover({ commit, dispatch }, popover) {
     commit(types.SET_HOVER_STATUS, true);
@@ -15,10 +17,10 @@ export default {
     dispatch("setPopover", popover);
   },
 
-  setPopover: debounce(function({ commit, state }, { name, type, el }) {
+  setPopover: debounce(function({ commit, state }, { id, type, el }) {
     if (state.popover.hover) {
       commit(types.SET_POPOVER_DISPLAY, true);
-      commit(types.SET_POPOVER_NAME, name);
+      commit(types.SET_POPOVER_ID, id);
       commit(types.SET_POPOVER_TYPE, type);
       commit(types.SET_POPOVER_ELEMENT, el);
     }

@@ -17,7 +17,6 @@
 
 <script>
 import VSearch from "./VSearch";
-import { AisHits, AisSearchBox } from "vue-instantsearch";
 
 export default {
   name: "VHits",

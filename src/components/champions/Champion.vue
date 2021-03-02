@@ -6,8 +6,8 @@
       :image="name"
       :dimension="dimension"
       :hoverable="hasPopover"
+      :dir="directory"
       :class="borderColour"
-      dir="champions/icons"
       @mouseenter="displayPopover"
       @mouseleave="hidePopover"/>
     <ItemImageList
@@ -35,7 +35,7 @@ export default {
   mixins: [Champion],
 
   props: {
-    name: {
+    id: {
       type: String,
       required: true
     },
@@ -81,17 +81,29 @@ export default {
     position: absolute;
     top: calc(100% - 10px);
     transform: translateX(-50%);
+
+    ::v-deep .item-image {
+      margin: 0;
+
+      .image {
+        border-width: 1px;
+      }
+    }
   }
 
   .image {
+    backface-visibility: hidden;
     margin: auto;
   }
 
   .caption {
     font-size: 0.75rem;
     font-weight: bold;
-    margin: 0.25rem 0;
+    line-height: 1;
+    margin-top: 0.35rem;
     text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
     white-space: nowrap;
   }
 

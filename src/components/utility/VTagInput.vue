@@ -15,8 +15,8 @@
     </div>
     <v-input
       ref="tagInput"
-      :autofocus="autofocus"
       v-model="query"
+      :autofocus="autofocus"
       :width="width"
       :placeholder="placeholder"
       :validation="false"

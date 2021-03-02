@@ -2,7 +2,7 @@
   <div :class="['control', { 'has-icons-left': icon }]">
     <div :class="['select', size, customClass, inputErrorClass]">
       <select
-        :autofocus="autofocus"
+        v-autofocus="autofocus"
         :value="value"
         required
         @blur="blurEvent"
@@ -15,10 +15,10 @@
           {{ label }}
         </option>
         <option 
-          v-for="option in options" 
-          :key="option.id"
-          :value="option.id">
-          {{ option.name }}
+          v-for="(option, index) in options"
+          :key="index"
+          :value="option">
+          {{ option }}
         </option>
       </select>
     </div>
@@ -31,6 +31,7 @@
 
 <script>
 import VFavicon from "./VFavicon";
+
 export default {
   name: "VSelect",
 
@@ -66,6 +67,12 @@ export default {
       default: ""
     },
 
+    validation: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
+
     hasErrors: {
       type: String,
       required: false,
@@ -95,10 +102,12 @@ export default {
 
   computed: {
     inputErrorClass() {
-      return {
-        "is-danger": this.errors,
-        "is-primary": this.isValid
-      };
+      return this.validation
+        ? {
+            "is-danger": this.errors,
+            "is-primary": this.isValid
+          }
+        : "";
     }
   },
 
@@ -106,11 +115,13 @@ export default {
     blurEvent(e) {
       this.$emit("blur", e);
 
-      this.validate(e.target);
+      if (this.validate) {
+        this.validate(e.target);
+      }
     },
 
     changeEvent(e) {
-      this.$emit("input", e.target.value);
+      this.$emit("input", e.target.value.toLowerCase());
     },
 
     validate(input) {

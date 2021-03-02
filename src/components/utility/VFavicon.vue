@@ -11,7 +11,6 @@
 
 <script>
 import TransitionFade from "../transitions/TransitionFade";
-import VNumber from "./VCount";
 
 export default {
   name: "VFavicon",

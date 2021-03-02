@@ -1,7 +1,9 @@
 <template>
   <VPage>
     <template #aside>
-      <ChampionPortraitSection :name="champion.name"/>
+      <ChampionPortraitSection
+        :id="champion.id"
+        :name="champion.name"/>
       <ChampionItemsSection :items="champion.items"/>
       <ChampionStatsSection :stats="stats"/>
     </template>
@@ -31,6 +33,14 @@ export default {
     VPage
   },
 
+  props: {
+    id: {
+      type: String,
+      required: false,
+      default: ""
+    }
+  },
+
   data() {
     return {
       name: this.$route.params.champion
@@ -38,10 +48,12 @@ export default {
   },
 
   computed: {
-    ...mapGetters("champions", ["getChampion"]),
+    ...mapGetters("champions", ["getChampion", "getChampionByName"]),
 
     champion() {
-      return this.getChampion(this.name);
+      return this.id
+        ? this.getChampion(this.id)
+        : this.getChampionByName(this.name);
     },
 
     stats() {

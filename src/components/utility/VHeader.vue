@@ -62,6 +62,7 @@ export default {
   display: flex;
   justify-content: center;
   margin-bottom: 1.5rem;
+  text-shadow: $shadow;
 
   h1,
   h2 {

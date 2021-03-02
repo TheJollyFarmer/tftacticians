@@ -1,4 +1,4 @@
-require("./assets/sass/main.scss");
+import "./assets/sass/main.scss";
 import App from "./App.vue";
 import store from "./store";
 import router from "./router";

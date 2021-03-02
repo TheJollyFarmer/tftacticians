@@ -1,6 +1,6 @@
+import Home from "../views/HomeView.vue";
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/HomeView.vue";
 
 Vue.use(VueRouter);
 
@@ -11,6 +11,11 @@ const routes = [
     component: Home
   },
   {
+    path: "/summoner/:region/:name",
+    name: "Summoner",
+    component: () => import("../views/SummonerView")
+  },
+  {
     path: "/champions",
     name: "Champions",
     component: () => import("../views/ChampionsView")
@@ -18,6 +23,7 @@ const routes = [
   {
     path: "/champions/:champion",
     name: "Champion",
+    props: true,
     component: () => import("../views/ChampionView")
   },
   {

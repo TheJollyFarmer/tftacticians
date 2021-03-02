@@ -1,7 +1,9 @@
 <template>
   <div
-    class="composition"
-    @click="clickEvent">
+    tabindex="0"
+    :class="['composition-list-item', { 'is-active': isActive }]"
+    @click="activeEvent"
+    @keydown.enter="activeEvent">
     <VLevel>
       <CompositionListItemInfo :composition="composition"/>
       <template #levelRight>
@@ -30,13 +32,19 @@ export default {
     composition: {
       type: Object,
       required: true
+    },
+
+    isActive: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   },
 
   computed: mapGetters("champions", ["getChampion"]),
 
   methods: {
-    clickEvent() {
+    activeEvent() {
       this.$emit("onClick", this.composition.name);
     }
   }
@@ -44,15 +52,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.composition {
-  padding: 0.5em;
-
-  ::v-deep .item {
-    margin: 0;
-  }
-
-  &:hover {
-    background: $white-ter;
-  }
+.composition-list-item {
+  box-shadow: $shadow;
+  border-radius: 5px;
+  padding: 0.7em 0.5em;
+  margin-bottom: 0.5em;
+  transition: 0.2s ease-in;
 }
 </style>

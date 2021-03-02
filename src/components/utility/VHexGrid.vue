@@ -1,17 +1,19 @@
 <template>
-  <ul class="hex-grid">
-    <template v-for="(hex, index) in hexGrid">
-      <CompositionHex
-        v-if="hex.name"
-        :key="index"
-        :name="hex.name"
-        :position="hex.position"
-        :hex="hex.hex"/>
-      <VHex
-        v-else
-        :key="index"/>
-    </template>
-  </ul>
+  <article class="composition-positioning">
+    <ul class="hex-grid">
+      <template v-for="(hex, index) in hexGrid">
+        <CompositionHex
+          v-if="hex.name"
+          :key="index"
+          :name="hex.name"
+          :position="hex.position"
+          :hex="hex.hex"/>
+        <VHex
+          v-else
+          :key="index"/>
+      </template>
+    </ul>
+  </article>
 </template>
 
 <script>
@@ -66,14 +68,18 @@ export default {
 };
 </script>
 
-<style scoped>
-.hex-grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto 0 3.75em;
-  max-width: 350px;
-  overflow: hidden;
-  padding: 3% 0;
-  width: 100%;
+<style lang="scss" scoped>
+.composition-positioning {
+  padding-left: 30px;
+
+  .hex-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 350px;
+    overflow: hidden;
+    padding: 3% 0;
+    width: 100%;
+  }
 }
 </style>

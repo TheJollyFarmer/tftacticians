@@ -1,6 +1,6 @@
 <template>
   <header
-    class="navbar is-fixed-top is-danger has-shadow"
+    class="navbar is-fixed-top is-primary has-shadow"
     aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">

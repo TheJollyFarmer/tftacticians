@@ -38,8 +38,8 @@ export default {
 
   computed: {
     background() {
-      let name = filters.cleanPath(this.name);
-      let image = require(`@/assets/images/champions/icons/${name}.png`);
+      let champion = `/${filters.cleanPath(this.name)}.png`;
+      let image = require("@/assets/images/" + this.directory + champion);
 
       return { backgroundImage: "url(" + image + ")" };
     }

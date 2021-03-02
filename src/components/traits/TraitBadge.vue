@@ -7,8 +7,8 @@
       <VImage
         :image="name"
         :has-border="false"
-        :dimension="dimension"
-        dir="traits"/>
+        dimension="18"
+        :dir="'traits/' + set"/>
       <TraitBadgeCount
         v-if="count"
         :count="count"
@@ -40,20 +40,17 @@ export default {
       type: Number,
       required: false,
       default: 2
-    },
-
-    dimension: {
-      type: String,
-      required: false,
-      default: "18"
     }
   },
 
   computed: {
-    ...mapGetters("champions/traits", ["getCountStyle"]),
+    ...mapGetters({
+      getStyle: "champions/traits/getCountStyle",
+      set: "getActiveSet"
+    }),
 
     styleColour() {
-      return this.getCountStyle({
+      return this.getStyle({
         trait: this.name,
         count: this.count
       });

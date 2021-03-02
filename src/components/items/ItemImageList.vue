@@ -1,7 +1,7 @@
 <template>
   <div class="image-list">
     <!--Item is on one occasion an object and not a string.-->
-    <Item
+    <ItemImage
       v-for="(item, index) in items"
       :key="index"
       :name="item.component || item"
@@ -12,12 +12,12 @@
 </template>
 
 <script>
-import Item from "@/components/items/ItemImage";
+import ItemImage from "@/components/items/ItemImage";
 
 export default {
   name: "ItemImageList",
 
-  components: { Item },
+  components: { ItemImage },
 
   props: {
     items: {

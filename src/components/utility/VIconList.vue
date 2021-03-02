@@ -10,18 +10,16 @@
       </a>
     </li>
   </ul>
-  </div>
 </template>
 
 <script>
 import VFavicon from "./VFavicon";
-import VNumber from "./VCount";
 import { mapActions, mapGetters } from "vuex";
 
 export default {
   name: "VIconList",
 
-  components: { VFavicon, VNumber },
+  components: { VFavicon },
 
   props: {
     items: {

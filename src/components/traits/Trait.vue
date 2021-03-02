@@ -8,7 +8,7 @@
         :image="trait.name"
         :dimension="dimension"
         :has-border="false"
-        dir="traits"/>
+        :dir="'traits/' + set"/>
     </template>
     <TraitHead
       :trait="trait"
@@ -55,7 +55,10 @@ export default {
   },
 
   computed: {
-    ...mapGetters("champions/traits", ["getTrait"]),
+    ...mapGetters({
+      getTrait: "champions/traits/getTrait",
+      set: "getActiveSet"
+    }),
 
     trait() {
       return this.getTrait(this.name);

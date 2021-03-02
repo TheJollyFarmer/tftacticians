@@ -1,8 +1,8 @@
 <template>
   <div :class="['control', iconClasses()]">
     <input
-      v-autofocus="autofocus"
       ref="input"
+      v-autofocus="autofocus"
       :value="value"
       :type="newType"
       :placeholder="placeholder"
@@ -54,7 +54,7 @@ export default {
     placeholder: {
       type: String,
       required: false,
-      default: "Type your message here..."
+      default: "Find a Summoner..."
     },
 
     size: {
@@ -96,7 +96,7 @@ export default {
     validation: {
       type: Boolean,
       required: false,
-      default: true
+      default: false
     },
 
     errors: {

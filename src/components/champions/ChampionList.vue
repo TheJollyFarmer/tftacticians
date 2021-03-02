@@ -3,8 +3,8 @@
     <!--Champion is an object in one instance rather than a string.-->
     <Champion
       v-for="(champion, index) in champions"
+      :id="champion.id || champion"
       :key="index"
-      :name="champion.name || champion"
       :starred="champion.starred"
       :items="champion.items"
       :dimension="dimension"

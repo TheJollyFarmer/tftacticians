@@ -1,7 +1,5 @@
 <template>
-  <ChampionSection
-    title="items"
-    icon="khanda">
+  <ChampionSection title="items">
     <ItemImageList :items="items"/>
   </ChampionSection>
 </template>

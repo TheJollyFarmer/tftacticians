@@ -3,9 +3,9 @@ import types from "./types";
 import { getKeys, normalise } from "@/utils/helpers";
 
 export default {
-  setItems({ commit }) {
-    commit(types.SET_DATA, normalise(items, "name"));
-    commit(types.SET_KEYS, getKeys(items, "name"));
+  setItems({ commit }, set) {
+    commit(types.SET_DATA, normalise(items[set], "name"));
+    commit(types.SET_KEYS, getKeys(items[set], "name"));
   },
 
   setFilter({ commit, dispatch }, { filter, type }) {

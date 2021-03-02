@@ -10,7 +10,7 @@
       <VImage
         :image="trait.name"
         :has-border="false"
-        dir="traits"
+        :dir="'traits/' + set"
         dimension="24"/>
       <span v-text="trait.name"/>
     </VFilterOption>
@@ -35,8 +35,9 @@ export default {
 
   mixins: [Filter],
 
-  computed: mapGetters("champions", {
-    isActive: "isActiveItem"
+  computed: mapGetters({
+    isActive: "champions/isActiveItem",
+    set: "getActiveSet"
   })
 };
 </script>

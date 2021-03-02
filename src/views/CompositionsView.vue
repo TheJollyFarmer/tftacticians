@@ -1,6 +1,8 @@
 <template>
   <v-page is-full-width>
-    <CompositionsList :compositions="compositions"/>
+    <CompositionsList
+      :compositions="compositions"
+      :active-comp="composition"/>
     <Composition :composition="composition"/>
   </v-page>
 </template>

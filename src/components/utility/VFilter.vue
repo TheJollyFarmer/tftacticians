@@ -96,6 +96,7 @@ export default {
 }
 
 .filter-list {
-  margin-bottom: 1em;
+  margin-top: 1em;
+  overflow: visible;
 }
 </style>

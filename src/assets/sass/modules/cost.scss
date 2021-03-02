@@ -1,32 +1,32 @@
 .image,
 .hexagon {
   &.is-1-cost,
-  &.is-1-cost > .hexTop,
-  &.is-1-cost > .hexBottom {
-    border-color: $grey-darker;
+  &.is-1-cost .hexTop,
+  &.is-1-cost .hexBottom {
+    border-color: $grey-darker !important;
   }
 
   &.is-2-cost,
-  &.is-2-cost > .hexTop,
-  &.is-2-cost > .hexBottom {
-    border-color: $primary-dark;
+  &.is-2-cost .hexTop,
+  &.is-2-cost .hexBottom {
+    border-color: findDarkColor($turquoise) !important;
   }
 
   &.is-3-cost,
-  &.is-3-cost > .hexTop,
-  &.is-3-cost > .hexBottom {
-    border-color: $link-dark;
+  &.is-3-cost .hexTop,
+  &.is-3-cost .hexBottom {
+    border-color: $link-dark !important;
   }
 
   &.is-4-cost,
-  &.is-4-cost > .hexTop,
-  &.is-4-cost > .hexBottom {
-    border-color: findDarkColor($purple);
+  &.is-4-cost .hexTop,
+  &.is-4-cost .hexBottom {
+    border-color: findDarkColor($purple) !important;
   }
 
   &.is-5-cost,
-  &.is-5-cost > .hexTop,
-  &.is-5-cost > .hexBottom {
-    border-color: $warning-dark;
+  &.is-5-cost .hexTop,
+  &.is-5-cost .hexBottom {
+    border-color: $warning-dark !important;
   }
 }

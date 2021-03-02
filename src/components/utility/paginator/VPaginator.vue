@@ -8,14 +8,14 @@
       <v-paginator-item
         :page="1"
         @select="setPage(1)"/>
-      <v-paginator-seperator/>
+      <v-paginator-separator/>
       <template v-for="pageNumber in pages">
         <v-paginator-item
-          :page="pageNumber"
           :key="pageNumber"
+          :page="pageNumber"
           @select="setPage(pageNumber)"/>
       </template>
-      <v-paginator-seperator/>
+      <v-paginator-separator/>
       <v-paginator-item
         :page="totalPages"
         @select="setPage(totalPages)"/>
@@ -27,19 +27,17 @@
 </template>
 
 <script>
-import VFavicon from "../VFavicon";
 import VPaginatorItem from "./VPaginatorItem";
 import VPaginatorNav from "./VPaginatorNav";
-import VPaginatorSeperator from "./VPaginatorSeperator";
+import VPaginatorSeparator from "./VPaginatorSeperator";
 
 export default {
   name: "Paginator",
 
   components: {
-    VFavicon,
     VPaginatorItem,
     VPaginatorNav,
-    VPaginatorSeperator
+    VPaginatorSeparator
   },
 
   props: {

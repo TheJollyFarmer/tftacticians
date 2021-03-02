@@ -3,8 +3,8 @@
     :is="component"
     v-if="type"
     v-show="display"
+    :id="id"
     ref="popover"
-    :name="name"
     class="popover box"
     @mouseenter.native="setPopoverActive"
     @mouseleave.native="clearPopoverActive"/>
@@ -12,7 +12,7 @@
 
 <script>
 import ChampionCard from "@/components/champions/card/ChampionCard";
-import ItemCard from "@/components/items/ItemCard";
+import ItemImageCard from "@/components/items/ItemImageCard";
 import TraitBadgeCard from "@/components/traits/TraitBadgeCard";
 import TransitionFade from "@/components/transitions/TransitionFade";
 import { mapActions, mapState } from "vuex";
@@ -22,7 +22,7 @@ export default {
 
   components: {
     ChampionCard,
-    ItemCard,
+    ItemImageCard,
     TraitBadgeCard,
     TransitionFade
   },
@@ -44,7 +44,7 @@ export default {
     ...mapState({
       display: state => state.popover.display,
       type: state => state.popover.type,
-      name: state => state.popover.name,
+      id: state => state.popover.id,
       el: state => state.popover.el
     }),
 

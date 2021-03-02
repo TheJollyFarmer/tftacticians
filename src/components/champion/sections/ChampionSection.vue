@@ -2,7 +2,6 @@
   <section class="champion-section">
     <VHeader
       :text="title"
-      :icon="icon"
       type="2"/>
     <slot/>
   </section>
@@ -20,12 +19,6 @@ export default {
     title: {
       type: String,
       required: true
-    },
-
-    icon: {
-      type: String,
-      required: false,
-      default: ""
     }
   }
 };

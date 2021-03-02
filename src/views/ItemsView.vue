@@ -1,7 +1,5 @@
 <template>
-  <VPage
-    title="items"
-    icon="khanda">
+  <VPage title="items">
     <template #aside>
       <ItemsFilters
         :components="components"

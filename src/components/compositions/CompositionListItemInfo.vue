@@ -27,6 +27,7 @@ export default {
 .composition-info {
   align-items: center;
   display: flex;
+  margin-left: 0.2em;
 
   .composition-description {
     margin-right: 1.2em;
@@ -44,7 +45,9 @@ export default {
   .composition-rating {
     align-items: center;
     background-color: $primary;
-    border-radius: 3px;
+    border: 2px solid $black;
+    border-radius: 5px;
+    box-shadow: $shadow;
     color: white;
     display: flex;
     font-weight: 600;

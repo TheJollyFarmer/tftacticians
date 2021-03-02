@@ -2,8 +2,8 @@
   <TransitionGrid>
     <Champion
       v-for="champion in champions"
+      :id="champion.id"
       :key="champion.name"
-      :name="champion.name"
       dimension="48"
       caption/>
   </TransitionGrid>

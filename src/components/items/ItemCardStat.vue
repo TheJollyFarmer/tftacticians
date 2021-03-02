@@ -7,7 +7,7 @@
   </div>
 </template>
 <script>
-import StatImage from "@/components/champion/StatImage";
+import StatImage from "@/components/champion/ChampionStatImage";
 
 export default {
   name: "ItemCardStat",

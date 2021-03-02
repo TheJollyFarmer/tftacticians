@@ -7,7 +7,6 @@
       :key="number"
       :option="number"
       :is-active="isActive(number)"
-      icon="coins"
       @add="addFilterEvent"
       @remove="removeFilterEvent"/>
   </VFilter>

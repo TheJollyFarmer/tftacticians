@@ -6,8 +6,8 @@
     <template #mediaLeft>
       <VImage
         :image="champion.name"
-        dimension="44"
-        dir="champions/spells"/>
+        :dir="directory"
+        dimension="44"/>
     </template>
     <ChampionAbilityHead :ability="ability"/>
     <ChampionAbilityBody :ability="ability"/>
@@ -19,6 +19,7 @@ import ChampionAbilityBody from "@/components/champion/ChampionAbilityBody";
 import ChampionAbilityHead from "@/components/champion/ChampionAbilityHead";
 import VImage from "@/components/utility/VImage";
 import VMediaObject from "@/components/utility/VMediaObject";
+import { mapGetters } from "vuex";
 
 export default {
   name: "ChampionAbility",
@@ -41,6 +42,14 @@ export default {
     return {
       ability: this.champion.spell
     };
+  },
+
+  computed: {
+    ...mapGetters({ set: "getActiveSet" }),
+
+    directory() {
+      return `champions/${this.set}/spells`;
+    }
   }
 };
 </script>

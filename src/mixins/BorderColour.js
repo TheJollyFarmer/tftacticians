@@ -5,7 +5,7 @@ export default {
     ...mapGetters("champions", ["getChampionCost"]),
 
     cost() {
-      return this.getChampionCost(this.name);
+      return this.getChampionCost(this.id);
     },
 
     borderColour() {

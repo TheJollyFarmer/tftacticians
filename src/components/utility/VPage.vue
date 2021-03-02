@@ -1,19 +1,23 @@
 <template>
-  <div class="columns is-variable is-8">
-    <slot v-if="isFullWidth"/>
-    <template v-else>
-      <aside class="column is-one-third">
-        <slot name="aside"/>
-      </aside>
-      <main class="column">
-        <section>
-          <VHeader
-            v-if="title"
-            :text="title"/>
-          <slot/>
-        </section>
-      </main>
-    </template>
+  <div class="section">
+    <div class="container">
+      <div class="columns is-variable is-8">
+        <slot v-if="isFullWidth"/>
+        <template v-else>
+          <aside class="column is-one-third">
+            <slot name="aside"/>
+          </aside>
+          <main class="column">
+            <section>
+              <VHeader
+                v-if="title"
+                :text="title"/>
+              <slot/>
+            </section>
+          </main>
+        </template>
+      </div>
+    </div>
   </div>
 </template>
 

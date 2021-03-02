@@ -1,16 +1,16 @@
 <template>
   <a
     v-tooltip:bottom="tooltip"
-    class="item"
+    class="item-image"
     @click="goToItemView">
     <VImage
       :image="name"
       :dimension="dimension"
       :hoverable="hasPopover"
-      dir="items"
+      :dir="'items/' + set"
       @mouseenter="displayPopover"
       @mouseleave="hidePopover"/>
-    <Item
+    <ItemImage
       v-if="carousel"
       :name="carousel"
       class="carousel-full"
@@ -24,7 +24,7 @@ import VImage from "@/components/utility/VImage";
 import { mapActions, mapGetters } from "vuex";
 
 export default {
-  name: "Item",
+  name: "ItemImage",
 
   components: { VImage },
 
@@ -50,7 +50,10 @@ export default {
   },
 
   computed: {
-    ...mapGetters("items", ["getItem"]),
+    ...mapGetters({
+      getItem: "items/getItem",
+      set: "getActiveSet"
+    }),
 
     item() {
       return this.getItem(this.name);
@@ -85,20 +88,24 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.item {
+.item-image {
   display: flex;
+  justify-content: center;
   margin: 0 0.2em;
   position: relative;
-  justify-content: center;
 
   .image {
     border-color: black;
   }
 
   .carousel-full {
-    position: absolute;
     bottom: -5px;
+    position: absolute;
     right: -5px;
+
+    .image {
+      border-width: 1px;
+    }
   }
 }
 </style>

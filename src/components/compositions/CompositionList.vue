@@ -5,6 +5,7 @@
       v-for="(composition, index) in compositions"
       :key="index"
       :composition="composition"
+      :is-active="isActive(composition)"
       @onClick="setComposition"/>
   </div>
 </template>
@@ -23,9 +24,22 @@ export default {
     compositions: {
       type: Array,
       required: true
+    },
+
+    activeComp: {
+      type: Object,
+      required: true
     }
   },
 
-  methods: mapActions("compositions", ["setComposition"])
+  methods: {
+    ...mapActions("compositions", {
+      setComposition: "setComposition"
+    }),
+
+    isActive(composition) {
+      return this.activeComp.name === composition.name;
+    }
+  }
 };
 </script>

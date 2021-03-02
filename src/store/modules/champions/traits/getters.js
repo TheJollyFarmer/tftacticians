@@ -6,8 +6,10 @@ export default {
   getOrigins: filterBy("getTraits", "type", "origin"),
   getClasses: filterBy("getTraits", "type", "class"),
   getCountStyle: state => ({ trait, count }) => {
-    let traittest = state.traits[trait].sets;
-    let chosen = traittest.find(set => set.min === count || set.max === count);
-    return `is-` + chosen.style;
+    let set = state.traits[trait].sets.find(
+      set => set.min === count || set.max === count
+    );
+
+    return set ? `is-` + set.style : "is-grey";
   }
 };

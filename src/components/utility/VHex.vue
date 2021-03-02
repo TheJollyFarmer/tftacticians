@@ -34,8 +34,8 @@ export default {
   background-color: pink;
   background-position: center;
   background-size: auto 41.569px;
-  border-left: solid 2px $primary;
-  border-right: solid 2px $primary;
+  border-left: solid 2px $black;
+  border-right: solid 2px $black;
   height: 23.09px;
   margin: 7px 0.1em;
   position: relative;
@@ -46,14 +46,14 @@ export default {
   }
 
   &:after {
+    background: inherit;
     content: "";
+    height: 20.7846px;
+    left: 0;
     position: absolute;
     top: 1.1547px;
-    left: 0;
     width: 36px;
-    height: 20.7846px;
     z-index: 2;
-    background: inherit;
   }
 
   &.starred:before {
@@ -74,37 +74,37 @@ export default {
 
   .hexTop,
   .hexBottom {
-    position: absolute;
-    z-index: 1;
-    width: 28.28px;
+    background: inherit;
     height: 28.28px;
+    left: 3.86px;
+    position: absolute;
     overflow: hidden;
     transform: scaleY(0.577) rotate(-45deg);
-    background: inherit;
-    left: 3.86px;
+    width: 28.28px;
+    z-index: 1;
   }
 
   .hexTop {
+    border-top: solid 2.828px;
+    border-right: solid 2.828px;
     top: -14.14px;
-    border-top: solid 2.828px $primary;
-    border-right: solid 2.828px $primary;
   }
 
   .hexBottom {
     bottom: -14.14px;
-    border-bottom: solid 2.828px $primary;
-    border-left: solid 2.828px $primary;
+    border-bottom: solid 2.828px;
+    border-left: solid 2.828px;
   }
 
   .hexTop:after,
   .hexBottom:after {
+    background: inherit;
     content: "";
-    position: absolute;
-    width: 36px;
     height: 20.78px;
+    position: absolute;
     transform: rotate(45deg) scaleY(1.73) translateY(-10.39px);
     transform-origin: 0 0;
-    background: inherit;
+    width: 36px;
   }
 
   .hexTop:after {

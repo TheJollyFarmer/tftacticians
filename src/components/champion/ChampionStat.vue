@@ -1,19 +1,22 @@
 <template>
   <li class="champion-stat">
-    <StatImage :stat="stat"/>
+    <ChampionStatImage :stat="stat"/>
+    <VDash/>
     <ChampionStatValues :stat="stat"/>
   </li>
 </template>
 <script>
+import ChampionStatImage from "@/components/champion/ChampionStatImage";
 import ChampionStatValues from "@/components/champion/ChampionStatValues";
-import StatImage from "@/components/champion/StatImage";
+import VDash from "@/components/utility/VDash";
 
 export default {
   name: "ChampionStat",
 
   components: {
-    StatImage,
-    ChampionStatValues
+    ChampionStatImage,
+    ChampionStatValues,
+    VDash
   },
 
   props: {
@@ -27,13 +30,13 @@ export default {
 
 <style lang="scss" scoped>
 .champion-stat {
+  align-items: center;
   display: flex;
   font-weight: bold;
   padding-bottom: 0.75em;
 
   .image {
     cursor: pointer;
-    margin-right: 1em;
   }
 }
 </style>

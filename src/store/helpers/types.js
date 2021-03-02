@@ -14,7 +14,7 @@ export default {
   REMOVE_FILTER: "removeFilter",
   RESET_FILTER: "resetFilter",
   TOGGLE_CONTENT: "toggleContent",
-  TOGGLE_PROGRESS: "toggleProgress",
+  TOGGLE_LOADING: "toggleLoading",
   INCREMENT_UNREAD_COUNT: "incrementUnreadCount",
   DECREMENT_UNREAD_COUNT: "decrementUnreadCount",
   SET_AS_READ: "setAsRead",

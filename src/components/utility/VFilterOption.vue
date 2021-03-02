@@ -78,17 +78,9 @@ export default {
 .filter-option-checkbox {
   align-items: center;
   display: flex;
-  margin-bottom: 0.4em;
+  margin-bottom: 0.2em;
   padding: 0.5em 0.75em;
   position: relative;
-
-  &.is-active {
-    background-color: $white-ter;
-  }
-
-  &:hover {
-    background: whitesmoke;
-  }
 
   .image {
     margin-right: 1em;

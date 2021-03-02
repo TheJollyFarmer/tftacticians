@@ -19,10 +19,6 @@ h1, h2, h3 {
   font-weight: bold !important;
 }
 
-.ais-InstantSearch {
-  position: relative
-}
-
 .input::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -31,7 +27,18 @@ h1, h2, h3 {
   display: flex;
 }
 
-// Popover Item List
-.popover.media .image-list {
-  margin-left: -0.2em;
+.filter-label:not(.is-active) + .filter-list .filter-option-checkbox {
+  transform: scale(1) !important;
+}
+
+:not(.icon, .filter-option-image, .menu-item, .progress-bar).is-active {
+  background-color: $white-ter;
+  box-shadow: $shadow;
+  border-radius: 5px;
+  transform: scale(1.05);
+  transition: 0.2s ease-out;
+}
+
+.portrait {
+  margin: 0 auto;
 }

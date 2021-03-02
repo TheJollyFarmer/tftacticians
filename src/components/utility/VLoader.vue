@@ -1,6 +1,24 @@
 <template>
-  <div class="loader-wrapper">
-    <div class="loader-bar"/>
+  <div>
+    <div class="loader">
+      <span>
+        <span/>
+        <span/>
+        <span/>
+        <span/>
+      </span>
+      <div class="base">
+        <span/>
+        <div class="face"/>
+      </div>
+    </div>
+    <div class="longfazers">
+      <span/>
+      <span/>
+      <span/>
+      <span/>
+    </div>
+    <h1>Loading</h1>
   </div>
 </template>
 
@@ -10,62 +28,267 @@ export default {
 };
 </script>
 
-<style scoped>
-.loader-wrapper {
-  align-content: center;
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
+<style lang="scss" scoped>
+h1 {
+  position: absolute;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  left: 50%;
+  top: 58%;
+  margin-left: -20px;
 }
 
-.loader-bar,
-.loader-bar:before,
-.loader-bar:after {
-  background-color: rgba(215, 230, 240, 0.9);
-  border: 1px solid rgb(215, 240, 230);
-  box-sizing: content-box;
-  content: " ";
-  display: inline-block;
-  height: 50px;
-  margin-left: -5px;
-  margin-right: -9px;
-  position: relative;
-  width: 20px;
-  z-index: 100000;
-}
+.loader {
+  position: absolute;
+  top: 50%;
+  margin-left: -50px;
+  left: 50%;
+  animation: speeder 0.4s linear infinite;
 
-.loader-bar {
-  animation: loading-bar-main 0.8s cubic-bezier(0.4, 0.5, 0.6, 1) 0.2s infinite;
-}
-
-.loader-bar:before {
-  animation: loading-bar 0.8s cubic-bezier(0.4, 0.5, 0.6, 1) infinite;
-  left: -100%;
-  top: -11px;
-}
-
-.loader-bar:after {
-  animation: loading-bar 0.8s cubic-bezier(0.4, 0.5, 0.6, 1) 0.4s infinite;
-  margin-top: 50%;
-  right: -100%;
-  top: -11px;
-}
-
-@keyframes loading-bar {
-  from {
-    background-color: rgba(0, 209, 178, 0.9);
-    border: 1px solid rgb(0, 209, 178);
-    transform: scaleY(1.4);
+  > span {
+    height: 5px;
+    width: 35px;
+    background: $primary;
+    position: absolute;
+    top: -19px;
+    left: 60px;
+    border-radius: 2px 10px 1px 0;
   }
 }
 
-@keyframes loading-bar-main {
-  from {
-    background-color: rgba(0, 209, 178, 0.9);
-    border: 1px solid rgb(0, 209, 178);
-    margin-top: -10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+.base {
+  span {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-right: 100px solid $primary;
+    border-bottom: 6px solid transparent;
+
+    &:before {
+      content: "";
+      height: 22px;
+      width: 22px;
+      border-radius: 50%;
+      background: $primary;
+      position: absolute;
+      right: -110px;
+      top: -16px;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 0 solid transparent;
+      border-right: 55px solid $primary;
+      border-bottom: 16px solid transparent;
+      top: -16px;
+      right: -98px;
+    }
+  }
+}
+
+.face {
+  position: absolute;
+  height: 12px;
+  width: 20px;
+  background: $primary;
+  border-radius: 20px 20px 0 0;
+  transform: rotate(-40deg);
+  right: -125px;
+  top: -15px;
+
+  &:after {
+    content: "";
+    height: 12px;
+    width: 12px;
+    background: $primary;
+    right: 4px;
+    top: 7px;
+    position: absolute;
+    transform: rotate(40deg);
+    transform-origin: 50% 50%;
+    border-radius: 0 0 0 2px;
+  }
+}
+
+.body > span > span:nth-child(1),
+.body > span > span:nth-child(2),
+.body > span > span:nth-child(3),
+.body > span > span:nth-child(4) {
+  width: 30px;
+  height: 1px;
+  background: $primary;
+  position: absolute;
+  animation: fazer1 0.2s linear infinite;
+}
+
+.body > span > span:nth-child(2) {
+  top: 3px;
+  animation: fazer2 0.4s linear infinite;
+}
+
+.body > span > span:nth-child(3) {
+  top: 1px;
+  animation: fazer3 0.4s linear infinite;
+  animation-delay: -1s;
+}
+
+.body > span > span:nth-child(4) {
+  top: 4px;
+  animation: fazer4 1s linear infinite;
+  animation-delay: -1s;
+}
+
+@keyframes fazer1 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -80px;
+    opacity: 0;
+  }
+}
+
+@keyframes fazer2 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100px;
+    opacity: 0;
+  }
+}
+
+@keyframes fazer3 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -50px;
+    opacity: 0;
+  }
+}
+
+@keyframes fazer4 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -150px;
+    opacity: 0;
+  }
+}
+
+@keyframes speeder {
+  0% {
+    transform: translate(2px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -3px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-2px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 3px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-1px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-2px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(2px, 1px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.longfazers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  span {
+    position: absolute;
+    height: 2px;
+    width: 20%;
+    background: $primary;
+
+    &:nth-child(1) {
+      top: 20%;
+      animation: lf 0.6s linear infinite;
+      animation-delay: -5s;
+    }
+
+    &:nth-child(2) {
+      top: 40%;
+      animation: lf2 0.8s linear infinite;
+      animation-delay: -1s;
+    }
+
+    &:nth-child(3) {
+      top: 60%;
+      animation: lf3 0.6s linear infinite;
+    }
+
+    &:nth-child(4) {
+      top: 80%;
+      animation: lf4 0.5s linear infinite;
+      animation-delay: -3s;
+    }
+  }
+}
+
+@keyframes lf {
+  0% {
+    left: 200%;
+  }
+  100% {
+    left: -200%;
+    opacity: 0;
+  }
+}
+@keyframes lf2 {
+  0% {
+    left: 200%;
+  }
+  100% {
+    left: -200%;
+    opacity: 0;
+  }
+}
+@keyframes lf3 {
+  0% {
+    left: 200%;
+  }
+  100% {
+    left: -100%;
+    opacity: 0;
+  }
+}
+@keyframes lf4 {
+  0% {
+    left: 200%;
+  }
+  100% {
+    left: -100%;
+    opacity: 0;
   }
 }
 </style>

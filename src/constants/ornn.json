@@ -1,0 +1,204 @@
+[
+  {
+    "id": 9001,
+    "name": "Anima Visage",
+    "description": "The wearer regenerates a percentage of their maximum Health each second.",
+    "stats": [
+      {
+        "name": "health",
+        "value": "200"
+      },
+      {
+        "name": "speed",
+        "value": "15"
+      },
+      {
+        "name": "resistance",
+        "value": "25"
+      }
+    ]
+  },
+  {
+    "id": 9002,
+    "name": "Death's Defiance",
+    "description": "A percentage of the damage the wearer receives is instead dealt over time as non-lethal damage.",
+    "stats": [
+      {
+        "name": "attack",
+        "value": "15"
+      },
+      {
+        "name": "speed",
+        "value": "15"
+      },
+      {
+        "name": "armour",
+        "value": "25"
+      }
+    ]
+  },
+  {
+    "id": 9003,
+    "name": "Eternal Winter",
+    "description": "Enemies who damage the wearer have their Attack Speed slowed for several seconds. After being slowed this way a certain number of times, the attacker is Frozen for the duration instead. An enemy can only be Frozen once every several seconds.",
+    "stats": [
+      {
+        "name": "health",
+        "value": "200"
+      },
+      {
+        "name": "ap",
+        "value": "15"
+      },
+      {
+        "name": "armour",
+        "value": "25"
+      }
+    ]
+  },
+  {
+    "id": 9004,
+    "name": "Infinity Force",
+    "description": "Increase all stats.",
+    "stats": [
+      {
+        "name": "health",
+        "value": "333"
+      },
+      {
+        "name": "speed",
+        "value": "33"
+      },
+      {
+        "name": "resistance",
+        "value": "33"
+      },
+      {
+        "name": "armour",
+        "value": "33"
+      },
+      {
+        "name": "ap",
+        "value": "33"
+      },
+      {
+        "name": "crit",
+        "value": "33"
+      },
+      {
+        "name": "dodge",
+        "value": "33"
+      },
+      {
+        "name": "resistance",
+        "value": "33"
+      }
+    ]
+  },
+  {
+    "id": 9005,
+    "name": "Manazane",
+    "description": "After the wearer casts their spell for the first time each combat, they restore Mana over several seconds.",
+    "stats": [
+      {
+        "name": "attack",
+        "value": "20"
+      },
+      {
+        "name": "speed",
+        "value": "20"
+      },
+      {
+        "name": "mana",
+        "value": "15"
+      }
+    ]
+  },
+  {
+    "id": 9006,
+    "name": "Obsidian Cleaver",
+    "description": "The wearer's attacks and spell damage shred enemy Armor and Magic Resistance by 40% for several seconds.",
+    "stats": [
+      {
+        "name": "health",
+        "value": "200"
+      },
+      {
+        "name": "attack",
+        "value": "30"
+      }
+    ]
+  },
+  {
+    "id": 9007,
+    "name": "Randuin's Sanctum",
+    "description": "At the start of combat, all allies adjacent to the wearer gain bonus Armor and Magic Resistance for the rest of combat.",
+    "stats": [
+      {
+        "name": "health",
+        "value": "200"
+      },
+      {
+        "name": "armour",
+        "value": "25"
+      },
+      {
+        "name": "resistance",
+        "value": "25"
+      }
+    ]
+  },
+  {
+    "id": 9008,
+    "name": "Rocket-Propelled Fist",
+    "description": "At the start of combat, the wearer pulls the farthest enemy into melee range, stunning them for several seconds. Allies within range will prioritize attacking that enemy.",
+    "stats": [
+      {
+        "name": "health",
+        "value": "200"
+      },
+      {
+        "name": "mana",
+        "value": "15"
+      },
+      {
+        "name": "armour",
+        "value": "25"
+      }
+    ]
+  },
+  {
+    "id": 9009,
+    "name": "Gold Collector",
+    "description": "The wearer executes enemies below a percentage of health on hit. Executions generate 1 gold.",
+    "stats": [
+      {
+        "name": "attack",
+        "value": "40"
+      },
+      {
+        "name": "crit",
+        "value": "20%"
+      }
+    ]
+  },
+  {
+    "id": 9010,
+    "name": "Zhonya's Paradox",
+    "description": "The first instance of damage that would reduce the wearer below a percentage of their Health is prevented, causing them to become invulnerable for several seconds.",
+    "stats": [
+      {
+        "name": "ap",
+        "value": "15"
+      },
+      {
+        "name": "armour",
+        "value": "25"
+      },
+      {
+        "name": "resistance",
+        "value": "25"
+      }
+    ]
+  }
+]

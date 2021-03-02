@@ -22,7 +22,7 @@ export default {
   },
 
   props: {
-    name: {
+    id: {
       type: String,
       required: true
     }
@@ -32,7 +32,7 @@ export default {
     ...mapGetters("champions", ["getChampion"]),
 
     champion() {
-      return this.getChampion(this.name);
+      return this.getChampion(this.id);
     }
   }
 };

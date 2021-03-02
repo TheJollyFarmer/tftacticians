@@ -3,8 +3,8 @@ import types from "./types";
 import { getKeys, normalise } from "@/utils/helpers";
 
 export default {
-  setTraits({ commit }) {
-    commit(types.SET_DATA, normalise(traits, "name"));
-    commit(types.SET_KEYS, getKeys(traits, "name"));
+  setTraits({ commit }, set) {
+    commit(types.SET_DATA, normalise(traits[set], "name"));
+    commit(types.SET_KEYS, getKeys(traits[set], "name"));
   }
 };

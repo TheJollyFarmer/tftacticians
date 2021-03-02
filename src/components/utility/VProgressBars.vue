@@ -42,20 +42,20 @@ export default {
   align-self: center;
   display: flex;
   height: 10px;
-  margin-left: 0.4em;
   width: 50px;
+
   .progress-bar {
-    background-clip: content-box;
-    background-color: $grey-dark;
+    background-color: $white;
     backface-visibility: hidden;
+    border: 2px solid $grey-dark;
+    border-radius: 5px;
+    flex: 33%;
     height: 100%;
-    opacity: 0.2;
-    padding-right: 4%;
-    transform: skewX(-40deg);
-    width: 33.3%;
+    margin: 0 0.5px;
+    box-shadow: $shadow;
   }
   .is-active {
-    opacity: 1;
+    background-color: $grey-dark;
   }
 }
 </style>

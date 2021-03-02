@@ -1,23 +1,28 @@
 <template>
-  <VLevel class="item-list-item">
+  <div class="item">
     <ItemImage :name="item.name"/>
+    <VFavicon icon="arrow-right"/>
+    <ItemImageList
+      :items="components"
+      dimension="32"/>
     <p v-text="item.description"/>
-    <template #levelRight>
-      <ItemImageList :items="components"/>
-    </template>
-  </VLevel>
+  </div>
 </template>
 
 <script>
 import ItemImage from "@/components/items/ItemImage";
 import ItemImageList from "@/components/items/ItemImageList";
-import VLevel from "@/components/utility/VLevel";
+import VFavicon from "@/components/utility/VFavicon";
 import { mapGetters } from "vuex";
 
 export default {
   name: "Item",
 
-  components: { ItemImage, ItemImageList, VLevel },
+  components: {
+    ItemImage,
+    ItemImageList,
+    VFavicon
+  },
 
   props: {
     item: {
@@ -49,22 +54,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.item-list-item {
-  margin-bottom: 0;
+.item {
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: $shadow;
+  display: flex;
+  flex: 1;
+  margin-bottom: 0.2em;
   padding: 0.375rem 0.5rem;
 
-  ::v-deep .level-left {
-    flex-shrink: 1;
+  .icon {
+    flex-shrink: 0;
   }
 
   p {
     font-size: 0.875em;
-    margin: 0 1em 0;
-    max-width: 650px;
-  }
-
-  &:hover {
-    background-color: whitesmoke;
+    margin: 0 0 0 1em;
   }
 }
 </style>

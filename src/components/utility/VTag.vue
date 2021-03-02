@@ -28,7 +28,7 @@ export default {
     type: {
       type: String,
       required: false,
-      default: "is-danger"
+      default: "is-primary"
     },
 
     size: {
