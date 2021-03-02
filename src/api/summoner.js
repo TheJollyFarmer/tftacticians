@@ -1,12 +1,17 @@
 import request from "@/api/index";
 
-const key = "";
+const key = process.env.RIOT_KEY;
 
 export default {
   getSummoner(region, name) {
     return request(
       "get",
-      "https://xim2iwr5aa.execute-api.eu-west-2.amazonaws.com/prod/summoner"
+      "https://" +
+        region +
+        "1.api.riotgames.com/tft/summoner/v1/summoners/by-name/" +
+        name +
+        "?api_key=" +
+        key
     );
   },
 

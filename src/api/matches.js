@@ -1,6 +1,6 @@
 import request from "@/api/index";
 
-const key = "";
+const key = process.env.RIOT_KEY;
 
 export default {
   getMatchKeys(region, summoner, count) {
