@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="trait-body">
     <p v-if="trait.innate">
       <span class="has-text-weight-bold">
         Innate:

@@ -1,4 +1,4 @@
-import filters from "../utils/filters";
+import { capitalise } from "@/utils/filters";
 
 export default {
   bind(el, { value, oldValue, arg, modifiers }) {
@@ -11,13 +11,13 @@ export default {
   },
 
   update(el, { value, oldValue }) {
-    if (isValid(value, oldValue)) {
-      replaceText(el, value);
-    }
+    if (!el.classList.contains("tooltip-container"))
+      el.classList.add("tooltip-container");
+
+    if (isValid(value, oldValue)) replaceText(el, value);
   }
 };
 
-// Helpers
 function isValid(data, oldData) {
   return data.length && oldData !== data;
 }
@@ -27,7 +27,7 @@ function createNode() {
 }
 
 function createLabel(value, node) {
-  node.appendChild(document.createTextNode(filters.capitalise(value)));
+  node.appendChild(document.createTextNode(capitalise(value)));
 }
 
 function addClasses(data, node, arg, el) {

@@ -1,66 +1,73 @@
 <template>
-  <VFilters @reset="resetFilters">
-    <ChampionsCostFilter
-      :collection="[1, 2, 3, 4, 5]"
-      @apply="applyFilter"
-      @remove="popFilter"/>
-    <ChampionsTraitFilter
-      :collection="origins"
-      label="origin"
-      @apply="applyFilter"
-      @remove="popFilter"/>
-    <ChampionsTraitFilter
-      :collection="classes"
-      label="class"
-      @apply="applyFilter"
-      @remove="popFilter"/>
+  <VFilters>
+    <ChampionSearch @onClick="resetEvent"/>
+    <Filter
+      v-for="(filter, index) in filters"
+      :key="index"
+      v-bind="filter.props"
+      :active="active"
+      :class="$style['champion-filter']"
+      checkbox>
+      <template #link="{ option }">
+        <a @click="filter.click(option)">
+          <component
+            :is="filter.component"
+            v-bind="filter.prop(option)"/>
+        </a>
+      </template>
+    </Filter>
   </VFilters>
 </template>
 
 <script>
-import ChampionsCostFilter from "@/components/champions/filters/ChampionsCostFilter";
-import ChampionsTraitFilter from "@/components/champions/filters/ChampionsTraitFilter";
+import ChampionFilters from "@/mixins/ChampionFilters";
+import ChampionSearch from "@/components/champions/filters/ChampionSearch";
+import Filter from "@/components/leaderboard/Filter";
 import VFilters from "@/components/utility/VFilters";
-import { mapActions, mapGetters } from "vuex";
+import VRouterLink from "@/components/utility/VRouterLink";
+import { clone, remove } from "@/utils/helpers";
+import { mapState } from "vuex";
 
 export default {
-  name: "ChampionViewFilters",
+  name: "ChampionsFilters",
 
   components: {
-    ChampionsCostFilter,
-    ChampionsTraitFilter,
-    VFilters
+    ChampionSearch,
+    Filter,
+    VFilters,
+    VRouterLink
   },
 
-  computed: mapGetters("champions/traits", {
-    origins: "getOrigins",
-    classes: "getClasses"
-  }),
+  mixins: [ChampionFilters],
 
-  destroyed() {
-    this.resetFilters();
-  },
+  emits: ["reset"],
+
+  computed: mapState("champions", { active: state => state.filters }),
 
   methods: {
-    ...mapActions("champions", ["addFilter", "removeFilter", "resetFilters"]),
-
-    applyFilter({ filter, type }) {
-      this.addFilter({
-        filter,
-        type: "ADD_" + this.type(type)
-      });
+    resetEvent() {
+      this.$emit("reset");
     },
 
-    popFilter({ filter, type }) {
-      this.removeFilter({
-        filter,
-        type: "REMOVE_" + this.type(type)
-      });
-    },
+    pushQuery(model, option) {
+      let query = clone(this.$route.query);
+      let param = query[model];
 
-    type(type) {
-      return type.toUpperCase() + "_FILTER";
+      param.includes(option) ? remove(param, option) : param.push(option);
+
+      this.$router.push({ query });
     }
   }
 };
 </script>
+
+<style lang="scss" module>
+.champion-filter {
+  padding: 0 !important;
+
+  a {
+    padding: 1rem;
+    width: 100%;
+  }
+}
+</style>

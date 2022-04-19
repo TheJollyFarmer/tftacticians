@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import VSection from "@/components/utility/VSection";
 import SummonerStat from "@/components/summoner/SummonerStat";
+import VSection from "@/components/utility/VSection";
 import { mapGetters } from "vuex";
 
 export default {
@@ -30,5 +30,6 @@ export default {
 .stats {
   display: flex;
   flex-wrap: wrap;
+  margin: -0.25em;
 }
 </style>

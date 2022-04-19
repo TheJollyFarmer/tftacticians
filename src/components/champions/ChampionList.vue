@@ -1,24 +1,25 @@
 <template>
-  <div class="image-list">
-    <!--Champion is an object in one instance rather than a string.-->
-    <Champion
-      v-for="(champion, index) in champions"
+  <VImageList
+    v-slot="{ item: champion }"
+    :collection="champions">
+    <ChampionLink
       :id="champion.id || champion"
-      :key="index"
       :starred="champion.starred"
       :items="champion.items"
       :dimension="dimension"
-      :has-popover="hasPopovers"/>
-  </div>
+      :popover="popovers"
+      :tooltip="tooltips"/>
+  </VImageList>
 </template>
 
 <script>
-import Champion from "@/components/champions/Champion";
+import ChampionLink from "@/components/champions/ChampionLink";
+import VImageList from "@/components/utility/VImageList";
 
 export default {
   name: "ChampionList",
 
-  components: { Champion },
+  components: { ChampionLink, VImageList },
 
   props: {
     champions: {
@@ -32,10 +33,16 @@ export default {
       default: "40"
     },
 
-    hasPopovers: {
+    popovers: {
       type: Boolean,
       required: false,
       default: true
+    },
+
+    tooltips: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   }
 };

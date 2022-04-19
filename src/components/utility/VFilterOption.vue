@@ -1,32 +1,24 @@
 <template>
-  <li
-    :class="[type, { 'is-active': isActive }]"
-    @click="clickEvent">
-    <slot>
-      <VImage
-        image="cost"
-        dimension="24"
-        dir="stats"
-        :has-border="false"/>
-      <span v-text="option"/>
-    </slot>
-    <VToggle
-      v-if="hasCheckbox"
-      :is-active="isActive"/>
-  </li>
+  <TransitionFade>
+    <li :class="[type, { 'is-active': isActive }]">
+      <slot>
+        <span v-text="option"/>
+      </slot>
+      <VToggle
+        v-if="hasCheckbox"
+        :is-active="isActive"/>
+    </li>
+  </TransitionFade>
 </template>
 
 <script>
-import VImage from "@/components/utility/VImage";
 import VToggle from "@/components/utility/VToggle";
+import TransitionFade from "@/components/transitions/TransitionFade";
 
 export default {
   name: "VFilterOption",
 
-  components: {
-    VImage,
-    VToggle
-  },
+  components: { TransitionFade, VToggle },
 
   props: {
     option: {
@@ -54,22 +46,6 @@ export default {
         ? "filter-option-checkbox"
         : "filter-option-image";
     }
-  },
-
-  methods: {
-    clickEvent() {
-      this.hasCheckbox ? this.toggleActive() : this.optionClicked();
-    },
-
-    toggleActive() {
-      this.isActive
-        ? this.$emit("remove", this.option)
-        : this.$emit("add", this.option);
-    },
-
-    optionClicked() {
-      this.$emit("set", this.option);
-    }
   }
 };
 </script>
@@ -77,29 +53,36 @@ export default {
 <style lang="scss" scoped>
 .filter-option-checkbox {
   align-items: center;
+  border-top: 1px solid var(--border);
   display: flex;
-  margin-bottom: 0.2em;
-  padding: 0.5em 0.75em;
+  font-size: 0.9em;
+  height: 2.75rem;
   position: relative;
+  max-height: 2.75rem;
 
-  .image {
-    margin-right: 1em;
+  > .icon {
+    position: absolute;
+    right: 1rem;
   }
 
-  span:first-of-type {
-    padding-top: 3px;
+  &:last-of-type {
+    border-bottom-right-radius: $radius;
+    border-bottom-left-radius: $radius;
   }
 }
 
 .filter-option-image {
-  padding: 0.3em 0.08em;
-  opacity: 0.7;
+  position: relative;
+  opacity: 0.6;
+  transition-duration: 0.2s;
 
-  &.is-active {
+  &.is-active,
+  &:hover {
     opacity: 1;
+    transition: opacity $hover-out;
 
-    ::v-deep.image {
-      border-color: $primary !important;
+    :deep(.image) {
+      border-color: var(--primary) !important;
     }
   }
 }

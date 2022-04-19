@@ -1,26 +1,23 @@
 <script>
-export default {
-  name: "TransitionTabSlide",
+import { h, Transition } from "vue";
 
-  functional: true,
+const TransitionTabSlide = (props, context) => {
+  const data = {
+    name: `slide-${props.type}`
+  };
 
-  props: {
-    type: {
-      type: String,
-      required: true
-    }
-  },
+  return h(Transition, data, context.slots);
+};
 
-  render(createElement, context) {
-    const data = {
-      props: {
-        name: `slide-${context.props.type}`
-      }
-    };
-
-    return createElement("transition", data, context.children);
+TransitionTabSlide.props = {
+  type: {
+    type: String,
+    required: true,
+    default: "prev"
   }
 };
+
+export default TransitionTabSlide;
 </script>
 
 <style scoped>

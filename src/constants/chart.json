@@ -1,0 +1,43 @@
+{
+  "columns": { "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0 },
+  "labels": ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th"],
+  "defaultOptions": {
+    "layout": {
+      "padding": {
+        "bottom": -8,
+        "left": -2
+      }
+    },
+    "legend": {
+      "display": false
+    },
+    "responsive": true,
+    "maintainAspectRatio": false,
+    "scales": {
+      "yAxes": [
+        {
+          "gridLines": {
+            "tickMarkLength": 4
+          },
+          "ticks": {
+            "beginAtZero": true,
+            "padding": 5,
+            "stepSize": 1
+          }
+        }
+      ],
+      "xAxes": [
+        {
+          "gridLines": {
+            "drawOnChartArea": false,
+            "tickMarkLength": 6
+          }
+        }
+      ]
+    },
+    "tooltips": {
+      "displayColors": false,
+      "cornerRadius": 5
+    }
+  }
+}

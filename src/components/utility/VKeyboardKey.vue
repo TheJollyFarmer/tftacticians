@@ -29,7 +29,7 @@ export default {
 <style lang="scss" scoped>
 .key {
   align-items: center;
-  border: 2px solid $grey-dark;
+  border: 2px solid var(--key);
   border-radius: 5px;
   box-shadow: $shadow;
   cursor: default;
@@ -107,7 +107,7 @@ export default {
     > div {
       align-items: center;
       display: flex;
-      border: 2px solid black;
+      border: 2px solid var(--key);
       border-radius: 5px;
       grid-column: span 1;
       justify-content: center;

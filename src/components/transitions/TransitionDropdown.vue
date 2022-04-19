@@ -1,19 +1,11 @@
 <script>
-export default {
-  name: "TransitionDropdown",
+import { h, Transition } from "vue";
 
-  functional: true,
-
-  render(createElement, context) {
-    const data = {
-      props: {
-        name: "dropdown"
-      }
-    };
-
-    return createElement("transition", data, context.children);
-  }
+const TransitionDropdown = (props, context) => {
+  return h(Transition, { name: "dropdown" }, context.slots);
 };
+
+export default TransitionDropdown;
 </script>
 
 <style scoped>

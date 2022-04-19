@@ -1,60 +1,53 @@
 <script>
-export default {
-  name: "TransitionTags",
+import { h, TransitionGroup } from "vue";
 
-  functional: true,
+const TransitionTags = (props, context) => {
+  const data = {
+    name: "transition-tags",
+    tag: props.tag,
+    class: "transition-tags",
 
-  props: {
-    duration: {
-      type: Number,
-      required: false,
-      default: 0.5
+    onBeforeEnter: el => {
+      el.style.transitionDuration = `${props.duration}s`;
     },
 
-    hasData: {
-      type: Boolean,
-      required: false,
-      default: true
-    },
+    onBeforeLeave: el => {
+      if (props.hasData) {
+        el.style.position = "absolute";
+      }
 
-    tag: {
-      type: String,
-      required: false,
-      default: "div"
+      el.style.transitionDuration = `${props.duration}s`;
     }
+  };
+
+  return h(TransitionGroup, data, context.slots);
+};
+
+TransitionTags.props = {
+  duration: {
+    type: Number,
+    required: false,
+    default: 0.5
   },
 
-  render(createElement, context) {
-    const data = {
-      props: {
-        name: "transition-list",
-        tag: context.props.tag
-      },
+  hasData: {
+    type: Boolean,
+    required: false,
+    default: true
+  },
 
-      class: "transition-list",
-
-      on: {
-        beforeEnter(el) {
-          el.style.transitionDuration = `${context.props.duration}s`;
-        },
-
-        beforeLeave(el) {
-          if (context.props.hasData) {
-            el.style.position = "absolute";
-          }
-
-          el.style.transitionDuration = `${context.props.duration}s`;
-        }
-      }
-    };
-
-    return createElement("transition-group", data, context.children);
+  tag: {
+    type: String,
+    required: false,
+    default: "div"
   }
 };
+
+export default TransitionTags;
 </script>
 
 <style lang="scss">
-.transition-list {
+.transition-tags {
   position: relative;
 
   &-enter-active {
@@ -65,9 +58,9 @@ export default {
     transition: all 200ms ease-in-out;
   }
 
-  &-enter {
+  &-enter-from {
     opacity: 0;
-    transform: scale(0.9);
+    transform: translateY(-10px);
   }
 
   &-enter-to {

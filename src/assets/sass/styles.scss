@@ -1,44 +1,20 @@
 @import "modules/cost";
+@import "modules/general";
 @import "modules/hover";
 @import "modules/hotkey";
+@import "modules/layers";
 @import "modules/menu";
+@import "modules/pagination";
 @import "modules/table";
 @import "modules/tooltip";
 @import "modules/traits";
+@import "modules/variables";
 
-// General
-[v-cloak] {
-  display: none;
-}
-
-body p {
-  margin-bottom: 0.75rem;
-}
-
-h1, h2, h3 {
-  font-weight: bold !important;
-}
-
-.input::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-.image-list {
-  display: flex;
-}
-
-.filter-label:not(.is-active) + .filter-list .filter-option-checkbox {
-  transform: scale(1) !important;
-}
-
-:not(.icon, .filter-option-image, .menu-item, .progress-bar).is-active {
-  background-color: $white-ter;
-  box-shadow: $shadow;
-  border-radius: 5px;
-  transform: scale(1.05);
-  transition: 0.2s ease-out;
-}
-
-.portrait {
-  margin: 0 auto;
+.app {
+  background-color: var(--background);
+  color: var(--colour);
+  min-height: calc(100vh - 3.5rem);
+  padding-bottom: 11rem;
+  position: relative;
+  transition: $transition;
 }

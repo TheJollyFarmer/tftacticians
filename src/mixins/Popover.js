@@ -2,38 +2,31 @@ import { mapActions } from "vuex";
 
 export default {
   props: {
-    hasPopover: {
+    popover: {
       type: Boolean,
       required: false,
       default: true
     }
   },
 
-  computed: {
-    type() {
-      return this.$options.name;
-    }
-  },
-
   methods: {
     ...mapActions({
       display: "displayPopover",
-      hide: "hidePopover",
-      resetPopover: "resetPopover"
+      hide: "hidePopover"
     }),
 
     displayPopover() {
-      if (this.hasPopover) {
+      if (this.popover) {
         this.display({
           id: this.id,
-          type: this.type,
+          type: this.view.name,
           el: this.$el
         });
       }
     },
 
     hidePopover() {
-      if (this.hasPopover) this.hide();
+      if (this.popover) this.hide();
     }
   }
 };

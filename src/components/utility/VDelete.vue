@@ -1,16 +1,19 @@
 <template>
-  <transition-fade>
+  <TransitionFade>
     <a
       :class="['delete', type, isLeftDelete]"
       @click="clickEvent"/>
-  </transition-fade>
+  </TransitionFade>
 </template>
 
 <script>
 import TransitionFade from "../transitions/TransitionFade";
+
 export default {
   name: "VDelete",
+
   components: { TransitionFade },
+
   props: {
     type: {
       type: String,
@@ -24,6 +27,8 @@ export default {
       default: false
     }
   },
+
+  emits: ["onClick"],
 
   computed: {
     isLeftDelete() {

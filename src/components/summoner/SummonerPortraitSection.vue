@@ -1,17 +1,18 @@
 <template>
-  <VSection :title="name">
+  <VSection :title="summoner.name">
     <VImage
-      :image="tier.toLowerCase()"
-      :has-border="false"
+      :image="summoner.profileIconId"
       class="portrait"
       dimension="128"
-      dir="ranked"/>
+      error="summoner"
+      external
+      url/>
   </VSection>
 </template>
 
 <script>
-import VSection from "@/components/utility/VSection";
 import VImage from "@/components/utility/VImage";
+import VSection from "@/components/utility/VSection";
 
 export default {
   name: "SummonerPortraitSection",
@@ -19,13 +20,8 @@ export default {
   components: { VImage, VSection },
 
   props: {
-    name: {
-      type: String,
-      required: true
-    },
-
-    tier: {
-      type: String,
+    summoner: {
+      type: Object,
       required: true
     }
   }

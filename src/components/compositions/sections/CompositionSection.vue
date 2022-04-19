@@ -25,12 +25,36 @@ export default {
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 0.5em 0;
+  margin-bottom: $spacing;
+
+  &:last-child {
+    margin: 0;
+  }
+
   .cs-title {
     font-size: 0.9em;
     font-weight: bold;
-    padding-bottom: 0.5em;
+    padding-bottom: $spacing-small;
     text-transform: capitalize;
+  }
+
+  @media only screen and (max-width: $widescreen) {
+    flex: 2 1 33%;
+    padding: $spacing;
+    margin: 0;
+
+    &:nth-child(-n + 3) {
+      border-bottom: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+    }
+
+    &:nth-child(3) {
+      border-right: none;
+    }
+
+    &:last-child {
+      border-left: 1px solid var(--border);
+    }
   }
 }
 </style>

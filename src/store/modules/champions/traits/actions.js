@@ -1,10 +1,14 @@
-import traits from "@/constants/traits";
-import types from "./types";
-import { getKeys, normalise } from "@/utils/helpers";
+import traits from "@/data/traits.json";
+import { setFilter, setQuery, setState } from "@/store/helpers/actions";
 
 export default {
-  setTraits({ commit }, set) {
-    commit(types.SET_DATA, normalise(traits[set], "name"));
-    commit(types.SET_KEYS, getKeys(traits[set], "name"));
-  }
+  setTraits: setState(traits, "key"),
+
+  setFilters({ dispatch }, { type, search }) {
+    dispatch("setFilter", type);
+    dispatch("setQuery", search);
+  },
+
+  setQuery,
+  setFilter
 };

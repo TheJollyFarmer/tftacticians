@@ -1,22 +1,29 @@
 import axios from "axios";
+axios.defaults.baseURL = process.env.VUE_APP_ROOT_API;
 import store from "../store/index";
 
-export default function request(type, route, payload) {
-  return axios[type](route, payload)
-    .then(response => {
-      if (response.status === 200) return response.data;
-    })
-    .catch(e => {
-      if (e.response) {
-        console.log(e.response);
-      } else if (e.request) {
-        console.log(e.request);
-      } else {
-        console.log("Error", e.message);
-      }
+export default {
+  async request(url, params) {
+    const config = {
+      url,
+      method: "GET",
+      params: { ...params }
+    };
 
-      store.dispatch("setErrors", e.response.data.errors);
+    return await axios(config)
+      .then(({ data }) => data)
+      .catch(e => console.log(e.message));
+  },
 
-      // return Promise.reject(e);
-    });
-}
+  getItem(type, key) {
+    return JSON.parse(window[type + "Storage"].getItem(key));
+  },
+
+  setItem(type, key, payload) {
+    window[type + "Storage"].setItem(key, JSON.stringify(payload));
+  },
+
+  removeItem(type, key) {
+    window[type + "Storage"].removeItem(key);
+  }
+};

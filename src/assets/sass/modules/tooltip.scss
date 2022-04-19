@@ -3,8 +3,15 @@
 
   &:hover .tooltip {
     opacity: 1;
-    transition: opacity 0.2s ease-in 0.75s;
+    transform: scale(0.7);
+    transition: 0.2s ease-in 0.3s;
+    transform-origin: 0;
+    transition-property: opacity, transform;
     visibility: visible;
+
+    &.tooltip-bottom {
+      transform: scale(1) translateX(-50%);
+    }
   }
 
   > .dropdown.is-active + .tooltip {
@@ -12,17 +19,18 @@
   }
 
   > .tooltip {
-    background-color: black;
-    border-radius: 6px;
-    -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    background-color: var(--colour);
+    border-radius: 5px;
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-    color: white;
+    color: var(--fill);
     display: block;
     font-size: 0.8em;
     padding: 0.5rem;
     position: absolute;
     text-transform: capitalize;
-    transition: opacity 0.2s ease-out;
+    transform: scale(0.7);
+    transition: 0.2s ease-out;
+    transition-property: opacity, transform;
     opacity: 0;
     visibility: hidden;
     white-space: nowrap;
@@ -31,7 +39,7 @@
     &::after {
       border-width: 5px;
       border-style: solid;
-      border-color: black transparent transparent transparent;
+      border-color: var(--colour) transparent transparent transparent;
       content: " ";
       position: absolute;
     }
@@ -43,7 +51,7 @@
 
     &.tooltip-top {
       bottom: 120%;
-      transform: translateX(-50%);
+      transform: scale(0.7) translateX(-50%);
       left: 50%;
 
       &::after {
@@ -55,13 +63,13 @@
 
     &.tooltip-bottom {
       left: 50%;
-      transform: translateX(-50%);
-      top: 120%;
+      transform: scale(0.7) translateX(-50%);
+      top: calc(100% + 10px);
 
       &::after {
         left: 50%;
         margin-left: -5px;
-        border-color: transparent transparent black transparent;
+        border-color: transparent transparent var(--colour) transparent;
         bottom: 100%;
       }
     }
@@ -73,7 +81,7 @@
       &::after {
         top: 50%;
         margin-top: -5px;
-        border-color: transparent transparent transparent black;
+        border-color: transparent transparent transparent var(--colour);
         left: 100%;
       }
     }
@@ -84,7 +92,7 @@
       &::after {
         top: 50%;
         margin-top: -5px;
-        border-color: transparent black transparent transparent;
+        border-color: transparent var(--colour) transparent transparent;
         right: 100%;
       }
     }

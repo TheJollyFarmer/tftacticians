@@ -2,19 +2,17 @@
   <Component
     :is="component"
     v-if="type"
-    v-show="display"
     :id="id"
     ref="popover"
-    class="popover box"
-    @mouseenter.native="setPopoverActive"
-    @mouseleave.native="clearPopoverActive"/>
+    :class="['popover box', { active: display }]"
+    @mouseenter="setPopoverActive"
+    @mouseleave="clearPopoverActive"/>
 </template>
 
 <script>
 import ChampionCard from "@/components/champions/card/ChampionCard";
-import ItemImageCard from "@/components/items/ItemImageCard";
-import TraitBadgeCard from "@/components/traits/TraitBadgeCard";
-import TransitionFade from "@/components/transitions/TransitionFade";
+import ItemCard from "@/components/items/ItemCard";
+import TraitCard from "@/components/traits/TraitCard";
 import { mapActions, mapState } from "vuex";
 
 export default {
@@ -22,9 +20,8 @@ export default {
 
   components: {
     ChampionCard,
-    ItemImageCard,
-    TraitBadgeCard,
-    TransitionFade
+    ItemCard,
+    TraitCard
   },
 
   data() {
@@ -36,7 +33,8 @@ export default {
       posY: undefined,
       offsetY: undefined,
       scrollBar: 20,
-      gap: 10
+      gap: 10,
+      nav: 56
     };
   },
 
@@ -49,7 +47,7 @@ export default {
     }),
 
     component() {
-      return `${this.type}Card`;
+      return `${this.type.replace(/s$/, "")}Card`;
     }
   },
 
@@ -80,7 +78,7 @@ export default {
       this.popover = this.popEl.getBoundingClientRect();
       this.offsetY = this.popover.height - window.pageYOffset;
       this.posX = this.content.x + this.content.width / 2;
-      this.posY = this.content.y - this.offsetY - this.gap;
+      this.posY = this.content.y - this.offsetY - this.gap - this.nav;
 
       return this;
     },
@@ -132,7 +130,7 @@ export default {
     },
 
     repositionYTop() {
-      this.posY = this.posY - this.popover.y + this.gap;
+      this.posY = this.posY - this.popover.y + this.gap + this.nav;
     },
 
     isOverContent() {
@@ -140,7 +138,8 @@ export default {
     },
 
     repositionYBottom() {
-      this.posY = this.content.bottom + this.gap + window.pageYOffset;
+      this.posY =
+        this.content.bottom + this.gap + window.pageYOffset - this.nav;
     }
   }
 };
@@ -148,8 +147,20 @@ export default {
 
 <style lang="scss" scoped>
 .popover {
+  border: 1px solid var(--border);
+  border-radius: $radius;
+  color: var(--colour);
+  opacity: 0;
+  padding: 0;
   position: absolute;
   transform: translateX(-50%);
-  z-index: 50;
+  transition: 0.2s;
+  transition-property: background-color, color, opacity;
+  z-index: -10;
+
+  &.active {
+    opacity: 1;
+    z-index: 50;
+  }
 }
 </style>

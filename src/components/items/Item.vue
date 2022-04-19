@@ -1,27 +1,29 @@
 <template>
-  <div class="item">
-    <ItemImage :name="item.name"/>
-    <VFavicon icon="arrow-right"/>
-    <ItemImageList
+  <div class="item layer">
+    <ItemLink :id="item.id"/>
+    <VArrow v-if="notComponentless"/>
+    <ItemLinkList
       :items="components"
       dimension="32"/>
-    <p v-text="item.description"/>
+    <ItemBody :item="item"/>
   </div>
 </template>
 
 <script>
-import ItemImage from "@/components/items/ItemImage";
-import ItemImageList from "@/components/items/ItemImageList";
-import VFavicon from "@/components/utility/VFavicon";
+import ItemBody from "@/components/items/ItemBody";
+import ItemLink from "@/components/items/ItemLink";
+import ItemLinkList from "@/components/items/ItemLinkList";
+import VArrow from "@/components/utility/VArrow";
 import { mapGetters } from "vuex";
 
 export default {
   name: "Item",
 
   components: {
-    ItemImage,
-    ItemImageList,
-    VFavicon
+    ItemBody,
+    ItemLink,
+    ItemLinkList,
+    VArrow
   },
 
   props: {
@@ -32,22 +34,22 @@ export default {
   },
 
   computed: {
-    ...mapGetters("items", {
-      filterItem: "getFilterItem"
-    }),
+    ...mapGetters("items", { filterItem: "getFilterItem" }),
 
     components() {
-      return [...this.firstComponent(), ...this.filterComponent()];
-    }
-  },
+      return [...this.firstComponent, ...this.filterComponent];
+    },
 
-  methods: {
     filterComponent() {
       return this.item.components.filter(item => item === this.filterItem);
     },
 
     firstComponent() {
       return this.item.components.filter(item => item !== this.filterItem);
+    },
+
+    notComponentless() {
+      return this.item.components.length;
     }
   }
 };
@@ -56,20 +58,17 @@ export default {
 <style lang="scss" scoped>
 .item {
   align-items: center;
-  border-radius: 3px;
-  box-shadow: $shadow;
   display: flex;
   flex: 1;
-  margin-bottom: 0.2em;
-  padding: 0.375rem 0.5rem;
+  padding: $spacing;
+  will-change: transform;
 
-  .icon {
-    flex-shrink: 0;
+  .item-body {
+    margin-left: $spacing-large;
   }
 
-  p {
-    font-size: 0.875em;
-    margin: 0 0 0 1em;
+  :deep(.item-image) {
+    margin-right: $spacing-smallest;
   }
 }
 </style>

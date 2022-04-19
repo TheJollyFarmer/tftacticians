@@ -6,5 +6,5 @@ export default {
   SET_DATA: types.SET_DATA,
   SET_RANKED: "setRanked",
   SET_MATCHES: "setMatches",
-  TOGGLE_LOADING: types.TOGGLE_LOADING
+  TOGGLE_LOADING: "toggleLoading"
 };

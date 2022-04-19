@@ -1,35 +1,28 @@
 <template>
-  <ChampionSection title="traits">
-    <Trait
-      v-for="trait in champion.traits"
-      :key="trait"
-      :name="trait"/>
-  </ChampionSection>
+  <VSection title="traits">
+    <TraitList
+      :key="$route.path"
+      :traits="traits"/>
+  </VSection>
 </template>
 
 <script>
-import ChampionSection from "@/components/champion/sections/ChampionSection";
-import Trait from "@/components/traits/Trait";
+import TraitList from "@/components/traits/TraitList";
+import VSection from "@/components/utility/VSection";
 
 export default {
   name: "ChampionTraitsSection",
 
   components: {
-    ChampionSection,
-    Trait
+    TraitList,
+    VSection
   },
 
   props: {
-    champion: {
-      type: Object,
+    traits: {
+      type: Array,
       required: true
     }
   }
 };
 </script>
-
-<style scoped>
-.media + .media {
-  border: none;
-}
-</style>

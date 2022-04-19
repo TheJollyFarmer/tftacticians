@@ -18,7 +18,7 @@ export default {
     striped: {
       type: Boolean,
       required: false,
-      default: true
+      default: false
     },
 
     narrow: {
@@ -30,7 +30,7 @@ export default {
     hoverable: {
       type: Boolean,
       required: false,
-      default: true
+      default: false
     },
 
     fullwidth: {
@@ -42,7 +42,7 @@ export default {
     centered: {
       type: Boolean,
       required: false,
-      default: true
+      default: false
     },
 
     aligned: {

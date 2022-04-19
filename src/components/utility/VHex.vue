@@ -13,6 +13,8 @@
 export default {
   name: "VHex",
 
+  emits: ["mouseenter", "mouseleave", "onClick"],
+
   methods: {
     mouseenter() {
       this.$emit("mouseenter");
@@ -31,19 +33,15 @@ export default {
 
 <style lang="scss" scoped>
 .hexagon {
-  background-color: pink;
+  background-color: var(--surface);
   background-position: center;
   background-size: auto 41.569px;
-  border-left: solid 2px $black;
-  border-right: solid 2px $black;
+  border-left: solid 2px var(--colour);
+  border-right: solid 2px var(--colour);
   height: 23.09px;
   margin: 7px 0.1em;
   position: relative;
   width: 2.5rem;
-
-  &:nth-child(14n + 8) {
-    margin-left: 6.7%;
-  }
 
   &:after {
     background: inherit;

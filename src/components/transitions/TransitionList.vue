@@ -1,85 +1,91 @@
 <script>
-export default {
-  name: "TransitionList",
+import { h, TransitionGroup } from "vue";
 
-  functional: true,
+const TransitionList = (props, context) => {
+  const data = {
+    name: "transition-list",
+    tag: props.tag,
+    class: ["transition-list", context.attrs.class],
+    directives: context.attrs.directives,
 
-  props: {
-    duration: {
-      type: Number,
-      required: false,
-      default: 0.5
+    onCLick: event => event.stopPropagation(),
+
+    onBeforeEnter: el => {
+      el.style.transitionDuration = `${props.duration}s`;
     },
 
-    hasData: {
-      type: Boolean,
-      required: false,
-      default: true
-    },
+    onBeforeLeave: el => {
+      if (props.hasData) {
+        el.style.position = "absolute";
+      }
 
-    tag: {
-      type: String,
-      required: false,
-      default: "div"
+      el.style.transitionDuration = `${props.duration}s`;
     }
+  };
+
+  return h(TransitionGroup, data, context.slots);
+};
+
+TransitionList.props = {
+  duration: {
+    type: Number,
+    required: false,
+    default: 0.5
   },
 
-  render(createElement, context) {
-    const data = {
-      props: {
-        name: "list-transition",
-        tag: context.props.tag
-      },
+  hasData: {
+    type: Boolean,
+    required: false,
+    default: true
+  },
 
-      class: "is-relative",
-
-      on: {
-        beforeEnter(el) {
-          el.style.transitionDuration = `${context.props.duration}s`;
-        },
-
-        beforeLeave(el) {
-          if (context.props.hasData) {
-            el.style.position = "absolute";
-          }
-
-          el.style.transitionDuration = `${context.props.duration}s`;
-        }
-      }
-    };
-
-    return createElement("transition-group", data, context.children);
+  tag: {
+    type: String,
+    required: false,
+    default: "div"
   }
 };
+
+export default TransitionList;
 </script>
 
-<style>
-.list-transition-enter-active,
-.list-transition-leave-active,
-.list-transition-move {
-  transition: 500ms cubic-bezier(0.59, 0.12, 0.34, 0.95);
-  transition-property: background-color, opacity, transform;
+<style lang="scss">
+.transition-list,
+.transition-list * {
+  backface-visibility: hidden;
 }
 
-.list-transition-enter {
-  opacity: 0;
-  transform: translateX(50px) scaleY(0.5);
-}
+.transition-list {
+  position: relative;
+  overflow: hidden;
 
-.list-transition-enter-to {
-  opacity: 1;
-  transform: translateX(0) scaleY(1);
-}
+  &-enter-active,
+  &-leave-active,
+  &-move {
+    transition: 500ms cubic-bezier(0.59, 0.12, 0.34, 0.95);
+    transition-property: background-color, opacity, transform;
+  }
 
-.list-transition-leave-active {
-  min-height: 1em;
-  margin-bottom: 1em;
-  width: 100%;
-}
+  &-enter-from {
+    opacity: 0;
+    transform: translateX(50px) scaleY(0.5);
+  }
 
-.list-transition-leave-to {
-  opacity: 0;
-  transform: scaleY(0);
-  transform-origin: center top;
+  &-enter-to {
+    opacity: 1;
+    transform: translateX(0) scaleY(1);
+  }
+
+  &-leave-active {
+    min-height: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+
+  &-leave-to {
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: center top;
+  }
 }
 </style>

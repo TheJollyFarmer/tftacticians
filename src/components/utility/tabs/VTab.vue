@@ -1,9 +1,9 @@
 <template>
-  <transition-tab-slide :type="transitionType">
+  <TransitionTabSlide :type="transitionType">
     <div v-show="isActive">
       <slot/>
     </div>
-  </transition-tab-slide>
+  </TransitionTabSlide>
 </template>
 
 <script>

@@ -1,64 +1,35 @@
 <template>
-  <v-overlay type="modal">
-    <transition 
-      name="modal-fade"
-      @after-leave="closeOverlay">
+  <VOverlay>
+    <Transition name="modal-fade">
       <div
         v-show="displayModal"
         class="modal-content"
         role="dialog">
-        <transition 
-          name="content-fade"
-          mode="out-in">
-          <div 
-            :key="modal" 
-            class="box">
-            <v-avatar
-              v-if="modalImage"
-              :path="`http://www.forum.test/images/avatars/${modalImage}.png`"
-              class="modal-img"
-              dimension="96"
-              circle/>
-            <div :class="{ 'modal-margin': modalImage }">
-              <slot/>
-            </div>
-          </div>
-        </transition>
+        <slot/>
       </div>
-    </transition>
-  </v-overlay>
+    </Transition>
+  </VOverlay>
 </template>
 
 <script>
-import VAvatar from "./VAvatar";
 import VOverlay from "./VOverlay";
 import { mapActions, mapState } from "vuex";
 
 export default {
   name: "VModal",
 
-  components: { VAvatar, VOverlay },
+  components: { VOverlay },
 
-  computed: mapState(["displayModal", "modalImage", "modal"]),
+  computed: mapState(["displayModal"]),
 
-  methods: mapActions(["closeOverlay"])
+  methods: mapActions(["toggleModal"])
 };
 </script>
 
 <style scoped>
 .modal-content {
   overflow: initial;
-  width: auto;
-}
-
-.modal-img {
-  border-radius: 50%;
-  position: relative;
-  top: -70px;
-}
-
-.modal-margin {
-  margin-top: -50px;
+  max-width: 500px;
 }
 
 .modal-fade-enter,
@@ -66,18 +37,17 @@ export default {
   opacity: 0;
 }
 
+.modal-fade-enter {
+  transform: scale(0.4);
+}
+
 .modal-fade-enter-active,
 .modal-fade-leave-active {
-  transition: opacity 0.3s ease;
+  transition-property: opacity, transform;
+  transition: 0.3s ease;
 }
 
-.content-fade-enter,
-.content-fade-leave-to {
-  opacity: 0;
-}
-
-.content-fade-enter-active,
-.content-fade-leave-active {
-  transition: opacity 0.3s ease;
+.modal-fade-enter-to {
+  transform: scale(1);
 }
 </style>

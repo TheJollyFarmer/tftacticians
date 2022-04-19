@@ -1,17 +1,27 @@
 <template>
   <CompositionSection title="carousel">
-    <ItemImageList :items="items"/>
+    <div class="carousel-items">
+      <template
+        v-for="(item, index) in items"
+        :key="index">
+        <ItemLink
+          :id="item.component"
+          :carousel="item.item"/>
+        <VArrow v-if="index !== 2"/>
+      </template>
+    </div>
   </CompositionSection>
 </template>
 
 <script>
 import CompositionSection from "@/components/compositions/sections/CompositionSection";
-import ItemImageList from "@/components/items/ItemImageList";
+import ItemLink from "@/components/items/ItemLink";
+import VArrow from "@/components/utility/VArrow";
 
 export default {
   name: "CompositionSectionCarousel",
 
-  components: { CompositionSection, ItemImageList },
+  components: { CompositionSection, ItemLink, VArrow },
 
   props: {
     items: {
@@ -21,3 +31,11 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.carousel-items {
+  align-items: center;
+  display: flex;
+  margin-bottom: 0.25em;
+}
+</style>

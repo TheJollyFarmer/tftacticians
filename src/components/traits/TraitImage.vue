@@ -1,19 +1,21 @@
 <template>
-  <div>
+  <div class="trait-image">
     <VImage
-      :image="trait"
-      :has-border="false"
+      :image="image"
+      :label="trait"
       :dimension="dimension"
-      :dir="'traits/' + set"/>
-    <span
-      v-show="caption"
-      v-text="trait"/>
+      :caption="caption"
+      :hoverable="hoverable"
+      :has-border="false"
+      :is-round="false"
+      dir="traits"
+      type="svg"/>
   </div>
 </template>
 
 <script>
 import VImage from "@/components/utility/VImage";
-import { mapGetters } from "vuex";
+import { sanitise } from "@/utils/filters";
 
 export default {
   name: "TraitImage",
@@ -26,19 +28,36 @@ export default {
       required: true
     },
 
+    dimension: {
+      type: String,
+      required: false,
+      default: "18"
+    },
+
     caption: {
       type: Boolean,
       required: false,
       default: false
     },
 
-    dimension: {
-      type: String,
+    hoverable: {
+      type: Boolean,
       required: false,
-      default: "24"
+      default: false
     }
   },
 
-  computed: mapGetters({ set: "getActiveSet" })
+  computed: {
+    image() {
+      return sanitise(this.trait);
+    }
+  }
 };
 </script>
+
+<style  lang="scss" scoped>
+.trait-image {
+  align-items: center;
+  display: flex;
+}
+</style>

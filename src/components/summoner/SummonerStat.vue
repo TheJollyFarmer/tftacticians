@@ -6,8 +6,8 @@
     </div>
     <progress
       class="progress is-small is-primary"
-      :value="value"
-      :max="max"/>
+      :value="rateValue"
+      :max="maxValue"/>
   </div>
 </template>
 
@@ -32,12 +32,16 @@ export default {
       return this.label === "average";
     },
 
-    max() {
+    maxValue() {
       return this.isAverage ? 8 : 100;
     },
 
     rateText() {
       return this.value + (this.isAverage ? "" : "%");
+    },
+
+    rateValue() {
+      return this.isAverage ? 8 - this.value : this.value;
     }
   }
 };
@@ -71,6 +75,10 @@ export default {
   .progress {
     box-shadow: $shadow;
     height: 0.2em;
+
+    &::-webkit-progress-value {
+      background-color: var(--primary);
+    }
   }
 }
 </style>

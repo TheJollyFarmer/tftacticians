@@ -1,0 +1,677 @@
+[
+  {
+    "tier": "1",
+    "name": "Calculated Loss",
+    "description": "After losing your combat, gain 2 gold and a free Shop refresh."
+  },
+  {
+    "tier": "1",
+    "name": "Ancient Archives",
+    "description": "Gain 1 Tome of Traits."
+  },
+  {
+    "tier": "1",
+    "name": "Dominance",
+    "description": "After winning your player combat, gain 1 bonus gold for every 2 surviving units."
+  },
+  {
+    "tier": "1",
+    "name": "Item Grab Bag I",
+    "description": "Gain 1 random completed item(s)."
+  },
+  {
+    "tier": "1",
+    "name": "Phony Frontline",
+    "description": "Gain 2 Target Dummies."
+  },
+  {
+    "tier": "1",
+    "name": "Hyper Roll",
+    "description": "If you have less than 10 gold at the end of a round, gain 2 gold."
+  },
+  {
+    "tier": "1",
+    "name": "Pandora's Items",
+    "description": "Gain a random component. At the start of each round, items on your bench are randomized (excluding Tactician's Crown, Spatula, and consumables)."
+  },
+  {
+    "tier": "1",
+    "name": "Ascension",
+    "description": "After 15 seconds of combat, your units deal 50% more damage."
+  },
+  {
+    "tier": "1",
+    "name": "Built Different I",
+    "description": "Your units with no Traits active gain 300 Health and 50% Attack Speed."
+  },
+  {
+    "tier": "1",
+    "name": "Celestial Blessing I",
+    "description": "Your units heal for 12% of the damage dealt by attacks and Abilities. Excess healing is converted to a shield up to 300 Health."
+  },
+  {
+    "tier": "1",
+    "name": "Knife's Edge I",
+    "description": "Your units that start combat in the front 2 rows gain 25 Attack Damage."
+  },
+  {
+    "tier": "1",
+    "name": "Cybernetic Implants I",
+    "description": "Your champions holding an item gain 150 Health and 10 Attack Damage."
+  },
+  {
+    "tier": "1",
+    "name": "Exiles I",
+    "description": "Your units that start combat with no adajacent allies gain a 30% maximum Health shield for 8 seconds."
+  },
+  {
+    "tier": "1",
+    "name": "Featherweights I",
+    "description": "Your 1 and 2 cost champions gain 25% Attack Speed and movement speed."
+  },
+  {
+    "tier": "1",
+    "name": "First Aid Kit",
+    "description": "All healing and shielding on your units is increased by 35%."
+  },
+  {
+    "tier": "1",
+    "name": "Makeshift Armor I",
+    "description": "Your units with no items gain 35 Armor and Magic Resist."
+  },
+  {
+    "tier": "1",
+    "name": "Stand United I",
+    "description": "Your units gain 2 Attack Damage and Ability Power per Trait active across your army."
+  },
+  {
+    "tier": "1",
+    "name": "Thrill of the Hunt I",
+    "description": "Your units heal 400 Health on kill."
+  },
+  {
+    "tier": "1",
+    "name": "Underdogs",
+    "description": "Whenever your team has fewer units alive than your opponent, your units regenerate 9% of their missing Health each second (maximum: 150)."
+  },
+  {
+    "tier": "1",
+    "name": "Weakspot",
+    "description": "Your units' attacks ignore 20% of the target's Armor and reduce healing received by 50% for 5 seconds."
+  },
+  {
+    "tier": "1",
+    "name": "Arcanist Heart",
+    "description": "Your team counts as having 1 additional Arcanist. Gain a Swain."
+  },
+  {
+    "tier": "1",
+    "name": "Runic Shield I",
+    "description": "Arcanists start combat with a shield equal to 300% of their Ability Power for 8 seconds."
+  },
+  {
+    "tier": "1",
+    "name": "Assassin Heart",
+    "description": "Your team counts as having 1 additional Assassin. Gain a Talon."
+  },
+  {
+    "tier": "1",
+    "name": "Cutthroat",
+    "description": "Assassins Mana Reave the first unit they attack, increasing their maximum Mana by 65% until they cast."
+  },
+  {
+    "tier": "1",
+    "name": "Bodyguard Heart",
+    "description": "Your team counts as having 1 additional Bodyguard. Gain a Blitzcrank."
+  },
+  {
+    "tier": "1",
+    "name": "Stand Behind Me",
+    "description": "Increases the Bodyguard Armor bonus by 25%. At the start of combat, Bodyguards grant 100% of their Armor bonus to non-Bodyguard allies directly behind them (does not stack)."
+  },
+  {
+    "tier": "1",
+    "name": "Bruiser Heart",
+    "description": "Your team counts as having 1 additional Bruiser. Gain a Trundle."
+  },
+  {
+    "tier": "1",
+    "name": "Shrug It Off",
+    "description": "Bruisers regenerate 2.5% of their maximum Health each second."
+  },
+  {
+    "tier": "1",
+    "name": "Challenger Heart",
+    "description": "Your team counts as having 1 additional Challenger. Gain a Quinn."
+  },
+  {
+    "tier": "1",
+    "name": "En Garde",
+    "description": "The first time an enemy is attacked by a Challenger, they are Disarmed for 3 seconds."
+  },
+  {
+    "tier": "1",
+    "name": "Chemical Overload I",
+    "description": "Chemtechs explode on death, dealing 20% of their max Health as magic damage to enemies within 2 hexes."
+  },
+  {
+    "tier": "1",
+    "name": "Chemtech Heart",
+    "description": "Your team counts as having 1 additional Chemtech. Gain a Zac."
+  },
+  {
+    "tier": "1",
+    "name": "Clockwork Heart",
+    "description": "Your team counts as having 1 additional Clockwork. Gain a Zilean."
+  },
+  {
+    "tier": "1",
+    "name": "Enchanter Heart",
+    "description": "Your team counts as having 1 additional Enchanter. Gain a Taric."
+  },
+  {
+    "tier": "1",
+    "name": "Ardent Censer",
+    "description": "Allies healed or shielded by Enchanters gain 50% stacking Attack Speed for the rest of combat (maximum once every 4 seconds)."
+  },
+  {
+    "tier": "1",
+    "name": "Enforcer Heart",
+    "description": "Your team counts as having 1 additional Enforcer. Gain a Vi."
+  },
+  {
+    "tier": "1",
+    "name": "Innovator Heart",
+    "description": "Your team counts as having 1 additional Innovator."
+  },
+  {
+    "tier": "1",
+    "name": "Self Repair",
+    "description": "When the Innovation dies, it will become untargetable and repair itself if an Innovator is still alive."
+  },
+  {
+    "tier": "1",
+    "name": "Mercenary Heart",
+    "description": "Your team counts as having 1 additional Mercenary."
+  },
+  {
+    "tier": "1",
+    "name": "Pirates",
+    "description": "Mercenary units have a 50% chance to drop 1 gold when they kill an enemy."
+  },
+  {
+    "tier": "1",
+    "name": "Mutant Heart",
+    "description": "Your team counts as having 1 additional Mutant. Gain a Kog'Maw."
+  },
+  {
+    "tier": "1",
+    "name": "Unstable Evolution",
+    "description": "Mutants randomly gain one of the following when they reach 2 star: 500 Health, 30% Attack Speed, 30 Attack Damage, or 30 Ability Power. These bonuses stack."
+  },
+  {
+    "tier": "1",
+    "name": "Scholar Heart",
+    "description": "Your team counts as having 1 additional Scholar. Gain a Zyra."
+  },
+  {
+    "tier": "1",
+    "name": "Lifelong Learning",
+    "description": "Scholars permanently gain 2 Ability Power after each combat, and an additional 2 if they survived."
+  },
+  {
+    "tier": "1",
+    "name": "Scrap Heart",
+    "description": "Your team counts as having 1 additional Scrap. Gain a Blitzcrank."
+  },
+  {
+    "tier": "1",
+    "name": "Sniper's Nest",
+    "description": "Snipers gain +10% damage for each round fought from the same starting hex. (Maximum +40%)"
+  },
+  {
+    "tier": "1",
+    "name": "Sniper Heart",
+    "description": "Your team counts as having 1 additional Sniper. Gain a Tristana."
+  },
+  {
+    "tier": "1",
+    "name": "Duet",
+    "description": "Summon 1 additional Socialite spotlight. Spotlighted units gain 400 Health."
+  },
+  {
+    "tier": "1",
+    "name": "Socialite Heart",
+    "description": "Your team counts as having 1 additional Socialite."
+  },
+  {
+    "tier": "1",
+    "name": "Syndicate Heart",
+    "description": "Your team counts as having 1 additional Syndicate. Gain a Zyra."
+  },
+  {
+    "tier": "1",
+    "name": "One For All",
+    "description": "When your Syndicates die, they grant your other Syndicates 20 Attack Damage and Ability Power."
+  },
+  {
+    "tier": "1",
+    "name": "Payday",
+    "description": "After winning your combat, gain 1 bonus gold for each surviving Syndicate."
+  },
+  {
+    "tier": "1",
+    "name": "Twinshot Heart",
+    "description": "Your team counts as having 1 additional Twinshot. Gain a Kog'Maw."
+  },
+  {
+    "tier": "1",
+    "name": "So Small",
+    "description": "Yordles gain 35% Dodge Chance."
+  },
+  {
+    "tier": "2",
+    "name": "Rich Get Richer",
+    "description": "Gain 10 gold. Your maximum interest is increased to 7."
+  },
+  {
+    "tier": "2",
+    "name": "Binary Airdrop",
+    "description": "Your champions equipped with 2 items temporarily gain a random completed item at the start of combat."
+  },
+  {
+    "tier": "2",
+    "name": "Clear Mind",
+    "description": "If you have no champions on your bench at the end of a round, gain 3 experience points."
+  },
+  {
+    "tier": "2",
+    "name": "Trade Sector",
+    "description": "Gain a free Shop refresh each round."
+  },
+  {
+    "tier": "2",
+    "name": "Sunfire Board",
+    "description": "At the start of combat, burn all enemies for 20% of their maximum Health over 10 seconds and reduce healing received by 50%."
+  },
+  {
+    "tier": "2",
+    "name": "Metabolic Accelerator",
+    "description": "Your Tactician moves faster and heals 2 Health at the end of each PVP round."
+  },
+  {
+    "tier": "2",
+    "name": "Salvage Bin",
+    "description": "Gain a random completed item. Selling champions breaks apart their full items into components (excluding Tactician's Crown)."
+  },
+  {
+    "tier": "2",
+    "name": "Portable Forge",
+    "description": "Open an Armory and choose 1 of 3 unique Artifacts crafted by Ornn."
+  },
+  {
+    "tier": "2",
+    "name": "Knife's Edge II",
+    "description": "Your units that start combat in the front 2 rows gain 35 Attack Damage."
+  },
+  {
+    "tier": "2",
+    "name": "Cybernetic Implants II",
+    "description": "Your champions holding an item gain 250 Health and 20 Attack Damage."
+  },
+  {
+    "tier": "2",
+    "name": "Exiles II",
+    "description": "Your units that start combat with no adajacent allies gain a 45% maximum Health shield for 8 seconds."
+  },
+  {
+    "tier": "2",
+    "name": "Featherweights II",
+    "description": "Your 1 and 2 cost champions gain 35% Attack Speed and movement speed."
+  },
+  {
+    "tier": "2",
+    "name": "Built Different II",
+    "description": "Your units with no Traits active gain 400 Health and 60% Attack Speed."
+  },
+  {
+    "tier": "2",
+    "name": "Stand United II",
+    "description": "Your units gain 3 Attack Damage and Ability Power per Trait active across your army."
+  },
+  {
+    "tier": "2",
+    "name": "Titanic Force",
+    "description": "Your units with more than 1400 maximum Health gain Attack Damage equal to 3% of their maximum Health."
+  },
+  {
+    "tier": "2",
+    "name": "Makeshift Armor II",
+    "description": "Your units with no items gain 55 Armor and Magic Resist."
+  },
+  {
+    "tier": "2",
+    "name": "Celestial Blessing II",
+    "description": "Your units heal for 20% of the damage dealt by attacks and Abilities. Excess healing is converted to a shield up to 450 Health."
+  },
+  {
+    "tier": "2",
+    "name": "Thrill of the Hunt II",
+    "description": "Your units heal 700 Health on kill."
+  },
+  {
+    "tier": "2",
+    "name": "Arcane Crest",
+    "description": "Gain an Arcanist Emblem and a Swain."
+  },
+  {
+    "tier": "2",
+    "name": "Runic Shield II",
+    "description": "Arcanists start combat with a shield equal to 450% of their Ability Power for 8 seconds."
+  },
+  {
+    "tier": "2",
+    "name": "Spell Blade",
+    "description": "After casting their Ability, Arcanists' next attack deals bonus magic damage equal to 225% of their Ability Power. Spell Blade's damage is considered Ability damage."
+  },
+  {
+    "tier": "2",
+    "name": "Assassin Crest",
+    "description": "Gain an Assassin Emblem and a Talon."
+  },
+  {
+    "tier": "2",
+    "name": "Smoke Bomb",
+    "description": "The first time Assassins drops to 60% health, they briefly enter stealth, becoming untargetable and shedding all negative effects. Any excess damage is reduced by 80%."
+  },
+  {
+    "tier": "2",
+    "name": "Bodyguard Crest",
+    "description": "Gain a Bodyguard Emblem and a Darius."
+  },
+  {
+    "tier": "2",
+    "name": "Bruiser Crest",
+    "description": "Gain a Bruiser Emblem and a Trundle."
+  },
+  {
+    "tier": "2",
+    "name": "Challenger Crest",
+    "description": "Gain a Challenger Emblem and a Quinn."
+  },
+  {
+    "tier": "2",
+    "name": "Chemtech Crest",
+    "description": "Gain a Chemtech Emblem and a Warwick."
+  },
+  {
+    "tier": "2",
+    "name": "Chemical Overload II",
+    "description": "Chemtechs explode on death, dealing 30% of their max Health as magic damage to enemies within 2 hexes."
+  },
+  {
+    "tier": "2",
+    "name": "Instant Injection",
+    "description": "Chemtechs now additionally trigger their bonuses at the start of combat."
+  },
+  {
+    "tier": "2",
+    "name": "Clockwork Crest",
+    "description": "Gain a Clockwork Emblem and a Zilean."
+  },
+  {
+    "tier": "2",
+    "name": "Broken Stopwatch",
+    "description": "5 seconds into combat, all enemies and non-Clockwork units are frozen in time for 4 seconds."
+  },
+  {
+    "tier": "2",
+    "name": "Armor Plating",
+    "description": "Colossus become invulnerable for 2 seconds when their Health drops to 60% and 30%."
+  },
+  {
+    "tier": "2",
+    "name": "Mercenary Crest",
+    "description": "Gain a Mercenary Emblem and 3 gold."
+  },
+  {
+    "tier": "2",
+    "name": "Gold Reserves",
+    "description": "Mercenaries deal 1% more damage per 1 gold you have. (Maximum +60%)"
+  },
+  {
+    "tier": "2",
+    "name": "Mutant Crest",
+    "description": "Gain a Mutant Emblem and a Kassadin."
+  },
+  {
+    "tier": "2",
+    "name": "Scholar Crest",
+    "description": "Gain a Scholar Emblem and a Heimerdinger."
+  },
+  {
+    "tier": "2",
+    "name": "Scrap Crest",
+    "description": "Gain a Scrap Emblem and a Blitzcrank."
+  },
+  {
+    "tier": "2",
+    "name": "Junkyard",
+    "description": "Gain a random component every 3 combat rounds with the Scrap Trait active."
+  },
+  {
+    "tier": "2",
+    "name": "Sniper Crest",
+    "description": "Gain a Sniper Emblem and a Tristana."
+  },
+  {
+    "tier": "2",
+    "name": "Syndicate Crest",
+    "description": "Gain a Syndicate Emblem and a Zyra."
+  },
+  {
+    "tier": "2",
+    "name": "Sharpshooter",
+    "description": "Twinshot's ranged attacks and Abilities can bounce once, dealing 45% less damage."
+  },
+  {
+    "tier": "2",
+    "name": "Share the Spotlight",
+    "description": "Allies adjacent to a spotlight at the start of combat gain 100% of its bonuses."
+  },
+  {
+    "tier": "3",
+    "name": "Windfall",
+    "description": "Gain gold based on the number of augments you have now. 0 = 18g, 1 = 30g, 2 = 45g"
+  },
+  {
+    "tier": "3",
+    "name": "Wise Spending",
+    "description": "Gain 4 gold.Gain 2 experience points when you refresh your Shop."
+  },
+  {
+    "tier": "3",
+    "name": "High Roller",
+    "description": "Gain 3 Loaded Dice and 8 gold."
+  },
+  {
+    "tier": "3",
+    "name": "Item Grab Bag II",
+    "description": "Gain 2 random completed item(s) and a Reforger."
+  },
+  {
+    "tier": "3",
+    "name": "Band of Thieves",
+    "description": "Gain 2 Thief's Gloves."
+  },
+  {
+    "tier": "3",
+    "name": "New Recruit",
+    "description": "Gain +1 maximum team size."
+  },
+  {
+    "tier": "3",
+    "name": "Golden Ticket",
+    "description": "Each time your Shop is refreshed, you have a 40% chance to gain a free refresh."
+  },
+  {
+    "tier": "3",
+    "name": "Level Up",
+    "description": "When you buy experience points, gain an additional 3. You can now reach level 10."
+  },
+  {
+    "tier": "3",
+    "name": "High End Shopping",
+    "description": "Champions appear in your Shop as if you were 1 level higher."
+  },
+  {
+    "tier": "3",
+    "name": "Woodland Charm",
+    "description": "At the start of combat, your highest Health Champion creates a 1600 Health copy of themself (excluding items)."
+  },
+  {
+    "tier": "3",
+    "name": "March of Progress",
+    "description": "Gain 5 bonus experience points per round. You can no longer use gold to level up."
+  },
+  {
+    "tier": "3",
+    "name": "Exiles III",
+    "description": "Your units that start combat with no adajacent allies gain a 70% maximum Health shield for 8 seconds."
+  },
+  {
+    "tier": "3",
+    "name": "Featherweights III",
+    "description": "Your 1 and 2 cost units gain 55% Attack Speed and movement speed."
+  },
+  {
+    "tier": "3",
+    "name": "Knife's Edge III",
+    "description": "Your units that start combat in the first 2 rows gain 50 Attack Damage."
+  },
+  {
+    "tier": "3",
+    "name": "Cybernetic Implants III",
+    "description": "Your champions holding an item gain 350 Health and 30 Attack Damage."
+  },
+  {
+    "tier": "3",
+    "name": "Built Different III",
+    "description": "Your units with no Traits active gain 500 Health and 70% Attack Speed."
+  },
+  {
+    "tier": "3",
+    "name": "Stand United III",
+    "description": "Your units gain 5 Attack Damage and Ability Power per Trait active across your army."
+  },
+  {
+    "tier": "3",
+    "name": "Makeshift Armor III",
+    "description": "Your units with no items gain 75 Armor and Magic Resist."
+  },
+  {
+    "tier": "3",
+    "name": "Celestial Blessing III",
+    "description": "Your units heal for 25% of the damage dealt by attacks and Abilities. Excess healing is converted to a shield up to 600 Health."
+  },
+  {
+    "tier": "3",
+    "name": "Runic Shield III",
+    "description": "Arcanists start combat with a shield equal to 600% of their Ability Power for 8 seconds."
+  },
+  {
+    "tier": "3",
+    "name": "Arcanist Crown",
+    "description": "Gain 2 Arcanist Emblems."
+  },
+  {
+    "tier": "3",
+    "name": "Assassin Crown",
+    "description": "Gain 2 Assassin Emblems."
+  },
+  {
+    "tier": "3",
+    "name": "Bodyguard Crown",
+    "description": "Gain 2 Bodyguard Emblems."
+  },
+  {
+    "tier": "3",
+    "name": "Bruiser Crown",
+    "description": "Gain 2 Bruiser Emblems."
+  },
+  {
+    "tier": "3",
+    "name": "Challenger Crown",
+    "description": "Gain 2 Challenger Emblems."
+  },
+  {
+    "tier": "3",
+    "name": "Chemical Overload III",
+    "description": "Chemtechs explode on death, dealing 40% of their max Health as magic damage to enemies within 2 hexes."
+  },
+  {
+    "tier": "3",
+    "name": "Chemtech Crown",
+    "description": "Gain 2 Chemtech Emblems."
+  },
+  {
+    "tier": "3",
+    "name": "Clockwork Soul",
+    "description": "Your team counts as having 2 additional Clockworks. Gain 8 gold."
+  },
+  {
+    "tier": "3",
+    "name": "Enchanter Soul",
+    "description": "Your team counts as having 2 additional Enchanters. Gain 8 gold."
+  },
+  {
+    "tier": "3",
+    "name": "Enforcer Soul",
+    "description": "Your team counts as having 2 additional Enforcers. Gain 8 gold."
+  },
+  {
+    "tier": "3",
+    "name": "Innovator Soul",
+    "description": "Your team counts as having 2 additional Innovators."
+  },
+  {
+    "tier": "3",
+    "name": "Mercenary Soul",
+    "description": "Your team counts as having 2 additional Mercenaries."
+  },
+  {
+    "tier": "3",
+    "name": "Mutant Crown",
+    "description": "Gain 2 Mutant Emblems."
+  },
+  {
+    "tier": "3",
+    "name": "Scholar Soul",
+    "description": "Your team counts as having 2 additional Scholars. Gain 8 gold."
+  },
+  {
+    "tier": "3",
+    "name": "Scrap Soul",
+    "description": "Your team counts as having 2 additional Scraps. Gain 8 gold."
+  },
+  {
+    "tier": "3",
+    "name": "Sniper Crown",
+    "description": "Gain 2 Sniper Emblems."
+  },
+  {
+    "tier": "3",
+    "name": "Socialite Soul",
+    "description": "Your team counts as having 2 additional Socialites."
+  },
+  {
+    "tier": "3",
+    "name": "Syndicate Crown",
+    "description": "Gain 2 Syndicate Emblems."
+  },
+  {
+    "tier": "3",
+    "name": "Twinshot Soul",
+    "description": "Your team counts as having 2 additional Twinshots. Gain 8 gold."
+  }
+]

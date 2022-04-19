@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="33">
+    <g stroke-width="3.5" fill="none" stroke="#eeeeeed9">
+        <rect
+            x="6.50005"
+            y="6.49999"
+            width="20"
+            height="20"
+            transform="rotate(45 16.5 16.4999)"/>
+        <rect
+            x="18.50005"
+            y="6.49999"
+            width="20"
+            height="20"
+            transform="rotate(45 28.5 16.4999)"/>
+    </g>
+</svg>

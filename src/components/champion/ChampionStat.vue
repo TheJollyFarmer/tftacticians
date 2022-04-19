@@ -1,21 +1,28 @@
 <template>
   <li class="champion-stat">
-    <ChampionStatImage :stat="stat"/>
+    <StatImage :stat="stat"/>
     <VDash/>
-    <ChampionStatValues :stat="stat"/>
+    <TransitionFade>
+      <ChampionStatValues
+        :key="$route.path"
+        :stat="stat"/>
+    </TransitionFade>
   </li>
 </template>
+
 <script>
-import ChampionStatImage from "@/components/champion/ChampionStatImage";
+import StatImage from "@/components/StatImage";
 import ChampionStatValues from "@/components/champion/ChampionStatValues";
+import TransitionFade from "@/components/transitions/TransitionFade";
 import VDash from "@/components/utility/VDash";
 
 export default {
   name: "ChampionStat",
 
   components: {
-    ChampionStatImage,
+    StatImage,
     ChampionStatValues,
+    TransitionFade,
     VDash
   },
 
@@ -33,7 +40,10 @@ export default {
   align-items: center;
   display: flex;
   font-weight: bold;
-  padding-bottom: 0.75em;
+
+  & + .champion-stat {
+    padding-top: 0.75em;
+  }
 
   .image {
     cursor: pointer;

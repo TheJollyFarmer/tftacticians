@@ -1,0 +1,40 @@
+.pagination {
+  margin: 0 auto;
+  width: 55%;
+
+  &:not(:last-child) {
+    margin-bottom: $spacing-large;
+  }
+
+  &-previous,
+  &-next,
+  &-link {
+    background-color: var(--layer);
+    border: none;
+    box-shadow: var(--shadow);
+    color: var(--colour);
+    font-weight: $weight-bold;
+    transition: $hover-in;
+
+    &:hover {
+      transition: $hover-out;
+    }
+
+    &[disabled] {
+      opacity: 0.8;
+    }
+
+    &.is-current {
+      background-color: var(--primary);
+      border-color: var(--colour);
+    }
+  }
+
+  &-ellipsis {
+    color: var(--colour);
+  }
+
+  &.is-bottom {
+    margin-top: -$spacing-large;
+  }
+}

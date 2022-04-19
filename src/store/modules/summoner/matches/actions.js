@@ -1,61 +1,75 @@
 import api from "@/api/matches";
+import apiSummoner from "@/api/summoner";
 import types from "./types";
-import filters from "@/utils/filters";
 import dataStructures from "@/utils/dataStructures";
 
 export default {
-  getKeys({ commit, dispatch, state }, { region, summoner }) {
+  getKeys({ commit, dispatch, state }, { region, puuid }) {
+    if (state.keys.length) commit(types.RESET_STATE);
+
     return api
-      .getMatchKeys(region, summoner, state.count)
+      .getKeys(region, puuid, state.count)
       .then(matches => commit(types.SET_KEYS, matches))
-      .then(() => dispatch("getData"));
+      .then(() => dispatch("getData", region));
   },
 
-  getData({ dispatch, state }) {
-    return state.keys.reduce((promiseChain, key) => {
-      return promiseChain.then(
-        () =>
-          new Promise(resolve => {
-            api
-              .getMatch(key)
-              .then(match => dispatch("addMatch", { match, key, cb: resolve }));
-          })
-      );
-    }, Promise.resolve());
-  },
-
-  addMatch({ commit, dispatch }, { match, key, cb }) {
-    commit(types.ADD_DATUM, { [key]: dataStructures.matches(match) });
-    dispatch("addPlacements", match);
-    cb();
-  },
-
-  addPlacements({ commit, dispatch, rootState }, match) {
-    match.info.participants.forEach(participant => {
-      if (participant.puuid === rootState.summoner.data.puuid) {
-        commit(types.ADD_PLACEMENT, participant.placement);
-
-        dispatch("addChampions", participant.units);
-        dispatch("addTraits", participant.traits);
-      }
-    });
-  },
-
-  addChampions({ commit, dispatch }, champions) {
-    champions.forEach(champion => {
-      commit(types.ADD_CHAMPION, champion.character_id);
-      dispatch("addItems", champion);
-    });
-  },
-
-  addItems: ({ commit, rootGetters }, champion) =>
-    champion.items.forEach(item =>
-      commit(types.ADD_ITEM, rootGetters["items/getItemName"](item))
+  getData: async ({ dispatch, state }, region) =>
+    await Promise.all(
+      state.keys.map(
+        async id =>
+          await api
+            .getMatch(region, id)
+            .then(match => dispatch("addMatch", dataStructures.matches(match)))
+      )
     ),
 
-  addTraits({ commit, dispatch }, traits) {
+  getSummonerNames: async ({ dispatch, rootGetters }, match) => {
+    await Promise.all(
+      match.summoners.map(
+        async summoner =>
+          await apiSummoner
+            .getName({
+              region: rootGetters["summoner/getRegion"],
+              puuid: summoner.puuid
+            })
+            .then(res => (summoner.name = res ? res.name : "????"))
+      )
+    );
+  },
+
+  addMatch({ commit, dispatch }, match) {
+    commit(types.ADD_DATUM, match);
+
+    return dispatch("addPlacements", match);
+  },
+
+  addPlacements: async ({ commit, dispatch, rootState }, match) => {
+    let summoner = match.summoners.find(
+      summoner => summoner.puuid === rootState.summoner.data.puuid
+    );
+
+    commit(types.ADD_PLACEMENT, summoner.placement);
+
+    await dispatch("addChampions", summoner.champions);
+    await dispatch("addTraits", summoner.traits);
+
+    return summoner;
+  },
+
+  addChampions: async ({ commit, dispatch }, champions) =>
+    await champions.map(async champion => {
+      let { id, starred } = champion;
+
+      commit(types.ADD_CHAMPION, { id, starred });
+
+      return await dispatch("addItems", champion.items);
+    }),
+
+  addItems: ({ commit }, items) =>
+    items.forEach(item => commit(types.ADD_ITEM, item)),
+
+  addTraits: ({ commit }, traits) =>
     traits.forEach(trait => {
-      commit(types.ADD_TRAIT, filters.cleanString(trait.name));
-    });
-  }
+      if (trait.style !== 0) commit(types.ADD_TRAIT, trait.id);
+    })
 };

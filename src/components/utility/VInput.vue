@@ -3,7 +3,7 @@
     <input
       ref="input"
       v-autofocus="autofocus"
-      :value="value"
+      :value="modelValue"
       :type="newType"
       :placeholder="placeholder"
       :class="['input', size, customClass, inputErrorClass]"
@@ -11,22 +11,17 @@
       required
       @blur="blurEvent"
       @input="inputEvent"
-      @focus="focusEvent"
-      @keydown="typingEvent"
-      @keyup.down="keyDownEvent"
-      @keyup.up="keyUpEvent"
-      @keyup.enter="enterEvent"
-      @tribute-replaced="mentionEvent">
-    <v-favicon
+      @keyup.enter="enterEvent">
+    <VFavicon
       v-if="iconLeft"
       :icon="iconLeft"
       class="is-small is-left"/>
-    <v-favicon
+    <VFavicon
       v-if="iconType"
       v-tooltip:right="errorBag"
       :icon="iconType"
-      :class="['is-small is-right', iconErrorClass]"
-      @onClick="togglePasswordVisibility"/>
+      :class="['is-small is-right', iconErrorClass]"/>
+    <slot/>
   </div>
 </template>
 
@@ -39,7 +34,7 @@ export default {
   components: { VFavicon },
 
   props: {
-    value: {
+    modelValue: {
       type: [String, Number],
       required: false,
       default: ""
@@ -48,7 +43,7 @@ export default {
     type: {
       type: String,
       required: false,
-      default: "text"
+      default: "search"
     },
 
     placeholder: {
@@ -72,13 +67,13 @@ export default {
     iconLeft: {
       type: String,
       required: false,
-      default: ""
+      default: "search"
     },
 
     iconRight: {
       type: String,
       required: false,
-      default: null
+      default: ""
     },
 
     customClass: {
@@ -90,7 +85,7 @@ export default {
     autofocus: {
       type: Boolean,
       required: false,
-      default: false
+      default: true
     },
 
     validation: {
@@ -106,10 +101,11 @@ export default {
     }
   },
 
+  emits: ["blur", "update:modelValue", "onEnter"],
+
   data() {
     return {
       newType: this.type,
-      isPasswordVisible: false,
       isValid: false,
       errorBag: ""
     };
@@ -132,14 +128,9 @@ export default {
 
     iconType() {
       if (this.iconRight) return this.iconRight;
-
-      if (this.type === "password") {
-        return this.isPasswordVisible ? "eye-slash" : "eye";
-      }
-
       if (this.isValid) return "check";
 
-      if (this.errorBag) return "exclamation-circle";
+      return this.errorBag ? "exclamation-circle" : "";
     }
   },
 
@@ -151,18 +142,6 @@ export default {
   },
 
   methods: {
-    togglePasswordVisibility() {
-      if (this.type === "password") {
-        this.isPasswordVisible = !this.isPasswordVisible;
-
-        this.newType = this.isPasswordVisible ? "text" : "password";
-
-        this.$nextTick(() => {
-          this.$refs.input.focus();
-        });
-      }
-    },
-
     validate(input) {
       input.checkValidity()
         ? this.setState("", true)
@@ -183,50 +162,64 @@ export default {
     },
 
     inputEvent({ target }) {
-      this.$emit("input", target.value);
+      this.$emit("update:modelValue", target.value);
     },
 
     enterEvent() {
       this.$emit("onEnter");
     },
 
-    focusEvent() {
-      this.$emit("focus");
-    },
-
-    typingEvent(e) {
-      this.$emit("typing", e);
-    },
-
-    mentionEvent(e) {
-      this.$emit("mention", e);
-    },
-
-    keyDownEvent() {
-      if (this.value) {
-        this.$emit("keyDown", "down");
-      }
-    },
-
-    keyUpEvent() {
-      if (this.value) {
-        this.$emit("keyUp", "up");
-      }
-    },
-
     iconClasses() {
       return {
-        "has-icons-left": !!this.iconLeft,
-        "has-icons-right": !!(this.iconRight || this.iconType)
+        "has-icons-left": this.iconLeft,
+        "has-icons-right": this.iconRight || this.iconType
       };
     }
   }
 };
 </script>
 
-<style scoped>
-.control.has-icons-right .icon {
-  pointer-events: initial;
-  cursor: pointer;
+<style lang="scss" scoped>
+.input {
+  background-color: var(--layer);
+  border: none;
+  box-shadow: $shadow;
+  color: var(--colour);
+  transition: $hover-in;
+  transition-property: background-color, color;
+
+  &::placeholder {
+    color: var(--colour);
+  }
+
+  &::-webkit-search-cancel-button {
+    content: url("~@/assets/images/general/cross.svg");
+    opacity: 0;
+    position: absolute;
+    right: 0.5em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1em;
+    -webkit-appearance: none;
+  }
+
+  &:focus,
+  &:active,
+  &:not(:placeholder-shown) {
+    border: none;
+    box-shadow: $shadow;
+    color: var(--colour);
+
+    &::-webkit-search-cancel-button {
+      opacity: 1;
+      pointer-events: all;
+      filter: var(--search);
+    }
+  }
+
+  & ~ .is-left,
+  &:focus ~ .is-left {
+    color: var(--colour) !important;
+  }
 }
 </style>

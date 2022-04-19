@@ -1,39 +1,47 @@
-.filter-label,
 .menu-item {
+  font-size: 1.25rem;
   letter-spacing: 0.1em;
-  margin: 0.4em 0;
+  margin-top: $spacing-small;
   position: relative;
   text-transform: uppercase;
 
-  &:not(.menu-item):after,
-  &:not(.filter-label) > a:after {
-    background: $primary;
-    content: "";
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    transition: 0.1s;
-    width: 0;
+  &.is-active > a {
+    background-color: var(--active);
   }
 
   &:hover:after,
   &:hover > a:after,
   &.is-active:after,
   &.is-active > a:after {
-    transition: 0.3s ease-in;
+    transition: $hover-out;
     width: 10px;
   }
 
-  + ul, {
-    margin-left: 0.75em;
-  }
-}
+  a {
+    border-radius: $radius;
+    color: var(--colour) !important;
+    display: flex;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 0;
+    padding-left: 1em;
+    position: relative;
 
-.filter-label,
-.filter-option-checkbox,
-.menu-item a {
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
-  box-shadow: $shadow;
+    &:after {
+      background: var(--primary);
+      border-top-left-radius: $radius;
+      border-bottom-left-radius: $radius;
+      content: "";
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transition: $hover-in;
+      width: 0;
+    }
+  }
+
+  ul a {
+    line-height: 1.25 !important;
+  }
 }

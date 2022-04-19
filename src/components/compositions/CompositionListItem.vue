@@ -1,62 +1,83 @@
 <template>
-  <div
-    tabindex="0"
-    :class="['composition-list-item', { 'is-active': isActive }]"
-    @click="activeEvent"
-    @keydown.enter="activeEvent">
-    <VLevel>
-      <CompositionListItemInfo :composition="composition"/>
-      <template #levelRight>
-        <ChampionList :champions="composition.champions"/>
-      </template>
-    </VLevel>
-  </div>
+  <li
+    :class="['layer', isActive]"
+    @click="toggleExpand">
+    <CompositionLink
+      :composition="composition"
+      :expanded="expand"/>
+    <TransitionExpand v-if="isMobile">
+      <Composition
+        v-show="expand"
+        :composition="composition"/>
+    </TransitionExpand>
+  </li>
 </template>
 
 <script>
-import ChampionList from "@/components/champions/ChampionList";
-import CompositionListItemInfo from "@/components/compositions/CompositionListItemInfo";
-import VLevel from "@/components/utility/VLevel";
+import Composition from "@/components/compositions/sections/Composition";
+import CompositionLink from "@/components/compositions/CompositionLink";
+import TransitionExpand from "@/components/transitions/TransitionExpand";
 import { mapGetters } from "vuex";
 
 export default {
   name: "CompositionListItem",
 
   components: {
-    ChampionList,
-    CompositionListItemInfo,
-    VLevel
+    CompositionLink,
+    Composition,
+    TransitionExpand
   },
 
   props: {
     composition: {
       type: Object,
       required: true
-    },
-
-    isActive: {
-      type: Boolean,
-      required: false,
-      default: false
     }
   },
 
-  computed: mapGetters("champions", ["getChampion"]),
+  data() {
+    return {
+      expand: false
+    };
+  },
+
+  computed: {
+    ...mapGetters({
+      isMobile: "isMobile",
+      active: "compositions/getActiveComposition"
+    }),
+
+    isActive() {
+      return this.isSelected || this.isExpanded ? "is-active" : "";
+    },
+
+    isExpanded() {
+      return this.isMobile && this.expand;
+    },
+
+    isSelected() {
+      return this.active.name === this.composition.name && !this.isMobile;
+    }
+  },
 
   methods: {
-    activeEvent() {
-      this.$emit("onClick", this.composition.name);
+    toggleExpand() {
+      this.isMobile ? (this.expand = !this.expand) : "";
     }
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.composition-list-item {
-  box-shadow: $shadow;
-  border-radius: 5px;
-  padding: 0.7em 0.5em;
-  margin-bottom: 0.5em;
-  transition: 0.2s ease-in;
+@media only screen and (max-width: $widescreen) {
+  .layer {
+    padding: 0;
+
+    .composition {
+      background-color: var(--layer);
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
 }
 </style>

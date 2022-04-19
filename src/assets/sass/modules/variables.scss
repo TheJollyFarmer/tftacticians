@@ -1,0 +1,95 @@
+.app {
+  --background: #{$alabaster-dark};
+  --colour: #{$black};
+  --primary: #{$java};
+  --secondary: #{$purple};
+  --tertiary: #{$coral};
+  --surface: #{$alabaster};
+  --layer: rgba(231, 227, 221, 0.5);
+  --text: #{$grey-dark};
+  --shadow: #{$shadow};
+  --nav: #{$primary};
+  --nav-shadow: #{0px -2px 20px 0px $grey-dark};
+  --hover: #{$alabaster-light};
+  --active: #e7e3dd;
+  --divider: #{$grey-dark};
+  --border: #{$iron};
+  --transparent: #{rgba($grey-dark, 0.15)};
+
+  &.dark {
+    --background: #{$shark};
+    --colour: #{$white-dark};
+    --primary: #{$java};
+    --secondary: #{$purple-light};
+    --tertiary: #{$coral-light};
+    --surface: #{$shark-light};
+    --layer: #{$ship};
+    --text: #{$white-dark};
+    --shadow: #{$shadow};
+    --nav: #{$shark-light};
+    --nav-shadow: #{0px -2px 20px 0px $black};
+    --hover: #{$ship-dark};
+    --active: #{$ship-dark};
+    --divider: #{$grey-light};
+    --border: #{$ship-light};
+    --transparent: #{rgba($white, 0.15)};
+  }
+}
+
+.app {
+  --background: white;
+  --colour: #{$grey-dark};
+  --primary: #{$java};
+  --secondary: #{$purple};
+  --tertiary: #{$coral};
+  --surface: #{$white};
+  --layer: #{$wild-sand};
+  --text: #{$grey-dark};
+  --nav: #{$primary};
+  --hover: #{$white-darkest};
+  --active: #{$white-darkest};
+  --divider: #{$grey-dark};
+  --border: #{$iron};
+  --transparent: #{rgba($grey-dark, 0.15)};
+  --fill: #{$white-dark};
+  --opacity: 1;
+  --cost-1: #{$grey-darker};
+  --cost-2: #{$turquoise};
+  --cost-3: #{$blue-dark};
+  --cost-4: #{$purple-dark};
+  --cost-5: #{$gold};
+  --search: none;
+  --key: #{$grey-dark};
+  --shadow: #{$shadow};
+  --nav-shadow: #{$nav-shadow $grey-dark};
+  --footer-shadow: #{$footer-shadow $grey-dark};
+
+  &.dark {
+    --background: #{$shark};
+    --colour: #{$white-dark};
+    --primary: #{$java-light};
+    --secondary: #{$purple-light};
+    --tertiary: #{$coral-light};
+    --surface: #{$shark-light};
+    --layer: #{$ship};
+    --text: #{$white-dark};
+    --nav: #{$shark-light};
+    --hover: #{$ship-dark};
+    --active: #{$ship-dark};
+    --divider: #{$grey-light};
+    --border: #{$ship-light};
+    --transparent: #{rgba($white, 0.15)};
+    --fill: #{$black};
+    --opacity: 0.9;
+    --cost-1: #{$grey-light};
+    --cost-2: #{$turquoise};
+    --cost-3: #{$blue};
+    --cost-4: #{$purple};
+    --cost-5: #{$gold-light};
+    --search: invert(100%);
+    --shadow: #{$shadow};
+    --key: #{$white-darker};
+    --nav-shadow: #{$nav-shadow $black};
+    --footer-shadow: #{$footer-shadow $black};
+  }
+}

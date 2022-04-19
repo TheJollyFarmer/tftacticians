@@ -1,32 +1,56 @@
 <template>
-  <div>
+  <div :class="['app', theme]">
     <NavBar/>
-    <TransitionFade>
-      <RouterView :key="$route.path"/>
-    </TransitionFade>
-    <Popover/>
+    <RouterView v-slot="{ Component }">
+      <TransitionFade>
+        <component
+          :is="Component"
+          :key="routeKey"/>
+      </TransitionFade>
+    </RouterView>
+    <VFooter :key="routeKey"/>
+    <Globals/>
   </div>
 </template>
 
 <script>
+import Events from "@/mixins/Events";
+import Globals from "@/components/Globals";
 import NavBar from "./components/nav/NavBar";
-import Popover from "@/components/Popover";
 import TransitionFade from "@/components/transitions/TransitionFade";
-import { mapActions } from "vuex";
+import VFooter from "@/components/utility/VFooter";
+import { mapActions, mapState } from "vuex";
 
 export default {
   name: "App",
 
   components: {
+    Globals,
+    TransitionFade,
     NavBar,
-    Popover,
-    TransitionFade
+    VFooter
+  },
+
+  mixins: [Events],
+
+  computed: {
+    ...mapState(["darkTheme"]),
+
+    theme() {
+      return { dark: this.darkTheme };
+    },
+
+    routeKey() {
+      return this.$route.matched[0] && this.$route.matched[0].meta.key
+        ? this.$route.matched[0].meta.key
+        : this.$route.path;
+    }
   },
 
   created() {
-    this.setData();
+    this.getData();
   },
 
-  methods: mapActions(["setData"])
+  methods: mapActions(["getData", "setWindowWidth", "toggleDarkTheme"])
 };
 </script>

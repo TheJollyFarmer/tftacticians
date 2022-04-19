@@ -1,21 +1,22 @@
 <template>
-  <transition-fade :duration="0.2">
+  <TransitionFade :duration="0.2">
     <span
       :key="icon"
       :class="['icon', iconSize]">
-      <i :class="['fa' + type, iconType]"/>
+      <FontAwesomeIcon :icon="[type, icon]"/>
       <slot/>
     </span>
-  </transition-fade>
+  </TransitionFade>
 </template>
 
 <script>
-import TransitionFade from "../transitions/TransitionFade";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import TransitionFade from "@/components/transitions/TransitionFade";
 
 export default {
   name: "VFavicon",
 
-  components: { TransitionFade },
+  components: { FontAwesomeIcon, TransitionFade },
 
   props: {
     icon: {
@@ -32,15 +33,11 @@ export default {
     type: {
       type: String,
       required: false,
-      default: "s"
+      default: "fas"
     }
   },
 
   computed: {
-    iconType() {
-      return "fa-" + this.icon;
-    },
-
     iconSize() {
       return this.size ? "is-" + this.size : "";
     }

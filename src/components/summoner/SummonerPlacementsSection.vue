@@ -1,21 +1,20 @@
 <template>
-  <VSection title="recent match placements">
+  <VSection title="placements">
     <article class="placements-section">
-      <div class="placements">
+      <div class="placements layer">
         <SummonerPlacementsStats :stats="placementStats"/>
         <SummonerPlacementsTiles :placements="placements"/>
       </div>
-      <VBarChart
-        class="placements-graph"
-        :chart-data="chartData"/>
+      <SummonerPlacementsChart :data="chartData"/>
     </article>
   </VSection>
 </template>
 
 <script>
+import chart from "@/constants/chart.json";
+import SummonerPlacementsChart from "@/components/summoner/SummonerPlacementsChart";
 import SummonerPlacementsStats from "@/components/summoner/SummonerPlacementsStats";
 import SummonerPlacementsTiles from "@/components/summoner/SummonerPlacementsTiles";
-import VBarChart from "@/components/utility/VBarChart";
 import VSection from "@/components/utility/VSection";
 import { mapGetters, mapState } from "vuex";
 
@@ -23,9 +22,9 @@ export default {
   name: "SummonerPlacementsSection",
 
   components: {
+    SummonerPlacementsChart,
     SummonerPlacementsStats,
     SummonerPlacementsTiles,
-    VBarChart,
     VSection
   },
 
@@ -34,33 +33,14 @@ export default {
 
     ...mapGetters("summoner/matches", {
       placementStats: "getPlacementStats",
-      aggregates: "getAggregates"
+      aggregates: "getPlacementAggregates"
     }),
 
     chartData() {
-      return {
-        labels: ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th"],
-        datasets: [
-          {
-            backgroundColor: [
-              "#F14668",
-              "#B86BFF",
-              "#B86BFF",
-              "#B86BFF",
-              "#00D1B2",
-              "#00D1B2",
-              "#00D1B2",
-              "#00D1B2"
-            ],
-            borderColor: "black",
-            borderWidth: 2,
-            data: [
-              ...Object.values(this.aggregates),
-              ...[0, 0, 0, 0, 0, 0, 0, 0]
-            ]
-          }
-        ]
-      };
+      return Object.values({
+        ...chart.columns,
+        ...this.aggregates
+      });
     }
   }
 };
@@ -69,20 +49,24 @@ export default {
 <style lang="scss" scoped>
 .placements-section {
   display: flex;
-  justify-content: space-between;
-  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
 
-  .placements {
+  > .layer {
+    align-items: center;
     display: flex;
-    flex: 0 0 47%;
-    flex-direction: column;
   }
 
-  .placements-graph {
-    flex: 0 0 49%;
-    height: 140px;
-    overflow: hidden;
-    position: relative;
+  .placements {
+    display: grid;
+    flex: 0 0 396px;
+    grid-gap: 1em;
+    justify-self: center;
+    margin: 0 $spacing-large 0 0;
+
+    @media screen and (max-width: $widescreen) {
+      margin: 0 0 $spacing-large 0;
+    }
   }
 }
 </style>

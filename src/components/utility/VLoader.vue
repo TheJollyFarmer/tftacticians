@@ -1,294 +1,237 @@
-<template>
-  <div>
-    <div class="loader">
-      <span>
-        <span/>
-        <span/>
-        <span/>
-        <span/>
-      </span>
-      <div class="base">
-        <span/>
-        <div class="face"/>
-      </div>
-    </div>
-    <div class="longfazers">
-      <span/>
-      <span/>
-      <span/>
-      <span/>
-    </div>
-    <h1>Loading</h1>
-  </div>
-</template>
-
 <script>
-export default {
-  name: "VLoader"
+import { defineAsyncComponent, h } from "vue";
+const VPage = defineAsyncComponent(() => import("@/components/utility/VPage"));
+
+const VLoader = props => {
+  let values = ["one", "two", "three", "four", "five"];
+  let squares = values.map(square => h("div", { class: ["square", square] }));
+  let loader = h("div", { class: "square-loader" }, squares);
+
+  return props.forView
+    ? h(VPage, { isFullWidth: true }, { default: () => loader })
+    : loader;
 };
+
+VLoader.props = {
+  dimension: {
+    type: String,
+    required: false,
+    default: "30"
+  },
+
+  forView: {
+    type: Boolean,
+    required: false,
+    default: false
+  }
+};
+
+export default VLoader;
 </script>
 
 <style lang="scss" scoped>
-h1 {
+$grad-1: #ffffff;
+$grad-2: #b0e6e8;
+$grad-3: #70d1d6;
+$grad-4: #33bdc4;
+
+$gradient-1: linear-gradient(90deg, $grad-1 0%, $grad-2 100%);
+$gradient-2: linear-gradient(90deg, $grad-2 0%, $grad-3 100%);
+$gradient-3: linear-gradient(90deg, $grad-3 0%, $grad-4 100%);
+$gradient-4: linear-gradient(90deg, $grad-4 0%, var(--primary) 100%);
+
+@mixin animation($index: 1, $gradient: $gradient-1) {
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  backface-visibility: hidden;
+  background: $gradient;
+  border-radius: $radius;
+  box-shadow: $shadow;
   position: absolute;
-  font-weight: 600;
-  font-size: 12px;
-  text-transform: uppercase;
-  left: 50%;
-  top: 58%;
-  margin-left: -20px;
+  will-change: transform, opacity;
+  z-index: $index;
 }
 
-.loader {
-  position: absolute;
-  top: 50%;
-  margin-left: -50px;
-  left: 50%;
-  animation: speeder 0.4s linear infinite;
+/* prettier-ignore */
+$squares: (
+  "one": ("1"),
+  "two": ("2"),
+  "three": ("3", $gradient-2, $gradient-3, 25%),
+  "four": ("4", $gradient-3, $gradient-4, 50%),
+  "five": ("5", $gradient-4, $gradient-3, 75%)
+);
 
-  > span {
-    height: 5px;
-    width: 35px;
-    background: $primary;
-    position: absolute;
-    top: -19px;
-    left: 60px;
-    border-radius: 2px 10px 1px 0;
+@function exists($square, $index) {
+  $idx: nth($square, 1);
+
+  @if ($idx != "1" and $idx != "2") {
+    @return nth($square, $index);
+  } @else {
+    @return null;
   }
 }
 
-.base {
-  span {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 6px solid transparent;
-    border-right: 100px solid $primary;
-    border-bottom: 6px solid transparent;
+@mixin squares {
+  @each $name, $square in $squares {
+    &.#{$name} {
+      animation-name: slide-#{nth($square, 1)};
+      background: exists($square, 2);
+      left: exists($square, 4);
+      top: if($name == "one", 0, null);
 
-    &:before {
+      &:before {
+        background: exists($square, 3);
+        animation-name: fade-#{nth($square, 1)};
+      }
+    }
+  }
+}
+
+.section {
+  align-items: center;
+  animation-duration: 0.5s;
+  display: flex;
+  height: $screen-height;
+  margin: auto;
+}
+
+.square-loader {
+  display: flex;
+  height: 70px;
+  margin: 2em auto;
+  position: relative;
+  width: 140px;
+
+  .square {
+    @include animation;
+    height: 30px;
+    top: 50%;
+    width: 30px;
+
+    &::before {
+      @include animation(-1, $gradient-2);
+      bottom: 0;
       content: "";
-      height: 22px;
-      width: 22px;
-      border-radius: 50%;
-      background: $primary;
-      position: absolute;
-      right: -110px;
-      top: -16px;
+      left: 0;
+      opacity: 0;
+      right: 0;
+      top: 0;
     }
 
-    &:after {
-      content: "";
-      position: absolute;
-      width: 0;
-      height: 0;
-      border-top: 0 solid transparent;
-      border-right: 55px solid $primary;
-      border-bottom: 16px solid transparent;
-      top: -16px;
-      right: -98px;
-    }
+    @include squares;
   }
 }
 
-.face {
-  position: absolute;
-  height: 12px;
-  width: 20px;
-  background: $primary;
-  border-radius: 20px 20px 0 0;
-  transform: rotate(-40deg);
-  right: -125px;
-  top: -15px;
-
-  &:after {
-    content: "";
-    height: 12px;
-    width: 12px;
-    background: $primary;
-    right: 4px;
-    top: 7px;
-    position: absolute;
-    transform: rotate(40deg);
-    transform-origin: 50% 50%;
-    border-radius: 0 0 0 2px;
-  }
+/* prettier-ignore */
+@keyframes slide-1 {
+  0%     { transform: translate(0, 0); }
+  4.17%  { transform: translate(0, 116%); }
+  50.04% { transform: translate(0, 116%); }
+  54.21% { transform: translate(0, 232%); }
+  58.38% { transform: translate(116%, 232%); }
+  62.55% { transform: translate(116%, 116%); }
+  91.74% { transform: translate(116%, 116%); }
+  95.91% { transform: translate(116%, 0); }
+  100%   { transform: translate(0, 0); }
 }
 
-.body > span > span:nth-child(1),
-.body > span > span:nth-child(2),
-.body > span > span:nth-child(3),
-.body > span > span:nth-child(4) {
-  width: 30px;
-  height: 1px;
-  background: $primary;
-  position: absolute;
-  animation: fazer1 0.2s linear infinite;
+/* prettier-ignore */
+@keyframes slide-2 {
+  0%     { transform: translate(0, 0); }
+  4.17%  { transform: translate(0, 116%); }
+  8.34%  { transform: translate(116%, 116%); }
+  12.51% { transform: translate(116%, 0); }
+  41.70% { transform: translate(116%, 0); }
+  45.87% { transform: translate(116%, -116%); }
+  50.04% { transform: translate(0, -116%); }
+  54.21% { transform: translate(0, 0); }
+  100%   { transform: translate(0, 0); }
 }
 
-.body > span > span:nth-child(2) {
-  top: 3px;
-  animation: fazer2 0.4s linear infinite;
+/* prettier-ignore */
+@keyframes slide-3 {
+  8.34%  { transform: translate(0, 0); }
+  12.51% { transform: translate(0, -116%); }
+  16.68% { transform: translate(116%, -116%); }
+  20.85% { transform: translate(116%, 0); }
+  33.36% { transform: translate(116%, 0); }
+  37.53% { transform: translate(116%, 116%); }
+  41.70% { transform: translate(0, 116%); }
+  45.87% { transform: translate(0, 0); }
+  58.38% { transform: translate(0, 0); }
+  62.55% { transform: translate(0, -116%); }
+  66.72% { transform: translate(116%, -116%); }
+  70.89% { transform: translate(116%, 0); }
+  83.40% { transform: translate(116%, 0); }
+  87.57% { transform: translate(116%, 116%); }
+  91.74% { transform: translate(0, 116%); }
+  95.91% { transform: translate(0, 0); }
+  100%   { transform: translate(0, 0); }
 }
 
-.body > span > span:nth-child(3) {
-  top: 1px;
-  animation: fazer3 0.4s linear infinite;
-  animation-delay: -1s;
+/* prettier-ignore */
+@keyframes slide-4 {
+  16.68% { transform: translate(0, 0); }
+  20.85% { transform: translate(0, 116%); }
+  25.02% { transform: translate(116%, 116%); }
+  29.19% { transform: translate(116%, 0); }
+  75.06% { transform: translate(116%, 0); }
+  79.23% { transform: translate(116%, -116%); }
+  83.40% { transform: translate(0, -116%); }
+  87.57% { transform: translate(0, 0); }
+  100%   { transform: translate(0, 0); }
 }
 
-.body > span > span:nth-child(4) {
-  top: 4px;
-  animation: fazer4 1s linear infinite;
-  animation-delay: -1s;
+/* prettier-ignore */
+@keyframes slide-5 {
+  0%     { transform: translate(0, 0); }
+  25.02% { transform: translate(0, 0); }
+  29.19% { transform: translate(0, -116%); }
+  33.36% { transform: translate(-116%, -116%); }
+  37.53% { transform: translate(-116%, 0); }
+  41.70% { transform: translate(-116%, 0); }
+  66.72% { transform: translate(-116%, 0); }
+  70.89% { transform: translate(-116%, 116%); }
+  75.06% { transform: translate(0, 116%); }
+  79.23% { transform: translate(0, 0); }
+  100%   { transform: translate(0, 0); }
 }
 
-@keyframes fazer1 {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -80px;
-    opacity: 0;
-  }
+/* prettier-ignore */
+@keyframes fade-1 {
+  54.21% { opacity: 0; }
+  58.38%, 95.91% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
-@keyframes fazer2 {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -100px;
-    opacity: 0;
-  }
+/* prettier-ignore */
+@keyframes fade-2 {
+  4.17% { opacity: 0; }
+  8.34%, 45.87% { opacity: 1; }
+  50.04%, 100% { opacity: 0; }
 }
 
-@keyframes fazer3 {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -50px;
-    opacity: 0;
-  }
+/* prettier-ignore */
+@keyframes fade-3 {
+  12.51% { opacity: 0; }
+  16.68%, 37.53% { opacity: 1; }
+  41.7%, 62.55% { opacity: 0; }
+  66.72%, 87.57% { opacity: 1; }
+  91.74%, 100% { opacity: 0; }
 }
 
-@keyframes fazer4 {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -150px;
-    opacity: 0;
-  }
+/* prettier-ignore */
+@keyframes fade-4 {
+  20.85% { opacity: 0; }
+  25.02%, 79.23% { opacity: 1; }
+  83.4%, 100% { opacity: 0; }
 }
 
-@keyframes speeder {
-  0% {
-    transform: translate(2px, 1px) rotate(0deg);
-  }
-  10% {
-    transform: translate(-1px, -3px) rotate(-1deg);
-  }
-  20% {
-    transform: translate(-2px, 0px) rotate(1deg);
-  }
-  30% {
-    transform: translate(1px, 2px) rotate(0deg);
-  }
-  40% {
-    transform: translate(1px, -1px) rotate(1deg);
-  }
-  50% {
-    transform: translate(-1px, 3px) rotate(-1deg);
-  }
-  60% {
-    transform: translate(-1px, 1px) rotate(0deg);
-  }
-  70% {
-    transform: translate(3px, 1px) rotate(-1deg);
-  }
-  80% {
-    transform: translate(-2px, -1px) rotate(1deg);
-  }
-  90% {
-    transform: translate(2px, 1px) rotate(0deg);
-  }
-  100% {
-    transform: translate(1px, -2px) rotate(-1deg);
-  }
-}
-
-.longfazers {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-
-  span {
-    position: absolute;
-    height: 2px;
-    width: 20%;
-    background: $primary;
-
-    &:nth-child(1) {
-      top: 20%;
-      animation: lf 0.6s linear infinite;
-      animation-delay: -5s;
-    }
-
-    &:nth-child(2) {
-      top: 40%;
-      animation: lf2 0.8s linear infinite;
-      animation-delay: -1s;
-    }
-
-    &:nth-child(3) {
-      top: 60%;
-      animation: lf3 0.6s linear infinite;
-    }
-
-    &:nth-child(4) {
-      top: 80%;
-      animation: lf4 0.5s linear infinite;
-      animation-delay: -3s;
-    }
-  }
-}
-
-@keyframes lf {
-  0% {
-    left: 200%;
-  }
-  100% {
-    left: -200%;
-    opacity: 0;
-  }
-}
-@keyframes lf2 {
-  0% {
-    left: 200%;
-  }
-  100% {
-    left: -200%;
-    opacity: 0;
-  }
-}
-@keyframes lf3 {
-  0% {
-    left: 200%;
-  }
-  100% {
-    left: -100%;
-    opacity: 0;
-  }
-}
-@keyframes lf4 {
-  0% {
-    left: 200%;
-  }
-  100% {
-    left: -100%;
-    opacity: 0;
-  }
+/* prettier-ignore */
+@keyframes fade-5 {
+  29.19% { opacity: 0; }
+  33.36%, 70.89% { opacity: 1; }
+  75.06%, 100% { opacity: 0; }
 }
 </style>

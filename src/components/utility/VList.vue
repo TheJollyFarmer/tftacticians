@@ -1,29 +1,31 @@
 <template>
-  <transition-list>
-    <template v-if="collection">
-      <v-list-item
+  <TransitionFade>
+    <component
+      :is="component"
+      v-if="collection.length"
+      key="list"
+      :tag="tag">
+      <slot
         v-for="(item, index) in collection"
-        :key="item.id || item"
-        :has-link="hasLinks"
-        :class="{ 'is-active' : isActive(index) }">
-        <slot
-          :item="item"
-          :index="index"
-          name="list"/>
-      </v-list-item>
-    </template>
-    <slot/>
-  </transition-list>
+        :index="index"
+        :item="item"/>
+    </component>
+    <VError
+      v-else
+      key="error"/>
+  </TransitionFade>
 </template>
 
 <script>
-import TransitionList from "../transitions/TransitionList";
-import VListItem from "./VListItem";
+import TransitionFade from "@/components/transitions/TransitionFade";
+import VError from "@/components/utility/VError";
+import { capitalise } from "@/utils/filters";
+import { defineAsyncComponent } from "vue";
 
 export default {
   name: "VList",
 
-  components: { TransitionList, VListItem },
+  components: { TransitionFade, VError },
 
   props: {
     collection: {
@@ -32,35 +34,48 @@ export default {
       default: null
     },
 
-    model: {
+    type: {
       type: String,
       required: false,
-      default: null
+      default: "list"
     },
 
-    hasLinks: {
+    tag: {
+      type: String,
+      required: false,
+      default: "div"
+    },
+
+    animatable: {
       type: Boolean,
       required: false,
       default: true
-    },
+    }
+  },
 
-    selected: {
-      type: Number,
-      required: false,
-      default: null
-    },
-
-    offset: {
-      type: Number,
-      required: false,
-      default: 0
+  computed: {
+    component() {
+      return this.animatable ? this.getComponent() : "ul";
     }
   },
 
   methods: {
-    isActive(index) {
-      return this.selected === index + 1 + this.offset;
+    getComponent() {
+      return defineAsyncComponent(() =>
+        import("@/components/transitions/Transition" + capitalise(this.type))
+      );
     }
   }
 };
 </script>
+
+<style lang="scss" scoped>
+ul,
+div {
+  overflow: hidden;
+
+  > * + * {
+    margin-top: $spacing-large;
+  }
+}
+</style>

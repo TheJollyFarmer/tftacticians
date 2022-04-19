@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="tabs is-fullwidth is-marginless">
-      <v-tabs-icons 
+      <VTabsIcons
         :tabs="tabs" 
         @select="selectTab"/>
     </div>
@@ -19,6 +19,8 @@ export default {
 
   components: { VTabsIcons },
 
+  emits: ["select"],
+
   data() {
     return {
       tabs: [],
@@ -32,7 +34,7 @@ export default {
         tab.isActive = tab === selectedTab;
       });
 
-      this.$emit("selected", selectedTab);
+      this.$emit("select", selectedTab);
 
       this.setTabTransition(this.tabs[this.activeTab], index);
       this.setTabTransition(selectedTab, index);

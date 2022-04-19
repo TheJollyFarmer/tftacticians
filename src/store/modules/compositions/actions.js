@@ -1,14 +1,11 @@
-import compositions from "@/constants/compositions";
+import compositions from "@/data/compositions.json";
 import types from "./types";
-import { getKeys, normalise } from "@/utils/helpers";
+import { toTitleCase } from "@/utils/helpers";
+import { setState } from "@/store/helpers/actions";
 
 export default {
-  setCompositions({ commit, dispatch, state }, set) {
-    commit(types.SET_DATA, normalise(compositions[set], "name"));
-    commit(types.SET_KEYS, getKeys(compositions[set], "name"));
+  setCompositions: setState(compositions, "name"),
 
-    dispatch("setComposition", state.keys[0]);
-  },
-
-  setComposition: ({ commit }, comp) => commit(types.SET_COMPOSITION, comp)
+  setComposition: ({ commit }, comp) =>
+    commit(types.SET_COMPOSITION, toTitleCase(comp))
 };

@@ -30,6 +30,7 @@ export default {
 .trait-bonus {
   align-items: center;
   display: flex;
+  white-space: pre-line;
 
   .trait-bonus-count {
     align-items: center;
@@ -48,7 +49,7 @@ export default {
   }
 
   &:not(:last-child) {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
   }
 }
 </style>

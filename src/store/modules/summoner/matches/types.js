@@ -6,5 +6,6 @@ export default {
   ADD_PLACEMENT: "addPlacement",
   ADD_CHAMPION: "addChampion",
   ADD_TRAIT: "addTrait",
-  ADD_ITEM: "addItem"
+  ADD_ITEM: "addItem",
+  RESET_STATE: "resetState"
 };

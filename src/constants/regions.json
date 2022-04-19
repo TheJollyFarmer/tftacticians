@@ -1,13 +1,46 @@
-[
-  "euw",
-  "br",
-  "eune",
-  "jp",
-  "kr",
-  "lan",
-  "las",
-  "na",
-  "oce",
-  "tr",
-  "ru"
-]
+{
+  "euw": {
+    "name": "euw",
+    "value": "euw1"
+  },
+  "br": {
+    "name": "br",
+    "value": "br1"
+  },
+  "eune": {
+    "name": "eune",
+    "value": "eun1"
+  },
+  "jp": {
+    "name": "jp",
+    "value": "jp1"
+  },
+  "kr": {
+    "name": "kr",
+    "value": "kr"
+  },
+  "lan": {
+    "name": "lan",
+    "value": "la1"
+  },
+  "las": {
+    "name": "las",
+    "value": "la2"
+  },
+  "na": {
+    "name": "na",
+    "value": "na1"
+  },
+  "oce": {
+    "name": "oce",
+    "value": "oc1"
+  },
+  "tr": {
+    "name": "tr",
+    "value": "tr1"
+  },
+  "ru": {
+    "name": "ru",
+    "value": "ru"
+  }
+}

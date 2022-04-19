@@ -1,27 +1,23 @@
 <template>
-  <section class="item-card-head">
-    <h3> {{ item.name }} </h3>
-    <div
-      v-if="!isSpatula"
-      class="item-card-stats">
-      <ItemCardStat
-        v-for="(stat, index) in item.stats"
-        :key="index"
-        :stat="stat"/>
-    </div>
-    <p v-if="isCombined || isSpatula">
-      {{ item.description }}
-    </p>
-  </section>
+  <header class="item-card-head">
+    <h3 v-text="item.name"/>
+    <VImageList
+      v-if="hasStats"
+      v-slot="{ item: stat }"
+      :collection="item.stats">
+      <ItemCardStat :stat="stat"/>
+    </VImageList>
+  </header>
 </template>
 
 <script>
 import ItemCardStat from "@/components/items/ItemCardStat";
+import VImageList from "@/components/utility/VImageList";
 
 export default {
   name: "ItemCardHead",
 
-  components: { ItemCardStat },
+  components: { VImageList, ItemCardStat },
 
   props: {
     item: {
@@ -31,12 +27,8 @@ export default {
   },
 
   computed: {
-    isCombined() {
-      return this.item.components;
-    },
-
-    isSpatula() {
-      return !this.item.stats;
+    hasStats() {
+      return this.item.stats.length;
     }
   }
 };
@@ -44,14 +36,7 @@ export default {
 
 <style lang="scss" scoped>
 .item-card-head {
-  font-size: 0.875em;
-  margin: 0.12em 0 0.55em 0;
-  max-width: 500px;
-
-  .item-card-stats {
-    align-items: center;
-    display: flex;
-    margin-bottom: 0.75em;
-  }
+  font-size: 0.95em;
+  margin-bottom: $spacing-small;
 }
 </style>

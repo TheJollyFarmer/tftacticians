@@ -1,25 +1,36 @@
 <template>
-  <transition-list tag="tbody">
+  <TransitionTable tag="tbody">
     <tr
       v-for="(row, index) in data"
-      :key="row.id || row[cKey] ||index">
-      <td
-        v-for="(value, ind) in row"
-        :key="ind">
-        {{ value }}
+      :key="row[cKey] || index">
+      <td v-if="indexed">
+        <slot
+          name="index"
+          :index="index">
+          {{ index + 1 }}
+        </slot>
       </td>
-      <slot :row="row.id"/>
+      <td
+        v-for="(value, key, idx) in row"
+        :key="idx">
+        <slot
+          :row="row"
+          :value="value"
+          :col="key">
+          {{ value }}
+        </slot>
+      </td>
     </tr>
-  </transition-list>
+  </TransitionTable>
 </template>
 
 <script>
-import TransitionList from "../transitions/TransitionList";
+import TransitionTable from "../transitions/TransitionTable";
 
 export default {
   name: "VTBody",
 
-  components: { TransitionList },
+  components: { TransitionTable },
 
   props: {
     data: {
@@ -31,6 +42,12 @@ export default {
       type: String,
       required: false,
       default: ""
+    },
+
+    indexed: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   }
 };

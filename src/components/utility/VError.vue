@@ -1,25 +1,33 @@
 <template>
-  <div :class="['dropdown-items', 'is-size-' + size]">
-    <slot>
-      {{ text }}
-    </slot>
+  <div class="error">
+    <VFavicon
+      icon="sad-cry"
+      size="large"/>
+    Sorry, there are no search results.
   </div>
 </template>
+
 <script>
+import VFavicon from "@/components/utility/VFavicon";
+
 export default {
   name: "VError",
 
-  props: {
-    text: {
-      type: String,
-      required: true
-    },
-
-    size: {
-      type: String,
-      required: false,
-      default: "6"
-    }
-  }
+  components: { VFavicon }
 };
 </script>
+
+<style lang="scss" scoped>
+.error {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: none;
+  justify-items: center;
+
+  .icon {
+    color: var(--primary);
+    font-size: 3em;
+    margin-bottom: $spacing-smallest;
+  }
+}
+</style>

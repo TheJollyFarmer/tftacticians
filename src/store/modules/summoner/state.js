@@ -1,7 +1,12 @@
+import regions from "@/constants/regions";
+
 export default {
   data: {},
-  region: "euw",
-  name: "GrandVice8",
+  form: {
+    name: "",
+    region: "euw"
+  },
   ranked: {},
-  loading: false
+  loading: false,
+  regions
 };

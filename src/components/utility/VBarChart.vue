@@ -1,13 +1,28 @@
+<template>
+  <BarChart
+    :chart-data="chartData"
+    :options="options"
+    @chart:render="setEvent"/>
+</template>
+
 <!--suppress ALL -->
 <script>
-import { Bar, mixins } from "vue-chartjs";
+import Chart from "chart.js";
+import { defineChartComponent } from "vue-chart-3";
+import { draw } from "@/utils/barChart";
+
+Chart.defaults.global.animation.duration = 0;
+Chart.controllers.barChart = Chart.controllers.bar.extend({ draw });
+Chart.defaults.barChart = Chart.defaults.bar;
+Chart.defaults.global.datasets.barChart = Chart.defaults.global.datasets.bar;
+Chart.defaults.global.defaultFontFamily = "'B612', 'sans-serif'";
+
+const BarChart = defineChartComponent("custom-bar", "barChart");
 
 export default {
   name: "VBarChart",
 
-  extends: Bar,
-
-  mixins: [mixins.reactiveProp],
+  components: { BarChart },
 
   props: {
     chartData: {
@@ -22,60 +37,10 @@ export default {
     }
   },
 
-  data() {
-    return {
-      defaultOptions: {
-        scales: {
-          yAxes: [
-            {
-              ticks: {
-                beginAtZero: true,
-                stepSize: 1,
-                fontFamily: "'B612', 'sans-serif'"
-              },
-
-              gridLines: {
-                display: true
-              }
-            }
-          ],
-          xAxes: [
-            {
-              gridLines: {
-                display: false
-              },
-
-              ticks: {
-                fontFamily: "'B612', 'sans-serif'"
-              }
-            }
-          ]
-        },
-        legend: {
-          display: false
-        },
-        responsive: true,
-        maintainAspectRatio: false,
-        tooltips: {
-          backgroundColor: "white",
-          bodyFontColor: "#4a4a4a",
-          bodyFontFamily: "'B612', 'sans-serif'",
-          borderColor: "#4a4a4a",
-          borderWidth: 1,
-          displayColors: false,
-          titleFontColor: "#4a4a4a",
-          titleFontFamily: "'B612', 'sans-serif'",
-          cornerRadius: 3
-        }
-      }
-    };
-  },
-
-  mounted() {
-    this.renderChart(this.chartData, {
-      ...this.options,
-      ...this.defaultOptions
-    });
+  methods: {
+    setEvent(chart) {
+      this.$emit("set", chart);
+    }
   }
 };
 </script>

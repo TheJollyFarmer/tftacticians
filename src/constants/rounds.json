@@ -1,25 +1,12 @@
 [
   {
     "number": 1,
-    "events": [
-      "carousel",
-      "minions",
-      "minions",
-      "minions"
-    ],
+    "events": ["carousel", "minions", "minions", "minions"],
     "descriptions": ["1: Carousel", "2 ~ 4: Minions"]
   },
   {
     "number": 2,
-    "events": [
-      "user",
-      "user",
-      "user",
-      "carousel",
-      "user",
-      "user",
-      "krugs"
-    ],
+    "events": ["user", "user", "user", "carousel", "user", "user", "krugs"],
     "descriptions": [
       "1 ~ 3: Random User",
       "4: Carousel",
@@ -29,15 +16,7 @@
   },
   {
     "number": 3,
-    "events": [
-      "user",
-      "user",
-      "user",
-      "carousel",
-      "user",
-      "user",
-      "wolves"
-    ],
+    "events": ["user", "user", "user", "carousel", "user", "user", "wolves"],
     "descriptions": [
       "1 ~ 3: Random User",
       "4: Carousel",
@@ -47,15 +26,7 @@
   },
   {
     "number": 4,
-    "events": [
-      "user",
-      "user",
-      "user",
-      "carousel",
-      "user",
-      "user",
-      "raptors"
-    ],
+    "events": ["user", "user", "user", "carousel", "user", "user", "raptors"],
     "descriptions": [
       "1 ~ 3: Random User",
       "4: Carousel",
@@ -65,15 +36,7 @@
   },
   {
     "number": 5,
-    "events": [
-      "user",
-      "user",
-      "user",
-      "carousel",
-      "user",
-      "user",
-      "dragon"
-    ],
+    "events": ["user", "user", "user", "carousel", "user", "user", "dragon"],
     "descriptions": [
       "1 ~ 3: Random User",
       "4: Carousel",
@@ -83,15 +46,7 @@
   },
   {
     "number": 6,
-    "events": [
-      "user",
-      "user",
-      "user",
-      "carousel",
-      "user",
-      "user",
-      "elder"
-    ],
+    "events": ["user", "user", "user", "carousel", "user", "user", "elder"],
     "descriptions": [
       "1 ~ 3: Random User",
       "4: Carousel",

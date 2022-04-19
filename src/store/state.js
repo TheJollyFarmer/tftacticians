@@ -1,3 +1,5 @@
+import sets from "@/data/sets";
+
 export default {
   popover: {
     id: "",
@@ -7,6 +9,10 @@ export default {
     active: false,
     hover: false
   },
-  activeSet: "set 4",
-  sets: ["set 4", "set 3"]
+  windowWidth: window.innerWidth,
+  activeSet: sets[0],
+  sets,
+  darkTheme: false,
+  displayModal: false,
+  error: ""
 };

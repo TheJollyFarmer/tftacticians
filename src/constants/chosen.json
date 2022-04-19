@@ -1,12 +1,5 @@
 {
-  "headers": [
-    "Level",
-    "tier 1",
-    "tier 2",
-    "tier 3",
-    "tier 4",
-    "tier 5"
-  ],
+  "headers": ["Level", "tier 1", "tier 2", "tier 3", "tier 4", "tier 5"],
   "rows": [
     ["1", "100%", "0%", "0%", "0%", "0%"],
     ["2", "100%", "0%", "0%", "0%", "0%"],

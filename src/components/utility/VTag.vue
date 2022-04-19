@@ -62,6 +62,8 @@ export default {
     }
   },
 
+  emits: ["close"],
+
   computed: {
     classes() {
       return [
@@ -84,9 +86,28 @@ export default {
 };
 </script>
 
-<style scoped>
-.tag.is-medium,
-.tag.is-medium + .tag {
-  font-size: 0.8rem;
+<style lang="scss" scoped>
+.tag {
+  &.is-medium,
+  &.is-medium + .tag {
+    font-size: 0.8rem;
+  }
+
+  &.is-primary {
+    background-color: $primary;
+    color: $white;
+    font-weight: bold;
+  }
+
+  &.is-delete {
+    background-color: var(--layer);
+    color: var(--colour);
+    transition: $hover-in;
+
+    &:hover {
+      background-color: var(--hover) !important;
+      transition: $hover-out;
+    }
+  }
 }
 </style>

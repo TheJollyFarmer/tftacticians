@@ -1,14 +1,16 @@
-import { champFilter } from "./filters";
+import { byFilter, byKey, getAdjacentChampion, isActive } from "./filters";
 import { getDatum, getDatumProp, mapKeys } from "@/store/helpers/getters";
-import { itemByKey } from "@/store/modules/items/filters";
+import { types } from "@/constants/query";
 
 export default {
   getArray: mapKeys("champions"),
-  isActiveItem: state => option =>
-    Object.values(state.filters).some(filter => filter.includes(option)),
   getChampion: getDatum("champions"),
   getChampionCost: getDatumProp("champions", "cost"),
   getChampionName: getDatumProp("champions", "name"),
-  getChampionByName: (state, getters) => key => itemByKey(getters, key, "name"),
-  getChampions: (state, getters) => champFilter(state.filters, getters.getArray)
+  getChampionByName: byKey("name"),
+  getChampions: byFilter,
+  getPrevChampion: getAdjacentChampion("prev"),
+  getNextChampion: getAdjacentChampion("next"),
+  getFilterTypes: types,
+  isActive
 };

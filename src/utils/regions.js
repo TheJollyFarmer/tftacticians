@@ -1,5 +1,5 @@
 export function isEurope() {
-  return "eune" || "euw" || "tr" || "ru";
+  return ["eune", "euw", "tr", "ru"];
 }
 
 export function isAmericas() {

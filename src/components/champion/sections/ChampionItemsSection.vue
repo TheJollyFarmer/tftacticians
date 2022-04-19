@@ -1,17 +1,19 @@
 <template>
-  <ChampionSection title="items">
-    <ItemImageList :items="items"/>
-  </ChampionSection>
+  <VSection title="items">
+    <ItemLinkList
+      :key="$route.path"
+      :items="items"/>
+  </VSection>
 </template>
 
 <script>
-import ChampionSection from "@/components/champion/sections/ChampionSection";
-import ItemImageList from "@/components/items/ItemImageList";
+import ItemLinkList from "@/components/items/ItemLinkList";
+import VSection from "@/components/utility/VSection";
 
 export default {
   name: "ChampionItemsSection",
 
-  components: { ChampionSection, ItemImageList },
+  components: { ItemLinkList, VSection },
 
   props: {
     items: {
@@ -25,6 +27,6 @@ export default {
 <style scoped>
 .image-list {
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 </style>

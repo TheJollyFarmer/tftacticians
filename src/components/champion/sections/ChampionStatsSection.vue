@@ -1,17 +1,22 @@
 <template>
-  <ChampionSection title="stats">
-    <ChampionStats :stats="stats"/>
-  </ChampionSection>
+  <VSection title="stats">
+    <ul>
+      <ChampionStat
+        v-for="(stat, index) in stats"
+        :key="index"
+        :stat="stat"/>
+    </ul>
+  </VSection>
 </template>
 
 <script>
-import ChampionSection from "@/components/champion/sections/ChampionSection";
-import ChampionStats from "@/components/champion/ChampionStats";
+import ChampionStat from "@/components/champion/ChampionStat";
+import VSection from "@/components/utility/VSection";
 
 export default {
   name: "ChampionStatsSection",
 
-  components: { ChampionSection, ChampionStats },
+  components: { ChampionStat, VSection },
 
   props: {
     stats: {

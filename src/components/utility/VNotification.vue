@@ -1,10 +1,13 @@
 <template>
-  <div class="note">
+  <div class="note layer">
     <VFavicon :icon="icon"/>
-    <p>
-      {{ text }}
-      <slot/>
-    </p>
+    <div>
+      <strong v-text="title"/>
+      <p>
+        <slot>{{ text }}</slot>
+      </p>
+    </div>
+    <slot name="noteRight"/>
   </div>
 </template>
 
@@ -17,6 +20,12 @@ export default {
   components: { VFavicon },
 
   props: {
+    title: {
+      type: String,
+      required: false,
+      default: ""
+    },
+
     text: {
       type: String,
       required: false,
@@ -34,25 +43,29 @@ export default {
 
 <style lang="scss" scoped>
 .note {
-  border: 2px solid $primary;
   border-radius: 5px;
   box-shadow: $shadow;
   display: grid;
-  grid-template-columns: 0.2fr 3fr;
-  margin-bottom: 1em;
+  grid-template-columns: 0.2fr auto auto;
+  margin-bottom: $spacing-large;
+
+  strong {
+    color: var(--colour);
+  }
 
   .icon {
     background-color: $primary;
-    color: white;
+    border-radius: $radius;
+    color: $white;
     font-size: 1.5em;
-    height: 100%;
-    width: 100%;
+    height: 40px;
+    margin-right: $spacing;
+    width: 40px;
   }
 
   p {
     font-size: 0.9em;
     margin-bottom: 0;
-    padding: 0.7em;
     overflow-wrap: break-word;
   }
 }

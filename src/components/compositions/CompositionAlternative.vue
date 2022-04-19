@@ -1,19 +1,19 @@
 <template>
   <div class="composition-alternative">
     <ChampionList :champions="alternative.names"/>
-    <VFavicon icon="arrow-right"/>
+    <VArrow/>
     <ChampionList :champions="alternative.replacements"/>
   </div>
 </template>
 
 <script>
 import ChampionList from "@/components/champions/ChampionList";
-import VFavicon from "@/components/utility/VFavicon";
+import VArrow from "@/components/utility/VArrow";
 
 export default {
   name: "CompositionAlternative",
 
-  components: { ChampionList, VFavicon },
+  components: { ChampionList, VArrow },
 
   props: {
     alternative: {
@@ -27,11 +27,12 @@ export default {
 <style lang="scss" scoped>
 .composition-alternative {
   align-items: center;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 0.5em;
-  > .level {
-    margin-bottom: 0;
+  display: grid;
+  grid-template-columns: 4fr 1fr 4fr;
+  margin-top: 0.5em;
+
+  .image-list:first-child {
+    justify-self: end;
   }
 }
 </style>

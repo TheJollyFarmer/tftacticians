@@ -1,11 +1,11 @@
 <template>
-  <transition-fade>
-    <v-favicon
+  <TransitionFade>
+    <VFavicon
       size="small"
       :class="toggleClass"
       :type="iconType"
       icon="circle"/>
-  </transition-fade>
+  </TransitionFade>
 </template>
 
 <script>
@@ -43,7 +43,7 @@ export default {
     },
 
     iconType() {
-      return this.isActive ? "s" : "r";
+      return this.isActive ? "fas" : "far";
     }
   }
 };
@@ -61,10 +61,10 @@ export default {
 }
 
 .is-circle-active {
-  color: $primary;
+  color: var(--primary);
 }
 
 .is-circle-inactive {
-  color: $black;
+  color: var(--colour);
 }
 </style>

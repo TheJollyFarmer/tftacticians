@@ -1,22 +1,27 @@
 <template>
-  <li
-    :class="['menu-item', { 'is-active': active }]"
-    @click="toggleList">
-    <a>
-      {{ label }}
-      <VRotate
-        v-if="hasList"
-        :rotate="expanded"/>
-    </a>
-    <TransitionExpand>
-      <ul
-        v-if="hasList"
-        v-show="expanded"
-        @click.stop>
-        <slot/>
-      </ul>
-    </TransitionExpand>
-  </li>
+  <RouterLink
+    v-slot="{ isExactActive }"
+    :to="link"
+    custom>
+    <li :class="['menu-item', isActive(isExactActive)]">
+      <a
+        class="layer"
+        @click="clickEvent">
+        {{ option }}
+        <VRotate
+          v-if="hasList"
+          :rotate="expanded"/>
+      </a>
+      <TransitionExpand>
+        <ul
+          v-if="hasList"
+          v-show="expanded"
+          @click.stop>
+          <slot/>
+        </ul>
+      </TransitionExpand>
+    </li>
+  </RouterLink>
 </template>
 
 <script>
@@ -28,18 +33,18 @@ export default {
   components: { TransitionExpand, VRotate },
 
   props: {
-    label: {
+    link: {
       type: String,
       required: true
     },
 
-    hasList: {
-      type: Boolean,
+    label: {
+      type: String,
       required: false,
-      default: false
+      default: ""
     },
 
-    isActive: {
+    hasList: {
       type: Boolean,
       required: false,
       default: false
@@ -59,39 +64,23 @@ export default {
   },
 
   computed: {
-    active() {
-      return this.hasList ? this.expanded : this.isActive;
+    option() {
+      return this.label ? this.label : this.link;
     }
   },
 
   methods: {
+    clickEvent() {
+      this.hasList ? this.toggleList() : this.$router.push(this.link);
+    },
+
     toggleList() {
-      this.hasList
-        ? (this.expanded = !this.expanded)
-        : this.$emit("onClick", this.label);
+      this.expanded = !this.expanded;
+    },
+
+    isActive(isExactActive) {
+      return { "is-active": this.expanded || isExactActive };
     }
   }
 };
 </script>
-
-<style lang="scss" scoped>
-.menu-item {
-  color: $grey-dark;
-  font-size: 1.25rem;
-  font-weight: bold;
-  text-transform: uppercase;
-
-  &.is-active > a {
-    background-color: $white-ter;
-  }
-
-  a {
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-    box-shadow: $shadow;
-    display: flex;
-    padding-left: 1em;
-    position: relative;
-  }
-}
-</style>

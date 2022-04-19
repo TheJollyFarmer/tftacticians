@@ -1,8 +1,7 @@
 export default {
   items: {},
   keys: [],
-  filter: {
-    item: "B.F. Sword",
-    type: "component"
-  }
+  filter: 1,
+  query: "",
+  isSpecial: false
 };

@@ -1,23 +1,24 @@
 <template>
-  <ChampionSection :title="name">
+  <VSection :title="name">
     <VImage
-      :image="name"
+      :key="name"
+      :image="id"
       :class="['portrait', borderColour]"
       dimension="128"
       :dir="directory"/>
-  </ChampionSection>
+  </VSection>
 </template>
 
 <script>
 import BorderColour from "@/mixins/BorderColour";
-import ChampionSection from "@/components/champion/sections/ChampionSection";
 import VImage from "@/components/utility/VImage";
+import VSection from "@/components/utility/VSection";
 import { mapGetters } from "vuex";
 
 export default {
   name: "ChampionPortraitSection",
 
-  components: { ChampionSection, VImage },
+  components: { VImage, VSection },
 
   mixins: [BorderColour],
 
@@ -34,7 +35,7 @@ export default {
   },
 
   computed: {
-    ...mapGetters({ set: "getActiveSet" }),
+    ...mapGetters({ set: "getActiveImageSet" }),
 
     directory() {
       return `champions/${this.set}/portraits`;

@@ -1,22 +1,27 @@
 <template>
-  <header :class="['heading', classes]">
-    <VDivider/>
-    <component
-      :is="elementType"
-      v-text="text"/>
-    <VDivider/>
-    <slot/>
-  </header>
+  <TransitionFade>
+    <header
+      :key="text"
+      :class="['heading', classes]">
+      <VDivider>
+        <component
+          :is="elementType"
+          v-text="text"/>
+      </VDivider>
+      <slot/>
+    </header>
+  </TransitionFade>
 </template>
 
 <script>
 import VImage from "@/components/utility/VImage";
 import VDivider from "@/components/utility/VDivider";
+import TransitionFade from "@/components/transitions/TransitionFade";
 
 export default {
   name: "VHeader",
 
-  components: { VDivider, VImage },
+  components: { TransitionFade, VDivider, VImage },
 
   props: {
     text: {
@@ -35,12 +40,6 @@ export default {
       type: String,
       required: false,
       default: "4"
-    },
-
-    colour: {
-      type: String,
-      required: false,
-      default: "grey-dark"
     }
   },
 
@@ -50,7 +49,7 @@ export default {
     },
 
     classes() {
-      return [`is-size-${this.size}`, `has-text-${this.colour}`];
+      return `is-size-${this.size}`;
     }
   }
 };
@@ -59,28 +58,19 @@ export default {
 <style lang="scss" scoped>
 .heading {
   align-items: center;
+  color: var(--colour);
   display: flex;
   justify-content: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
   text-shadow: $shadow;
+  position: relative;
 
   h1,
   h2 {
     align-items: center;
+    font-weight: bold;
     line-height: normal;
-    margin: 0 5px;
-  }
-
-  .image {
-    align-items: center;
-    display: flex;
-  }
-
-  &:before,
-  &:after {
-    border-bottom: 1px solid $grey-dark;
-    content: "";
-    flex: 1 0 0;
+    margin: 0 5px 0.1em;
   }
 }
 </style>

@@ -1,17 +1,20 @@
 <template>
   <CompositionSection title="positioning">
-    <VHexGrid :champions="champions"/>
+    <CompositionHexGrid :champions="champions"/>
   </CompositionSection>
 </template>
 
 <script>
-import CompositionSection from "@/components/compositions/sections/CompositionSection";
-import VHexGrid from "@/components/utility/VHexGrid";
+import CompositionHexGrid from "@/components/compositions/CompositionHexGrid";
+import CompositionSection from "./CompositionSection";
 
 export default {
   name: "CompositionSectionPositioning",
 
-  components: { CompositionSection, VHexGrid },
+  components: {
+    CompositionHexGrid,
+    CompositionSection
+  },
 
   props: {
     champions: {

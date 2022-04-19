@@ -1,4 +1,7 @@
 export default {
   traits: {},
-  keys: []
+  keys: [],
+  filter: "classes",
+  query: "",
+  types: ["classes", "origins"]
 };

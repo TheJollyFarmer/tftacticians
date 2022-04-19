@@ -1,19 +1,39 @@
+import api from "@/api/main";
 import types from "@/store/types";
 import debounce from "lodash/debounce";
+import throttle from "lodash/throttle";
 
 export default {
-  setData({ dispatch, getters }) {
-    dispatch("champions/setChampions", getters.getActiveSet);
-    dispatch("champions/traits/setTraits", getters.getActiveSet);
-    dispatch("compositions/setCompositions", getters.getActiveSet);
-    dispatch("items/setItems", getters.getActiveSet);
+  getData({ dispatch, state }) {
+    let set = api.getActiveSet();
+
+    set !== state.activeSet
+      ? dispatch("setActiveSet", set)
+      : dispatch("setData");
+
+    if (api.getTheme() !== state.darkTheme) {
+      dispatch("toggleDarkTheme");
+    }
   },
 
-  setActiveSet: ({ commit }, set) => commit(types.SET_ACTIVE_SET, set),
+  setData({ dispatch, getters: { getActiveDataSet } }) {
+    dispatch("champions/setChampions", getActiveDataSet);
+    dispatch("champions/traits/setTraits", getActiveDataSet);
+    dispatch("compositions/setCompositions", getActiveDataSet);
+    dispatch("items/setItems", getActiveDataSet);
+    dispatch("summoner/getRegion");
+  },
+
+  setActiveSet: ({ commit, dispatch }, set) => {
+    commit(types.SET_ACTIVE_SET, set);
+
+    api.setActiveSet(set);
+
+    dispatch("setData");
+  },
 
   displayPopover({ commit, dispatch }, popover) {
     commit(types.SET_HOVER_STATUS, true);
-
     dispatch("setPopover", popover);
   },
 
@@ -48,8 +68,22 @@ export default {
     }, 50);
   },
 
-  resetPopover: ({ commit }) => {
+  resetPopover({ commit }) {
     commit(types.SET_POPOVER_DISPLAY, false);
     commit(types.SET_HOVER_STATUS, false);
-  }
+  },
+
+  setWindowWidth: throttle(function({ commit }, { currentTarget }) {
+    commit(types.SET_WINDOW_WIDTH, currentTarget.innerWidth);
+  }, 500),
+
+  toggleDarkTheme: ({ commit, state }) => {
+    commit(types.TOGGLE_DARK_THEME);
+
+    api.setTheme(state.darkTheme);
+  },
+
+  toggleModal: ({ commit }) => commit(types.TOGGLE_MODAL),
+  setError: ({ commit }, error) => commit(types.SET_ERROR, error),
+  removeError: ({ commit }) => commit(types.REMOVE_ERROR)
 };

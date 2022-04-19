@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "users",
+    "path": "champions"
+  },
+  {
+    "icon": "layer-group",
+    "path": "compositions"
+  },
+  {
+    "icon": "khanda",
+    "path": "items"
+  },
+  {
+    "icon": "recycle",
+    "path": "traits"
+  },
+  {
+    "icon": "trophy",
+    "path": "leaderboard"
+  },
+  {
+    "icon": "info",
+    "path": "help"
+  }
+]

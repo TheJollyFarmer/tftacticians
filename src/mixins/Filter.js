@@ -1,30 +1,32 @@
 export default {
   props: {
-    collection: {
+    options: {
       type: Array,
       required: true
     },
 
     label: {
       type: String,
-      default: "cost",
+      default: "",
       required: false
+    },
+
+    active: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   },
 
+  emits: ["apply", "remove"],
+
   methods: {
     addFilterEvent(filter) {
-      this.$emit("apply", {
-        filter,
-        type: this.label
-      });
+      this.$emit("apply", filter);
     },
 
     removeFilterEvent(filter) {
-      this.$emit("remove", {
-        filter,
-        type: this.label
-      });
+      this.$emit("remove", filter);
     }
   }
 };

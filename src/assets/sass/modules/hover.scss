@@ -10,10 +10,7 @@
   transition: $hover-in;
 
   &:hover, &:focus {
-    background-color: $white-ter;
+    background-color: var(--hover);
     transition: $hover-out;
-    box-shadow: $shadow;
-    border-radius: 5px;
-    transform: scale(1.05);
   }
 }

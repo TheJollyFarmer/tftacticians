@@ -22,21 +22,25 @@ export default {
     option: {
       type: [Number, String],
       required: true
-    },
-
-    type: {
-      type: String,
-      required: true
     }
   },
 
+  emits: ["close"],
+
   methods: {
     closeEvent() {
-      this.$emit("close", {
-        filter: this.option,
-        type: this.type.toUpperCase()
-      });
+      this.$emit("close", this.option);
     }
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.control {
+  margin: 0 0.75rem 0.5em 0;
+
+  .tags {
+    flex-wrap: nowrap;
+  }
+}
+</style>

@@ -28,10 +28,9 @@ export default {
 .placement-tiles {
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(10, 2em);
+  grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(2, 2em);
-  grid-column-gap: 0.25em;
-  grid-row-gap: 0.25em;
-  justify-content: center;
+  grid-column-gap: 0.3em;
+  grid-row-gap: 0.3em;
 }
 </style>

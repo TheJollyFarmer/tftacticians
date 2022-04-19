@@ -1,24 +1,23 @@
-import request from "@/api/index";
-
-const key = "";
+import api from "@/api/index";
 
 export default {
-  getSummoner(region, name) {
-    return request(
-      "get",
-      "https://kind-edison-e0eb7d.netlify.app/.netlify/functions/index"
-    );
+  getRegion() {
+    return api.getItem("local", "region");
   },
 
-  getRanked(region, puuid) {
-    return request(
-      "get",
-      "https://" +
-        region +
-        "1.api.riotgames.com/tft/league/v1/entries/by-summoner/" +
-        puuid +
-        "?api_key=" +
-        key
-    );
+  setRegion(region) {
+    return api.setItem("local", "region", region);
+  },
+
+  getSummoner({ region, name }) {
+    return api.request("summoner", { region, name });
+  },
+
+  getName({ region, puuid }) {
+    return api.request("name", { region, puuid });
+  },
+
+  getRanked(region, id) {
+    return api.request("ranked", { region, id });
   }
 };

@@ -1,15 +1,50 @@
 // Table
 .table {
+  background-color: transparent;
   border-collapse: separate;
-  border-spacing: 0.35em;
+  border-spacing: 0.5em;
+  color: var(--colour);
+  margin: 0 -0.4em;
+
+  &.is-fullwidth {
+    width: 101.5%;
+  }
+
+  thead {
+    th {
+      background-color: var(--primary);
+      color: $white-dark;
+    }
+
+    tr:hover {
+      background-color: transparent;
+    }
+  }
+
+  tbody {
+    background-color: var(--layer);
+    transition: $hover-in;
+
+    tr {
+      &:hover {
+        background-color: var(--hover);
+      }
+
+      &:nth-child(even) {
+      background-color: var(--transparent);
+      }
+    }
+  }
+
+  tfoot th {
+    background-color: var(--active);
+    color: var(--colour);
+    transition: $hover-in;
+  }
 
   td,
   th {
     box-shadow: $shadow;
-    border-radius: 3px;
-  }
-
-  thead tr:hover {
-    background-color: $primary;
+    border-radius: $radius-small;
   }
 }

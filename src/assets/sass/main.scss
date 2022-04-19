@@ -1,10 +1,8 @@
 // Fonts
-@import url(https://fonts.googleapis.com/css?family=B612&display=swap);
-// Variables
-@import "styles";
+@import url("https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 // Bootstrap
 @import '~bulma/bulma';
-@import '~@fortawesome/fontawesome-free/scss/fontawesome';
-@import '~@fortawesome/fontawesome-free/scss/regular';
-@import '~@fortawesome/fontawesome-free/scss/solid';
-@import '~@fortawesome/fontawesome-free/scss/brands';
+
+// Styles
+@import "styles";

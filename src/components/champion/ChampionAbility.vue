@@ -5,8 +5,9 @@
     class="champion-ability">
     <template #mediaLeft>
       <VImage
-        :image="champion.name"
+        :image="champion.id"
         :dir="directory"
+        class="mt-05"
         dimension="44"/>
     </template>
     <ChampionAbilityHead :ability="ability"/>
@@ -40,12 +41,12 @@ export default {
 
   data() {
     return {
-      ability: this.champion.spell
+      ability: this.champion.ability
     };
   },
 
   computed: {
-    ...mapGetters({ set: "getActiveSet" }),
+    ...mapGetters({ set: "getActiveImageSet" }),
 
     directory() {
       return `champions/${this.set}/spells`;
@@ -53,9 +54,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.champion-ability ::v-deep .media-left {
-  margin-top: 0.1em;
-}
-</style>

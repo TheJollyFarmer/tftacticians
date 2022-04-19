@@ -1,13 +1,23 @@
 import { normalise } from "@/utils/helpers";
-import dataStructures from "@/utils/dataStructures";
 
 export default {
+  leaderboard(leader) {
+    return {
+      name: leader.summonerName,
+      tier: leader.rank,
+      lp: leader.leaguePoints,
+      played: leader.wins + leader.losses,
+      wins: leader.wins,
+      losses: leader.losses
+    };
+  },
+
   matches(match) {
     return {
       id: match.metadata.match_id,
       keys: match.metadata.participants,
-      gameTime: match.info.game_datetime,
-      gameLength: match.info.game_length,
+      time: match.info.game_datetime,
+      length: match.info.game_length,
       queue: match.info.queue_id,
       summoners: normalise(match.info.participants, "puuid", "summoners")
     };
@@ -16,11 +26,16 @@ export default {
   summoners(summoner) {
     return {
       puuid: summoner.puuid,
+      name: "",
       placement: summoner.placement,
       gold: summoner.gold_left,
       level: summoner.level,
       champions: normalise(summoner.units, "character_id", "champions"),
-      traits: normalise(summoner.traits, "name", "traits")
+      traits: normalise(summoner.traits, "name", "traits"),
+      companion: {
+        id: summoner.companion.skin_ID,
+        name: summoner.companion.species
+      }
     };
   },
 
@@ -28,7 +43,7 @@ export default {
     return {
       id: champion.character_id,
       items: champion.items,
-      tier: champion.tier
+      starred: champion.tier
     };
   },
 
@@ -36,7 +51,7 @@ export default {
     return {
       id: trait.name,
       style: trait.style,
-      count: trait.count
+      count: trait.num_units
     };
   }
 };

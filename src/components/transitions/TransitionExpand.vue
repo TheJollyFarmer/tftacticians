@@ -1,59 +1,49 @@
 <script>
-export default {
-  name: "TransitionExpand",
+import { h, Transition } from "vue";
 
-  functional: true,
+const TransitionExpand = (props, context) => {
+  const data = {
+    name: "expand",
 
-  render(createElement, context) {
-    const data = {
-      props: {
-        name: "expand"
-      },
+    onAfterEnter: element => {
+      element.style.height = "auto";
+    },
 
-      on: {
-        afterEnter(element) {
-          element.style.height = "auto";
-        },
+    onEnter: element => {
+      const { width } = getComputedStyle(element);
 
-        enter(element) {
-          const { width } = getComputedStyle(element);
+      element.style.width = width;
+      element.style.position = "absolute";
+      element.style.visibility = "hidden";
+      element.style.height = "auto";
 
-          element.style.width = width;
-          element.style.position = "absolute";
-          element.style.visibility = "hidden";
-          element.style.height = "auto";
+      const { height } = getComputedStyle(element);
 
-          const { height } = getComputedStyle(element);
+      element.style.width = null;
+      element.style.position = null;
+      element.style.visibility = null;
+      element.style.height = 0;
 
-          element.style.width = null;
-          element.style.position = null;
-          element.style.visibility = null;
-          element.style.height = 0;
+      getComputedStyle(element).height;
 
-          getComputedStyle(element).height;
+      setTimeout(() => (element.style.height = height));
+    },
 
-          setTimeout(() => {
-            element.style.height = height;
-          });
-        },
+    onLeave: element => {
+      const { height } = getComputedStyle(element);
 
-        leave(element) {
-          const { height } = getComputedStyle(element);
+      element.style.height = height;
 
-          element.style.height = height;
+      getComputedStyle(element).height;
 
-          getComputedStyle(element).height;
+      setTimeout(() => (element.style.height = 0));
+    }
+  };
 
-          setTimeout(() => {
-            element.style.height = 0;
-          });
-        }
-      }
-    };
-
-    return createElement("transition", data, context.children);
-  }
+  return h(Transition, data, context.slots);
 };
+
+export default TransitionExpand;
 </script>
 
 <style scoped>
@@ -73,7 +63,7 @@ export default {
   overflow: hidden;
 }
 
-.expand-enter,
+.expand-enter-from,
 .expand-leave-to {
   height: 0;
   opacity: 0;

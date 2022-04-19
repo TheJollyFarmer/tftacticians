@@ -1,25 +1,43 @@
 <template>
-  <VLevel class="summoner-match">
-    <div class="match-info">
-      <span v-text="summoner.placement"/>
-      <span v-text="matchType"/>
-      <span v-text="gameLength"/>
-      <span v-text="gameTime"/>
-    </div>
-    <ChampionList :champions="summoner.champions"/>
-  </VLevel>
+  <div
+    ref="observer"
+    class="summoner-match">
+    <SummonerMatchHead
+      :expand="expand"
+      :match="match"
+      :summoners="summoners"
+      @toggle="toggleExpand"/>
+    <TransitionExpand>
+      <MatchSummoners
+        v-if="loaded"
+        v-show="expand"
+        :summoners="summoners"/>
+    </TransitionExpand>
+  </div>
 </template>
 
 <script>
-import filters from "@/utils/filters";
-import VLevel from "@/components/utility/VLevel";
-import { mapState } from "vuex";
-import ChampionList from "@/components/champions/ChampionList";
+import Observer from "@/mixins/Observer";
+import SummonerMatchHead from "@/components/summoner/SummonerMatchHead";
+import TransitionExpand from "@/components/transitions/TransitionExpand";
+import { sort } from "@/utils/helpers";
+import { defineAsyncComponent } from "vue";
+import { mapActions } from "vuex";
+
+const MatchSummoners = defineAsyncComponent(() =>
+  import("@/components/summoner/MatchSummoners")
+);
 
 export default {
   name: "SummonerMatch",
 
-  components: { ChampionList, VLevel },
+  components: {
+    SummonerMatchHead,
+    MatchSummoners,
+    TransitionExpand
+  },
+
+  mixins: [Observer],
 
   props: {
     match: {
@@ -28,23 +46,30 @@ export default {
     }
   },
 
+  data() {
+    return {
+      expand: false,
+      loaded: false
+    };
+  },
+
   computed: {
-    ...mapState("summoner", ["data"]),
+    summoners() {
+      return sort(this.match.summoners, "placement", "asc");
+    }
+  },
 
-    summoner() {
-      return this.match.summoners[this.data.puuid];
+  methods: {
+    ...mapActions("summoner/matches", ["getSummonerNames"]),
+
+    executeObserver() {
+      this.$data.loaded = true;
+      this.getSummonerNames(this.match);
+      this.observer.disconnect();
     },
 
-    matchType() {
-      return this.match.queue === 1100 ? "Ranked" : "Normal";
-    },
-
-    gameLength() {
-      return (this.match.gameLength / 60).toPrecision(2) + " minutes";
-    },
-
-    gameTime() {
-      return filters.relativeTime(this.match.gameTime);
+    toggleExpand() {
+      this.expand = !this.expand;
     }
   }
 };
@@ -52,18 +77,10 @@ export default {
 
 <style lang="scss" scoped>
 .summoner-match {
-  align-items: center;
-  border-left: 4px solid $primary;
-  box-shadow: $shadow;
-  display: flex;
-  font-size: 0.9em;
-  padding: 0.75em;
-  width: 100%;
+  margin-bottom: $spacing-large;
 
-  .match-info {
-    display: flex;
-    flex-direction: column;
-    margin-right: 0.5em;
+  &:last-child {
+    margin-bottom: -$spacing-large;
   }
 }
 </style>

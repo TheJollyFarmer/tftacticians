@@ -1,0 +1,21 @@
+[
+  {
+    "link": "sets",
+    "hasList": true,
+    "expanded": true,
+    "subs": [
+      {"link": "set-6", "label": "6: Gadgets & Gizmos" },
+      {"link": "set-5-5", "label": "5.5: Dawn of Heroes" },
+      {"link": "set-5", "label": "5: The Reckoning" },
+      {"link": "set-4", "label": "4: Fates" },
+      {"link": "set-3", "label": "3: Galaxies" }
+    ]
+  },
+  { "link": "augments"},
+  { "link": "rounds" },
+  { "link": "experience" },
+  { "link": "income" },
+  { "link": "rolling" },
+  { "link": "damage" },
+  { "link": "hotkeys" }
+]

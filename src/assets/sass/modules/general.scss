@@ -1,0 +1,41 @@
+[v-cloak] {
+  display: none;
+}
+
+body {
+  &.has-navbar-fixed-top {
+    padding-top: 3.5rem;
+  }
+
+  p {
+    margin-bottom: 0.75rem;
+    white-space: pre-line;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+h1, h2, h3 {
+  font-weight: 700 !important;
+}
+
+.field:not(:last-child) {
+  margin-bottom: $spacing-large;
+}
+
+.portrait {
+  margin: 0 auto;
+}
+
+.caption {
+  color: var(--colour);
+  line-height: 1;
+  margin: 0 0.5rem;
+  transition: $hover-in;
+}
+
+.mt-05 {
+  margin-top: 0.1rem;
+}

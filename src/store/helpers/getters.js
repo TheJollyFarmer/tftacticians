@@ -1,23 +1,14 @@
-import { getPath } from "@/utils/helpers";
+import { aggregate, average, curate, getPath, sort } from "@/utils/helpers";
 
 export const mapKeys = path => state => state.keys.map(key => state[path][key]);
-export const getKeys = path => state => getPath(state, path);
 export const getValue = path => state => getPath(state, path);
 export const getDatum = path => state => key => getPath(state, path)[key];
 export const getDatumProp = (path, prop) => state => key =>
   getPath(state, path)[key][prop];
-export const getObjValues = path => state => key =>
-  Object.values(getPath(state, path)[key]);
-export const getLength = key => state => state[key].length;
 export const filterBy = (getter, prop, query) => (state, getters) =>
   getters[getter].filter(item => item[prop] === query);
-export const filterPropExists = (getter, prop) => (state, getters) =>
-  getters[getter].filter(item => item[prop]);
 export const isTrue = path => state => value => getPath(state, path) === value;
-export const isFalse = path => state => value => getPath(state, path) !== value;
-export const isEqualTo = (path, value) => state =>
-  getPath(state, path) === value;
-export const isEqualToProp = (path, value, prop) => state => key =>
-  getPath(state, path)[key][prop] === value;
-export const isNotEqualTo = (path, value) => state =>
-  getPath(state, path) !== value;
+export const sortDesc = (path, prop) => state => sort(state[path], prop);
+export const agg = path => state => aggregate(state[path]);
+export const avg = path => state => average(state[path]);
+export const descCount = path => state => curate(aggregate(state[path]));

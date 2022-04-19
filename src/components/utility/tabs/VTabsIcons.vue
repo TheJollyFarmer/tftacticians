@@ -5,10 +5,9 @@
       :key="index"
       :class="{ 'is-active': tab.isActive }">
       <a
-        v-tooltip="tab.label"
         role="tab"
         @click="selectEvent(tab, index)">
-        <v-favicon :icon="tab.icon"/>
+        {{ tab.label }}
       </a>
     </li>
   </ul>
@@ -29,6 +28,8 @@ export default {
     }
   },
 
+  emits: ["select"],
+
   methods: {
     selectEvent(tab, index) {
       this.$emit("select", tab, index);
@@ -38,9 +39,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+li a {
+  font-weight: bold;
+  color: var(--colour);
+  &:hover {
+    border-bottom-color: var(--colour);
+    color: var(--colour);
+    filter: brightness(90%);
+  }
+}
 li.is-active a {
-  border-bottom-color: #00d1b2;
-  color: #00d1b2;
+  border-bottom-color: var(--primary);
+  color: var(--primary);
 }
 
 li .icon:first-child {

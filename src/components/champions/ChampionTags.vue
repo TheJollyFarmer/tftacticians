@@ -1,18 +1,16 @@
 <template>
   <TransitionExpand>
     <VField
-      v-show="hasLength"
+      v-show="filters.length"
       grouped
       multiline>
       <TransitionTags>
-        <template v-for="(filter, key) in filters">
-          <template v-for="option in filter">
-            <ChampionTag
-              :key="option"
-              :option="option"
-              :type="key"
-              @close="removeTagEvent"/>
-          </template>
+        <template
+          v-for="(option, index) in filters"
+          :key="index">
+          <ChampionTag
+            :option="option"
+            @close="remove"/>
         </template>
       </TransitionTags>
     </VField>
@@ -24,7 +22,8 @@ import ChampionTag from "@/components/champions/ChampionTag";
 import TransitionExpand from "@/components/transitions/TransitionExpand";
 import TransitionTags from "@/components/transitions/TransitionTags";
 import VField from "@/components/utility/VField";
-import { mapActions } from "vuex";
+import { clone, remove } from "@/utils/helpers";
+import { mapActions, mapState } from "vuex";
 
 export default {
   name: "ChampionTags",
@@ -36,42 +35,30 @@ export default {
     VField
   },
 
-  props: {
-    filters: {
-      type: Object,
-      required: true
-    }
-  },
-
-  computed: {
-    hasLength() {
-      return Object.values(this.filters).some(filter => filter.length);
-    }
-  },
+  computed: mapState("champions", ["filters"]),
 
   methods: {
     ...mapActions("champions", ["removeFilter"]),
 
-    removeTagEvent({ filter, type }) {
-      this.removeFilter({
-        filter,
-        type: "REMOVE_" + type + "_FILTER"
-      });
+    remove(option) {
+      let query = clone(this.$route.query);
+
+      Object.keys(query).forEach(key => remove(query[key], option));
+
+      this.$router.push({ query });
     }
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.transition-list {
-  display: flex;
+.field {
+  margin-bottom: 1em !important;
 
-  > .control {
-    margin-right: 0.75rem;
-
-    ::v-deep .tags {
-      flex-wrap: nowrap;
-    }
+  .transition-tags {
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
   }
 }
 </style>

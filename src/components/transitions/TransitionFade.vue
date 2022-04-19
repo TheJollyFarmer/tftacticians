@@ -1,39 +1,27 @@
 <script>
-export default {
-  name: "TransitionFade",
+import { h, Transition } from "vue";
 
-  functional: true,
+const TransitionFade = (props, context) => {
+  const data = {
+    name: "fade",
+    appear: true,
+    mode: "out-in",
+    onBeforeEnter: el => (el.style.animationDuration = `${props.duration}s`),
+    onBeforeLeave: el => (el.style.animationDuration = `${props.duration}s`)
+  };
 
-  props: {
-    duration: {
-      type: Number,
-      required: false,
-      default: 0.5
-    }
-  },
+  return h(Transition, data, context.slots);
+};
 
-  render(createElement, context) {
-    const data = {
-      props: {
-        appear: true,
-        name: "fade",
-        mode: "out-in"
-      },
-
-      on: {
-        beforeEnter(el) {
-          el.style.animationDuration = `${context.props.duration}s`;
-        },
-
-        beforeLeave(el) {
-          el.style.animationDuration = `${context.props.duration}s`;
-        }
-      }
-    };
-
-    return createElement("transition", data, context.children);
+TransitionFade.props = {
+  duration: {
+    type: Number,
+    required: false,
+    default: 0.3
   }
 };
+
+export default TransitionFade;
 </script>
 
 <style>

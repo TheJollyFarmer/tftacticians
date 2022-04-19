@@ -1,16 +1,14 @@
 <template>
-  <transition 
-    name="overlay-fade" 
-    @after-enter="toggleContent(type)">
+  <Transition name="overlay-fade">
     <div 
-      v-show="displayOverlay === type"
+      v-show="displayModal"
       class="modal is-active">
       <div 
         class="modal-background" 
-        @click="toggleContent(type)"/>
+        @click="toggleModal"/>
       <slot/>
     </div>
-  </transition>
+  </Transition>
 </template>
 
 <script>
@@ -19,26 +17,19 @@ import { mapActions, mapState } from "vuex";
 export default {
   name: "VOverlay",
 
-  props: {
-    type: {
-      type: String,
-      required: true
-    }
-  },
+  computed: mapState(["displayModal"]),
 
-  computed: mapState(["displayOverlay"]),
-
-  methods: mapActions(["toggleContent"])
+  methods: mapActions(["toggleModal"])
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .overlay-fade-enter-active {
-  animation: fade 0.25s ease-in;
+  animation: fade $hover-in;
 }
 
 .overlay-fade-leave-active {
-  animation: fade 0.2s ease-out reverse;
+  animation: fade 0.2s $hover-out reverse;
 }
 
 @keyframes fade {

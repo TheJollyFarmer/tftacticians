@@ -1,19 +1,20 @@
 <template>
   <div class="section">
     <div class="container">
-      <div class="columns is-variable is-8">
+      <div class="columns is-variable is-2">
         <slot v-if="isFullWidth"/>
         <template v-else>
           <aside class="column is-one-third">
             <slot name="aside"/>
           </aside>
           <main class="column">
-            <section>
-              <VHeader
-                v-if="title"
-                :text="title"/>
+            <section
+              v-if="title"
+              class="surface">
+              <VHeader :text="title"/>
               <slot/>
             </section>
+            <slot v-else/>
           </main>
         </template>
       </div>
@@ -44,3 +45,15 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.column {
+  overflow: hidden;
+
+  &.is-one-third {
+    @media only screen and (min-width: 769px) {
+      width: 30.5%;
+    }
+  }
+}
+</style>

@@ -1,44 +1,30 @@
 <template>
-  <div class="column is-three-fifths-desktop">
-    <VHeader text="compositions"/>
+  <VList
+    v-slot="{ item: composition }"
+    :collection="compositions"
+    tag="ul">
     <CompositionListItem
-      v-for="(composition, index) in compositions"
-      :key="index"
-      :composition="composition"
-      :is-active="isActive(composition)"
-      @onClick="setComposition"/>
-  </div>
+      :key="composition"
+      :composition="composition"/>
+  </VList>
 </template>
 
 <script>
 import CompositionListItem from "@/components/compositions/CompositionListItem";
-import VHeader from "@/components/utility/VHeader";
-import { mapActions } from "vuex";
+import VList from "@/components/utility/VList";
 
 export default {
   name: "CompositionsList",
 
-  components: { CompositionListItem, VHeader },
+  components: {
+    CompositionListItem,
+    VList
+  },
 
   props: {
     compositions: {
       type: Array,
       required: true
-    },
-
-    activeComp: {
-      type: Object,
-      required: true
-    }
-  },
-
-  methods: {
-    ...mapActions("compositions", {
-      setComposition: "setComposition"
-    }),
-
-    isActive(composition) {
-      return this.activeComp.name === composition.name;
     }
   }
 };

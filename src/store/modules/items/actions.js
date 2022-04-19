@@ -1,20 +1,22 @@
-import items from "@/constants/items";
+import items from "@/data/items.json";
 import types from "./types";
-import { getKeys, normalise } from "@/utils/helpers";
+import { setQuery, setState } from "@/store/helpers/actions";
 
 export default {
-  setItems({ commit }, set) {
-    commit(types.SET_DATA, normalise(items[set], "name"));
-    commit(types.SET_KEYS, getKeys(items[set], "name"));
+  setItems: setState(items),
+
+  setFilters({ dispatch }, { item, search }) {
+    dispatch("setFilter", item);
+    dispatch("setQuery", search);
   },
 
-  setFilter({ commit, dispatch }, { filter, type }) {
-    commit(types.SET_FILTER_ITEM, filter);
-    commit(types.SET_FILTER_TYPE, type);
+  setFilter: ({ commit, dispatch, getters, state }, filter) => {
+    commit(types.SET_FILTER, getters.getItemByName(filter).id);
+
+    if (getters.isSpecial !== state.isSpecial) commit(types.TOGGLE_SPECIAL);
   },
 
-  resetFilter({ commit }) {
-    commit(types.RESET_FILTER_ITEM);
-    commit(types.RESET_FILTER_TYPE);
-  }
+  toggleSpecial: ({ commit }) => commit(types.TOGGLE_SPECIAL),
+
+  setQuery
 };

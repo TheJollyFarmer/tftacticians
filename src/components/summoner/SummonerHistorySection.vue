@@ -2,7 +2,7 @@
   <VSection title="match history">
     <div class="match-history">
       <SummonerMatch
-        v-for="(match, index) in data"
+        v-for="(match, index) in matches"
         :key="index"
         :match="match"/>
     </div>
@@ -10,15 +10,17 @@
 </template>
 
 <script>
-import VSection from "@/components/utility/VSection";
-import { mapState } from "vuex";
 import SummonerMatch from "@/components/summoner/SummonerMatch";
+import VSection from "@/components/utility/VSection";
+import { mapGetters } from "vuex";
 
 export default {
   name: "SummonerHistorySection",
 
   components: { SummonerMatch, VSection },
 
-  computed: mapState("summoner/matches", ["data"])
+  computed: mapGetters("summoner/matches", {
+    matches: "getMatches"
+  })
 };
 </script>

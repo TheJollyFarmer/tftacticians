@@ -3,22 +3,17 @@
     <tr>
       <th
         v-for="head in headers"
-        :key="head">
-        {{ head | capitalise }}
+        :key="head"
+        class="is-capitalized">
+        {{ head }}
       </th>
     </tr>
   </thead>
 </template>
 
 <script>
-import filters from "@/utils/filters";
-
 export default {
   name: "VTHead",
-
-  filters: {
-    capitalise: filters.capitalise
-  },
 
   props: {
     headers: {

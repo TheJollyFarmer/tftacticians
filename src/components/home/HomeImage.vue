@@ -3,8 +3,8 @@
     :has-border="false"
     :is-round="false"
     :dimension="dimension"
-    dir="layout"
-    :image="image"/>
+    :image="image"
+    dir="general"/>
 </template>
 
 <script>

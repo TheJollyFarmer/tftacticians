@@ -1,7 +1,7 @@
 <template>
-  <section class="menu">
+  <section class="menu surface">
     <VHeader :text="title"/>
-    <ul class="menu-list is-relative">
+    <ul class="menu-list">
       <slot/>
     </ul>
   </section>

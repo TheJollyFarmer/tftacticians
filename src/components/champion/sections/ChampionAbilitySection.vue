@@ -1,19 +1,21 @@
 <template>
-  <ChampionSection title="ability">
-    <ChampionAbility :champion="champion"/>
-  </ChampionSection>
+  <VSection title="ability">
+    <ChampionAbility
+      :key="champion.id"
+      :champion="champion"/>
+  </VSection>
 </template>
 
 <script>
 import ChampionAbility from "@/components/champion/ChampionAbility";
-import ChampionSection from "@/components/champion/sections/ChampionSection";
+import VSection from "@/components/utility/VSection";
 
 export default {
   name: "ChampionAbilitySection",
 
   components: {
     ChampionAbility,
-    ChampionSection
+    VSection
   },
 
   props: {

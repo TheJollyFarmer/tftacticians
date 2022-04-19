@@ -1,51 +1,53 @@
 <template>
-  <VPage v-if="!loading">
-    <template #aside>
-      <SummonerPortraitSection
-        :name="name"
-        :tier="ranked.tier"/>
-      <SummonerTierSection
+  <TransitionFade>
+    <template v-if="!loading">
+      <SummonerContent
+        v-if="hasHistory"
+        :summoner="summoner"
         :ranked="ranked"
         :region="region"/>
-      <SummonerStatsSection/>
+      <NoHistory
+        v-else
+        :summoner="summoner"
+        :region="region"/>
     </template>
-    <SummonerPlacementsSection/>
-    <SummonerTrendsSection/>
-    <SummonerHistorySection/>
-  </VPage>
-  <VLoader v-else/>
+    <VLoader
+      v-else
+      for-view/>
+  </TransitionFade>
 </template>
 
 <script>
-import SummonerHistorySection from "@/components/summoner/SummonerHistorySection";
-import SummonerPlacementsSection from "@/components/summoner/SummonerPlacementsSection";
-import SummonerPortraitSection from "@/components/summoner/SummonerPortraitSection";
-import SummonerStatsSection from "@/components/summoner/SummonerStatsSection";
-import SummonerTierSection from "@/components/summoner/SummonerTierSection";
-import SummonerTrendsSection from "@/views/SummonerTrendsSection";
+import NoHistory from "@/views/NoHistory";
+import SummonerContent from "@/views/SummonerContent";
+import TransitionFade from "@/components/transitions/TransitionFade";
 import VLoader from "@/components/utility/VLoader";
-import VPage from "@/components/utility/VPage";
 import { mapActions, mapState } from "vuex";
 
 export default {
   name: "SummonerView",
 
   components: {
-    SummonerTrendsSection,
-    SummonerHistorySection,
-    SummonerPlacementsSection,
-    SummonerPortraitSection,
-    SummonerStatsSection,
-    SummonerTierSection,
-    VLoader,
-    VPage
+    NoHistory,
+    SummonerContent,
+    TransitionFade,
+    VLoader
   },
 
+  // beforeRouteEnter: ({ params: { region, name } }, from, next) => {
+  //   next(vm => vm.setParameters().getSummoner());
+  // },
+  //
+  // beforeRouteUpdate({ params: { name } }) {
+  //   this.setParameters().getSummoner();
+  // },
+
   computed: mapState("summoner", {
-    name: state => state.data.name,
+    summoner: state => state.data,
     loading: state => state.loading,
     ranked: state => state.ranked,
-    region: state => state.region
+    region: state => state.form.region,
+    hasHistory: state => state.matches.keys.length
   }),
 
   beforeMount() {
@@ -59,6 +61,8 @@ export default {
     setParameters() {
       this.updateRegion(this.$route.params.region);
       this.updateName(this.$route.params.name);
+
+      return this;
     }
   }
 };

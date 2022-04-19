@@ -1,5 +1,7 @@
 <template>
-  <section @click="toggleList">
+  <section
+    class="filter layer"
+    @click="toggleList">
     <h2 :class="['filter-label', classes]">
       {{ label }}
       <VRotate
@@ -7,24 +9,41 @@
         :rotate="displayOptions"/>
     </h2>
     <TransitionExpand>
-      <ul
-        v-show="displayOptions"
-        class="filter-list"
-        @click.stop>
-        <slot/>
-      </ul>
+      <div v-show="displayOptions">
+        <VList
+          v-slot="{ item }"
+          :collection="options"
+          :class="['filter-list', $attrs.class]"
+          :animatable="animatable"
+          type="grid"
+          tag="ul"
+          @click.stop>
+          <slot :option="item"/>
+        </VList>
+      </div>
     </TransitionExpand>
   </section>
 </template>
 
 <script>
-import TransitionExpand from "@/components/transitions/TransitionExpand";
+import VList from "@/components/utility/VList";
 import VRotate from "@/components/utility/VRotate";
+import { defineAsyncComponent } from "vue";
+
+const TransitionExpand = defineAsyncComponent(() =>
+  import("@/components/transitions/TransitionExpand")
+);
 
 export default {
   name: "VFilter",
 
-  components: { TransitionExpand, VRotate },
+  components: {
+    TransitionExpand,
+    VList,
+    VRotate
+  },
+
+  inheritAttrs: false,
 
   props: {
     label: {
@@ -33,10 +52,9 @@ export default {
       default: ""
     },
 
-    type: {
-      type: String,
-      required: false,
-      default: "grey-dark"
+    options: {
+      type: Array,
+      required: true
     },
 
     size: {
@@ -55,6 +73,12 @@ export default {
       type: Boolean,
       required: false,
       default: false
+    },
+
+    animatable: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   },
 
@@ -66,11 +90,7 @@ export default {
 
   computed: {
     classes() {
-      return [
-        `has-text-${this.type}`,
-        `is-size-${this.size}`,
-        { "is-active": this.displayOptions }
-      ];
+      return [`is-size-${this.size}`, { "is-active": this.displayOptions }];
     }
   },
 
@@ -85,18 +105,36 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.filter-label {
-  display: flex;
-  line-height: 1.25;
-  padding: 0.5em 0.4em 0.5em 1em;
+.filter {
+  margin-bottom: $spacing-large;
+  padding: 0;
 
-  &.is-active {
-    background-color: $white-ter;
+  &:hover {
+    background-color: var(--layer);
   }
-}
 
-.filter-list {
-  margin-top: 1em;
-  overflow: visible;
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .filter-label {
+    border-radius: $radius;
+    display: flex;
+    letter-spacing: 0.1em;
+    padding: $spacing-small 0.6em $spacing-small 0.8em;
+    position: relative;
+    text-transform: uppercase;
+
+    &.is-active:hover,
+    &.is-active {
+      background: var(--active);
+      border-radius: $radius $radius 0 0;
+    }
+  }
+
+  .filter-list {
+    display: grid;
+    padding: $spacing-large;
+  }
 }
 </style>

@@ -1,8 +1,9 @@
 <template>
   <article class="keyboard">
-    <template v-for="(key, index) in keys">
+    <template
+      v-for="(key, index) in keys"
+      :key="index">
       <VKeyboardKey
-        :key="index"
         :label="key.label"
         :label-two="key.second"
         :class="key.class"/>

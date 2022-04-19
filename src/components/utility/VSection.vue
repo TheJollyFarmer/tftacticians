@@ -1,19 +1,24 @@
 <template>
-  <section class="section">
-    <VHeader
-      :text="title"
-      type="2"/>
-    <slot/>
-  </section>
+  <TransitionFade>
+    <section
+      :key="title"
+      class="surface">
+      <VHeader
+        :text="title"
+        type="2"/>
+      <slot/>
+    </section>
+  </TransitionFade>
 </template>
 
 <script>
+import TransitionFade from "@/components/transitions/TransitionFade";
 import VHeader from "@/components/utility/VHeader";
 
 export default {
   name: "VSection",
 
-  components: { VHeader },
+  components: { TransitionFade, VHeader },
 
   props: {
     title: {
@@ -23,10 +28,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.section {
-  padding: 0;
-  margin-bottom: 1.81em;
-}
-</style>

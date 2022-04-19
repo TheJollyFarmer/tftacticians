@@ -20,7 +20,7 @@ export default {
     max: {
       type: Number,
       required: false,
-      default: 3
+      default: 5
     },
 
     progress: {
@@ -41,21 +41,21 @@ export default {
 .progress-bars {
   align-self: center;
   display: flex;
-  height: 10px;
-  width: 50px;
+  height: 1em;
+  flex-direction: row-reverse;
 
   .progress-bar {
-    background-color: $white;
+    background-color: var(--layer);
     backface-visibility: hidden;
-    border: 2px solid $grey-dark;
+    border: none;
     border-radius: 5px;
-    flex: 33%;
+    box-shadow: var(--shadow);
+    width: 3px;
     height: 100%;
-    margin: 0 0.5px;
-    box-shadow: $shadow;
+    margin: 0 0.15em;
   }
   .is-active {
-    background-color: $grey-dark;
+    background-color: var(--primary);
   }
 }
 </style>

@@ -37,5 +37,13 @@ export default {
     font-weight: bold;
     text-shadow: $shadow;
   }
+
+  &:first-of-type dd {
+    color: var(--colour);
+  }
+
+  &:last-of-type dd {
+    color: $purple;
+  }
 }
 </style>

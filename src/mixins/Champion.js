@@ -7,17 +7,14 @@ export default {
 
   computed: {
     ...mapGetters({
-      set: "getActiveSet",
+      set: "getActiveImageSet",
       getChampionName: "champions/getChampionName"
     }),
 
     view() {
       return {
-        name: "Champion",
-        params: {
-          champion: this.name,
-          id: this.id
-        }
+        name: "champion",
+        params: { champion: this.name }
       };
     },
 
@@ -27,12 +24,6 @@ export default {
 
     name() {
       return this.getChampionName(this.id);
-    }
-  },
-
-  methods: {
-    goToChampionView() {
-      this.$router.push(this.view).then(() => this.resetPopover());
     }
   }
 };

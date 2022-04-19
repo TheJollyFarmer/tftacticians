@@ -7,7 +7,7 @@
         <v-favicon :icon="icon"/>
       </slot>
     </div>
-    <transition-dropdown>
+    <TransitionDropdown>
       <div
         v-show="isActive"
         class="dropdown-menu"
@@ -16,12 +16,12 @@
           <slot :closeDropdown="toggleDropdown"/>
         </div>
       </div>
-    </transition-dropdown>
+    </TransitionDropdown>
   </div>
 </template>
 
 <script>
-import Dropdown from "../../mixins/Dropdown";
+import Dropdown from "../../mixins/Click";
 import TransitionDropdown from "../transitions/TransitionDropdown";
 import VFavicon from "./VFavicon";
 

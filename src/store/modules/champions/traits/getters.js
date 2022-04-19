@@ -1,15 +1,11 @@
-import { filterBy, getDatum, mapKeys } from "@/store/helpers/getters";
+import { filterBy, getDatum, isTrue, mapKeys } from "@/store/helpers/getters";
+import { byFilter } from "@/store/modules/champions/traits/filters";
 
 export default {
   getTraits: mapKeys("traits"),
   getTrait: getDatum("traits"),
   getOrigins: filterBy("getTraits", "type", "origin"),
   getClasses: filterBy("getTraits", "type", "class"),
-  getCountStyle: state => ({ trait, count }) => {
-    let set = state.traits[trait].sets.find(
-      set => set.min === count || set.max === count
-    );
-
-    return set ? `is-` + set.style : "is-grey";
-  }
+  getFilteredTraits: byFilter,
+  isActive: isTrue("filter")
 };

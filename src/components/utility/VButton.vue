@@ -1,7 +1,6 @@
 <template>
   <TransitionFade>
     <button
-      :type="type"
       :class="['button', type]"
       role="button"
       @click="emitClick">
@@ -38,6 +37,8 @@ export default {
     }
   },
 
+  emits: ["onClick"],
+
   computed: {
     hasContent() {
       return this.$slots.default ? "mr" : "";
@@ -52,8 +53,21 @@ export default {
 };
 </script>
 
-<style scoped>
-.mr {
-  margin-right: 0.25em !important;
+<style lang="scss" scoped>
+.button {
+  background-color: var(--primary);
+  border: none;
+  box-shadow: var(--shadow);
+  color: $white-dark;
+  transition: $transition;
+  min-width: 40px;
+
+  &:hover {
+    background-color: rgba($primary, 0.9);
+  }
+
+  &.mr {
+    margin-right: 0.25em !important;
+  }
 }
 </style>

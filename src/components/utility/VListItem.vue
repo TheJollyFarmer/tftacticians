@@ -19,6 +19,8 @@ export default {
     }
   },
 
+  emits: ["onClick"],
+
   computed: {
     elementType() {
       return this.hasLink ? "a" : "div";

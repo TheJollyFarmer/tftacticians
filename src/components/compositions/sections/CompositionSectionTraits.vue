@@ -1,19 +1,21 @@
 <template>
   <CompositionSection title="traits">
-    <TraitBadgeList :traits="traits"/>
+    <TraitLinkList
+      :traits="traits"
+      has-labels/>
   </CompositionSection>
 </template>
 
 <script>
 import CompositionSection from "@/components/compositions/sections/CompositionSection";
-import TraitBadgeList from "@/components/traits/TraitBadgeList";
+import TraitLinkList from "@/components/traits/TraitLinkList";
 
 export default {
   name: "CompositionSectionTraits",
 
   components: {
     CompositionSection,
-    TraitBadgeList
+    TraitLinkList
   },
 
   props: {
@@ -25,8 +27,8 @@ export default {
 };
 </script>
 
-<style scoped>
-::v-deep .trait-badge-container:first-of-type > .trait-badge {
-  margin-left: 0;
+<style lang="scss" scoped>
+.image-list {
+  justify-content: center;
 }
 </style>

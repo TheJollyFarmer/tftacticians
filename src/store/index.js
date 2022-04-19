@@ -1,21 +1,20 @@
 import actions from "./actions";
-import champions from "./modules/champions/index";
-import compositions from "./modules/compositions/index";
+import champions from "@/store/modules/champions/index";
+import compositions from "@/store/modules/compositions/index";
 import getters from "./getters";
-import items from "./modules/items/index";
+import items from "@/store/modules/items/index";
+import leaderboard from "@/store/modules/leaderboard/index";
 import mutations from "./mutations";
 import state from "./state";
 import summoner from "@/store/modules/summoner/index";
-import Vue from "vue";
-import Vuex from "vuex";
+import { createStore } from "vuex";
 
-Vue.use(Vuex);
-
-export default new Vuex.Store({
+const store = createStore({
   modules: {
     champions,
     compositions,
     items,
+    leaderboard,
     summoner
   },
 
@@ -24,3 +23,5 @@ export default new Vuex.Store({
   mutations,
   getters
 });
+
+export default store;

@@ -21,6 +21,8 @@
 </template>
 
 <script>
+import { computed } from "vue";
+
 export default {
   name: "VMediaObject",
 
@@ -44,6 +46,14 @@ export default {
     }
   },
 
+  emits: ["onClick"],
+
+  setup(props, { slots }) {
+    const mediaRight = computed(() => !!slots.mediaRight);
+
+    return { mediaRight };
+  },
+
   data() {
     return {
       hover: false
@@ -51,10 +61,6 @@ export default {
   },
 
   computed: {
-    mediaRight() {
-      return !!this.$scopedSlots["mediaRight"];
-    },
-
     mediaContentClasses() {
       return {
         "has-text-right": this.mediaIsRight,
@@ -83,12 +89,19 @@ export default {
 };
 </script>
 
-<style scoped>
-.is-vcentered {
-  align-self: center;
-}
+<style lang="scss" scoped>
+.media {
+  &.is-vcentered {
+    align-self: center;
+  }
 
-.no-wrap {
-  flex-wrap: nowrap;
+  &.no-wrap {
+    flex-wrap: nowrap;
+  }
+
+  & + .media {
+    border-top: none;
+    margin-top: 0;
+  }
 }
 </style>

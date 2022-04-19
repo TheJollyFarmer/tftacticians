@@ -1,30 +1,77 @@
 <template>
   <figure
-    :class="['image', isSize, border]"
+    v-tooltip:[tipDir]="tooltipText"
+    v-bind="$attrs"
+    :class="classes"
     @mouseenter="mouseenter"
     @mouseleave="mouseleave">
     <img
-      :class="rounded"
-      :src="createUrl(image)"
-      :alt="image">
+      ref="observer"
+      :class="isRounded"
+      :src="placeholder"
+      :alt="image"
+      @error="getAltUrl">
   </figure>
+  <span
+    v-if="caption"
+    class="caption"
+    v-text="label"/>
 </template>
 
 <script>
-import filters from "@/utils/filters";
+import Observer from "@/mixins/Observer";
 
 export default {
   name: "VImage",
 
+  mixins: [Observer],
+
   props: {
     image: {
-      type: String,
+      type: [Number, String],
       required: true
     },
 
     dir: {
       type: String,
-      required: true
+      required: false,
+      default: ""
+    },
+
+    external: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
+
+    url: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
+
+    label: {
+      type: String,
+      required: false,
+      default: ""
+    },
+
+    type: {
+      type: String,
+      required: false,
+      default: "png"
+    },
+
+    dimension: {
+      type: String,
+      required: false,
+      default: "48"
+    },
+
+    tipDir: {
+      type: String,
+      required: false,
+      default: "bottom"
     },
 
     isRound: {
@@ -33,10 +80,16 @@ export default {
       default: true
     },
 
-    dimension: {
-      type: String,
+    caption: {
+      type: Boolean,
       required: false,
-      default: "48"
+      default: false
+    },
+
+    tooltip: {
+      type: Boolean,
+      required: false,
+      default: false
     },
 
     hasBorder: {
@@ -49,28 +102,82 @@ export default {
       type: Boolean,
       required: false,
       default: false
+    },
+
+    error: {
+      type: String,
+      required: false,
+      default: "default"
     }
   },
 
+  emits: ["mouseenter", "mouseleave"],
+
+  data() {
+    return {
+      src: ""
+    };
+  },
+
   computed: {
-    isSize() {
-      return `is-${this.dimension}x${this.dimension}`;
+    placeholder() {
+      return document.createElement("canvas").toDataURL();
     },
 
-    border() {
-      return { "has-border": this.hasBorder };
+    classes() {
+      return [
+        "image",
+        `is-${this.dimension}x${this.dimension}`,
+        {
+          "has-border": this.hasBorder,
+          "is-svg": this.type === "svg"
+        }
+      ];
     },
 
-    rounded() {
+    isRounded() {
       return { "is-rounded": this.isRound };
+    },
+
+    tooltipText() {
+      return this.tooltip ? this.label : "";
+    }
+  },
+
+  watch: {
+    image() {
+      this.$refs.observer.src = this.createUrl();
     }
   },
 
   methods: {
-    createUrl() {
-      let name = filters.cleanPath(this.image);
+    executeObserver() {
+      this.$refs.observer.src = this.createUrl();
+      this.observer.disconnect();
+    },
 
-      return require(`@/assets/images/${this.dir}/${name}.png`);
+    createUrl() {
+      return this.external
+        ? this.url
+          ? this.getExtUrl()
+          : this.getS3Url()
+        : this.getLocalUrl();
+    },
+
+    getExtUrl() {
+      return process.env.VUE_APP_DD_URL + this.image + ".png";
+    },
+
+    getS3Url() {
+      return process.env.VUE_APP_S3_URL + this.image + ".png";
+    },
+
+    getLocalUrl() {
+      return require(`@/assets/images/${this.dir}/${this.image}.${this.type}`);
+    },
+
+    getAltUrl({ target: img }) {
+      img.src = require(`@/assets/images/error/${this.error}.png`);
     },
 
     mouseenter() {
@@ -87,19 +194,30 @@ export default {
 <style lang="scss" scoped>
 .image {
   border-radius: 50%;
-  transition: all 0.3s ease-in-out;
+  flex-shrink: 0;
+  transition: border $hover-in;
+
+  &:hover {
+    border-color: var(--primary) !important;
+    transition: border $hover-out;
+  }
 
   &.has-border {
-    background-color: black;
+    background-color: var(--fill);
     border-style: solid;
     border-width: 2px;
     box-shadow: $shadow;
     padding: 1px;
   }
 
-  &:hover {
-    border-color: $primary !important;
-    transition: border 0.3s ease-in-out;
+  &.is-svg {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    img {
+      height: 100%;
+    }
   }
 }
 </style>

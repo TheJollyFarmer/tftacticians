@@ -7,7 +7,7 @@
   </div>
 </template>
 <script>
-import StatImage from "@/components/champion/ChampionStatImage";
+import StatImage from "@/components/StatImage";
 
 export default {
   name: "ItemCardStat",
@@ -27,15 +27,9 @@ export default {
 .item-stat {
   align-items: center;
   display: flex;
-  line-height: 18px;
-  margin: 0 0.6em 0 0;
 
-  .image {
+  :deep(.image) {
     margin-right: 0.3em;
-  }
-
-  span {
-    margin-top: 0.12em;
   }
 }
 </style>

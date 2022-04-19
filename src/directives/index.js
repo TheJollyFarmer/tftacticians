@@ -4,13 +4,13 @@ import tooltip from "./Tooltip";
 export default {
   install(Vue) {
     Vue.directive("autofocus", {
-      bind: autofocus,
-      update: autofocus
+      beforeMount: autofocus,
+      updated: autofocus
     });
 
     Vue.directive("tooltip", {
-      bind: tooltip.bind,
-      update: tooltip.update
+      beforeMount: tooltip.bind,
+      updated: tooltip.update
     });
   }
 };

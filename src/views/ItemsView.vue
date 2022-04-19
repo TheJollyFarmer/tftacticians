@@ -1,29 +1,37 @@
 <template>
   <VPage title="items">
     <template #aside>
-      <ItemsFilters
-        :components="components"
-        :combined="combined"/>
+      <ItemFilters/>
     </template>
-    <ItemList :items="items"/>
+    <ItemList :items="items()"/>
   </VPage>
 </template>
 
 <script>
-import ItemsFilters from "@/components/items/ItemFilters";
+import ItemFilters from "@/components/items/ItemFilters";
 import ItemList from "@/components/items/ItemList";
 import VPage from "@/components/utility/VPage";
-import { mapGetters } from "vuex";
+import { mapActions, mapGetters } from "vuex";
 
 export default {
   name: "ItemsView",
 
-  components: { ItemsFilters, ItemList, VPage },
+  components: {
+    ItemFilters,
+    ItemList,
+    VPage
+  },
 
-  computed: mapGetters("items", {
-    items: "getItems",
-    components: "getComponents",
-    combined: "getCombined"
-  })
+  beforeRouteEnter: ({ params: { item }, query: { search } }, from, next) => {
+    next(vm => vm.setFilters({ item, search }));
+  },
+
+  beforeRouteUpdate({ params: { item }, query: { search } }) {
+    this.setFilters({ item, search });
+  },
+
+  computed: mapGetters("items", { items: "getItems" }),
+
+  methods: mapActions("items", ["setFilters"])
 };
 </script>

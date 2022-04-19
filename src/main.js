@@ -1,16 +1,14 @@
 import "./assets/sass/main.scss";
+import "./utils/favicons";
 import App from "./App.vue";
-import store from "./store";
+import Directives from "./directives/index";
 import router from "./router";
-import Tooltips from "./directives/index";
-import Vue from "vue";
+import store from "./store";
+import { createApp } from "vue";
 
-Vue.use(Tooltips);
+const app = createApp(App);
 
-Vue.config.productionTip = false;
-
-new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount("#app");
+app.use(Directives);
+app.use(router);
+app.use(store);
+app.mount("#app");

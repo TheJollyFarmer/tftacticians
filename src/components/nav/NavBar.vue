@@ -1,27 +1,23 @@
 <template>
   <header
-    class="navbar is-fixed-top is-primary has-shadow"
+    class="navbar is-fixed-top has-shadow"
     aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">
-        <v-nav-brand>
-          <h2 class="is-size-4">
-            TFT
-          </h2>
-        </v-nav-brand>
-        <v-hamburger/>
+        <VNavBrand/>
+        <VHamburger/>
       </div>
       <div
         id="app-navbar-collapse"
         class="navbar-menu">
-        <nav-links/>
+        <NavBarEnd/>
       </div>
     </div>
   </header>
 </template>
 
 <script>
-import NavLinks from "./NavLinks";
+import NavBarEnd from "@/components/nav/NavBarEnd";
 import VHamburger from "../utility/VHamburger";
 import VNavBrand from "./NavBrand";
 
@@ -29,9 +25,28 @@ export default {
   name: "NavBar",
 
   components: {
-    NavLinks,
+    NavBarEnd,
     VHamburger,
     VNavBrand
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.navbar {
+  box-shadow: var(--nav-shadow);
+
+  &,
+  .container {
+    background: var(--nav);
+    transition-duration: 1s;
+    transition-property: background-color, color, box-shadow;
+    transition-timing-function: ease;
+
+    .navbar-brand,
+    .navbar-menu {
+      margin: 0;
+    }
+  }
+}
+</style>

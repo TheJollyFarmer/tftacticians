@@ -1,49 +1,19 @@
 .is-grey {
   background-color: darkgrey;
-
-  &::before,
-  &::after {
-    border-bottom-color: darkgrey;
-    border-top-color: darkgrey;
-  }
 }
 
-.is-sandybrown {
-  background-color: sandybrown;
-
-  &::before,
-  &::after {
-    border-bottom-color: sandybrown;
-    border-top-color: sandybrown;
-  }
+.is-bronze {
+  background-color: #a77a71;
 }
 
 .is-silver {
   background-color: silver;
-
-  &::before,
-  &::after {
-    border-bottom-color: silver;
-    border-top-color: silver;
-  }
 }
 
 .is-gold {
-  background-color: gold;
-
-  &::before,
-  &::after {
-    border-bottom-color: gold;
-    border-top-color: gold;
-  }
+  background-color: #d4af37;
 }
 
-.is-lightslategrey {
+.is-chromatic {
   background-color: lightslategray;
-
-  &::before,
-  &::after {
-    border-bottom-color: lightslategray;
-    border-top-color: lightslategray;
-  }
 }

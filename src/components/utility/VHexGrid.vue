@@ -1,29 +1,14 @@
 <template>
-  <article class="composition-positioning">
-    <ul class="hex-grid">
-      <template v-for="(hex, index) in hexGrid">
-        <CompositionHex
-          v-if="hex.name"
-          :key="index"
-          :name="hex.name"
-          :position="hex.position"
-          :hex="hex.hex"/>
-        <VHex
-          v-else
-          :key="index"/>
-      </template>
-    </ul>
-  </article>
+  <ul class="hex-grid">
+    <template v-for="hex in hexGrid">
+      <slot :hex="hex"/>
+    </template>
+  </ul>
 </template>
 
 <script>
-import CompositionHex from "@/components/compositions/CompositionHex";
-import VHex from "@/components/utility/VHex";
-
 export default {
   name: "VHexGrid",
-
-  components: { CompositionHex, VHex },
 
   props: {
     champions: {
@@ -43,43 +28,22 @@ export default {
       let grid = [];
 
       for (let hex = 1; hex <= 28; hex++) {
-        grid.push({
-          hex,
-          ...this.champion(hex)
-        });
+        grid.push(hex);
       }
 
       return grid;
-    }
-  },
-
-  methods: {
-    champion(hex) {
-      let champion = this.champions.find(champion => champion.position === hex);
-
-      return champion !== undefined
-        ? champion
-        : {
-            name: "",
-            position: 0
-          };
     }
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.composition-positioning {
-  padding-left: 30px;
-
-  .hex-grid {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    max-width: 350px;
-    overflow: hidden;
-    padding: 3% 0;
-    width: 100%;
-  }
+.hex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 350px;
+  overflow: hidden;
+  width: 100%;
 }
 </style>

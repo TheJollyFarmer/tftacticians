@@ -1,5 +1,6 @@
 <template>
   <VPage>
+    <ChampionNav :champion="champion.id"/>
     <template #aside>
       <ChampionPortraitSection
         :id="champion.id"
@@ -8,13 +9,14 @@
       <ChampionStatsSection :stats="stats"/>
     </template>
     <ChampionAbilitySection :champion="champion"/>
-    <ChampionTraitsSection :champion="champion"/>
+    <ChampionTraitsSection :traits="champion.traits"/>
   </VPage>
 </template>
 
 <script>
 import ChampionAbilitySection from "@/components/champion/sections/ChampionAbilitySection";
 import ChampionItemsSection from "@/components/champion/sections/ChampionItemsSection";
+import ChampionNav from "@/components/champion/ChampionNav";
 import ChampionPortraitSection from "@/components/champion/sections/ChampionPortraitSection";
 import ChampionStatsSection from "@/components/champion/sections/ChampionStatsSection";
 import ChampionTraitsSection from "@/components/champion/sections/ChampionTraitsSection";
@@ -27,6 +29,7 @@ export default {
   components: {
     ChampionAbilitySection,
     ChampionItemsSection,
+    ChampionNav,
     ChampionPortraitSection,
     ChampionStatsSection,
     ChampionTraitsSection,
@@ -34,26 +37,17 @@ export default {
   },
 
   props: {
-    id: {
+    name: {
       type: String,
-      required: false,
-      default: ""
+      required: true
     }
   },
 
-  data() {
-    return {
-      name: this.$route.params.champion
-    };
-  },
-
   computed: {
-    ...mapGetters("champions", ["getChampion", "getChampionByName"]),
+    ...mapGetters("champions", ["getChampionByName"]),
 
     champion() {
-      return this.id
-        ? this.getChampion(this.id)
-        : this.getChampionByName(this.name);
+      return this.getChampionByName(this.name);
     },
 
     stats() {

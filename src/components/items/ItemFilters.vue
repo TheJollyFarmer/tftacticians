@@ -1,42 +1,66 @@
 <template>
-  <VFilters :can-reset="false">
-    <ItemFilter
-      :collection="components"
-      label="component"
-      @apply="setFilter"/>
-    <ItemFilter
-      :collection="combined"
-      label="combined"
-      @apply="setFilter"/>
+  <VFilters>
+    <ItemSearch/>
+    <Filter
+      v-for="(filter, index) in filters"
+      :key="index"
+      v-bind="filter"
+      :active="active"
+      :class="$style.items"
+      animatable>
+      <template #link="{ option }">
+        <ItemLink
+          :id="option"
+          dimension="34"/>
+      </template>
+    </Filter>
   </VFilters>
 </template>
 
 <script>
-import ItemFilter from "@/components/items/ItemFilter";
+import Filter from "@/components/leaderboard/Filter";
+import ItemLink from "@/components/items/ItemLink";
+import ItemSearch from "@/components/items/ItemSearch";
 import VFilters from "@/components/utility/VFilters";
-import { mapActions } from "vuex";
+import { mapGetters } from "vuex";
 
 export default {
-  name: "ItemsFilter",
+  name: "ItemFilters",
 
-  components: { ItemFilter, VFilters },
+  components: {
+    Filter,
+    ItemLink,
+    ItemSearch,
+    VFilters
+  },
 
-  props: {
-    components: {
-      type: Array,
-      required: true
-    },
+  computed: {
+    ...mapGetters("items", {
+      components: "getComponents",
+      combined: "getCombined",
+      active: "getFilterItem"
+    }),
 
-    combined: {
-      type: Array,
-      required: true
+    filters() {
+      return [
+        { label: "components", options: this.components },
+        { label: "combined", options: this.combined }
+      ];
     }
-  },
-
-  destroyed() {
-    this.resetFilter();
-  },
-
-  methods: mapActions("items", ["setFilter", "resetFilter"])
+  }
 };
 </script>
+
+<style lang="scss" module>
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(34px, 1fr));
+  overflow: hidden;
+  padding: $spacing-small;
+  grid-gap: 0.5em;
+
+  .error {
+    margin: 1em;
+  }
+}
+</style>
