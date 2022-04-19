@@ -17,7 +17,7 @@ TransitionFade.props = {
   duration: {
     type: Number,
     required: false,
-    default: 0.3
+    default: 0.5
   }
 };
 

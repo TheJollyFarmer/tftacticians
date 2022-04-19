@@ -71,6 +71,7 @@
       "id": 8,
       "name": "Spatula",
       "description": "It must do something...",
+      "stats": [],
       "isShadow": false,
       "isUnique": false
     },
@@ -682,6 +683,7 @@
       "id": 8,
       "name": "Spatula",
       "description": "It must do something...",
+      "stats": [],
       "isShadow": false,
       "isUnique": false
     },
@@ -1373,6 +1375,7 @@
       "id": 8,
       "name": "Spatula",
       "description": "It must do something...",
+      "stats": [],
       "isUnique": false,
       "isShadow": false
     },
@@ -1949,6 +1952,7 @@
       "id": 1008,
       "name": "Shadow Spatula",
       "description": "It must do something evil...",
+      "stats": [],
       "isUnique": false,
       "isShadow": true
     },
@@ -2563,6 +2567,7 @@
       "id": 8,
       "name": "Spatula",
       "description": "It must do something...",
+      "stats": [],
       "isUnique": false,
       "isRadiant": false,
       "isElusive": false
@@ -4342,7 +4347,8 @@
     {
       "id": 8,
       "name": "Spatula",
-      "description": "It must do something..."
+      "description": "It must do something...",
+      "stats": []
     },
     {
       "id": 11,

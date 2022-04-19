@@ -34,6 +34,7 @@ export default {
     font-style: italic;
   }
 
+  &:hover,
   &:focus,
   &.is-active {
     color: $white-dark;

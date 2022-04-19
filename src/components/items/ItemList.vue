@@ -1,22 +1,22 @@
 <template>
-  <VImageList
-    v-slot="{ item }"
-    class="is-flex-direction-column"
-    :collection="items">
-    <Item
-      :key="item.id"
-      :item="item"/>
-  </VImageList>
+  <div class="image-list">
+    <TransitionList>
+      <Item
+        v-for="item in items"
+        :key="item.id"
+        :item="item"/>
+    </TransitionList>
+  </div>
 </template>
 
 <script>
 import Item from "@/components/items/Item";
-import VImageList from "@/components/utility/VImageList";
+import TransitionList from "@/components/transitions/TransitionList";
 
 export default {
   name: "ItemList",
 
-  components: { Item, VImageList },
+  components: { Item, TransitionList },
 
   props: {
     items: {

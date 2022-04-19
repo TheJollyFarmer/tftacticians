@@ -5754,7 +5754,7 @@
       ],
       "early": [
         "TFT6_Caitlyn",
-        "TFT6_Jarvan IV",
+        "TFT6_JarvanIV",
         "TFT6_RekSai",
         "TFT6_Sejuani",
         "TFT6_Gnar"
@@ -5769,7 +5769,7 @@
           "count": 1
         },
         {
-          "id": "Set6_Rival",
+          "id": "Set6_Rivals",
           "count": 1
         },
         {
@@ -5887,7 +5887,7 @@
           "count": 1
         },
         {
-          "id": "Set6_Rival",
+          "id": "Set6_Rivals",
           "count": 1
         },
         {
@@ -6084,7 +6084,7 @@
       ],
       "early": [
         "TFT6_Caitlyn",
-        "TFT6_Jarvan IV",
+        "TFT6_JarvanIV",
         "TFT6_RekSai",
         "TFT6_Sejuani",
         "TFT6_Gnar"
@@ -6103,7 +6103,7 @@
           "count": 1
         },
         {
-          "id": "Set6_Rival",
+          "id": "Set6_Rivals",
           "count": 1
         },
         {
@@ -6438,7 +6438,7 @@
           "count": 1
         },
         {
-          "id": "Set6_Rival",
+          "id": "Set6_Rivals",
           "count": 1
         },
         {
@@ -6542,7 +6542,7 @@
         "TFT6_Illaoi",
         "TFT6_Sejuani",
         "TFT6_Quinn",
-        "TFT6_Miss Fortune"
+        "TFT6_MissFortune"
       ],
       "options": {
         "nine": "TFT6_Silco",
@@ -6760,7 +6760,7 @@
       },
       "traits": [
         {
-          "id": "Set6_Rival",
+          "id": "Set6_Rivals",
           "count": 1
         },
         {
@@ -6866,7 +6866,7 @@
         "TFT6_Darius",
         "TFT6_Ashe",
         "TFT6_Blitzcrank",
-        "TFT6_Miss Fortune",
+        "TFT6_MissFortune",
         "TFT6_Morgana"
       ],
       "options": {
@@ -6980,7 +6980,7 @@
         "TFT6_Darius",
         "TFT6_Ashe",
         "TFT6_Blitzcrank",
-        "TFT6_Miss Fortune",
+        "TFT6_MissFortune",
         "TFT6_Morgana"
       ],
       "options": {
