@@ -8,7 +8,7 @@
 import CookieNotice from "@/components/CookieNotice";
 import ErrorNotification from "@/components/ErrorNotification";
 import Popover from "@/components/Popover";
-import { mapActions, mapState } from "vuex";
+import { mapActions } from "vuex";
 
 export default {
   name: "Globals",

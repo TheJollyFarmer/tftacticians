@@ -14,12 +14,8 @@
 </template>
 
 <script>
-import VFavicon from "../VFavicon";
-
 export default {
   name: "VTabsIcons",
-
-  components: { VFavicon },
 
   props: {
     tabs: {
@@ -42,12 +38,14 @@ export default {
 li a {
   font-weight: bold;
   color: var(--colour);
+
   &:hover {
     border-bottom-color: var(--colour);
     color: var(--colour);
     filter: brightness(90%);
   }
 }
+
 li.is-active a {
   border-bottom-color: var(--primary);
   color: var(--primary);

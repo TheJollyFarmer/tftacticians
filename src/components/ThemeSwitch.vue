@@ -26,6 +26,7 @@ export default {
 };
 </script>
 
+<!--suppress Annotator, CssInvalidFunction -->
 <style lang="scss" scoped>
 $moon1: #edddd4;
 $moon2: #fcfafa;
@@ -37,8 +38,8 @@ $sun3: #fb5607;
 $animation-speed: 1s;
 
 $width: 40px;
-$height: $width / 2;
-$padding: $width / 20;
+$height: math.div($width, 2);
+$padding: math.div($width, 20);
 
 .switch {
   align-self: center;
@@ -58,7 +59,7 @@ $padding: $width / 20;
     .btn {
       border: 1px solid rgba($sun3, 1) !important;
       box-shadow: 0 0 2px 1px $sun3;
-      left: $width / 2 + $padding / 2;
+      left: math.div($width, 2) + math.div($padding, 2);
 
       &::before {
         opacity: 1;
@@ -78,7 +79,7 @@ $padding: $width / 20;
     box-shadow: 0 0 2px 1px $moon1;
     border: 1px solid rgba($moon1, 0.5);
     display: block;
-    height: $height - ($height / 10) + 0.5;
+    height: $height - math.div($height, 10) + 0.5;
     left: $padding;
     padding: 0;
     pointer-events: none;
@@ -87,7 +88,7 @@ $padding: $width / 20;
     transform: translateY(-50%);
     transition: left $animation-speed ease, box-shadow $animation-speed ease,
       border $animation-speed ease, top $animation-speed ease;
-    width: $width / 2 - ($padding / 2);
+    width: math.div($width, 2) - math.div($padding, 2);
 
     &::before {
       background: red;
@@ -100,12 +101,12 @@ $padding: $width / 20;
       border-radius: $width;
       content: "";
       height: $height;
-      left: -($padding / 4);
+      left: math.div(-$padding, 4);
       position: absolute;
       opacity: 0;
       top: -($padding * 0.4);
       transition: opacity $animation-speed ease;
-      width: $width / 2;
+      width: math.div($width, 2);
     }
   }
 }

@@ -53,6 +53,7 @@ export default {
     },
 
     addParam(param) {
+      if (!param["search"]) this.setQuery("");
       return Array.isArray(param)
         ? param.forEach(value => this.addFilter(value))
         : this.setQuery(param);

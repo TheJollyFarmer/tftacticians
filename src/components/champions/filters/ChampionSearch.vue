@@ -15,7 +15,7 @@ import Search from "@/mixins/Search";
 import VButton from "@/components/utility/VButton";
 import VField from "@/components/utility/VField";
 import VInput from "@/components/utility/VInput";
-import { mapActions, mapState } from "vuex";
+import { mapState } from "vuex";
 
 export default {
   name: "ChampionSearch",

@@ -14977,7 +14977,7 @@
       "ability": {
         "name": "Sear",
         "type": "Active",
-        "description": "Brand launches a fireball at the nearest enemy, lighting them ablaze for 4 seconds and dealing magic damage. If the enemy is already on fire, they take bonus magic damage which stuns them for a few seconds.\n\nVIP Bonus: Brand fires a 2nd fireball at a different nearby target (priortizes ablaze enemies) dealing 30% reduced damage.",
+        "description": "Brand launches a fireball at the nearest enemy, lighting them ablaze for 4 seconds and dealing magic damage. If the enemy is already on fire, they take bonus magic damage which stuns them for a few seconds.\n\nVIP Bonus: Brand fires a 2nd fireball at a different nearby target (prioritises ablaze enemies) dealing 30% reduced damage.",
         "values": [
           {
             "name": "Damage",

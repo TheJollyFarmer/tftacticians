@@ -25,7 +25,7 @@ export default {
       .then(() => dispatch("getRanked"));
   },
 
-  getSummoner({ commit, dispatch, getters }) {
+  getSummoner({ commit, dispatch }) {
     commit(types.TOGGLE_LOADING);
 
     return dispatch("getSum")

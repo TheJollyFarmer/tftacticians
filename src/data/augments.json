@@ -322,7 +322,7 @@
   {
     "tier": "2",
     "name": "Exiles II",
-    "description": "Your units that start combat with no adajacent allies gain a 45% maximum Health shield for 8 seconds."
+    "description": "Your units that start combat with no adjacent allies gain a 45% maximum Health shield for 8 seconds."
   },
   {
     "tier": "2",
@@ -537,7 +537,7 @@
   {
     "tier": "3",
     "name": "Exiles III",
-    "description": "Your units that start combat with no adajacent allies gain a 70% maximum Health shield for 8 seconds."
+    "description": "Your units that start combat with no adjacent allies gain a 70% maximum Health shield for 8 seconds."
   },
   {
     "tier": "3",

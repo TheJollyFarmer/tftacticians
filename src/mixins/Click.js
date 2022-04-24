@@ -10,7 +10,7 @@ export default {
   methods: {
     closeEvent(event) {
       if ((event && !this.$el.contains(event.target)) || !event) {
-        this.$emit("close");
+        if (this.isActive) this.$emit("close");
       }
     }
   }

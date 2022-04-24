@@ -76,7 +76,7 @@ export default {
     setVariables() {
       this.popEl = this.$refs.popover.$el;
       this.popover = this.popEl.getBoundingClientRect();
-      this.offsetY = this.popover.height - window.pageYOffset;
+      this.offsetY = this.popover.height - window.scrollY;
       this.posX = this.content.x + this.content.width / 2;
       this.posY = this.content.y - this.offsetY - this.gap - this.nav;
 
@@ -138,8 +138,7 @@ export default {
     },
 
     repositionYBottom() {
-      this.posY =
-        this.content.bottom + this.gap + window.pageYOffset - this.nav;
+      this.posY = this.content.bottom + this.gap + window.scrollY - this.nav;
     }
   }
 };
