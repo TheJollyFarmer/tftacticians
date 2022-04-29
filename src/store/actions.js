@@ -4,24 +4,26 @@ import debounce from "lodash/debounce";
 import throttle from "lodash/throttle";
 
 export default {
-  getData({ dispatch, state }) {
+  getData: async ({ dispatch, state }) => {
     let set = api.getActiveSet();
 
-    set !== state.activeSet
-      ? dispatch("setActiveSet", set)
-      : dispatch("setData");
+    if (api.getTheme() !== state.darkTheme) dispatch("toggleDarkTheme");
 
-    if (api.getTheme() !== state.darkTheme) {
-      dispatch("toggleDarkTheme");
-    }
+    return set !== state.activeSet
+      ? await dispatch("setActiveSet", set)
+      : await dispatch("setData");
   },
 
-  setData({ dispatch, getters: { getActiveDataSet } }) {
-    dispatch("champions/setChampions", getActiveDataSet);
-    dispatch("champions/traits/setTraits", getActiveDataSet);
-    dispatch("compositions/setCompositions", getActiveDataSet);
-    dispatch("items/setItems", getActiveDataSet);
-    dispatch("summoner/getRegion");
+  setData: async ({ commit, dispatch, state, getters: { getActiveSet } }) => {
+    await Promise.all([
+      dispatch("champions/setChampions", getActiveSet),
+      dispatch("champions/traits/setTraits", getActiveSet),
+      dispatch("compositions/setCompositions", getActiveSet),
+      dispatch("items/setItems", getActiveSet),
+      dispatch("summoner/getRegion")
+    ]);
+
+    if (!state.initialised) commit(types.TOGGLE_INITIALISED);
   },
 
   setActiveSet: ({ commit, dispatch }, set) => {

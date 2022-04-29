@@ -1,0 +1,643 @@
+[
+  {
+    "key": "Astro",
+    "name": "Astro",
+    "description": "Astro Champions have reduced mana cost.",
+    "type": "origin",
+    "champions": ["TFT3_Nautilus", "TFT3_Bard", "TFT3_Teemo", "TFT3_Gnar"],
+    "sets": [
+      {
+        "description": "Astro Champions reduce their mana costs by 30.",
+        "style": "gold",
+        "min": 3
+      }
+    ]
+  },
+  {
+    "key": "Battlecast",
+    "name": "Battlecast",
+    "description": "Battlecast Champions, upon dealing or taking 10 instances of damage, heal if below half health, or deal magic damage to the nearest enemy if above half.",
+    "type": "origin",
+    "champions": [
+      "TFT3_Illaoi",
+      "TFT3_Nocturne",
+      "TFT3_KogMaw",
+      "TFT3_Cassiopeia",
+      "TFT3_Viktor",
+      "TFT3_Urgot"
+    ],
+    "sets": [
+      {
+        "description": "80 Healing or Damage.",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "180 Healing or Damage.",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "480 Healing or Damage.",
+        "style": "gold",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "description": "880 Healing or Damage",
+        "style": "chromatic",
+        "min": 8
+      }
+    ]
+  },
+  {
+    "key": "Set3_Blademaster",
+    "name": "Blademaster",
+    "description": "Blademasters' Basic Attacks have a chance to trigger two additional attacks against their target. These additional attacks deal damage like Basic Attacks and trigger on-hit effects.",
+    "type": "class",
+    "champions": [
+      "TFT3_Fiora",
+      "TFT3_Xayah",
+      "TFT3_Shen",
+      "TFT3_MasterYi",
+      "TFT3_Yasuo",
+      "TFT3_Irelia",
+      "TFT3_Riven"
+    ],
+    "sets": [
+      {
+        "description": "30% Chance to trigger.",
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "65% Chance to trigger.",
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "description": "100% Chance to trigger.",
+        "style": "chromatic",
+        "min": 9
+      }
+    ]
+  },
+  {
+    "key": "Blaster",
+    "name": "Blaster",
+    "description": "Every fourth Basic Attack from a Blaster fires additional attacks at random enemies. These additional attacks deal damage like Basic Attacks, trigger on-hit effects, and can critically hit.",
+    "type": "class",
+    "champions": [
+      "TFT3_Graves",
+      "TFT3_KogMaw",
+      "TFT3_Lucian",
+      "TFT3_Ezreal",
+      "TFT3_Jinx"
+    ],
+    "sets": [
+      {
+        "description": "3 Additional Attacks.",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "6 Additional Attacks.",
+        "style": "gold",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "Set3_Brawler",
+    "name": "Brawler",
+    "description": "Brawlers gain bonus Maximum Health.",
+    "type": "class",
+    "champions": [
+      "TFT3_Malphite",
+      "TFT3_Illaoi",
+      "TFT3_Blitzcrank",
+      "TFT3_Vi",
+      "TFT3_Gnar"
+    ],
+    "sets": [
+      {
+        "description": "350 Bonus Health.",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "600 Bonus Health.",
+        "style": "gold",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "Set3_Celestial",
+    "name": "Celestial",
+    "description": "All allies heal for some of the damage they deal with spells and attacks.",
+    "type": "origin",
+    "champions": [
+      "TFT3_Xayah",
+      "TFT3_XinZhao",
+      "TFT3_Rakan",
+      "TFT3_Ashe",
+      "TFT3_Lulu"
+    ],
+    "sets": [
+      {
+        "description": "15% Healing.",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "45% Healing.",
+        "style": "gold",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "150% Healing.",
+        "style": "chromatic",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "Chrono",
+    "name": "Chrono",
+    "description": "All allies gain attack speed every few seconds.",
+    "type": "origin",
+    "champions": [
+      "TFT3_Caitlyn",
+      "TFT3_TwistedFate",
+      "TFT3_Shen",
+      "TFT3_Blitzcrank",
+      "TFT3_Ezreal",
+      "TFT3_WuKong",
+      "TFT3_Riven",
+      "TFT3_Thresh"
+    ],
+    "sets": [
+      {
+        "description": "Every 8 seconds.",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "Every 3.5 seconds.",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "Every 1.5 seconds.",
+        "style": "gold",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "description": "Every 0.75 seconds.",
+        "style": "chromatic",
+        "min": 8
+      }
+    ]
+  },
+  {
+    "key": "Cybernetic",
+    "name": "Cybernetic",
+    "description": "Cybernetic champions with at least one item gain Health and Attack Damage.",
+    "type": "origin",
+    "champions": [
+      "TFT3_Leona",
+      "TFT3_Fiora",
+      "TFT3_Lucian",
+      "TFT3_Vayne",
+      "TFT3_Vi",
+      "TFT3_Irelia",
+      "TFT3_Ekko"
+    ],
+    "sets": [
+      {
+        "description": "300 Health & 35 Attack Damage.",
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "550 Health & 70 Attack Damage.",
+        "style": "gold",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "DarkStar",
+    "name": "Dark Star",
+    "description": "When a Dark Star champion dies they give increased damage, plus any previous stacks of this effect, to the nearest ally Dark Star champion.",
+    "type": "origin",
+    "champions": [
+      "TFT3_Mordekaiser",
+      "TFT3_JarvanIV",
+      "TFT3_Shaco",
+      "TFT3_Karma",
+      "TFT3_Jhin",
+      "TFT3_Xerath"
+    ],
+    "sets": [
+      {
+        "description": "8 Attack Damage and Spell Power.",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "18 Attack Damage and Spell Power.",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "28 Attack Damage and Spell Power.",
+        "style": "gold",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "description": "38 Attack Damage and Spell Power.",
+        "style": "chromatic",
+        "min": 8
+      }
+    ]
+  },
+  {
+    "key": "Demolitionist",
+    "name": "Demolitionist",
+    "description": "Damage from Demolitionists' spellcasts stuns their targets for a few seconds. (Once per spellcast)",
+    "type": "class",
+    "champions": ["TFT3_Ziggs", "TFT3_Rumble", "TFT3_Gangplank"],
+    "sets": [
+      {
+        "description": "Damage from Demolitionists' spellcasts stun their targets for 1.50 seconds.",
+        "style": "gold",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "key": "Infiltrator",
+    "name": "Infiltrator",
+    "innate": "At the start of combat, Infiltrators move to the enemy's backline.",
+    "description": "Infiltrators gain Attack Speed for a few seconds at the start of combat.",
+    "both": true,
+    "type": "class",
+    "champions": [
+      "TFT3_Nocturne",
+      "TFT3_Zed",
+      "TFT3_Shaco",
+      "TFT3_Fizz",
+      "TFT3_Ekko"
+    ],
+    "sets": [
+      {
+        "description": "40% Bonus Attack Speed. Refreshes on Takedown.",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "80% Bonus Attack Speed. Refreshes on Takedown.",
+        "style": "gold",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "120% Bonus Attack Speed. Refreshes on Takedown.",
+        "style": "chromatic",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "ManaReaver",
+    "name": "Mana-Reaver",
+    "description": "Mana-Reavers' Basic Attacks increase the mana cost of their target's next spellcast by a percentage.",
+    "type": "class",
+    "champions": ["TFT3_Darius", "TFT3_Irelia", "TFT3_Thresh"],
+    "sets": [
+      {
+        "description": "40%",
+        "style": "gold",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "key": "MechPilot",
+    "name": "Mech-Pilot",
+    "description": "",
+    "type": "origin",
+    "champions": ["TFT3_Annie", "TFT3_Rumble", "TFT3_Fizz"],
+    "sets": [
+      {
+        "description": "At the start of combat, three random Mech-Pilots are teleported into a Super-Mech. The Super-Mech has the combined Health, Attack Damage, and Traits of its pilots, as well as 3 random items from among them. When the Super-Mech dies the Pilots are ejected, granted Mana, and continue to fight.",
+        "style": "gold",
+        "min": 3
+      }
+    ]
+  },
+  {
+    "key": "Mercenary",
+    "name": "Mercenary",
+    "innate": "Upgrades for Mercenaries' spells have a chance to appear in the shop.",
+    "type": "class",
+    "champions": ["TFT3_Gangplank"],
+    "sets": [
+      {
+        "description": "",
+        "style": "gold",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "key": "Set3_Mystic",
+    "name": "Mystic",
+    "description": "All allies gain Magic Resistance.",
+    "type": "class",
+    "champions": [
+      "TFT3_Karma",
+      "TFT3_Cassiopeia",
+      "TFT3_Bard",
+      "TFT3_Soraka",
+      "TFT3_Lulu"
+    ],
+    "sets": [
+      {
+        "description": "50 Magic Resistance.",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "120 Magic Resistance.",
+        "style": "gold",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "Paragon",
+    "name": "Paragon",
+    "description": "",
+    "type": "class",
+    "champions": ["TFT3_Janna"],
+    "sets": [
+      {
+        "description": "Ally Star Guardian basic attacks are converted to true damage. All other ally basic attacks are converted to magic damage.",
+        "style": "gold",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "key": "Protector",
+    "name": "Protector",
+    "description": "Protectors shield themselves for a few seconds whenever they cast a spell. This shield doesn't stack.",
+    "type": "class",
+    "champions": [
+      "TFT3_JarvanIV",
+      "TFT3_Rakan",
+      "TFT3_XinZhao",
+      "TFT3_Neeko",
+      "TFT3_Urgot"
+    ],
+    "sets": [
+      {
+        "description": "30% Maximum Health Shield.",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "40% Maximum Health Shield.",
+        "style": "gold",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "55% Maximum Health Shield.",
+        "style": "chromatic",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "Rebel",
+    "name": "Rebel",
+    "description": "At the start of combat, Rebels gain a shield and bonus damage for each adjacent Rebel. The shield lasts for a few seconds.",
+    "type": "origin",
+    "champions": [
+      "TFT3_Ziggs",
+      "TFT3_Malphite",
+      "TFT3_Yasuo",
+      "TFT3_MasterYi",
+      "TFT3_Zed",
+      "TFT3_Jinx",
+      "TFT3_AurelionSol"
+    ],
+    "sets": [
+      {
+        "description": "150 Shield & 10% Damage.",
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "210 Shield & 12% Damage.",
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "description": "330 Shield & 15% Damage.",
+        "style": "chromatic",
+        "min": 9
+      }
+    ]
+  },
+  {
+    "key": "Sniper",
+    "name": "Sniper",
+    "description": "Snipers deal percentage increased damage for each hex between themselves and their target.",
+    "type": "class",
+    "champions": [
+      "TFT3_Caitlyn",
+      "TFT3_Ashe",
+      "TFT3_Vayne",
+      "TFT3_Teemo",
+      "TFT3_Jhin"
+    ],
+    "sets": [
+      {
+        "description": "10% Increased Damage per hex.",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "18% Increased Damage per hex.",
+        "style": "gold",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "Set3_Sorcerer",
+    "name": "Sorcerer",
+    "description": "All allies have increased Spell Power.",
+    "type": "class",
+    "champions": [
+      "TFT3_Zoe",
+      "TFT3_TwistedFate",
+      "TFT3_Ahri",
+      "TFT3_Annie",
+      "TFT3_Syndra",
+      "TFT3_Viktor",
+      "TFT3_Xerath"
+    ],
+    "sets": [
+      {
+        "description": "20% Spell Power.",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "40% Spell Power.",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "70% Spell Power.",
+        "style": "gold",
+        "min": 6,
+        "max": 7
+      }
+    ]
+  },
+  {
+    "key": "SpacePirate",
+    "name": "Space Pirate",
+    "description": "Whenever a Space Pirate lands a killing blow on a Champion there is a chance to drop extra loot.",
+    "type": "origin",
+    "champions": [
+      "TFT3_Graves",
+      "TFT3_Darius",
+      "TFT3_Jayce",
+      "TFT3_Gangplank"
+    ],
+    "sets": [
+      {
+        "description": "50% for 1 Gold.",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "50% for 1 Gold and 25% for a component item.",
+        "style": "gold",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "StarGuardian",
+    "name": "Star Guardian",
+    "description": "Star Guardians' spellcasts grant Mana to other Star Guardians, spread among them.",
+    "type": "origin",
+    "champions": [
+      "TFT3_Zoe",
+      "TFT3_Poppy",
+      "TFT3_Ahri",
+      "TFT3_Neeko",
+      "TFT3_Syndra",
+      "TFT3_Soraka",
+      "TFT3_Janna"
+    ],
+    "sets": [
+      {
+        "description": "15 Total Mana.",
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "25 Total Mana.",
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "description": "45 Total Mana.",
+        "style": "chromatic",
+        "min": 9
+      }
+    ]
+  },
+  {
+    "key": "Starship",
+    "name": "Starship",
+    "innate": "Starships gain mana per second, maneuver around the board, and are immune to movement impairing effects, but can't make Basic Attacks.",
+    "type": "class",
+    "champions": ["TFT3_AurelionSol"],
+    "sets": [
+      {
+        "style": "gold",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "key": "Vanguard",
+    "name": "Vanguard",
+    "description": "Vanguard champions gain bonus Armor.",
+    "type": "class",
+    "champions": [
+      "TFT3_Leona",
+      "TFT3_Poppy",
+      "TFT3_Mordekaiser",
+      "TFT3_Nautilus",
+      "TFT3_Jayce",
+      "TFT3_WuKong"
+    ],
+    "sets": [
+      {
+        "description": "125 Armor.",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "300 Armor.",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "1000 Armor.",
+        "style": "gold",
+        "min": 6
+      }
+    ]
+  }
+]

@@ -8,6 +8,7 @@ import {
 } from "@/store/helpers/mutations";
 
 export default {
+  [types.TOGGLE_INITIALISED]: toggleState("initialised"),
   [types.SET_POPOVER_ID]: setProp("popover", "id"),
   [types.SET_POPOVER_TYPE]: setProp("popover", "type"),
   [types.SET_POPOVER_ELEMENT]: setProp("popover", "el"),

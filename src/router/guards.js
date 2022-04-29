@@ -4,6 +4,11 @@ import { hyphenise } from "@/utils/helpers";
 import { validateParams, validateQuery } from "@/router/validatate";
 import { createParams, createQuery } from "@/router/defaults";
 
+export const initialiseStore = next =>
+  store.state.initialised
+    ? next()
+    : store.dispatch("getData").then(() => next());
+
 export const beforeEach = ({ fullPath }, from, next) =>
   fullPath.includes("%20") ? next(hyphenise(fullPath)) : next();
 

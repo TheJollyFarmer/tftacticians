@@ -21,6 +21,16 @@ h1, h2, h3 {
   font-weight: 700 !important;
 }
 
+a {
+  color: var(--colour);
+  transition: color $hover-in;
+
+  &:hover {
+    color: var(--primary);
+    transition: color $hover-out;
+  }
+}
+
 .field:not(:last-child) {
   margin-bottom: $spacing-large;
 }

@@ -10,7 +10,7 @@
   <VButton
     icon="undo"
     type="is-fullwidth"
-    @click="getSummoner"/>
+    @click="getSummonerData"/>
 </template>
 
 <script>
@@ -23,7 +23,7 @@ export default {
 
   components: { VButton, VFavicon },
 
-  methods: mapActions("summoner", ["getSummoner"])
+  methods: mapActions("summoner", ["getSummonerData"])
 };
 </script>
 

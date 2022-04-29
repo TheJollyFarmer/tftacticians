@@ -1,0 +1,1566 @@
+[
+  {
+    "name": "Ahri",
+    "id": "TFT6_Ahri",
+    "cost": 4,
+    "traits": ["Set6_Syndicate", "Set6_Arcanist"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [45, 81, 146] },
+      { "name": "dps", "values": [34, 61, 109] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [0, 50] }
+    ],
+    "ability": {
+      "name": "Orb of Deception",
+      "type": "Active",
+      "description": "Ahri fires an orb in a line, dealing magic damage to all enemies it passes through on the way out and the way back. Ahri fires additional orbs for each time she has cast this combat.",
+      "values": [
+        { "name": "Damage", "values": [125, 190, 450] },
+        { "name": "Additional Orbs", "values": [1, 1, 2] }
+      ]
+    },
+    "items": [44, 13, 19, 39, 33]
+  },
+  {
+    "name": "Alistar",
+    "id": "TFT6_Alistar",
+    "cost": 4,
+    "traits": ["Set6_Hextech", "Set6_Colossus"],
+    "stats": [
+      { "name": "health", "values": [1400, 2520, 4536] },
+      { "name": "attack", "values": [100, 180, 324] },
+      { "name": "dps", "values": [60, 108, 194] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 85 },
+      { "name": "resistance", "values": 80 },
+      { "name": "mana", "values": [85, 170] }
+    ],
+    "ability": {
+      "name": "Pulverize",
+      "type": "Active",
+      "description": "Alistar charges at his target, knocking them back for a short distance. Then he slams the ground, dealing magic damage and stunning all nearby enemies for a few seconds.",
+      "values": [
+        { "name": "Damage", "values": [200, 350, 1200] },
+        { "name": "Stun Duration", "values": [2, 2.5, 8] }
+      ]
+    },
+    "items": [55, 56, 37, 47, 77]
+  },
+  {
+    "name": "Ashe",
+    "id": "TFT6_Ashe",
+    "cost": 2,
+    "traits": ["Set6_Syndicate", "Set6_Sniper"],
+    "stats": [
+      { "name": "health", "values": [600, 1080, 1944] },
+      { "name": "attack", "values": [70, 126, 227] },
+      { "name": "dps", "values": [49, 88, 159] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [30, 60] }
+    ],
+    "ability": {
+      "name": "Volley",
+      "type": "Active",
+      "description": "Ashe fires a volley of arrows centered on her target, dealing % of her Attack Damage as physical damage per arrow and slowing their Attack Speed by 15% for 3 seconds.",
+      "values": [
+        { "name": "Percent of Attack Damage", "values": [100, 100, 100] },
+        { "name": "Arrows Fired", "values": [6, 7, 8] }
+      ]
+    },
+    "items": [11, 12, 23, 19, 29]
+  },
+  {
+    "name": "Blitzcrank",
+    "id": "TFT6_Blitzcrank",
+    "cost": 2,
+    "traits": ["Set6_Scrap", "Set6_Bodyguard"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [65, 117, 211] },
+      { "name": "dps", "values": [33, 59, 105] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.5 },
+      { "name": "armour", "values": 175 },
+      { "name": "resistance", "values": 45 },
+      { "name": "mana", "values": [175, 175] }
+    ],
+    "ability": {
+      "name": "Rocket Grab",
+      "type": "Active",
+      "description": "Blitzcrank pulls the farthest enemy, dealing magic damage and stunning them for 1.5 seconds. His next attack knocks up for 1 second. Allies within range will prefer attacking Blitzcrank's target.",
+      "values": [
+        { "name": "Damage", "values": [150, 300, 900] }
+      ]
+    },
+    "items": [55, 70, 66, 77, 67]
+  },
+  {
+    "name": "Brand",
+    "id": "TFT6_Brand",
+    "cost": 1,
+    "traits": ["Set6_Debonair", "Set6_Arcanist"],
+    "stats": [
+      { "name": "health", "values": [500, 900, 1620] },
+      { "name": "attack", "values": [40, 72, 130] },
+      { "name": "dps", "values": [26, 47, 84] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 20 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [0, 20] }
+    ],
+    "ability": {
+      "name": "Sear",
+      "type": "Active",
+      "description": "Brand launches a fireball at the nearest enemy, lighting them ablaze for 4 seconds and dealing magic damage. If the enemy is already on fire, they take bonus magic damage which stuns them for a few seconds.\n\nVIP Bonus: Brand fires a 2nd fireball at a different nearby target (prioritises ablaze enemies) dealing 30% reduced damage.",
+      "values": [
+        { "name": "Damage", "values": [120, 160, 210] },
+        { "name": "Bonus Damage", "values": [150, 225, 300] },
+        { "name": "Stun Duration", "values": [1, 1.5, 2] }
+      ]
+    },
+    "items": [44, 13, 19, 39, 37]
+  },
+  {
+    "name": "Braum",
+    "id": "TFT6_Braum",
+    "cost": 4,
+    "traits": ["Set6_Syndicate", "Set6_Bodyguard"],
+    "stats": [
+      { "name": "health", "values": [1100, 1980, 3564] },
+      { "name": "attack", "values": [70, 126, 227] },
+      { "name": "dps", "values": [42, 76, 136] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 120 },
+      { "name": "resistance", "values": 60 },
+      { "name": "mana", "values": [120, 200] }
+    ],
+    "ability": {
+      "name": "Vault Breaker",
+      "type": "Active",
+      "description": "Braum slams his vault door into the ground, creating a fissure towards his target. Enemies within 2 hexes of Braum and those struck by the fissure, are stunned for a few seconds and take magic damage.",
+      "values": [
+        { "name": "Damage", "values": [100, 200, 600] },
+        { "name": "Stun Duration", "values": [1.75, 2.25, 8] }
+      ]
+    },
+    "items": [55, 66, 77, 47, 56]
+  },
+  {
+    "name": "Caitlyn",
+    "id": "TFT6_Caitlyn",
+    "cost": 1,
+    "traits": ["Set6_Enforcer", "Set6_Sniper"],
+    "stats": [
+      { "name": "health", "values": [500, 900, 1620] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [38, 68, 122] },
+      { "name": "range", "values": 5 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 15 },
+      { "name": "resistance", "values": 15 },
+      { "name": "mana", "values": [0, 110] }
+    ],
+    "ability": {
+      "name": "Ace in the Hole",
+      "type": "Active",
+      "description": "Caitlyn takes aim at the farthest enemy, firing a deadly bullet towards them that deals magic damage to the first enemy it hits.",
+      "values": [
+        { "name": "Damage", "values": [800, 1400, 2000] }
+      ]
+    },
+    "items": [23, 39, 14, 79, 17]
+  },
+  {
+    "name": "Camille",
+    "id": "TFT6_Camille",
+    "cost": 1,
+    "traits": ["Set6_Clockwork", "Set6_Challenger"],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [30, 54, 97] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [0, 60] }
+    ],
+    "ability": {
+      "name": "Defensive Sweep",
+      "type": "Active",
+      "description": "Camille gains a shield blocking damage over 4 seconds, then sweeps her leg, dealing magic damage to enemies in a cone. While this shield holds, Camille's attacks restore Health.",
+      "values": [
+        { "name": "Damage", "values": [150, 200, 300] },
+        { "name": "Shield Amount", "values": [225, 300, 435] },
+        { "name": "Healing Per Attack", "values": [30, 50, 80] }
+      ]
+    },
+    "items": [55, 66, 77, 78, 47]
+  },
+  {
+    "name": "Cho'Gath",
+    "id": "TFT6_ChoGath",
+    "cost": 3,
+    "traits": ["Set6_Mutant", "Set6_Bruiser"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [90, 162, 292] },
+      { "name": "dps", "values": [50, 89, 160] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.55 },
+      { "name": "armour", "values": 100 },
+      { "name": "resistance", "values": 50 },
+      { "name": "mana", "values": [100, 165] }
+    ],
+    "ability": {
+      "name": "Feast",
+      "type": "Active",
+      "description": "Cho\u2019Gath devours the lowest Health enemy within range, dealing magic damage. If this kills the target, Cho\u2019Gath gains a stack of Feast, up to max stacks. Each stack of Feast permanently grants 2% bonus Health and size.",
+      "values": [
+        { "name": "Damage", "values": [850, 950, 1050] },
+        { "name": "Max Feast Stacks", "values": [20, 40, 999] }
+      ]
+    },
+    "items": [55, 66, 47, 25, 56]
+  },
+  {
+    "name": "Corki",
+    "id": "TFT6_Corki",
+    "cost": 2,
+    "traits": ["Set6_Yordle", "Set6_Twinshot"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [65, 117, 211] },
+      { "name": "dps", "values": [46, 82, 147] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 25 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [25, 50] }
+    ],
+    "ability": {
+      "name": "Bombardment",
+      "type": "Active",
+      "description": "Corki fires a missile at his target that explodes on impact, dealing magic damage to nearby enemies.",
+      "values": [
+        { "name": "Damage", "values": [200, 260, 333] }
+      ]
+    },
+    "items": [44, 12, 19, 39, 33]
+  },
+  {
+    "name": "Darius",
+    "id": "TFT6_Darius",
+    "cost": 1,
+    "traits": ["Set6_Syndicate", "Set6_Bodyguard"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [60, 108, 194] },
+      { "name": "dps", "values": [30, 54, 97] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.5 },
+      { "name": "armour", "values": 70 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [70, 120] }
+    ],
+    "ability": {
+      "name": "Decimate",
+      "type": "Active",
+      "description": "Darius swings his axe in a circle, dealing magic damage, then heals himself Health for each enemy hit.",
+      "values": [
+        { "name": "Damage", "values": [200, 275, 350] },
+        { "name": "Healing", "values": [120, 140, 160] }
+      ]
+    },
+    "items": [55, 66, 77, 59, 27]
+  },
+  {
+    "name": "Draven",
+    "id": "TFT6_Draven",
+    "cost": 4,
+    "traits": ["Set6_Debonair", "Set6_Challenger"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [80, 144, 259] },
+      { "name": "dps", "values": [64, 115, 207] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 0.8 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [0, 40] }
+    ],
+    "ability": {
+      "name": "Spinning Axes",
+      "type": "Active",
+      "description": "Draven starts spinning an axe, empowering his next attack to deal % of his Attack Damage plus bonus physical damage. It will return to his original location after striking the target. If Draven catches it, he will empower the axe again. Draven can spin up to 2 axes at a time.\r\n\r\nVIP Bonus: Draven gains infinite attack range and ignores 50% his target's Armor.",
+      "values": [
+        { "name": "Percent of Attack Damage", "values": [150, 160, 400] },
+        { "name": "Bonus Damage", "values": [150, 200, 500] }
+      ]
+    },
+    "items": [16, 12, 23, 19, 29]
+  },
+  {
+    "name": "Ekko",
+    "id": "TFT6_Ekko",
+    "cost": 3,
+    "traits": ["Set6_Scrap", "Set6_Assassin"],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [65, 117, 211] },
+      { "name": "dps", "values": [46, 82, 147] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 80 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [80, 120] }
+    ],
+    "ability": {
+      "name": "Parallel Convergence",
+      "type": "Active",
+      "description": "Ekko invokes an afterimage that bats a device towards the largest group of units. Upon landing, it deals magic damage to enemies within and applies reduced Attack Speed for 4 seconds. Allies inside gain Attack Speed for 4 seconds.",
+      "values": [
+        { "name": "Damage", "values": [150, 200, 350] },
+        { "name": "Attack Speed Slow", "values": [35, 35, 50] },
+        { "name": "Attack Speed Bonus", "values": [35, 40, 50] }
+      ]
+    },
+    "items": [45, 36, 37, 33, 34]
+  },
+  {
+    "name": "Ezreal",
+    "id": "TFT6_Ezreal",
+    "cost": 1,
+    "traits": ["Set6_Scrap", "Set6_Innovator"],
+    "stats": [
+      { "name": "health", "values": [500, 900, 1620] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [33, 59, 105] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 15 },
+      { "name": "resistance", "values": 15 },
+      { "name": "mana", "values": [0, 40] }
+    ],
+    "ability": {
+      "name": "Mystic Shot",
+      "type": "Active",
+      "description": "Ezreal fires a missile at his target, dealing 150% of his Attack Damage plus bonus physical damage. If the missile hits, he grants himself 20% bonus stacking Attack Speed, up to 100% at 5 stacks.",
+      "values": [
+        { "name": "Damage", "values": [25, 50, 100] }
+      ]
+    },
+    "items": [11, 19, 29, 26, 29]
+  },
+  {
+    "name": "Galio",
+    "id": "TFT6_Galio",
+    "cost": 5,
+    "traits": ["Set6_Socialite", "Set6_Bodyguard"],
+    "stats": [
+      { "name": "health", "values": [1800, 3240, 5832] },
+      { "name": "attack", "values": [110, 198, 356] },
+      { "name": "dps", "values": [72, 129, 232] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 200 },
+      { "name": "resistance", "values": 70 },
+      { "name": "mana", "values": [200, 300] }
+    ],
+    "ability": {
+      "name": "Colossal Entrance",
+      "type": "Active",
+      "description": "Galio becomes invulnerable and leaps into the sky before crashing down on the largest group of enemies. Enemies within a large radius take magic damage and are knocked up.\r\n\r\nPassive: Galio's Critical Strikes slam the ground, dealing bonus magic damage to enemies around his target.",
+      "values": [
+        { "name": "Damage", "values": [150, 225, 9001] },
+        { "name": "Stun Duration", "values": [1, 1.5, 10] },
+        { "name": "Critical Strike Damage", "values": [70, 100, 1999] }
+      ]
+    },
+    "items": [55, 56, 47, 57, 77]
+  },
+  {
+    "name": "Gangplank",
+    "id": "TFT6_Gangplank",
+    "cost": 3,
+    "traits": ["Set6_Mercenary", "Set6_Twinshot"],
+    "stats": [
+      { "name": "health", "values": [750, 1350, 2430] },
+      { "name": "attack", "values": [75, 135, 243] },
+      { "name": "dps", "values": [56, 101, 182] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [0, 50] }
+    ],
+    "ability": {
+      "name": "Parrrley",
+      "type": "Active",
+      "description": "Gangplank attacks his target with his gun, dealing 170% of his Attack Damage plus bonus physical damage. If this attack kills a champion, Gangplank plunders 1 gold.",
+      "values": [
+        { "name": "Bonus Damage", "values": [120, 160, 225] }
+      ]
+    },
+    "items": [16, 19, 26, 69, 25]
+  },
+  {
+    "name": "Gnar",
+    "id": "TFT6_Gnar",
+    "cost": 3,
+    "traits": ["Set6_Socialite", "Set6_Yordle"],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [70, 126, 227] },
+      { "name": "dps", "values": [49, 88, 159] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [0, 80] }
+    ],
+    "ability": {
+      "name": "GNAR!",
+      "type": "Active",
+      "description": "Gnar transforms into Mega Gnar for the rest of combat. Mega Gnar throws a boulder at the farthest enemy within boulder range, dealing % of his Attack Damage plus bonus damage as physical damage to all enemies it passes through.\n\nWhile in Mega Gnar form. Gnar is melee, gains Health, and his mana costs are reduced by 20.",
+      "values": [
+        { "name": "Percent of Attack Damage", "values": [175, 175, 175] },
+        { "name": "Bonus Damage", "values": [150, 200, 300] },
+        { "name": "Bonus Health", "values": [700, 1250, 1800] }
+      ]
+    },
+    "items": [16, 19, 99, 67, 17]
+  },
+  {
+    "name": "Illaoi",
+    "id": "TFT6_Illaoi",
+    "cost": 1,
+    "traits": ["Set6_Mercenary", "Set6_Bruiser"],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [70, 126, 227] },
+      { "name": "dps", "values": [39, 69, 125] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.55 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [40, 80] }
+    ],
+    "ability": {
+      "name": "Harsh Lesson",
+      "type": "Active",
+      "description": "Illaoi slams her target, linking her soul to it for 5 seconds and dealing magic damage. While linked, Illaoi is healed for % of the damage taken by her target.",
+      "values": [
+        { "name": "Damage", "values": [200, 325, 550] },
+        { "name": "Damage to Healing", "values": [25, 30, 40] }
+      ]
+    },
+    "items": [59, 55, 99, 27, 67]
+  },
+  {
+    "name": "Irelia",
+    "id": "TFT6_Irelia",
+    "cost": 4,
+    "traits": ["Set6_Scrap", "Set6_Striker"],
+    "stats": [
+      { "name": "health", "values": [900, 1620, 2916] },
+      { "name": "attack", "values": [90, 162, 292] },
+      { "name": "dps", "values": [77, 138, 248] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.85 },
+      { "name": "armour", "values": 50 },
+      { "name": "resistance", "values": 50 },
+      { "name": "mana", "values": [0, 30] }
+    ],
+    "ability": {
+      "name": "Bladesurge",
+      "type": "Active",
+      "description": "Irelia dashes to her target, striking them for physical damage. If this kills the target, she Bladesurges again at the lowest Health enemy.",
+      "values": [
+        { "name": "Bonus Damage", "values": [90, 135, 600] }
+      ]
+    },
+    "items": [16, 19, 29, 17, 1]
+  },
+  {
+    "name": "Jarvan IV",
+    "id": "TFT6_JarvanIV",
+    "cost": 1,
+    "traits": ["Set6_Hextech", "Set6_Striker"],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [55, 99, 178] },
+      { "name": "dps", "values": [36, 64, 116] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 60 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [60, 100] }
+    ],
+    "ability": {
+      "name": "Ageless Standard",
+      "type": "Active",
+      "description": "Jarvan calls down his standard to a nearby location, granting all nearby allies Attack Speed for 5 seconds.",
+      "values": [
+        { "name": "Attack Speed Bonus", "values": [40, 50, 70] }
+      ]
+    },
+    "items": [79, 35, 66, 17, 59]
+  },
+  {
+    "name": "Jayce",
+    "id": "TFT6_Jayce",
+    "cost": 5,
+    "traits": ["Set6_Enforcer", "Set6_Innovator"],
+    "stats": [
+      { "name": "health", "values": [1000, 1800, 3240] },
+      { "name": "attack", "values": [90, 162, 292] },
+      { "name": "dps", "values": [68, 122, 219] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [0, 60] }
+    ],
+    "ability": {
+      "name": "Mercury Cannon/Mercury Hammer",
+      "type": "Active",
+      "description": "Melee form: Jayce overcharges himself, becoming unstoppable and gaining a shield for 3 seconds. Jayce then attacks twice, cleaving enemies in front of him for % of his Attack Damage as physical damage before leaping to the skies and slamming down on his target. Enemies within 2 hexes take the same damage and suffer a % reduction in Armor and Magic Resist for 5 seconds.\n\nPassive: Jayce gain 40 Armor and Magic Resist.\n\nRanged form: Jayce summons an acceleration gate, granting allies within the same row % Attack Speed for 5 seconds. He then replaces his next 3 attacks with orbs of electricity that deal % of his Attack Damage as physical damage in an area around his target. The 3rd orb has an increased area of effect.\n\nPassive: Jayce's range is increased by 4 hexes and he gains Attack Damage.",
+      "values": [
+        { "name": "Armor and Magic Resist Shred", "values": [50, 50, 70] },
+        { "name": "Shield Amount", "values": [375, 550, 3000] },
+        { "name": "Attack Damage", "values": [160, 170, 1000] },
+        { "name": "Attack Damage Gain", "values": [45, 70, 1000] },
+        { "name": "Attack Speed Bonus", "values": [50, 75, 300] },
+        { "name": "Percent of Attack Damage", "values": [170, 180, 500] }
+      ]
+    },
+    "items": [55, 66, 19, 23, 77]
+  },
+  {
+    "name": "Jhin",
+    "id": "TFT6_Jhin",
+    "cost": 4,
+    "traits": ["Set6_Clockwork", "Set6_Sniper"],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [90, 162, 292] },
+      { "name": "dps", "values": [81, 146, 262] },
+      { "name": "range", "values": 5 },
+      { "name": "speed", "values": 0.9 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [0, 70] }
+    ],
+    "ability": {
+      "name": "Curtain Call",
+      "type": "Active",
+      "description": "Jhin transforms his weapon into a powerful sniper rifle for his next 4 shots. Each shot deals % of his Attack Damage as physical damage, reduced by 33% for each target it pierces through. The 4th shot is guaranteed to critically strike, and deals 100% more damage based on his target's missing Health.\r\n\r\nPassive: Jhin always attacks fixed times per second. He converts each 1% of bonus Attack Speed into 0.8 Attack Damage.",
+      "values": [
+        { "name": "Percent of Attack Damage", "values": [150, 200, 300] },
+        { "name": "Attacks Per Second", "values": [0.9, 0.9, 1.4] }
+      ]
+    },
+    "items": [16, 12, 19, 29, 69]
+  },
+  {
+    "name": "Jinx",
+    "id": "TFT6_Jinx",
+    "cost": 5,
+    "traits": ["Set6_Rivals", "Set6_Scrap", "Set6_Twinshot"],
+    "stats": [
+      { "name": "health", "values": [888, 1598, 2877] },
+      { "name": "attack", "values": [88, 158, 285] },
+      { "name": "dps", "values": [88, 158, 285] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 1 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [0, 99] }
+    ],
+    "ability": {
+      "name": "Super Mega Death Rocket",
+      "type": "Active",
+      "description": "Jinx rides her rocket into the sky, then comes crashing down near the center-most enemy, dealing magic damage to enemies around the epicenter, and 50% to all other enemies in in a large area. The epicenter burns every unit except Jinx for 5 seconds, dealing % of the target's maximum Health as true damage, and reducing healing by 50% for the duration.\r\n\r\nShe then swaps to her rocket launcher and targets random units for the rest of combat. Her attacks now explode for % of her Attack Damage in a small area around her target.",
+      "values": [
+        { "name": "Damage", "values": [450, 700, 8888] },
+        { "name": "Percent Burn", "values": [2, 3, 4] },
+        { "name": "Percent of Attack Damage", "values": [220, 230, 888] }
+      ]
+    },
+    "items": [16, 12, 23, 19, 49]
+  },
+  {
+    "name": "Kai'Sa",
+    "id": "TFT6_Kaisa",
+    "cost": 5,
+    "traits": ["Set6_Mutant", "Set6_Challenger"],
+    "stats": [
+      { "name": "health", "values": [850, 1530, 2754] },
+      { "name": "attack", "values": [60, 108, 194] },
+      { "name": "dps", "values": [66, 119, 214] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 1.1 },
+      { "name": "armour", "values": 75 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [75, 150] }
+    ],
+    "ability": {
+      "name": "Icathian Monsoon",
+      "type": "Active",
+      "description": "Kai\u2019sa dashes away from all enemies, then fires a volley of missiles spread evenly among all enemies that deal magic damage each.\r\n\r\nFor each time Kai'Sa has attacked this combat, she'll fire an additional missile.",
+      "values": [
+        { "name": "Damage", "values": [70, 90, 180] },
+        { "name": "Number of Missiles", "values": [12, 18, 100] }
+      ]
+    },
+    "items": [23, 13, 37, 39, 14]
+  },
+  {
+    "name": "Kassadin",
+    "id": "TFT6_Kassadin",
+    "cost": 1,
+    "traits": ["Set6_Mutant", "Set6_Scholar"],
+    "stats": [
+      { "name": "health", "values": [750, 1350, 2430] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [33, 59, 105] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 60 },
+      { "name": "resistance", "values": 35 },
+      { "name": "mana", "values": [60, 100] }
+    ],
+    "ability": {
+      "name": "Null Sphere",
+      "type": "Active",
+      "description": "Kassadin fires an orb of void energy at his target, dealing magic damage. Enemies hit by the orb suffer a 50% increased Mana cost for their next Ability cast. Kassadin also grants himself a shield that reduces incoming damage by 25% for 5 seconds.",
+      "values": [
+        { "name": "Damage", "values": [250, 325, 400] },
+        { "name": "Shield Amount", "values": [150, 250, 350] }
+      ]
+    },
+    "items": [55, 36, 47, 27, 59]
+  },
+  {
+    "name": "Kha'Zix",
+    "id": "TFT6_KhaZix",
+    "cost": 4,
+    "traits": ["Set6_Mutant", "Set6_Assassin"],
+    "stats": [
+      { "name": "health", "values": [900, 1620, 2916] },
+      { "name": "attack", "values": [90, 162, 292] },
+      { "name": "dps", "values": [86, 154, 277] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.95 },
+      { "name": "armour", "values": 35 },
+      { "name": "resistance", "values": 35 },
+      { "name": "mana", "values": [0, 40] }
+    ],
+    "ability": {
+      "name": "Arid Assault",
+      "type": "Active",
+      "description": "Kha'Zix leaps towards the lowest Health enemy. striking them for physical damage and increasing their maximum Mana by 50% until they cast.",
+      "values": [
+        { "name": "Percent of Attack Damage", "values": [195, 200, 225] },
+        { "name": "Bonus Damage", "values": [175, 225, 500] }
+      ]
+    },
+    "items": [16, 19, 29, 69, 22]
+  },
+  {
+    "name": "Leona",
+    "id": "TFT6_Leona",
+    "cost": 3,
+    "traits": ["Set6_Debonair", "Set6_Bodyguard"],
+    "stats": [
+      { "name": "health", "values": [850, 1530, 2754] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [30, 54, 97] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 75 },
+      { "name": "resistance", "values": 50 },
+      { "name": "mana", "values": [75, 125] }
+    ],
+    "ability": {
+      "name": "Solar Eclipse",
+      "type": "Active",
+      "description": "Leona calls down a beacon of light upon herself, granting herself a Health shield for a few seconds. Leona and allies within 2 hexes gain Armor and Magic Resistance for the same duration.\r\n\r\nVIP Bonus: Every second, Leona heals herself for 0.8% of max HP each unit targeting her.",
+      "values": [
+        { "name": "Shield Amount", "values": [400, 650, 1000] },
+        { "name": "Armor and Magic Resist", "values": [30, 50, 80] },
+        { "name": "Duration", "values": [5, 5, 8] }
+      ]
+    },
+    "items": [55, 66, 77, 47, 56]
+  },
+  {
+    "name": "Lucian",
+    "id": "TFT6_Lucian",
+    "cost": 3,
+    "traits": ["Set6_Hextech", "Set6_Twinshot"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [60, 108, 194] },
+      { "name": "dps", "values": [45, 81, 146] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 25 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [0, 40] }
+    ],
+    "ability": {
+      "name": "Relentless Pursuit",
+      "type": "Active",
+      "description": "Lucian dashes away from his current target and fires shots at nearby enemies that each deal magic damage.",
+      "values": [
+        { "name": "Damage", "values": [175, 275, 300] },
+        { "name": "Number of Shots", "values": [2, 2, 3] }
+      ]
+    },
+    "items": [44, 19, 13, 39, 17]
+  },
+  {
+    "name": "Lulu",
+    "id": "TFT6_Lulu",
+    "cost": 2,
+    "traits": ["Set6_Yordle", "Set6_Enchanter"],
+    "stats": [
+      { "name": "health", "values": [600, 1080, 1944] },
+      { "name": "attack", "values": [40, 72, 130] },
+      { "name": "dps", "values": [26, 47, 84] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 60 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [60, 125] }
+    ],
+    "ability": {
+      "name": "Wild Growth",
+      "type": "Active",
+      "description": "Lulu enlarges low Health allies, granting them bonus Health and knocking up enemies near them. If the ally is already enlarged, they are healed instead.",
+      "values": [
+        { "name": "Number of Targets", "values": [1, 2, 3] },
+        { "name": "Bonus Health", "values": [325, 350, 375] }
+      ]
+    },
+    "items": [46, 17, 67, 38, 79]
+  },
+  {
+    "name": "Malzahar",
+    "id": "TFT6_Malzahar",
+    "cost": 3,
+    "traits": ["Set6_Mutant", "Set6_Arcanist"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [40, 72, 130] },
+      { "name": "dps", "values": [26, 47, 84] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [30, 60] }
+    ],
+    "ability": {
+      "name": "Malefic Visions",
+      "type": "Active",
+      "description": "Malzahar infects the mind of the closest unafflicted target, dealing magic damage over 8 seconds and reducing the Magic Resist of enemies by 40%.\r\n\r\nIf an afflicted target dies, Malefic Visions spreads to the nearest unafflicted targets with the remaining duration.",
+      "values": [
+        { "name": "Damage", "values": [625, 875, 1050] },
+        { "name": "Number of Targets", "values": [1, 1, 2] }
+      ]
+    },
+    "items": [44, 13, 37, 39, 13]
+  },
+  {
+    "name": "Miss Fortune",
+    "id": "TFT6_MissFortune",
+    "cost": 3,
+    "traits": ["Set6_Mercenary", "Set6_Sniper"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [60, 108, 194] },
+      { "name": "dps", "values": [42, 76, 136] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [40, 80] }
+    ],
+    "ability": {
+      "name": "Make it Rain",
+      "type": "Active",
+      "description": "Miss Fortune rains 4 waves of bullets down around her target, dealing magic damage to enemies in the area and reducing their incoming healing by 50% for 6 seconds.",
+      "values": [
+        { "name": "Damage", "values": [275, 375, 600] }
+      ]
+    },
+    "items": [12, 39, 44, 33, 14]
+  },
+  {
+    "name": "Morgana",
+    "id": "TFT6_Morgana",
+    "cost": 3,
+    "traits": ["Set6_Syndicate", "Set6_Enchanter"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [30, 54, 97] },
+      { "name": "range", "values": 2 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 60 },
+      { "name": "resistance", "values": 50 },
+      { "name": "mana", "values": [60, 120] }
+    ],
+    "ability": {
+      "name": "Soul Shackles",
+      "type": "Active",
+      "description": "Morgana grant herself a shield for 3 seconds and shackles herself to all enemies in a 2 hex radius. She then deals magic damage per second to them, as long as the shield holds.\r\n\r\nIf the shield expires without being broken, all targets are stunned for a few seconds. If the shield is broken, Morgana instead refunds herself 30 mana.",
+      "values": [
+        { "name": "Damage", "values": [80, 125, 175] },
+        { "name": "Shield Amount", "values": [425, 550, 750] },
+        { "name": "Stun Duration", "values": [1.5, 2, 2.5] }
+      ]
+    },
+    "items": [55, 66, 36, 37, 47]
+  },
+  {
+    "name": "Nocturne",
+    "id": "TFT6_Nocturne",
+    "cost": 1,
+    "traits": ["Set6_Hextech", "Set6_Assassin"],
+    "stats": [
+      { "name": "health", "values": [600, 1080, 1944] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [35, 63, 113] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [40, 80] }
+    ],
+    "ability": {
+      "name": "Unspeakable Horror",
+      "type": "Active",
+      "description": "Nocturne terrifies his target, stunning them with fear for a few seconds and dealing magic damage over the duration.",
+      "values": [
+        { "name": "Damage", "values": [200, 300, 400] },
+        { "name": "Stun Duration", "values": [2, 2.5, 3.5] }
+      ]
+    },
+    "items": [45, 46, 22, 17, 57]
+  },
+  {
+    "name": "Orianna",
+    "id": "TFT6_Orianna",
+    "cost": 4,
+    "traits": ["Set6_Clockwork", "Set6_Enchanter"],
+    "stats": [
+      { "name": "health", "values": [750, 1350, 2430] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [38, 68, 122] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 50 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [50, 130] }
+    ],
+    "ability": {
+      "name": "Command: Shockwave",
+      "type": "Active",
+      "description": "Orianna sends out her ball towards the largest group of champions, then commands it to release a shockwave. Allies within 2 hexes gain shield for 4 seconds, while enemies within the area are briefly knocked up and dealt magic damage. Enemies adjacent to the ball are drawn in and stunned.",
+      "values": [
+        { "name": "Damage", "values": [300, 450, 1200] },
+        { "name": "Shield Amount", "values": [120, 170, 600] },
+        { "name": "Stun Duration", "values": [1, 1, 4] }
+      ]
+    },
+    "items": [79, 46, 44, 14, 17]
+  },
+  {
+    "name": "Poppy",
+    "id": "TFT6_Poppy",
+    "cost": 1,
+    "traits": ["Set6_Yordle", "Set6_Bodyguard"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [60, 108, 194] },
+      { "name": "dps", "values": [33, 59, 107] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.55 },
+      { "name": "armour", "values": 50 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [50, 100] }
+    ],
+    "ability": {
+      "name": "Buckler Toss",
+      "type": "Active",
+      "description": "Poppy throws her buckler at the farthest enemy, dealing % of her Armor as magic damage. The buckler then bounces back, granting Poppy a shield that blocks damage.",
+      "values": [
+        { "name": "Percent of Armor as Damage", "values": [180, 210, 240] },
+        { "name": "Shield Amount", "values": [225, 275, 325] }
+      ]
+    },
+    "items": [55, 56, 57, 36, 27]
+  },
+  {
+    "name": "Quinn",
+    "id": "TFT6_Quinn",
+    "cost": 2,
+    "traits": ["Set6_Mercenary", "Set6_Challenger"],
+    "stats": [
+      { "name": "health", "values": [550, 990, 1782] },
+      { "name": "attack", "values": [60, 108, 194] },
+      { "name": "dps", "values": [42, 76, 136] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 70 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [70, 140] }
+    ],
+    "ability": {
+      "name": "Disarming Assault",
+      "type": "Active",
+      "description": "Quinn sends Valor out at the target with the highest Attack Speed, dealing magic damage to the target and nearby enemies. All targets are disarmed for a few seconds.",
+      "values": [
+        { "name": "Damage", "values": [200, 300, 700] },
+        { "name": "Disarm Duration", "values": [2, 2.5, 3] }
+      ]
+    },
+    "items": [39, 44, 13, 14, 78]
+  },
+  {
+    "name": "RekSai",
+    "id": "TFT6_RekSai",
+    "cost": 2,
+    "traits": ["Set6_Mutant", "Set6_Bruiser"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [70, 126, 227] },
+      { "name": "dps", "values": [49, 88, 159] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 60 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [60, 90] }
+    ],
+    "ability": {
+      "name": "Furious Bite",
+      "type": "Active",
+      "description": "Rek'Sai bites her target, dealing 125% of her Attack Damage plus bonus damage, stealing % of her target's Armor and Magic Resist, and healing herself.",
+      "values": [
+        { "name": "Damage", "values": [100, 150, 200] },
+        { "name": "Resistance Percent Steal", "values": [30, 35, 40] },
+        { "name": "Healing", "values": [150, 250, 400] }
+      ]
+    },
+    "items": [99, 59, 25, 67, 27]
+  },
+  {
+    "name": "Renata Glasc",
+    "id": "TFT6_Renata",
+    "cost": 4,
+    "traits": ["Set6_Chemtech", "Set6_Scholar"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [40, 72, 130] },
+      { "name": "dps", "values": [28, 50, 91] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [0, 60] }
+    ],
+    "ability": {
+      "name": "Toxic Wave",
+      "type": "Active",
+      "description": "Renata unleashes a toxic poison wave towards the largest group of nearby enemies, poisoning all enemies caught in its path for 15 seconds. Poisoned enemies suffer 25% reduced Attack Speed and take magic damage per second. Damage dealt by the poison can stack.",
+      "values": [
+        { "name": "Damage", "values": [55, 85, 255] }
+      ]
+    },
+    "items": [44, 13, 46, 37, 44]
+  },
+  {
+    "name": "Sejuani",
+    "id": "TFT6_Sejuani",
+    "cost": 2,
+    "traits": ["Set6_Enforcer", "Set6_Hextech"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [65, 117, 211] },
+      { "name": "dps", "values": [36, 64, 116] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.55 },
+      { "name": "armour", "values": 20 },
+      { "name": "resistance", "values": 45 },
+      { "name": "mana", "values": [20, 80] }
+    ],
+    "ability": {
+      "name": "Arcane Assault",
+      "type": "Active",
+      "description": "Sejuani signals Bristle to charge, dealing magic damage and stunning her target for a few seconds. She then gains Frost Armor, granting her Armor and Magic Resist for 4 seconds.",
+      "values": [
+        { "name": "Damage", "values": [275, 400, 650] },
+        { "name": "Stun Duration", "values": [1.5, 2, 3] },
+        { "name": "Armor and Magic Resist", "values": [75, 100, 150] }
+      ]
+    },
+    "items": [55, 66, 77, 67, 27]
+  },
+  {
+    "name": "Senna",
+    "id": "TFT6_Senna",
+    "cost": 3,
+    "traits": ["Set6_Socialite", "Set6_Enchanter"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [70, 126, 227] },
+      { "name": "dps", "values": [53, 95, 170] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [30, 80] }
+    ],
+    "ability": {
+      "name": "Piercing Darkness",
+      "type": "Active",
+      "description": "Senna fires a beam in the direction of her target, dealing 160% of her Attack Damage plus base damage as physical damage to all enemies hit. For each enemy hit, she heals the lowest health ally for 50% of the damage dealt.",
+      "values": [
+        { "name": "Damage", "values": [80, 125, 200] }
+      ]
+    },
+    "items": [11, 12, 23, 19, 29]
+  },
+  {
+    "name": "Seraphine",
+    "id": "TFT6_Seraphine",
+    "cost": 4,
+    "traits": ["Set6_Socialite", "Set6_Innovator"],
+    "stats": [
+      { "name": "health", "values": [750, 1350, 2430] },
+      { "name": "attack", "values": [40, 72, 130] },
+      { "name": "dps", "values": [28, 50, 91] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 80 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [80, 150] }
+    ],
+    "ability": {
+      "name": "Encore",
+      "type": "Active",
+      "description": "Seraphine projects her song towards the largest group of unit, dealing magic damage to enemies. Allies it passes through are healed Health and gain Attack Speed for 4 seconds.",
+      "values": [
+        { "name": "Damage", "values": [250, 400, 1200] },
+        { "name": "Healing", "values": [250, 350, 1000] },
+        { "name": "Attack Speed Bonus", "values": [30, 45, 100] }
+      ]
+    },
+    "items": [34, 37, 39, 33, 14]
+  },
+  {
+    "name": "Silco",
+    "id": "TFT6_Silco",
+    "cost": 5,
+    "traits": ["Set6_Mastermind", "Set6_Scholar"],
+    "stats": [
+      { "name": "health", "values": [850, 1530, 2754] },
+      { "name": "attack", "values": [60, 108, 194] },
+      { "name": "dps", "values": [39, 70, 126] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [0, 40] }
+    ],
+    "ability": {
+      "name": "Unstable Concoction",
+      "type": "Active",
+      "description": "Silco injects an unstable concoction into some of his lowest Health allies, granting them maximum Health, Attack Speed, and immunity to crowd control for 8 seconds. When the concoction wears off, unstable units die by explosion, dealing magic damage to nearby enemies.",
+      "values": [
+        { "name": "Damage", "values": [250, 500, 5000] },
+        { "name": "Number of Targets", "values": [1, 1, 5] },
+        { "name": "Attack Speed Bonus", "values": [80, 175, 666] }
+      ]
+    },
+    "items": [34, 44, 24, 38, 24]
+  },
+  {
+    "name": "Singed",
+    "id": "TFT6_Singed",
+    "cost": 1,
+    "traits": ["Set6_Chemtech", "Set6_Innovator"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [60, 108, 194] },
+      { "name": "dps", "values": [33, 59, 107] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.55 },
+      { "name": "armour", "values": 100 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [100, 150] }
+    ],
+    "ability": {
+      "name": "Fling",
+      "type": "Active",
+      "description": "Singed flings a nearby enemy towards the largest cluster of enemies, stunning his target for a few seconds when they land. All adjacent enemies take magic damage and are briefly stunned.",
+      "values": [
+        { "name": "Damage", "values": [125, 175, 250] },
+        { "name": "Stun Duration", "values": [1.5, 2, 3] }
+      ]
+    },
+    "items": [55, 66, 77, 56, 27]
+  },
+  {
+    "name": "Sivir",
+    "id": "TFT6_Sivir",
+    "cost": 4,
+    "traits": ["Set6_Hextech", "Set6_Striker"],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [80, 144, 259] },
+      { "name": "dps", "values": [60, 108, 194] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [0, 60] }
+    ],
+    "ability": {
+      "name": "On the Hunt",
+      "type": "Active",
+      "description": "For the next 5 seconds, Sivir grants herself bonus % Attack Speed and her attack bounce up to several times dealing 33% of her Attack Damage to enemies hit.",
+      "values": [
+        { "name": "Attack Speed Bonus", "values": [60, 80, 250] },
+        { "name": "Number of Bounces", "values": [4, 5, 9] }
+      ]
+    },
+    "items": [23, 19,  26, 69, 24]
+  },
+  {
+    "name": "Swain",
+    "id": "TFT6_Swain",
+    "cost": 2,
+    "traits": ["Set6_Hextech", "Set6_Arcanist"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [45, 81, 146] },
+      { "name": "dps", "values": [27, 49, 87] },
+      { "name": "range", "values": 2 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 45 },
+      { "name": "mana", "values": [40, 80] }
+    ],
+    "ability": {
+      "name": "Death's Hand",
+      "type": "Active",
+      "description": "Swain unleashes piercing bolts of eldritch power in a cone towards his target, dealing magic damage to enemies within and healing Swain for each enemy hit.",
+      "values": [
+        { "name": "Damage", "values": [225, 300, 450] },
+        { "name": "Healing", "values": [225, 250, 350] }
+      ]
+    },
+    "items": [56, 36, 59, 33, 27]
+  },
+  {
+    "name": "Syndra",
+    "id": "TFT6_Syndra",
+    "cost": 2,
+    "traits": ["Set6_Debonair", "Set6_Scholar"],
+    "stats": [
+      { "name": "health", "values": [600, 1080, 1944] },
+      { "name": "attack", "values": [40, 72, 130] },
+      { "name": "dps", "values": [26, 47, 84] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 50 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [50, 100] }
+    ],
+    "ability": {
+      "name": "Force of Will",
+      "type": "Active",
+      "description": "Syndra flings the nearest enemy towards the farthest enemy, dealing magic damage to all nearby enemies upon impact and stunning the thrown target for a few seconds.\r\n\r\nVIP Bonus: Force of Will's impact area is larger and knocks up affected enemies for 1.5 seconds.",
+      "values": [
+        { "name": "Damage", "values": [225, 325, 500] },
+        { "name": "Stun Duration", "values": [2, 2.5, 3] }
+      ]
+    },
+    "items": [19, 39, 46, 14, 44]
+  },
+  {
+    "name": "Tahm Kench",
+    "id": "TFT6_TahmKench",
+    "cost": 5,
+    "traits": ["Set6_Glutton", "Set6_Mercenary"],
+    "stats": [
+      { "name": "health", "values": [1000, 1800, 3240] },
+      { "name": "attack", "values": [80, 144, 259] },
+      { "name": "dps", "values": [44, 79, 143] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.55 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 60 },
+      { "name": "mana", "values": [30, 60] }
+    ],
+    "ability": {
+      "name": "Devour",
+      "type": "Active",
+      "description": "Tahm Kench devours his target, storing them in his belly and dealing magic damage damage over 3 seconds. During this time, they are invulnerable to other sources of damage and Tahm Kench takes 30% less damage.\r\n\r\nIf they die while inside, Tahm Kench either spits out a random item component they were holding, or the cost of the unit in gold. Otherwise, he spits them towards the farthest enemy, briefly stunning targets on impact.\r\n\r\nIf a target is immune to crowd control. Tahm Kench will instead deal 33% of magic damage.",
+      "values": [
+        { "name": "Damage", "values": [900, 1350, 30000] }
+      ]
+    },
+    "items": [55, 66, 77, 13, 47]
+  },
+  {
+    "name": "Talon",
+    "id": "TFT6_Talon",
+    "cost": 2,
+    "traits": ["Set6_Debonair", "Set6_Assassin"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [35, 63, 113] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 25 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [] }
+    ],
+    "ability": {
+      "name": "Blade's End",
+      "type": "Passive",
+      "description": "Passive: Talon's first attack on an enemy causes them to bleed for magic damage over 7 seconds. Every 3rd attack on a target applies an additional bleed.\r\n\r\nVIP Bonus: Talon's bleed now deals true damage and lasts 100% longer.",
+      "values": [
+        { "name": "Damage", "values": [450, 650, 950] }
+      ]
+    },
+    "items": [19, 39, 13, 69, 22]
+  },
+  {
+    "name": "Tryndamere",
+    "id": "TFT6_Tryndamere",
+    "cost": 3,
+    "traits": ["Set6_Chemtech", "Set6_Challenger"],
+    "stats": [
+      { "name": "health", "values": [750, 1350, 2430] },
+      { "name": "attack", "values": [70, 126, 227] },
+      { "name": "dps", "values": [53, 95, 170] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 35 },
+      { "name": "mana", "values": [40, 100] }
+    ],
+    "ability": {
+      "name": "Spinning Slash",
+      "type": "Active",
+      "description": "Tryndamere spins in a line towards the most enemies, dealing physical damage to enemies in his path and empowering his next 3 attacks to deal 20% more damage.",
+      "values": [
+        { "name": "Bonus Damage", "values": [60, 90, 150] }
+      ]
+    },
+    "items": [16, 19, 29, 25, 17]
+  },
+  {
+    "name": "Twitch",
+    "id": "TFT6_Twitch",
+    "cost": 1,
+    "traits": ["Set6_Chemtech", "Set6_Assassin"],
+    "stats": [
+      { "name": "health", "values": [450, 810, 1458] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [35, 63, 113] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 15 },
+      { "name": "resistance", "values": 15 },
+      { "name": "mana", "values": [0, 35] }
+    ],
+    "ability": {
+      "name": "Piercing Bolt",
+      "type": "Active",
+      "description": "Twitch fires a powerful bolt towards his target that pierces through enemies, dealing % of his Attack Damage plus bonus physical damage and reduces healing by 50% for 5 seconds.",
+      "values": [
+        { "name": "Percent of Attack Damage", "values": [125, 135, 150] },
+        { "name": "Bonus Damage", "values": [25, 50, 75] }
+      ]
+    },
+    "items": [11, 19, 12, 29, 26]
+  },
+  {
+    "name": "Veigar",
+    "id": "TFT6_Veigar",
+    "cost": 5,
+    "traits": ["Set6_YordleLord"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [45, 81, 146] },
+      { "name": "dps", "values": [36, 65, 117] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.8 },
+      { "name": "armour", "values": 25 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [0, 75] }
+    ],
+    "ability": {
+      "name": "Furyhorn Storm",
+      "type": "Active",
+      "description": "Veigar calls down Furyhorns over a few seconds near random enemies, each dealing magic damage.",
+      "values": [
+        { "name": "Damage", "values": [250, 300, 777] },
+        { "name": "Number of Furyhorns", "values": [20, 30, 99] }
+      ]
+    },
+    "items": [44,13, 39, 44, 33]
+  },
+  {
+    "name": "Vex",
+    "id": "TFT6_Vex",
+    "cost": 3,
+    "traits": ["Set6_Yordle", "Set6_Arcanist"],
+    "stats": [
+      { "name": "health", "values": [850, 1530, 2754] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [30, 54, 97] },
+      { "name": "range", "values": 2 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 50 },
+      { "name": "resistance", "values": 50 },
+      { "name": "mana", "values": [50, 100] }
+    ],
+    "ability": {
+      "name": "Personal Space",
+      "type": "Active",
+      "description": "Vex shields herself against damage over 4 seconds. When the shield expires, it deals magic damage to all enemies within 2 hexes, and a additional damage if it wasn't destroyed.\n\nIf it was destroyed, Personal Space becomes 15% stronger this combat. This effect can stack.",
+      "values": [
+        { "name": "Damage", "values": [100, 135, 175] },
+        { "name": "Bonus Damage", "values": [100, 135, 175] },
+        { "name": "Shield Amount", "values": [550, 700, 900] }
+      ]
+    },
+    "items": [55, 66, 77, 56, 36]
+  },
+  {
+    "name": "Vi",
+    "id": "TFT6b_Vi",
+    "cost": 4,
+    "traits": ["Set6_Enforcer", "Set6_Rivals"],
+    "stats": [
+      { "name": "health", "values": [900, 1620, 2916] },
+      { "name": "attack", "values": [80, 144, 259] },
+      { "name": "dps", "values": [56, 101, 181] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 50 },
+      { "name": "resistance", "values": 50 },
+      { "name": "mana", "values": [0, 40] }
+    ],
+    "ability": {
+      "name": "Piltover Pulverizer",
+      "type": "Active",
+      "description": "Vi shield herself and deals magic damage to that enemy and enemies behind it.\n\nOn her 2nd cast, she also dashes through her target.\n\nOn her 3rd cast, she instead throws her target into the air and slams them back to the ground, dealing in a circle around her target.",
+      "values": [
+        { "name": "Damage", "values": [150, 225, 450] },
+        { "name": "Shield Amount", "values": [225, 325, 750] },
+        { "name": "Wave Damage", "values": [300, 450, 900] }
+      ]
+    },
+    "items": [55, 66, 77, 36, 56]
+  },
+  {
+    "name": "Viktor",
+    "id": "TFT6_Viktor",
+    "cost": 5,
+    "traits": ["Set6_Chemtech", "Set6_Arcanist"],
+    "stats": [
+      { "name": "health", "values": [850, 1530, 2754] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [40, 72, 130] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.8 },
+      { "name": "armour", "values": 35 },
+      { "name": "resistance", "values": 35 },
+      { "name": "mana", "values": [0, 140] }
+    ],
+    "ability": {
+      "name": "Death Rays",
+      "type": "Active",
+      "description": "Passive: Viktor's attacks melt his target's defenses, reducing their Armor by 70% for 6 seconds.\r\n\r\nViktor summons multiple singularities that fire death rays, which cut across the battlefield in a line. To enemies caught in its path, death rays deal magic damage, destroy % of any remaining shields.",
+      "values": [
+        { "name": "Damage", "values": [360, 420, 1500] },
+        { "name": "Shield Reduction", "values": [25, 33, 100] },
+        { "name": "Number of Lasers", "values": [3, 4, 12] }
+      ]
+    },
+    "items": [44, 12, 39, 14, 24]
+  },
+  {
+    "name": "Warwick",
+    "id": "TFT6_Warwick",
+    "cost": 2,
+    "traits": ["Set6_Chemtech", "Set6_Challenger"],
+    "stats": [
+      { "name": "health", "values": [750, 1350, 2430] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [40, 72, 130] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.8 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [] }
+    ],
+    "ability": {
+      "name": "Eternal Hunger",
+      "type": "Passive",
+      "description": "Passive: Warwick's Attacks deal an additional % of his target's current Health as bonus magic damage, and heal him.",
+      "values": [
+        { "name": "Current Health Damage", "values": [7, 9, 12] },
+        { "name": "Healing", "values": [35, 50, 75] }
+      ]
+    },
+    "items": [23, 69, 25, 24, 17]
+  },
+  {
+    "name": "Zac",
+    "id": "TFT6_Zac",
+    "cost": 3,
+    "traits": ["Set6_Chemtech", "Set6_Bruiser"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [70, 126, 227] },
+      { "name": "dps", "values": [42, 76, 136] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 60 },
+      { "name": "resistance", "values": 45 },
+      { "name": "mana", "values": [60, 100] }
+    ],
+    "ability": {
+      "name": "Yoink!",
+      "type": "Active",
+      "description": "Zac stretches his arms up to 3 hexes to pull the 2 most distant enemies towards him, dealing magic damage. During this time, Zac gains 75% damage reduction.",
+      "values": [{ "name": "Damage", "values": [300, 400, 600] }]
+    },
+    "items": [56, 47, 66, 55, 77]
+  },
+  {
+    "name": "Zeri",
+    "id": "TFT6_Zeri",
+    "cost": 5,
+    "traits": ["Set6_Debonair", "Set6_Sniper"],
+    "stats": [
+      { "name": "health", "values": [850, 1530, 2754] },
+      { "name": "attack", "values": [80, 144, 259] },
+      { "name": "dps", "values": [64, 115, 207] },
+      { "name": "range", "values": 8 },
+      { "name": "speed", "values": 0.8 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [0, 60] }
+    ],
+    "ability": {
+      "name": "Lightning Crash",
+      "type": "Active",
+      "description": "Zeri charges herself up with electricity for 6 seconds. While electrified, she aims at the farthest enemy, her attacks pierce, and she dashes after every shot.\n\nPassive: Zeri's Basic Attacks fire bullets, each dealing 18% of her Attack Damage as physical damage plus bonus magic damage.\n\nVIP Bonus: Zeri's electrified duration lasts until the end of combat.",
+      "values": [
+        { "name": "Number of Bullets", "values": [5, 5, 30] },
+        { "name": "Bonus Damage", "values": [11, 22, 44] }
+      ]
+    },
+    "items": [12, 23, 39, 44, 24]
+  },
+  {
+    "name": "Ziggs",
+    "id": "TFT6_Ziggs",
+    "cost": 1,
+    "traits": ["Set6_Scrap", "Set6_Yordle"],
+    "stats": [
+      { "name": "health", "values": [500, 900, 1620] },
+      { "name": "attack", "values": [55, 99, 178] },
+      { "name": "dps", "values": [33, 59, 107] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 15 },
+      { "name": "resistance", "values": 15 },
+      { "name": "mana", "values": [0, 60] }
+    ],
+    "ability": {
+      "name": "Mini Inferno Bomb",
+      "type": "Active",
+      "description": "Ziggs hurls a bomb at his target. After a moderate delay, the bomb lands dealing magic damage to the enemy in the epicenter, and 50% to adjacent enemies.",
+      "values": [
+        { "name": "Damage", "values": [300, 400, 550] }
+      ]
+    },
+    "items": [44, 19, 39, 79, 67]
+  },
+  {
+    "name": "Zilean",
+    "id": "TFT6_Zilean",
+    "cost": 2,
+    "traits": ["Set6_Clockwork", "Set6_Innovator"],
+    "stats": [
+      { "name": "health", "values": [600, 1080, 1944] },
+      { "name": "attack", "values": [40, 72, 130] },
+      { "name": "dps", "values": [24, 43, 78] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [40, 80] }
+    ],
+    "ability": {
+      "name": "Time Bomb",
+      "type": "Active",
+      "description": "Zilean places a bomb on the closest enemy, stunning them. When the stun ends or the target dies, the bomb explodes, dealing magic damage to adjacent enemies and reducing their Attack Speed for 4 seconds.",
+      "values": [
+        { "name": "Damage", "values": [250, 350, 700] },
+        { "name": "Stun Duration", "values": [1.5, 2, 2.5] },
+        { "name": "Attack Speed Reduction", "values": [25, 35, 50] }
+      ]
+    },
+    "items": [70, 46, 59, 17, 67]
+  },
+  {
+    "name": "Zyra",
+    "id": "TFT6_Zyra",
+    "cost": 2,
+    "traits": ["Set6_Syndicate", "Set6_Scholar"],
+    "stats": [
+      { "name": "health", "values": [600, 1080, 1944] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [35, 63, 113] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 60 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [60, 120] }
+    ],
+    "ability": {
+      "name": "Grasping Spines",
+      "type": "Active",
+      "description": "Zyra summons vines in the row with the most enemies, dealing magic damage and stunning them.",
+      "values": [
+        { "name": "Damage", "values": [325, 450, 675] },
+        { "name": "Stun Duration", "values": [1.5, 2, 2.5] }
+      ]
+    },
+    "items": [79, 39, 2199, 14, 17]
+  }
+]

@@ -15,7 +15,7 @@
 
 <script>
 import Augment from "@/views/help/Augment";
-import augments from "@/data/augments";
+import augments from "../../../public/assets/data/augments.json";
 import VButtons from "@/components/utility/VButtons";
 import TransitionList from "@/components/transitions/TransitionList";
 

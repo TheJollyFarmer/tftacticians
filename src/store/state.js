@@ -1,4 +1,4 @@
-import sets from "@/data/sets";
+import sets from "@/constants/sets.json";
 
 export default {
   popover: {
@@ -10,9 +10,10 @@ export default {
     hover: false
   },
   windowWidth: window.innerWidth,
-  activeSet: sets[0],
+  activeSet: sets[0].number,
   sets,
   darkTheme: false,
   displayModal: false,
-  error: ""
+  error: "",
+  initialised: false
 };

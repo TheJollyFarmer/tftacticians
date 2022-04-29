@@ -1,5 +1,6 @@
 import api from "@/api/summoner";
 import types from "@/store/modules/summoner/types";
+import { sanitise } from "@/utils/filters";
 
 export default {
   getRegion: ({ dispatch, state }) => {
@@ -18,17 +19,30 @@ export default {
 
   updateName: ({ commit }, name) => commit(types.UPDATE_NAME, name),
 
-  getSum({ commit, dispatch, getters }) {
-    return api
-      .getSummoner(getters.getPayload)
-      .then(summoner => commit(types.SET_DATA, summoner))
-      .then(() => dispatch("getRanked"));
-  },
-
-  getSummoner({ commit, dispatch }) {
+  getSummoner({ commit, dispatch }, { region, name }) {
     commit(types.TOGGLE_LOADING);
 
-    return dispatch("getSum")
+    dispatch("updateRegion", region);
+    dispatch("getSummonerProfile", name).then(() =>
+      dispatch("getSummonerData")
+    );
+  },
+
+  getSummonerProfile({ commit, getters, dispatch, rootState: state }, name) {
+    let set = state.sets[0].number;
+
+    if (state.activeSet !== set) dispatch("setActiveSet", set, { root: true });
+    if (name) dispatch("updateName", sanitise(name));
+
+    return api
+      .getSummoner(getters.getPayload)
+      .then(summoner => commit(types.SET_DATA, summoner));
+  },
+
+  getSummonerData({ commit, state, dispatch }) {
+    if (!state.loading) commit(types.TOGGLE_LOADING);
+
+    return dispatch("getRanked")
       .then(() => dispatch("getMatches"))
       .finally(() => commit(types.TOGGLE_LOADING));
   },

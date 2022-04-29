@@ -1,0 +1,3102 @@
+[
+  {
+    "name": "Ahri",
+    "id": "TFT3_Ahri",
+    "cost": 2,
+    "traits": ["StarGuardian", "Set3_Sorcerer"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [34, 61, 109]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 60]
+      }
+    ],
+    "ability": {
+      "name": "Orb of Deception",
+      "type": "Active",
+      "description": "Ahri fires an orb in a line, dealing magic damage to all enemies it passes through on the way out, and true damage on the way back.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [175, 250, 375]
+        }
+      ]
+    },
+    "items": [46, 34, 37, 12, 35]
+  },
+  {
+    "name": "Annie",
+    "id": "TFT3_Annie",
+    "cost": 2,
+    "traits": ["MechPilot", "Set3_Sorcerer"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [300, 400, 600]
+      },
+      {
+        "name": "attack",
+        "values": [40, 72, 129.6]
+      },
+      {
+        "name": "dps",
+        "values": [26, 47, 84]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 35
+      },
+      {
+        "name": "mana",
+        "values": [70, 140]
+      }
+    ],
+    "ability": {
+      "name": "Galaxy Shield-Blast",
+      "type": "Active",
+      "description": "Annie blasts a cone of fire dealing magic damage to enemies in front of her, then creates a shield for herself for 4 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [300, 400, 600]
+        },
+        {
+          "name": "Shield Amount",
+          "values": [400, 500, 700]
+        }
+      ]
+    },
+    "items": [27, 25, 59, 55, 67]
+  },
+  {
+    "name": "Ashe",
+    "id": "TFT3_Ashe",
+    "cost": 3,
+    "traits": ["Set3_Celestial", "Sniper"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [51, 92, 165]
+      },
+      {
+        "name": "range",
+        "values": 5
+      },
+      {
+        "name": "speed",
+        "values": 0.85
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [50, 100]
+      }
+    ],
+    "ability": {
+      "name": "Enchanted Crystal Arrow",
+      "type": "Active",
+      "description": "Ashe fires and arrow toward the farthest enemy, colliding with the first enemy hit, dealing damage and stunning them. The stun lasts longer the farther the arrow travels.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [200, 300, 600]
+        },
+        {
+          "name": "Stun Duration",
+          "values": [2, 3, 4]
+        }
+      ]
+    },
+    "items": [14, 26, 23, 44, 24]
+  },
+  {
+    "name": "Aurelion Sol",
+    "id": "TFT3_AurelionSol",
+    "cost": 5,
+    "traits": ["Rebel", "Starship"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [1100, 1980, 3564]
+      },
+      {
+        "name": "attack",
+        "values": [10, 18, 32.4]
+      },
+      {
+        "name": "dps",
+        "values": [2, 4, 6]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.2
+      },
+      {
+        "name": "armour",
+        "values": 55
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [120, 120]
+      }
+    ],
+    "ability": {
+      "name": "Mobilise the Fleet",
+      "type": "Active",
+      "description": "Aurelion Sol launches fighters, which fly out to random enemies and blast them, dealing magic damage and draining mana, then return. The first time he casts, Aurelion Sol launches 4 fighters. Subsequent casts launch all returned fighters, plus 2 additional.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [175, 250, 375]
+        },
+        {
+          "name": "Mana Drained",
+          "values": [10, 15, 50]
+        }
+      ]
+    },
+    "items": [37, 33, 39, 34, 44]
+  },
+  {
+    "name": "Bard",
+    "id": "TFT3_Bard",
+    "cost": 3,
+    "traits": ["Astro", "Set3_Mystic"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [32, 57, 102]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 90]
+      }
+    ],
+    "ability": {
+      "name": "Traveller's Call",
+      "type": "Active",
+      "description": "Bard gains an additional mana each attack. Bard launches a meep onto his owner's bench which can be sold for 1 XP.",
+      "values": [
+        {
+          "name": "Additional Mana",
+          "values": [8, 20, 90]
+        }
+      ]
+    },
+    "items": [14, 26, 23, 44, 24]
+  },
+  {
+    "name": "Blitzcrank",
+    "id": "TFT3_Blitzcrank",
+    "cost": 2,
+    "traits": ["Chrono", "Set3_Brawler"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [28, 50, 89]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.5
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 35
+      },
+      {
+        "name": "mana",
+        "values": [125, 125]
+      }
+    ],
+    "ability": {
+      "name": "Rocket Grab",
+      "type": "Active",
+      "description": "Blitzcrank pulls the furthest enemy to him, dealing magic damage and stunning them for 2.5 seconds. The next attack after pulling knocks up for 1 second. Allies within range will prioritize attacking Blitzcrank's target.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [200, 350, 850]
+        }
+      ]
+    },
+    "items": [67, 59, 47, 27, 77]
+  },
+  {
+    "name": "Caitlyn",
+    "id": "TFT3_Caitlyn",
+    "cost": 1,
+    "traits": ["Chrono", "Sniper"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [500, 900, 1620]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [34, 61, 109]
+      },
+      {
+        "name": "range",
+        "values": 5
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 125]
+      }
+    ],
+    "ability": {
+      "name": "Ace in the Hole",
+      "type": "Active",
+      "description": "Caitlyn takes aim at the farthest enemy, firing a deadly bullet towards them that deals magic damage to the first enemy it hits.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [750, 1500, 2250]
+        }
+      ]
+    },
+    "items": [29, 19, 26, 67, 12]
+  },
+  {
+    "name": "Cassiopeia",
+    "id": "TFT3_Cassiopeia",
+    "cost": 3,
+    "traits": ["Battlecast", "Set3_Mystic"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2340]
+      },
+      {
+        "name": "attack",
+        "values": [40, 72, 129.6]
+      },
+      {
+        "name": "dps",
+        "values": [30, 54, 97]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 25]
+      }
+    ],
+    "ability": {
+      "name": "Noxious Blast",
+      "type": "Active",
+      "description": "Cassiopeia launches her fangs at the nearest enemy that isn't poisoned, causing them to take damage over 14 seconds, and reducing the effectiveness of shields used on them by 50%.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [700, 1500, 3000]
+        }
+      ]
+    },
+    "items": [44, 37, 22, 34, 33]
+  },
+  {
+    "name": "Darius",
+    "id": "TFT3_Darius",
+    "cost": 2,
+    "traits": ["SpacePirate", "ManaReaver"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [800, 1440, 2592]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [39, 70, 126]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [0, 50]
+      }
+    ],
+    "ability": {
+      "name": "Dreadnova Guillotine",
+      "type": "Active",
+      "description": "Darius dunks an enemy, dealing magic damage. If this kills the target, Darius immediately casts again. Targets below 50% health take double damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [400, 550, 800]
+        }
+      ]
+    },
+    "items": [39, 36, 15, 33, 19]
+  },
+  {
+    "name": "Ekko",
+    "id": "TFT3_Ekko",
+    "cost": 5,
+    "traits": ["Cybernetic", "Infiltrator"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [850, 1530, 2754]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [54, 97, 175]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.9
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [80, 150]
+      }
+    ],
+    "ability": {
+      "name": "Chronobreak",
+      "type": "Active",
+      "description": "Ekko shatters the timeline, freezing all units in time before attacking each enemy with bonus magic damage and applying on-hit effects. Slows the attack speed of all enemies hit by 50% for 7 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [100, 150, 2000]
+        }
+      ]
+    },
+    "items": [37, 57, 45, 36, 33]
+  },
+  {
+    "name": "Ezreal",
+    "id": "TFT3_Ezreal",
+    "cost": 3,
+    "traits": ["Chrono", "Blaster"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [38, 68, 122]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [30, 80]
+      }
+    ],
+    "ability": {
+      "name": "E.M.P",
+      "type": "Active",
+      "description": "Ezreal fires electromagnetic pulse at a random enemy that explodes on impact, dealing magic damage to all nearby enemies and increases the cost of their next spell cast by 40%.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [100, 150, 400]
+        }
+      ]
+    },
+    "items": [57, 14, 56, 34, 44]
+  },
+  {
+    "name": "Fiora",
+    "id": "TFT3_Fiora",
+    "cost": 1,
+    "traits": ["Cybernetic", "Set3_Blademaster"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [450, 810, 1458]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [45, 81, 146]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 1
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 85]
+      }
+    ],
+    "ability": {
+      "name": "Riposte",
+      "type": "Active",
+      "description": "Fiora enters a defensive stance for 1.5 seconds, becoming immune to damage and enemy spell effects. As she exits this stance, she ripostes, dealing magic damage and stunning them for a second.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [200, 300, 450]
+        },
+        {
+          "name": "Stun Duration (s)",
+          "values": [1.5, 1.5, 3]
+        }
+      ]
+    },
+    "items": [67, 47, 35, 36, 59]
+  },
+  {
+    "name": "Fizz",
+    "id": "TFT3_Fizz",
+    "cost": 4,
+    "traits": ["MechPilot", "Infiltrator"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [51, 92, 165]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.85
+      },
+      {
+        "name": "armour",
+        "values": 25
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [50, 120]
+      }
+    ],
+    "ability": {
+      "name": "Chum the Waters",
+      "type": "Active",
+      "description": "Fizz throws a lure that attracts a shark, causing it to emerge after a brief delay. It deals magic damage to enemies caught, knocking them back and stunning them for 1.5 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [400, 550, 4000]
+        }
+      ]
+    },
+    "items": [45, 36, 37, 39, 33]
+  },
+  {
+    "name": "Gangplank",
+    "id": "TFT3_Gangplank",
+    "cost": 5,
+    "traits": ["SpacePirate", "Mercenary", "Demolitionist"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [100, 1800, 3240]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [60, 108, 194]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 1
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [70, 160]
+      }
+    ],
+    "ability": {
+      "name": "Orbital Strike",
+      "type": "Active",
+      "description": "Gangplank calls down an orbital strike around his target, dealing magic damage to all enemies in a large area for 2 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [450, 600, 9001]
+        }
+      ]
+    },
+    "items": [15, 33, 37, 39, 36]
+  },
+  {
+    "name": "Gnar",
+    "id": "TFT3_Gnar",
+    "cost": 4,
+    "traits": ["Astro", "Set3_Brawler"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [40, 72, 130]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [0, 120]
+      }
+    ],
+    "ability": {
+      "name": "GNAR!",
+      "type": "Active",
+      "description": "Gnar leaps towards his target and transforms into Mega Gnar, throwing nearby enemies, dealing 200 damage and stunning them for 1.5 seconds. While in Mega Gnar form, Gnar gains 750 Health and 100 Attack Damage and becomes melee.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [100, 200, 800]
+        },
+        {
+          "name": "Health",
+          "values": [750, 1250, 4000]
+        },
+        {
+          "name": "Attack Damage",
+          "values": [100, 175, 550]
+        }
+      ]
+    },
+    "items": [36, 45, 55, 66, 77]
+  },
+  {
+    "name": "Graves",
+    "id": "TFT3_Graves",
+    "cost": 1,
+    "traits": ["SpacePirate", "Blaster"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [30, 54, 98]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.55
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [50, 80]
+      }
+    ],
+    "ability": {
+      "name": "Smoke Grenade",
+      "type": "Active",
+      "description": "Graves launches a smoke grenade toward the highest attack speed enemy, which explodes on impact dealing magic damage to enemies in the area and causing their attacks to miss for a second.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [150, 200, 400]
+        },
+        {
+          "name": "Blind Duration (seconds)",
+          "values": [3, 4, 6]
+        }
+      ]
+    },
+    "items": [38, 14, 67, 47, 35]
+  },
+  {
+    "name": "Illaoi",
+    "id": "TFT3_Illaoi",
+    "cost": 1,
+    "traits": ["Battlecast", "Set3_Brawler"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [32, 57, 102]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [40, 80]
+      }
+    ],
+    "ability": {
+      "name": "Tentacle Smash",
+      "type": "Active",
+      "description": "Illaoi slams a tentacle in a line in front of her, dealing 125 damage and stealing Armor and Magic Resist from each target hit for 6 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [125, 200, 325]
+        },
+        {
+          "name": "Steal Armour and MR (%)",
+          "values": [30, 40, 60]
+        }
+      ]
+    },
+    "items": [36, 55, 59, 77, 66]
+  },
+  {
+    "name": "Irelia",
+    "id": "TFT3_Irelia",
+    "cost": 4,
+    "traits": ["Cybernetic", "ManaReaver", "Set3_Blademaster"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [900, 1620, 2916]
+      },
+      {
+        "name": "attack",
+        "values": [85, 153, 275.4]
+      },
+      {
+        "name": "dps",
+        "values": [85, 153, 234]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.85
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [0, 30]
+      }
+    ],
+    "ability": {
+      "name": "Bladesurge",
+      "type": "Active",
+      "description": "Irelia dashes past her target, attacking them for a percentage of her Attack Damage as she passes through. If this kills the target, she casts again immediately at the enemy with the highest mana.",
+      "values": [
+        {
+          "name": "Attack Damage (%)",
+          "values": [225, 250, 500]
+        }
+      ]
+    },
+    "items": [19, 15, 29, 16, 11]
+  },
+  {
+    "name": "Janna",
+    "id": "TFT3_Janna",
+    "cost": 5,
+    "traits": ["StarGuardian", "Paragon"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [48, 86, 156]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 25
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [20, 100]
+      }
+    ],
+    "ability": {
+      "name": "Howling Gale",
+      "type": "Active",
+      "description": "Janna summons five tornadoes which fly forward in a large cone. Tornadoes grant allies they pass through 100% attack speed for 5 seconds, while knocking up and stunning enemies for 1.5 seconds.",
+      "values": [
+        {
+          "name": "Attack Speed (%)",
+          "values": [80, 125, 500]
+        }
+      ]
+    },
+    "items": [14, 44, 46, 26, 69]
+  },
+  {
+    "name": "Jarvan IV",
+    "id": "TFT3_JarvanIV",
+    "cost": 1,
+    "traits": ["DarkStar", "Protector"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [33, 59, 107]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [60, 100]
+      }
+    ],
+    "ability": {
+      "name": "Ageless Standard",
+      "type": "Active",
+      "description": "Jarvan calls down his standard to a nearby location, granting nearby allies Attack Speed for 6 seconds.",
+      "values": [
+        {
+          "name": "Attack Speed (%)",
+          "values": [50, 60, 75]
+        }
+      ]
+    },
+    "items": [77, 36, 55, 27, 66]
+  },
+  {
+    "name": "Jayce",
+    "id": "TFT3_Jayce",
+    "cost": 3,
+    "traits": ["SpacePirate", "Vanguard"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [42, 76, 136]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 80]
+      }
+    ],
+    "ability": {
+      "name": "To the Skies",
+      "type": "Active",
+      "description": "Jayce jumps into the air and slams his hammer, dealing magic damage to nearby enemies.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [450, 600, 1200]
+        }
+      ]
+    },
+    "items": [36, 15, 77, 55, 66]
+  },
+  {
+    "name": "Jhin",
+    "id": "TFT3_Jhin",
+    "cost": 4,
+    "traits": ["DarkStar", "Sniper"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [85, 153, 275.4]
+      },
+      {
+        "name": "dps",
+        "values": [77, 138, 248]
+      },
+      {
+        "name": "range",
+        "values": 5
+      },
+      {
+        "name": "speed",
+        "values": 0.9
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 0]
+      }
+    ],
+    "ability": {
+      "name": "Whisper",
+      "type": "Passive",
+      "description": "Jhin converts each 1% of bonus attack speed he has into 0.8 attack damage. Every fourth shot, Jhin deals bonus % attack damage.",
+      "values": [
+        {
+          "name": "Attack Damage (%)",
+          "values": [344, 444, 4444]
+        }
+      ]
+    },
+    "items": [29, 19, 15, 12, 11]
+  },
+  {
+    "name": "Jinx",
+    "id": "TFT3_Jinx",
+    "cost": 4,
+    "traits": ["Rebel", "Blaster"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [70, 126, 226.8]
+      },
+      {
+        "name": "dps",
+        "values": [49, 88, 159]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 0]
+      }
+    ],
+    "ability": {
+      "name": "Get Excited!",
+      "type": "Passive",
+      "description": "Jinx gets excited as she helps take down enemy units! After her first takedown, Jinx gains bonus attack speed. After her second takedown, Jinx swaps to her rocket launcher, causing her basic attacks to deal bonus magic damage to all enemies in a small area around her target.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [125, 200, 1000]
+        },
+        {
+          "name": "Attack Speed (%)",
+          "values": [125, 200, 1000]
+        }
+      ]
+    },
+    "items": [12, 19, 29, 57, 15]
+  },
+  {
+    "name": "Karma",
+    "id": "TFT3_Karma",
+    "cost": 3,
+    "traits": ["DarkStar", "Set3_Mystic"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [33, 59, 105]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [75, 100]
+      }
+    ],
+    "ability": {
+      "name": "Inspire",
+      "type": "Active",
+      "description": "At the start of combat, Karma bonds to her closest ally. Karma grants the bonded ally (or a random one if that ally is dead) a health shield for 4 seconds. While the shield holds, the ally receives bonus Attack Speed.",
+      "values": [
+        {
+          "name": "Shield Amount",
+          "values": [300, 450, 900]
+        },
+        {
+          "name": "Attack Speed (%)",
+          "values": [125, 200, 1000]
+        }
+      ]
+    },
+    "items": [17, 46, 33, 67, 44]
+  },
+  {
+    "name": "Kog'Maw",
+    "id": "TFT3_KogMaw",
+    "cost": 2,
+    "traits": ["Battlecast", "Blaster"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [550, 990, 1782]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [35, 63, 113]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 25
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 30]
+      }
+    ],
+    "ability": {
+      "name": "Barrage",
+      "type": "Active",
+      "description": "For 3 seconds Kog'Maw gains infinite Attack Range, 80% Attack Speed, and his attacks deal 2% of the target's maximum health as magic damage.",
+      "values": [
+        {
+          "name": "Health (%)",
+          "values": [2, 4, 8]
+        }
+      ]
+    },
+    "items": [57, 26, 11, 12, 24]
+  },
+  {
+    "name": "Leona",
+    "id": "TFT3_Leona",
+    "cost": 1,
+    "traits": ["Cybernetic", "Vanguard"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [28, 50, 89]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.55
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [50, 100]
+      }
+    ],
+    "ability": {
+      "name": "Cyber Barrier",
+      "type": "Active",
+      "description": "Leona creates a barrier, reducing all incoming damage for 4 seconds.",
+      "values": [
+        {
+          "name": "Damage Reduction",
+          "values": [40, 80, 200]
+        }
+      ]
+    },
+    "items": [36, 67, 47, 55, 45]
+  },
+  {
+    "name": "Lucian",
+    "id": "TFT3_Lucian",
+    "cost": 2,
+    "traits": ["Cybernetic", "Blaster"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [500, 900, 16020]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [35, 63, 113]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 25
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 30]
+      }
+    ],
+    "ability": {
+      "name": "Relentless Pursuit",
+      "type": "Active",
+      "description": "Lucian dashes away from his current target, then basic attacks them and fires a second shot which deals magic damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [175, 250, 550]
+        }
+      ]
+    },
+    "items": [57, 34, 19, 44, 39]
+  },
+  {
+    "name": "Lulu",
+    "id": "TFT3_Lulu",
+    "cost": 5,
+    "traits": ["Set3_Celestial", "Set3_Mystic"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [800, 1440, 2592]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [45, 65, 117]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 25
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [75, 150]
+      }
+    ],
+    "ability": {
+      "name": "Massive Polymorph",
+      "type": "Active",
+      "description": "Lulu polymorphs the 2 nearest enemies, causing them to hop aimlessly, unable to attack or cast. Polymorphed enemies take additional damage from all sources.",
+      "values": [
+        {
+          "name": "Number of Targets",
+          "values": [2, 4, 12]
+        },
+        {
+          "name": "Bonus Damage (%)",
+          "values": [5, 10, 25]
+        },
+        {
+          "name": "Duration",
+          "values": [3, 3, 8]
+        }
+      ]
+    },
+    "items": [14, 67, 44, 26, 24]
+  },
+  {
+    "name": "Malphite",
+    "id": "TFT3_Malphite",
+    "cost": 1,
+    "traits": ["Rebel", "Set3_Brawler"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [70, 126, 226.8]
+      },
+      {
+        "name": "dps",
+        "values": [35, 63, 113]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.5
+      },
+      {
+        "name": "armour",
+        "values": 35
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [0, 0]
+      }
+    ],
+    "ability": {
+      "name": "Energy Shield",
+      "type": "Passive",
+      "description": "Malphite starts combat with a shield equal to a percent of his maximum health.",
+      "values": [
+        {
+          "name": "Shield (%)",
+          "values": [40, 45, 60]
+        }
+      ]
+    },
+    "items": [77, 55, 36, 59, 67]
+  },
+  {
+    "name": "Master Yi",
+    "id": "TFT3_MasterYi",
+    "cost": 3,
+    "traits": ["Rebel", "Set3_Blademaster"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [44, 79, 143]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 35
+      },
+      {
+        "name": "mana",
+        "values": [0, 55]
+      }
+    ],
+    "ability": {
+      "name": "Chosen One",
+      "type": "Active",
+      "description": "For 5 seconds, Master Yi gains massively increased movement speed, heals for a percentage of his maximum health each second, and deals bonus true damage with his basic attacks.",
+      "values": [
+        {
+          "name": "True Damage",
+          "values": [75, 100, 175]
+        },
+        {
+          "name": "Heal per Second (%)",
+          "values": [12]
+        }
+      ]
+    },
+    "items": [22, 23, 69, 33, 77]
+  },
+  {
+    "name": "Mordekaiser",
+    "id": "TFT3_Mordekaiser",
+    "cost": 2,
+    "traits": ["DarkStar", "Vanguard"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [33, 59, 107]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 35
+      },
+      {
+        "name": "mana",
+        "values": [0, 90]
+      }
+    ],
+    "ability": {
+      "name": "Indestructible",
+      "type": "Active",
+      "description": "Mordekaiser gains a shield that absorbs damage over 8 seconds. While the shield persists, Mordekaiser deals magic damage per second to all nearby enemies.",
+      "values": [
+        {
+          "name": "Shield Amount",
+          "values": [350, 500, 800]
+        },
+        {
+          "name": "Damage per Second",
+          "values": [75, 100, 200]
+        }
+      ]
+    },
+    "items": [36, 37, 66, 55, 77]
+  },
+  {
+    "name": "Nautilus",
+    "id": "TFT3_Nautilus",
+    "cost": 2,
+    "traits": ["Astro", "Vanguard"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [39, 70, 126]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 35
+      },
+      {
+        "name": "mana",
+        "values": [50, 120]
+      }
+    ],
+    "ability": {
+      "name": "Impact Crater",
+      "type": "Active",
+      "description": "Nautilus erupts the ground beneath his target, knocking them up and stunning them, and dealing magic damage. Enemies adjacent to the target receive half of this effect.",
+      "values": [
+        {
+          "name": "Stun",
+          "values": [3, 3, 5]
+        },
+        {
+          "name": "Damage",
+          "values": [100, 200, 400]
+        }
+      ]
+    },
+    "items": [67, 47, 59, 36, 27]
+  },
+  {
+    "name": "Neeko",
+    "id": "TFT3_Neeko",
+    "cost": 3,
+    "traits": ["StarGuardian", "Protector"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [850, 1530, 2754]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [33, 59, 105]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [35, 110]
+      }
+    ],
+    "ability": {
+      "name": "Pop Blossom",
+      "type": "Active",
+      "description": "Neeko leaps into the air and slams into the ground, dealing magic damage and stunning all nearby enemies.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [150, 250, 500]
+        },
+        {
+          "name": "Stun Duration (s)",
+          "values": [1.5, 2, 2.5]
+        }
+      ]
+    },
+    "items": [15, 77, 36, 27, 55]
+  },
+  {
+    "name": "Nocturne",
+    "id": "TFT3_Nocturne",
+    "cost": 1,
+    "traits": ["Battlecast", "Infiltrator"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [500, 900, 1620]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [38, 68, 122]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [40, 80]
+      }
+    ],
+    "ability": {
+      "name": "Pop Unspeakable Horror",
+      "type": "Active",
+      "description": "Nocturne terrifies his target, causing them to be stunned with fear and dealing damage over the duration.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [200, 250, 400]
+        },
+        {
+          "name": "Stun Duration (s)",
+          "values": [2, 2.5, 4]
+        }
+      ]
+    },
+    "items": [19, 15, 36, 22, 17]
+  },
+  {
+    "name": "Poppy",
+    "id": "TFT3_Poppy",
+    "cost": 1,
+    "traits": ["StarGuardian", "Vanguard"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [28, 50, 89]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.55
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [50, 90]
+      }
+    ],
+    "ability": {
+      "name": "Buckler Toss",
+      "type": "Active",
+      "description": "Poppy throws her buckler at the furthest enemy dealing damage. The buckler bounces back to Poppy, shielding her.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [100, 150, 200]
+        },
+        {
+          "name": "Shield Amount",
+          "values": [200, 300, 400]
+        }
+      ]
+    },
+    "items": [77, 55, 66, 36, 33]
+  },
+  {
+    "name": "Rakan",
+    "id": "TFT3_Rakan",
+    "cost": 2,
+    "traits": ["Set3_Celestial", "Protector"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [32, 57, 102]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 35
+      },
+      {
+        "name": "mana",
+        "values": [50, 100]
+      }
+    ],
+    "ability": {
+      "name": "Grand Entrance",
+      "type": "Active",
+      "description": "Rakan dashes to the furthest enemy within range and leaps into the air, knocking up and dealing magic damage to all nearby enemies.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [175, 275, 400]
+        },
+        {
+          "name": "Knock Up (s)",
+          "values": [1.5, 1.5, 1.5]
+        }
+      ]
+    },
+    "items": [77, 37, 14, 36, 45]
+  },
+  {
+    "name": "Riven",
+    "id": "TFT3_Riven",
+    "cost": 4,
+    "traits": ["Chrono", "Set3_Blademaster"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [800, 1440, 2592]
+      },
+      {
+        "name": "attack",
+        "values": [70, 126, 226.8]
+      },
+      {
+        "name": "dps",
+        "values": [60, 107, 193]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.85
+      },
+      {
+        "name": "armour",
+        "values": 35
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 25]
+      }
+    ],
+    "ability": {
+      "name": "Energy Slash",
+      "type": "Active",
+      "description": "Riven dashes and shields herself, then slashes forward dealing magic damage. Every third cast, Riven leaps into the air and launches a wave of energy that deals magic damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [100, 150, 450]
+        },
+        {
+          "name": "Energy Wave Damage",
+          "values": [300, 500, 1500]
+        },
+        {
+          "name": "Shield",
+          "values": [200, 350, 1000]
+        }
+      ]
+    },
+    "items": [15, 33, 69, 36, 37]
+  },
+  {
+    "name": "Rumble",
+    "id": "TFT3_Rumble",
+    "cost": 3,
+    "traits": ["MechPilot", "Demolitionist"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [900, 1620, 2916]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [35, 63, 113]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [0, 50]
+      }
+    ],
+    "ability": {
+      "name": "Flamespitter",
+      "type": "Active",
+      "description": "Rumble torches his enemies, dealing magic damage in a cone over 3 seconds, and reducing healing on them by 50% for 5 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [500, 750, 1500]
+        }
+      ]
+    },
+    "items": [69, 25, 55, 36, 39]
+  },
+  {
+    "name": "Shaco",
+    "id": "TFT3_Shaco",
+    "cost": 3,
+    "traits": ["DarkStar", "Infiltrator"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [75, 135, 243]
+      },
+      {
+        "name": "dps",
+        "values": [60, 108, 194]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 25
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [30, 70]
+      }
+    ],
+    "ability": {
+      "name": "Deceive",
+      "type": "Active",
+      "description": "Shaco teleports and backstabs his target, critically striking for a percentage of his basic attack damage.",
+      "values": [
+        {
+          "name": "Damage (%)",
+          "values": [250, 275, 300]
+        }
+      ]
+    },
+    "items": [15, 19, 16, 22, 45]
+  },
+  {
+    "name": "Shen",
+    "id": "TFT3_Shen",
+    "cost": 2,
+    "traits": ["Chrono", "Set3_Blademaster"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [800, 1440, 2592]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [42, 76, 136]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 35
+      },
+      {
+        "name": "mana",
+        "values": [100, 150]
+      }
+    ],
+    "ability": {
+      "name": "Future's Refuge",
+      "type": "Active",
+      "description": "Shen creates a zone around himself for a few seconds, granting all nearby allies 100% chance to dodge incoming basic attacks. While active, Shen gains Magic Resist.",
+      "values": [
+        {
+          "name": "Duration (s)",
+          "values": [2.5, 3, 5]
+        },
+        {
+          "name": "Magic Resist",
+          "values": [20, 40, 60]
+        }
+      ]
+    },
+    "items": [55, 77, 45, 35, 27]
+  },
+  {
+    "name": "Soraka",
+    "id": "TFT3_Soraka",
+    "cost": 4,
+    "traits": ["StarGuardian", "Set3_Mystic"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [34, 61, 109]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [50, 120]
+      }
+    ],
+    "ability": {
+      "name": "Wish",
+      "type": "Active",
+      "description": "Soraka heals all allies.",
+      "values": [
+        {
+          "name": "Healing",
+          "values": [325, 500, 20000]
+        }
+      ]
+    },
+    "items": [14, 46, 44, 67, 59]
+  },
+  {
+    "name": "Syndra",
+    "id": "TFT3_Syndra",
+    "cost": 3,
+    "traits": ["StarGuardian", "Set3_Sorcerer"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [32, 37, 102]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 50]
+      }
+    ],
+    "ability": {
+      "name": "Unleashed Power",
+      "type": "Active",
+      "description": "Syndra pulls in all orbs on the battlefield and creates 3 new ones, then fires them all at the enemy with the highest health, dealing magic damage per orb.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [100, 140, 220]
+        }
+      ]
+    },
+    "items": [44, 33, 15, 39, 34]
+  },
+  {
+    "name": "Teemo",
+    "id": "TFT3_Teemo",
+    "cost": 4,
+    "traits": ["Astro", "Sniper"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [45, 81, 146]
+      },
+      {
+        "name": "range",
+        "values": 5
+      },
+      {
+        "name": "speed",
+        "values": 1
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 80]
+      }
+    ],
+    "ability": {
+      "name": "Satellite Traps",
+      "type": "Active",
+      "description": "Teemo scatters three traps around the nearest enemy. When an enemy nears a trap (or after 3 seconds), it explodes on nearby enemies dealing magic damage, knocking them down, and slowing them for 3 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [125, 175, 550]
+        }
+      ]
+    },
+    "items": [44, 37, 33, 39, 34]
+  },
+  {
+    "name": "Thresh",
+    "id": "TFT3_Thresh",
+    "cost": 5,
+    "traits": ["Chrono", "ManaReaver"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [950, 1710, 3078]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [48, 86, 154]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.95
+      },
+      {
+        "name": "armour",
+        "values": 55
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [50, 90]
+      }
+    ],
+    "ability": {
+      "name": "Temporal Passage",
+      "type": "Active",
+      "description": "Thresh tosses his lantern towards a random unit(s) on your bench, pulling them into the current combat and granting them and himself bonus mana. Traits are unaffected.",
+      "values": [
+        {
+          "name": "Bonus Mana",
+          "values": [25, 50, 200]
+        },
+        {
+          "name": "Number of units",
+          "values": [1, 1, 9]
+        }
+      ]
+    },
+    "items": [14, 44, 22, 26, 67]
+  },
+  {
+    "name": "Twisted Fate",
+    "id": "TFT3_TwistedFate",
+    "cost": 1,
+    "traits": ["Chrono", "Set3_Sorcerer"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [550, 990, 1782]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [32, 57, 102]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 75]
+      }
+    ],
+    "ability": {
+      "name": "Wild Cards",
+      "type": "Active",
+      "description": "Twisted Fate throws three cards in a cone that deal magic damage to each enemy they pass through.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [200, 300, 450]
+        }
+      ]
+    },
+    "items": [14, 37, 33, 39, 19]
+  },
+  {
+    "name": "Urgot",
+    "id": "TFT3_Urgot",
+    "cost": 5,
+    "traits": ["Battlecast", "Protector"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [950, 1710, 3078]
+      },
+      {
+        "name": "attack",
+        "values": [80, 144, 259.2]
+      },
+      {
+        "name": "dps",
+        "values": [56, 101, 181]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [50, 100]
+      }
+    ],
+    "ability": {
+      "name": "Fear Beyond Death",
+      "type": "Active",
+      "description": "Urgot fires a drill at the farthest enemy, reeling the first enemy hit in and dealing true damage repeatedly until they die when they reach him and reducing his mana cost.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [2000, 2000, 2000]
+        },
+        {
+          "name": "Mana Cost Reduction",
+          "values": [20, 30, 100]
+        },
+        {
+          "name": "Duration (s)",
+          "values": [3, 2, 1]
+        }
+      ]
+    },
+    "items": [15, 44, 14, 77, 69]
+  },
+  {
+    "name": "Vayne",
+    "id": "TFT3_Vayne",
+    "cost": 3,
+    "traits": ["Cybernetic", "Sniper"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [500, 900, 1620]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [44, 79, 143]
+      },
+      {
+        "name": "range",
+        "values": 5
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 50]
+      }
+    ],
+    "ability": {
+      "name": "Final Hour",
+      "type": "Active",
+      "description": "Vayne focuses for 10 seconds, tumbling away from her target immediately and every third attack thereafter. Vayne is invisible while tumbling, and attacks after tumbling deal bonus damage.",
+      "values": [
+        {
+          "name": "Damage (%)",
+          "values": [175, 200, 225]
+        }
+      ]
+    },
+    "items": [29, 19, 12, 11, 23]
+  },
+  {
+    "name": "Vi",
+    "id": "TFT3_Vi",
+    "cost": 3,
+    "traits": ["Cybernetic", "Set3_Brawler"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [39, 70, 126]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [70, 140]
+      }
+    ],
+    "ability": {
+      "name": "Assault and Battery",
+      "type": "Active",
+      "description": "Vi charges at the farthest enemy, knocking aside and dealing magic damage to all enemies along the way. When she reaches her target, she deals magic damage and knocks them up.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [350, 550, 1100]
+        },
+        {
+          "name": "Collision Damage",
+          "values": [150, 200, 500]
+        },
+        {
+          "name": "Stun Duration",
+          "values": [2, 2.5, 3]
+        }
+      ]
+    },
+    "items": [45, 36, 55, 15, 99]
+  },
+  {
+    "name": "Viktor",
+    "id": "TFT3_Viktor",
+    "cost": 4,
+    "traits": ["Battlecast", "Set3_Sorcerer"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [34, 61, 109]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 25
+      },
+      {
+        "name": "mana",
+        "values": [0, 60]
+      }
+    ],
+    "ability": {
+      "name": "Death Ray",
+      "type": "Active",
+      "description": "Viktor burns a path between the two enemies most distant from one another, initially dealing a percentage of max health damage, then 1 second later dealing damage in an explosion along the same path.",
+      "values": [
+        {
+          "name": "Initial Damage (%)",
+          "values": [15, 20, 80]
+        },
+        {
+          "name": "Secondary Damage",
+          "values": [200, 325, 1500]
+        }
+      ]
+    },
+    "items": [37, 44, 33, 39, 14]
+  },
+  {
+    "name": "Wukong",
+    "id": "TFT3_WuKong",
+    "cost": 4,
+    "traits": ["Chrono", "Vanguard"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [950, 1710, 3078]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [38, 68, 122]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 55
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [50, 150]
+      }
+    ],
+    "ability": {
+      "name": "Cyclone",
+      "type": "Active",
+      "description": "Wukong spins rapidly around, dealing magic damage to nearby units over 3 seconds. The first time Wukong hits each enemy, he knocks them into the air and stuns them.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [300, 500, 4000]
+        },
+        {
+          "name": "Stun Duration (s)",
+          "values": [2, 2.5, 5]
+        }
+      ]
+    },
+    "items": [36, 45, 55, 77, 66]
+  },
+  {
+    "name": "Xayah",
+    "id": "TFT3_Xayah",
+    "cost": 1,
+    "traits": ["Set3_Celestial", "Set3_Blademaster"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [500, 900, 1620]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [45, 81, 146]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.9
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 60]
+      }
+    ],
+    "ability": {
+      "name": "Deadly Plumage",
+      "type": "Active",
+      "description": "Xayah creates a storm of blades, gaining Attack Speed for a few seconds.",
+      "values": [
+        {
+          "name": "Bonus Attack Speed (%)",
+          "values": [100, 125, 150]
+        },
+        {
+          "name": "Duration (s)",
+          "values": [8, 8, 8]
+        }
+      ]
+    },
+    "items": [29, 19, 69, 12, 11]
+  },
+  {
+    "name": "Xerath",
+    "id": "TFT3_Xerath",
+    "cost": 5,
+    "traits": ["DarkStar", "Set3_Sorcerer"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [54, 97, 175]
+      },
+      {
+        "name": "range",
+        "values": 5
+      },
+      {
+        "name": "speed",
+        "values": 0.9
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [20, 80]
+      }
+    ],
+    "ability": {
+      "name": "Abyssal Bombardment",
+      "type": "Active",
+      "description": "Xerath transforms, summoning meteors to strike random foes in place of his normal attacks. Meteors deal magic damage upon impact and if they kill their target, all adjacent enemies take magic damage and are stunned for 1.5 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [300, 400, 2500]
+        },
+        {
+          "name": "Duration (s)",
+          "values": [6, 8, 2500]
+        },
+        {
+          "name": "AoE Damage",
+          "values": [75, 100, 625]
+        }
+      ]
+    },
+    "items": [23, 69, 33, 39, 37]
+  },
+  {
+    "name": "Xin Zhao",
+    "id": "TFT3_XinZhao",
+    "cost": 2,
+    "traits": ["Set3_Celestial", "Protector"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [42, 76, 136]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 35
+      },
+      {
+        "name": "mana",
+        "values": [0, 60]
+      }
+    ],
+    "ability": {
+      "name": "Three Talon Strike",
+      "type": "Active",
+      "description": "Xin Zhao quickly strikes his target three times, dealing Basic Attack damage and applying on-hit effects. The third strike deals bonus magic damage and knocks his target up for 1.5 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [200, 275, 375]
+        }
+      ]
+    },
+    "items": [77, 55, 66, 25, 36]
+  },
+  {
+    "name": "Yasuo",
+    "id": "TFT3_Yasuo",
+    "cost": 2,
+    "traits": ["Rebel", "Set3_Blademaster"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [38, 68, 122]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 80]
+      }
+    ],
+    "ability": {
+      "name": "Last Breath",
+      "type": "Active",
+      "description": "Yasuo blinks to the farthest enemy within range and knocks them up, holding them airborne for 1 second and hitting them multiple times, dealing Basic Attack damage and applying on-hit effects.",
+      "values": [
+        {
+          "name": "Number of Attacks",
+          "values": [4, 5, 6]
+        }
+      ]
+    },
+    "items": [15, 19, 14, 49, 17]
+  },
+  {
+    "name": "Zed",
+    "id": "TFT3_Zed",
+    "cost": 2,
+    "traits": ["Rebel", "Infiltrator"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [41, 74, 134]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 25
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 0]
+      }
+    ],
+    "ability": {
+      "name": "Contempt for the Weak",
+      "type": "Passive",
+      "description": "Every third attack, Zed deals bonus magic damage and steals a percentage of the target's current Attack Damage.",
+      "values": [
+        {
+          "name": "Bonus Damage",
+          "values": [50, 90, 150]
+        },
+        {
+          "name": "Damage Stolen (%)",
+          "values": [20, 25, 40]
+        }
+      ]
+    },
+    "items": [19, 15, 22, 11, 29]
+  },
+  {
+    "name": "Ziggs",
+    "id": "TFT3_Ziggs",
+    "cost": 1,
+    "traits": ["Rebel", "Demolitionist"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [500, 900, 1620]
+      },
+      {
+        "name": "attack",
+        "values": [40, 72, 129.6]
+      },
+      {
+        "name": "dps",
+        "values": [28, 50, 91]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 40]
+      }
+    ],
+    "ability": {
+      "name": "Bomb!",
+      "type": "Active",
+      "description": "Ziggs throws a bomb at an enemy, dealing magic damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [300, 400, 550]
+        }
+      ]
+    },
+    "items": [44, 33, 34, 39, 67]
+  },
+  {
+    "name": "Zoe",
+    "id": "TFT3_Zoe",
+    "cost": 1,
+    "traits": ["StarGuardian", "Set3_Sorcerer"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [500, 900, 1620]
+      },
+      {
+        "name": "attack",
+        "values": [40, 72, 129.6]
+      },
+      {
+        "name": "dps",
+        "values": [28, 50, 91]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [40, 80]
+      }
+    ],
+    "ability": {
+      "name": "Sleepy Trouble Bubble",
+      "type": "Active",
+      "description": "Zoe kicks a bubble at the enemy with the highest health, dealing magic damage and stunning them.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [200, 275, 400]
+        },
+        {
+          "name": "Stun Duration (s)",
+          "values": [2, 2.5, 4]
+        }
+      ]
+    },
+    "items": [46, 14, 33, 59, 67]
+  }
+]

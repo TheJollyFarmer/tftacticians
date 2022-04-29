@@ -1,0 +1,2034 @@
+[
+  {
+    "name": "Star Guardian Sorcerers",
+    "type": "Slow Roll",
+    "rating": "S",
+    "champions": [
+      {
+        "id": "TFT3_Neeko",
+        "position": 6,
+        "starred": 0,
+        "items": [
+          15,
+          77,
+          36
+        ]
+      },
+      {
+        "id": "TFT3_Rakan",
+        "position": 19,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Soraka",
+        "position": 20,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Ahri",
+        "position": 21,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Zoe",
+        "position": 25,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Syndra",
+        "position": 27,
+        "starred": 0,
+        "items": [
+          44,
+          33,
+          15
+        ]
+      },
+      {
+        "id": "TFT3_Xerath",
+        "position": 26,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Janna",
+        "position": 28,
+        "starred": 0
+      }
+    ],
+    "early": [
+      "TFT3_TwistedFate",
+      "TFT3_Zoe",
+      "TFT3_Ahri",
+      "TFT3_Syndra",
+      "TFT3_Neeko"
+    ],
+    "options": {
+      "nine": "TFT3_Lulu",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_Rakan"
+          ],
+          "replacements": [
+            "TFT3_Urgot"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "StarGuardian",
+        "count": 6
+      },
+      {
+        "id": "Paragon",
+        "count": 1
+      },
+      {
+        "id": "Set3_Sorcerer",
+        "count": 4
+      },
+      {
+        "id": "Protector",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 4,
+        "item": 44
+      },
+      {
+        "component": 3,
+        "item": 13
+      },
+      {
+        "component": 1,
+        "item": 13
+      }
+    ]
+  },
+  {
+    "name": "Space Pirate Rebels",
+    "type": "Fast 8",
+    "rating": "A",
+    "champions": [
+      {
+        "id": "TFT3_Graves",
+        "position": 8,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Ziggs",
+        "position": 24,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Darius",
+        "position": 14,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Jayce",
+        "position": 9,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Jinx",
+        "position": 25,
+        "starred": 0,
+        "items": [
+          12,
+          57,
+          19
+        ]
+      },
+      {
+        "id": "TFT3_WuKong",
+        "position": 12,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_AurelionSol",
+        "position": 18,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Gangplank",
+        "position": 4,
+        "starred": 0,
+        "items": [
+          15,
+          36,
+          37
+        ]
+      }
+    ],
+    "early": [
+      "TFT3_Graves",
+      "TFT3_Darius",
+      "TFT3_Ezreal",
+      "TFT3_Jayce",
+      "TFT3_WuKong"
+    ],
+    "options": {
+      "nine": "TFT3_Thresh",
+      "alternatives": []
+    },
+    "traits": [
+      {
+        "id": "SpacePirate",
+        "count": 4
+      },
+      {
+        "id": "Demolitionist",
+        "count": 2
+      },
+      {
+        "id": "Mercenary",
+        "count": 1
+      },
+      {
+        "id": "Starship",
+        "count": 1
+      },
+      {
+        "id": "Rebel",
+        "count": 3
+      },
+      {
+        "id": "Blaster",
+        "count": 2
+      },
+      {
+        "id": "Vanguard",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 1,
+        "item": 15
+      },
+      {
+        "component": 5,
+        "item": 15
+      },
+      {
+        "component": 7,
+        "item": 57
+      }
+    ]
+  },
+  {
+    "name": "Astro Snipers",
+    "type": "Fast 8",
+    "rating": "A",
+    "champions": [
+      {
+        "id": "TFT3_Caitlyn",
+        "position": 22,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Nautilus",
+        "position": 2,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Ashe",
+        "position": 25,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Karma",
+        "position": 28,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Jhin",
+        "position": 27,
+        "starred": 0,
+        "items": [
+          19,
+          29,
+          15
+        ]
+      },
+      {
+        "id": "TFT3_Gnar",
+        "position": 6,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Teemo",
+        "position": 23,
+        "starred": 3,
+        "items": [
+          44,
+          37,
+          33
+        ]
+      },
+      {
+        "id": "TFT3_WuKong",
+        "position": 4,
+        "starred": 0
+      }
+    ],
+    "early": [
+      "TFT3_Mordekaiser",
+      "TFT3_Nautilus",
+      "TFT3_Bard",
+      "TFT3_Jhin",
+      "TFT3_Teemo"
+    ],
+    "options": {
+      "nine": "TFT3_Lulu",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_Thresh"
+          ],
+          "replacements": [
+            "TFT3_Caitlyn"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "Sniper",
+        "count": 4
+      },
+      {
+        "id": "Astro",
+        "count": 3
+      },
+      {
+        "id": "Vanguard",
+        "count": 2
+      },
+      {
+        "id": "Chrono",
+        "count": 2
+      },
+      {
+        "id": "DarkStar",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 1,
+        "item": 19
+      },
+      {
+        "component": 8,
+        "item": 19
+      },
+      {
+        "component": 2,
+        "item": 29
+      }
+    ]
+  },
+  {
+    "name": "Shredder",
+    "type": "Slow Roll",
+    "rating": "A",
+    "champions": [
+      {
+        "id": "TFT3_Fiora",
+        "position": 7,
+        "starred": 3
+      },
+      {
+        "id": "TFT3_JarvanIV",
+        "position": 6,
+        "starred": 3,
+        "items": [
+          77,
+          55
+        ]
+      },
+      {
+        "id": "TFT3_Xayah",
+        "position": 14,
+        "starred": 3,
+        "items": [
+          29,
+          12,
+          11
+        ]
+      },
+      {
+        "id": "TFT3_Rakan",
+        "position": 21,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Shen",
+        "position": 5,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_MasterYi",
+        "position": 28,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Irelia",
+        "position": 25,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Riven",
+        "position": 3,
+        "starred": 0
+      }
+    ],
+    "early": [
+      "TFT3_Caitlyn",
+      "TFT3_Fiora",
+      "TFT3_JarvanIV",
+      "TFT3_Xayah",
+      "TFT3_Shen"
+    ],
+    "options": {
+      "nine": "TFT3_Ekko",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_MasterYi",
+            "TFT3_Irelia",
+            "TFT3_Riven"
+          ],
+          "replacements": [
+            "TFT3_Caitlyn",
+            "TFT3_Ashe",
+            "TFT3_Lulu"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "Set3_Blademaster",
+        "count": 6
+      },
+      {
+        "id": "Protector",
+        "count": 2
+      },
+      {
+        "id": "Set3_Celestial",
+        "count": 2
+      },
+      {
+        "id": "Chrono",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 1,
+        "item": 19
+      },
+      {
+        "component": 8,
+        "item": 19
+      },
+      {
+        "component": 2,
+        "item": 29
+      }
+    ]
+  },
+  {
+    "name": "Dark Stars",
+    "type": "Standard",
+    "rating": "A",
+    "champions": [
+      {
+        "id": "TFT3_JarvanIV",
+        "position": 6,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Rakan",
+        "position": 3,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Ashe",
+        "position": 23,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Karma",
+        "position": 28,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Shaco",
+        "position": 25,
+        "starred": 3
+      },
+      {
+        "id": "TFT3_Jhin",
+        "position": 27,
+        "starred": 3,
+        "items": [
+          19,
+          29,
+          15
+        ]
+      },
+      {
+        "id": "TFT3_Fizz",
+        "position": 24,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Soraka",
+        "position": 22,
+        "starred": 0
+      }
+    ],
+    "early": [
+      "TFT3_Caitlyn",
+      "TFT3_Fiora",
+      "TFT3_JarvanIV",
+      "TFT3_Xayah",
+      "TFT3_Shen"
+    ],
+    "options": {
+      "nine": "TFT3_Xerath",
+      "alternatives": []
+    },
+    "traits": [
+      {
+        "id": "DarkStar",
+        "count": 4
+      },
+      {
+        "id": "Infiltrator",
+        "count": 2
+      },
+      {
+        "id": "Protector",
+        "count": 2
+      },
+      {
+        "id": "Sniper",
+        "count": 2
+      },
+      {
+        "id": "Set3_Mystic",
+        "count": 2
+      },
+      {
+        "id": "Set3_Celestial",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 1,
+        "item": 19
+      },
+      {
+        "component": 8,
+        "item": 19
+      },
+      {
+        "component": 2,
+        "item": 29
+      }
+    ]
+  },
+  {
+    "name": "Mech Sorcerers",
+    "type": "Fast 8",
+    "rating": "A",
+    "champions": [
+      {
+        "id": "TFT3_Annie",
+        "position": 4,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Cassiopeia",
+        "position": 22,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Rumble",
+        "position": 6,
+        "starred": 0,
+        "items": [
+          25,
+          36,
+          55
+        ]
+      },
+      {
+        "id": "TFT3_Soraka",
+        "position": 28,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Viktor",
+        "position": 27,
+        "starred": 0,
+        "items": [
+          44,
+          33,
+          39
+        ]
+      },
+      {
+        "id": "TFT3_Fizz",
+        "position": 7,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Ekko",
+        "position": 23,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Gangplank",
+        "position": 3,
+        "starred": 0,
+        "items": [
+          15
+        ]
+      }
+    ],
+    "early": [
+      "TFT3_Nocturne",
+      "TFT3_Annie",
+      "TFT3_Rumble",
+      "TFT3_Fizz",
+      "TFT3_Viktor"
+    ],
+    "options": {
+      "nine": "TFT3_Thresh",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_Cassiopeia",
+            "TFT3_Soraka"
+          ],
+          "replacements": [
+            "TFT3_TwistedFate",
+            "TFT3_Xerath"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "MechPilot",
+        "count": 3
+      },
+      {
+        "id": "Demolitionist",
+        "count": 2
+      },
+      {
+        "id": "Mercenary",
+        "count": 1
+      },
+      {
+        "id": "Battlecast",
+        "count": 2
+      },
+      {
+        "id": "Set3_Sorcerer",
+        "count": 2
+      },
+      {
+        "id": "Infiltrator",
+        "count": 2
+      },
+      {
+        "id": "Set3_Mystic",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 5,
+        "item": 55
+      },
+      {
+        "component": 4,
+        "item": 44
+      },
+      {
+        "component": 3,
+        "item": 29
+      }
+    ]
+  },
+  {
+    "name": "Protector Dark Stars",
+    "type": "Slow Roll",
+    "rating": "A",
+    "champions": [
+      {
+        "id": "TFT3_JarvanIV",
+        "position": 6,
+        "starred": 3,
+        "items": [
+          77,
+          36
+        ]
+      },
+      {
+        "id": "TFT3_Rakan",
+        "position": 5,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_XinZhao",
+        "position": 7,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Neeko",
+        "position": 4,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Ashe",
+        "position": 23,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Karma",
+        "position": 28,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Jhin",
+        "position": 27,
+        "starred": 3,
+        "items": [
+          15,
+          19,
+          29
+        ]
+      },
+      {
+        "id": "TFT3_Lulu",
+        "position": 22,
+        "starred": 0
+      }
+    ],
+    "early": [
+      "TFT3_JarvanIV",
+      "TFT3_Rakan",
+      "TFT3_XinZhao",
+      "TFT3_Neeko",
+      "TFT3_Jhin"
+    ],
+    "options": {
+      "nine": "TFT3_Xerath",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_Ashe",
+            "TFT3_Karma",
+            "TFT3_Jhin"
+          ],
+          "replacements": [
+            "TFT3_Syndra",
+            "TFT3_Soraka",
+            "TFT3_Xerath"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "Protector",
+        "count": 4
+      },
+      {
+        "id": "Set3_Celestial",
+        "count": 4
+      },
+      {
+        "id": "DarkStar",
+        "count": 3
+      },
+      {
+        "id": "Sniper",
+        "count": 2
+      },
+      {
+        "id": "Set3_Mystic",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 5,
+        "item": 55
+      },
+      {
+        "component": 8,
+        "item": 1
+      },
+      {
+        "component": 1,
+        "item": 19
+      }
+    ]
+  },
+  {
+    "name": "Rebel Blademasters",
+    "type": "Slow Roll",
+    "rating": "A",
+    "champions": [
+      {
+        "id": "TFT3_Shen",
+        "position": 11,
+        "starred": 3
+      },
+      {
+        "id": "TFT3_Yasuo",
+        "position": 18,
+        "starred": 3
+      },
+      {
+        "id": "TFT3_Zed",
+        "position": 25,
+        "starred": 3,
+        "items": [
+          18
+        ]
+      },
+      {
+        "id": "TFT3_MasterYi",
+        "position": 19,
+        "starred": 3,
+        "items": [
+          22,
+          39,
+          69
+        ]
+      },
+      {
+        "id": "TFT3_Fizz",
+        "position": 26,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Irelia",
+        "position": 21,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Riven",
+        "position": 16,
+        "starred": 0
+      }
+    ],
+    "early": [
+      "TFT3_Nocturne",
+      "TFT3_Shen",
+      "TFT3_Yasuo",
+      "TFT3_Zed",
+      "TFT3_MasterYi"
+    ],
+    "options": {
+      "nine": "",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_WuKong",
+            "TFT3_Thresh"
+          ],
+          "replacements": [
+            "TFT3_Karma",
+            "TFT3_Lulu"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "Set3_Blademaster",
+        "count": 6
+      },
+      {
+        "id": "Rebel",
+        "count": 3
+      },
+      {
+        "id": "Chrono",
+        "count": 2
+      },
+      {
+        "id": "Infiltrator",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 2,
+        "item": 22
+      },
+      {
+        "component": 3,
+        "item": 23
+      },
+      {
+        "component": 8,
+        "item": 69
+      }
+    ]
+  },
+  {
+    "name": "Cybernetics",
+    "type": "Fast 8",
+    "rating": "A",
+    "champions": [
+      {
+        "id": "TFT3_Fiora",
+        "position": 6,
+        "starred": 3
+      },
+      {
+        "id": "TFT3_Leona",
+        "position": 3,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Shen",
+        "position": 4,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Vayne",
+        "position": 23,
+        "starred": 0,
+        "items": [
+          29,
+          19,
+          12
+        ]
+      },
+      {
+        "id": "TFT3_Vi",
+        "position": 1,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Irelia",
+        "position": 5,
+        "starred": 3,
+        "items": [
+          28
+        ]
+      },
+      {
+        "id": "TFT3_Ekko",
+        "position": 28,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Thresh",
+        "position": 22,
+        "starred": 0
+      }
+    ],
+    "early": [
+      "TFT3_Leona",
+      "TFT3_Blitzcrank",
+      "TFT3_Lucian",
+      "TFT3_Ezreal",
+      "TFT3_Vi"
+    ],
+    "options": {
+      "nine": "",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_Riven"
+          ],
+          "replacements": [
+            "TFT3_Shen"
+          ]
+        },
+        {
+          "names": [
+            "TFT3_Ashe",
+            "TFT3_WuKong"
+          ],
+          "replacements": [
+            "TFT3_Shen"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "Cybernetic",
+        "count": 6
+      },
+      {
+        "id": "ManaReaver",
+        "count": 2
+      },
+      {
+        "id": "Set3_Blademaster",
+        "count": 3
+      },
+      {
+        "id": "Chrono",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 5,
+        "item": 57
+      },
+      {
+        "component": 7,
+        "item": 57
+      },
+      {
+        "component": 8,
+        "item": 19
+      }
+    ]
+  },
+  {
+    "name": "Rebel Demolitionists",
+    "type": "Fast 8",
+    "rating": "A",
+    "champions": [
+      {
+        "id": "TFT3_Malphite",
+        "position": 6,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Ziggs",
+        "position": 21,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Blitzcrank",
+        "position": 22,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Yasuo",
+        "position": 12,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_MasterYi",
+        "position": 7,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Jinx",
+        "position": 13,
+        "starred": 3,
+        "items": [
+          12,
+          57,
+          29
+        ]
+      },
+      {
+        "id": "TFT3_AurelionSol",
+        "position": 14,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Gangplank",
+        "position": 3,
+        "starred": 0,
+        "items": [
+          15,
+          36
+        ]
+      }
+    ],
+    "early": [
+      "TFT3_Ziggs",
+      "TFT3_Malphite",
+      "TFT3_Blitzcrank",
+      "TFT3_Ezreal",
+      "TFT3_Jinx"
+    ],
+    "options": {
+      "nine": "",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_Ziggs",
+            "TFT3_Gangplank"
+          ],
+          "replacements": [
+            "TFT3_Malphite",
+            "TFT3_Vi"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "Rebel",
+        "count": 6
+      },
+      {
+        "id": "Demolitionist",
+        "count": 2
+      },
+      {
+        "id": "Mercenary",
+        "count": 1
+      },
+      {
+        "id": "Starship",
+        "count": 1
+      },
+      {
+        "id": "Blaster",
+        "count": 2
+      },
+      {
+        "id": "Chrono",
+        "count": 2
+      },
+      {
+        "id": "Set3_Brawler",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 1,
+        "item": 12
+      },
+      {
+        "component": 2,
+        "item": 12
+      },
+      {
+        "component": 5,
+        "item": 15
+      }
+    ]
+  },
+  {
+    "name": "Vanguard Mystics",
+    "type": "Slow Roll",
+    "rating": "A",
+    "champions": [
+      {
+        "id": "TFT3_Mordekaiser",
+        "position": 3,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Nautilus",
+        "position": 1,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Cassiopeia",
+        "position": 27,
+        "starred": 3,
+        "items": [
+          44,
+          37,
+          22
+        ]
+      },
+      {
+        "id": "TFT3_Karma",
+        "position": 28,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Jayce",
+        "position": 5,
+        "starred": 3,
+        "items": [
+          36,
+          15
+        ]
+      },
+      {
+        "id": "TFT3_Soraka",
+        "position": 22,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_WuKong",
+        "position": 7,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Lulu",
+        "position": 25,
+        "starred": 0
+      }
+    ],
+    "early": [
+      "TFT3_Mordekaiser",
+      "TFT3_Darius",
+      "TFT3_Bard",
+      "TFT3_Cassiopeia",
+      "TFT3_Jayce"
+    ],
+    "options": {
+      "nine": "TFT3_Thresh",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_Soraka",
+            "TFT3_Lulu"
+          ],
+          "replacements": [
+            "TFT3_Poppy",
+            "TFT3_Leona"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "Set3_Mystic",
+        "count": 4
+      },
+      {
+        "id": "Vanguard",
+        "count": 4
+      },
+      {
+        "id": "DarkStar",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 4,
+        "item": 44
+      },
+      {
+        "component": 3,
+        "item": 37
+      },
+      {
+        "component": 7,
+        "item": 37
+      }
+    ]
+  },
+  {
+    "name": "Battlecast",
+    "type": "Standard",
+    "rating": "B",
+    "champions": [
+      {
+        "id": "TFT3_Illaoi",
+        "position": 3,
+        "starred": 3
+      },
+      {
+        "id": "TFT3_Nocturne",
+        "position": 22,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Blitzcrank",
+        "position": 5,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_KogMaw",
+        "position": 27,
+        "starred": 3,
+        "items": [
+          24,
+          57,
+          26
+        ]
+      },
+      {
+        "id": "TFT3_Ezreal",
+        "position": 23,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Cassiopeia",
+        "position": 18,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Viktor",
+        "position": 25,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Urgot",
+        "position": 19,
+        "starred": 0
+      }
+    ],
+    "early": [
+      "TFT3_Illaoi",
+      "TFT3_Blitzcrank",
+      "TFT3_KogMaw",
+      "TFT3_Bard",
+      "TFT3_Ezreal"
+    ],
+    "options": {
+      "nine": "TFT3_Lulu",
+      "alternatives": []
+    },
+    "traits": [
+      {
+        "id": "Battlecast",
+        "count": 6
+      },
+      {
+        "id": "Blaster",
+        "count": 2
+      },
+      {
+        "id": "Set3_Brawler",
+        "count": 2
+      },
+      {
+        "id": "Chrono",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 3,
+        "item": 29
+      },
+      {
+        "component": 6,
+        "item": 29
+      },
+      {
+        "component": 5,
+        "item": 57
+      }
+    ]
+  },
+  {
+    "name": "Brawler Blasters",
+    "type": "Fast 8",
+    "rating": "B",
+    "champions": [
+      {
+        "id": "TFT3_Malphite",
+        "position": 16,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Blitzcrank",
+        "position": 2,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Ezreal",
+        "position": 23,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Vi",
+        "position": 6,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Jinx",
+        "position": 23,
+        "starred": 3,
+        "items": [
+          57,
+          29,
+          11
+        ]
+      },
+      {
+        "id": "TFT3_Gnar",
+        "position": 4,
+        "starred": 0,
+        "items": [
+          15,
+          36
+        ]
+      },
+      {
+        "id": "TFT3_Soraka",
+        "position": 25,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Lulu",
+        "position": 28,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_AurelionSol",
+        "position": 22,
+        "starred": 0
+      }
+    ],
+    "early": [
+      "TFT3_Leona",
+      "TFT3_Blitzcrank",
+      "TFT3_Lucian",
+      "TFT3_Ezreal",
+      "TFT3_Vi"
+    ],
+    "options": {
+      "nine": "",
+      "alternatives": []
+    },
+    "alternatives": [
+      {
+        "names": [
+          "TFT3_Illaoi",
+          "TFT3_KogMaw"
+        ],
+        "replacements": [
+          "TFT3_Blitzcrank",
+          "TFT3_Ezreal"
+        ]
+      },
+      {
+        "names": [
+          "TFT3_Illaoi",
+          "TFT3_Cassiopeia"
+        ],
+        "replacements": [
+          "TFT3_Malphite",
+          "TFT3_Soraka"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "id": "Set3_Brawler",
+        "count": 4
+      },
+      {
+        "id": "Starship",
+        "count": 1
+      },
+      {
+        "id": "Rebel",
+        "count": 3
+      },
+      {
+        "id": "Blaster",
+        "count": 2
+      },
+      {
+        "id": "Set3_Mystic",
+        "count": 2
+      },
+      {
+        "id": "Chrono",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 1,
+        "item": 12
+      },
+      {
+        "component": 2,
+        "item": 12
+      },
+      {
+        "component": 5,
+        "item": 57
+      }
+    ]
+  },
+  {
+    "name": "Mech Infiltrators",
+    "type": "Slow Roll",
+    "rating": "B",
+    "champions": [
+      {
+        "id": "TFT3_Nocturne",
+        "position": 27,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Zed",
+        "position": 23,
+        "starred": 3
+      },
+      {
+        "id": "TFT3_Annie",
+        "position": 5,
+        "starred": 3
+      },
+      {
+        "id": "TFT3_Rumble",
+        "position": 3,
+        "starred": 3,
+        "items": [
+          25,
+          69,
+          55
+        ]
+      },
+      {
+        "id": "TFT3_Shaco",
+        "position": 22,
+        "starred": 0,
+        "items": [
+          16,
+          15
+        ]
+      },
+      {
+        "id": "TFT3_Fizz",
+        "position": 4,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Viktor",
+        "position": 28,
+        "starred": 0
+      }
+    ],
+    "early": [
+      "TFT3_Nocturne",
+      "TFT3_Annie",
+      "TFT3_Rumble",
+      "TFT3_Fizz",
+      "TFT3_Viktor"
+    ],
+    "options": {
+      "nine": "TFT3_Janna",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_Nocturne"
+          ],
+          "replacements": [
+            "TFT3_Ekko"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "Infiltrator",
+        "count": 4
+      },
+      {
+        "id": "MechPilot",
+        "count": 3
+      },
+      {
+        "id": "Battlecast",
+        "count": 2
+      },
+      {
+        "id": "Set3_Sorcerer",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 5,
+        "item": 55
+      },
+      {
+        "component": 8,
+        "item": 19
+      },
+      {
+        "component": 1,
+        "item": 19
+      }
+    ]
+  },
+  {
+    "name": "Protector Mystics",
+    "type": "Slow Roll",
+    "rating": "B",
+    "champions": [
+      {
+        "id": "TFT3_Rakan",
+        "position": 3,
+        "starred": 3,
+        "items": [
+          37
+        ]
+      },
+      {
+        "id": "TFT3_XinZhao",
+        "position": 5,
+        "starred": 3,
+        "items": [
+          55
+        ]
+      },
+      {
+        "id": "TFT3_Ashe",
+        "position": 27,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Cassiopeia",
+        "position": 10,
+        "starred": 3,
+        "items": [
+          44,
+          37,
+          22
+        ]
+      },
+      {
+        "id": "TFT3_Karma",
+        "position": 12,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Soraka",
+        "position": 22,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Lulu",
+        "position": 28,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Urgot",
+        "position": 9,
+        "starred": 0
+      }
+    ],
+    "early": [
+      "TFT3_Rakan",
+      "TFT3_XinZhao",
+      "TFT3_KogMaw",
+      "TFT3_Bard",
+      "TFT3_Cassiopeia"
+    ],
+    "options": {
+      "nine": "TFT3_Jhin",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_JarvanIV",
+            "TFT3_Neeko"
+          ],
+          "replacements": [
+            "TFT3_Karma",
+            "TFT3_Soraka"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "Set3_Mystic",
+        "count": 4
+      },
+      {
+        "id": "Protector",
+        "count": 4
+      },
+      {
+        "id": "Set3_Celestial",
+        "count": 4
+      },
+      {
+        "id": "Battlecast",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 9,
+        "item": 78
+      },
+      {
+        "component": 7,
+        "item": 78
+      },
+      {
+        "component": 5,
+        "item": 55
+      }
+    ]
+  },
+  {
+    "name": "Sorcerers",
+    "type": "Fast 8",
+    "rating": "B",
+    "champions": [
+      {
+        "id": "TFT3_TwistedFate",
+        "position": 28,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Zoe",
+        "position": 22,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Ahri",
+        "position": 24,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Annie",
+        "position": 5,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Syndra",
+        "position": 27,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Riven",
+        "position": 3,
+        "starred": 3,
+        "items": [
+          15,
+          33,
+          69
+        ]
+      },
+      {
+        "id": "TFT3_Viktor",
+        "position": 26,
+        "starred": 0,
+        "items": [
+          44,
+          33
+        ]
+      },
+      {
+        "id": "TFT3_Janna",
+        "position": 25,
+        "starred": 0
+      }
+    ],
+    "early": [
+      "TFT3_Poppy",
+      "TFT3_TwistedFate",
+      "TFT3_Zoe",
+      "TFT3_Ahri",
+      "TFT3_Syndra"
+    ],
+    "options": {
+      "nine": "TFT3_Soraka",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_Riven"
+          ],
+          "replacements": [
+            "TFT3_Gangplank"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "Set3_Sorcerer",
+        "count": 6
+      },
+      {
+        "id": "Paragon",
+        "count": 1
+      },
+      {
+        "id": "StarGuardian",
+        "count": 3
+      },
+      {
+        "id": "Chrono",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 1,
+        "item": 15
+      },
+      {
+        "component": 5,
+        "item": 55
+      },
+      {
+        "component": 3,
+        "item": 33
+      }
+    ]
+  },
+  {
+    "name": "Hyperroll Sorcerers",
+    "type": "Hyperroll",
+    "rating": "B",
+    "champions": [
+      {
+        "id": "TFT3_Poppy",
+        "position": 5,
+        "starred": 3,
+        "items": [
+          55,
+          36,
+          66
+        ]
+      },
+      {
+        "id": "TFT3_Zoe",
+        "position": 22,
+        "starred": 3
+      },
+      {
+        "id": "TFT3_TwistedFate",
+        "position": 26,
+        "starred": 3
+      },
+      {
+        "id": "TFT3_Ahri",
+        "position": 24,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Syndra",
+        "position": 28,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_WuKong",
+        "position": 3,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Viktor",
+        "position": 27,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Xerath",
+        "position": 25,
+        "starred": 0,
+        "items": [
+          69
+        ]
+      }
+    ],
+    "early": [
+      "TFT3_Poppy",
+      "TFT3_TwistedFate",
+      "TFT3_Caitlyn",
+      "TFT3_Zoe",
+      "TFT3_Leona"
+    ],
+    "options": {
+      "nine": "TFT3_Soraka",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_Leona",
+            "TFT3_Jayce"
+          ],
+          "replacements": [
+            "TFT3_Syndra",
+            "TFT3_Viktor"
+          ]
+        },
+        {
+          "names": [
+            "TFT3_Soraka",
+            "TFT3_Lulu"
+          ],
+          "replacements": [
+            "TFT3_Syndra",
+            "TFT3_Viktor"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "Set3_Sorcerer",
+        "count": 6
+      },
+      {
+        "id": "StarGuardian",
+        "count": 3
+      },
+      {
+        "id": "Vanguard",
+        "count": 2
+      },
+      {
+        "id": "Chrono",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 5,
+        "item": 55
+      },
+      {
+        "component": 3,
+        "item": 33
+      },
+      {
+        "component": 6,
+        "item": 66
+      }
+    ]
+  },
+  {
+    "name": "Mech Rebels",
+    "type": "Slow Roll",
+    "rating": "B",
+    "champions": [
+      {
+        "id": "TFT3_TwistedFate",
+        "position": 22,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Ziggs",
+        "position": 28,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Annie",
+        "position": 3,
+        "starred": 3
+      },
+      {
+        "id": "TFT3_Zed",
+        "position": 25,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Rumble",
+        "position": 4,
+        "starred": 3,
+        "items": [
+          55,
+          25,
+          69
+        ]
+      },
+      {
+        "id": "TFT3_Ezreal",
+        "position": 23,
+        "starred": 0
+      },
+      {
+        "id": "TFT3_Fizz",
+        "position": 6,
+        "starred": 0,
+        "items": [
+          36
+        ]
+      },
+      {
+        "id": "TFT3_Jinx",
+        "position": 27,
+        "starred": 0,
+        "items": [
+          57
+        ]
+      }
+    ],
+    "early": [
+      "TFT3_Ziggs",
+      "TFT3_Annie",
+      "TFT3_Zed",
+      "TFT3_Rumble",
+      "TFT3_Fizz"
+    ],
+    "options": {
+      "nine": "TFT3_AurelionSol",
+      "alternatives": [
+        {
+          "names": [
+            "TFT3_Gangplank"
+          ],
+          "replacements": [
+            "TFT3_Ziggs"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "MechPilot",
+        "count": 3
+      },
+      {
+        "id": "Demolitionist",
+        "count": 2
+      },
+      {
+        "id": "Rebel",
+        "count": 3
+      },
+      {
+        "id": "Chrono",
+        "count": 2
+      },
+      {
+        "id": "Infiltrator",
+        "count": 2
+      },
+      {
+        "id": "Blaster",
+        "count": 2
+      },
+      {
+        "id": "Set3_Sorcerer",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 5,
+        "item": 55
+      },
+      {
+        "component": 8,
+        "item": 69
+      },
+      {
+        "component": 7,
+        "item": 57
+      }
+    ]
+  }
+]

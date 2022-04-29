@@ -58,14 +58,7 @@ export default {
 .match-summoner {
   align-items: center;
   display: flex;
-  color: var(--colour);
   font-size: 1em;
-  transition: color $hover-in;
-
-  &:hover {
-    color: var(--primary);
-    transition: color $hover-out;
-  }
 
   &.is-medium :deep(.image) {
     margin-right: $spacing;

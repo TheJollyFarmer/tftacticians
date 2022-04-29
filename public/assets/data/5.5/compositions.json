@@ -1,0 +1,112 @@
+[{
+  "name": "Forgotten Rangers",
+  "type": "Standard",
+  "rating": "S",
+  "champions": [
+    {
+      "id": "TFT5_Vayne",
+      "position": 28,
+      "starred": 3,
+      "items": [23, 39, 26]
+    },
+    {
+      "id": "TFT5_Nautilus",
+      "position": 6,
+      "starred": 0
+    },
+    {
+      "id": "TFT5_Hecarim",
+      "position": 5,
+      "starred": 0,
+      "items": [57]
+    },
+    {
+      "id": "TFT5_Thresh",
+      "position": 21,
+      "starred": 0
+    },
+    {
+      "id": "TFT5_Ashe",
+      "position": 26,
+      "starred": 0
+    },
+    {
+      "id": "TFT5_MissFortune",
+      "position": 3,
+      "starred": 0,
+      "items": [17, 17]
+    },
+    {
+      "id": "TFT5_Rell",
+      "position": 4,
+      "starred": 0
+    }
+  ],
+  "early": [
+    "TFT5_Vayne",
+    "TFT5_Hecarim",
+    "TFT5_Nautilus",
+    "TFT5_Thresh",
+    "TFT5_Varus"
+  ],
+  "options": {
+    "nine": "",
+    "alternatives": [
+      {
+        "names": [
+          "TFT5_Ashe"
+        ],
+        "replacements": [
+          "TFT5_Draven",
+          "TFT5_Viego"
+        ]
+      },
+      {
+        "names": [
+          "TFT5_Ashe"
+        ],
+        "replacements": [
+          "TFT5_Draven",
+          "TFT5_Viego",
+          "TFT5_Akshan"
+        ]
+      }
+    ]
+  },
+  "traits": [
+    {
+      "id": "Set5_Forgotten",
+      "count": 4
+    },
+    {
+      "id": "Set5_Ranger",
+      "count": 2
+    },
+    {
+      "id": "Set5_Cavalier",
+      "count": 2
+    },
+    {
+      "id": "Set5_Ironclad",
+      "count": 2
+    },
+    {
+      "id": "Set5_Knight",
+      "count": 2
+    }
+  ],
+  "carousel": [
+    {
+      "component": 3,
+      "item": 39
+    },
+    {
+      "component": 9,
+      "item": 39
+    },
+    {
+      "component": 2,
+      "item": 26
+    }
+  ]
+}]

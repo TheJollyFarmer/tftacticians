@@ -47,9 +47,9 @@ export default {
     }
   },
 
-  created() {
-    this.getData();
-  },
+  // created() {
+  //   this.getData();
+  // },
 
   methods: mapActions(["getData", "setWindowWidth", "toggleDarkTheme"])
 };

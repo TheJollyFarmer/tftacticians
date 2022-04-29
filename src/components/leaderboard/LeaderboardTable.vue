@@ -8,11 +8,15 @@
       <template #index="{ index }">
         {{ getRank(index) }}
       </template>
-      <template #default="{ col }">
+      <template #default="{ col, value }">
         <LeagueImage
           v-if="col === 'tier'"
           :league="league"
           caption/>
+        <a
+          v-if="col === 'name'"
+          @click="goToSummonerView(value)"
+          v-text="value"/>
       </template>
     </VTBody>
   </VTable>
@@ -53,12 +57,20 @@ export default {
   computed: mapState("leaderboard", {
     league: state => state.form.league,
     page: state => state.pagination.page,
-    perPage: state => state.pagination.perPage
+    perPage: state => state.pagination.perPage,
+    region: state => state.form.region
   }),
 
   methods: {
     getRank(index) {
       return index + 1 + (this.page - 1) * this.perPage;
+    },
+
+    goToSummonerView(name) {
+      this.$router.push({
+        name: "summoner",
+        params: { region: this.region, name }
+      });
     }
   }
 };

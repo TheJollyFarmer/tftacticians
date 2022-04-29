@@ -67,7 +67,7 @@ export default {
   computed: {
     ...mapGetters({
       getItem: "items/getItem",
-      set: "getActiveDataSet"
+      set: "getActiveSet"
     }),
 
     item() {

@@ -73,10 +73,6 @@ export default {
     text-align: justify;
     width: 50%;
 
-    a {
-      color: var(--colour);
-    }
-
     h2 {
       font-size: 1.1rem;
     }

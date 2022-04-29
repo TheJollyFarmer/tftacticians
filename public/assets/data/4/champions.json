@@ -1,0 +1,3198 @@
+[
+  {
+    "name": "Aatrox",
+    "id": "TFT4_Aatrox",
+    "cost": 4,
+    "traits": ["Cultist", "Set4_Vanguard"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [850, 1530, 2754]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [39, 70, 126]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 70
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [75, 150]
+      }
+    ],
+    "ability": {
+      "name": "Infernal Chains",
+      "type": "Active",
+      "description": "Aatrox pulls some of the farthest enemies toward himself, then slams the ground in front of himself, dealing magic damage to all enemies hit.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [350, 550, 1500]
+        },
+        {
+          "name": "Number of Targets",
+          "values": [2, 2, 5]
+        }
+      ]
+    },
+    "items": [57, 36, 66, 47, 55]
+  },
+  {
+    "name": "Akali",
+    "id": "TFT4_Akali",
+    "cost": 3,
+    "traits": ["Set4_Ninja", "Set4_Assassin"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [47, 84, 151]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.85
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 20]
+      }
+    ],
+    "ability": {
+      "name": "Five Point Strike",
+      "type": "Active",
+      "description": "Akali throws kunai at her target, dealing magic damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [175, 250, 400]
+        }
+      ]
+    },
+    "items": [22, 44, 19, 49, 17]
+  },
+  {
+    "name": "Annie",
+    "id": "TFT4_Annie",
+    "cost": 2,
+    "traits": ["Fortune", "Set4_Mage"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [27, 49, 87]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 65]
+      }
+    ],
+    "ability": {
+      "name": "Burst Shield",
+      "type": "Active",
+      "description": "Annie blasts a cone of fire, dealing magic damage to enemies in front of her, then creates a shield on herself for 8 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [250, 350, 450]
+        },
+        {
+          "name": "Shield Amount",
+          "values": [500, 700, 900]
+        }
+      ]
+    },
+    "items": [25, 57, 66, 27, 55]
+  },
+  {
+    "name": "Aurelion Sol",
+    "id": "TFT4_AurelionSol",
+    "cost": 4,
+    "traits": ["Set4_Dragonsoul", "Set4_Mage"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [40, 72, 129.6]
+      },
+      {
+        "name": "dps",
+        "values": [30, 54, 97]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 80
+      },
+      {
+        "name": "mana",
+        "values": [0, 80]
+      }
+    ],
+    "ability": {
+      "name": "Voice of Lightning",
+      "type": "Active",
+      "description": "Aurelion Sol breathes lightning in a line towards the farthest enemy, dealing magic damage and Overcharging all enemies hit for 10 seconds. If an enemy is already Overcharged, Aurelion Sol consumes the effect and deals 50% bonus damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [325, 500, 1750]
+        }
+      ]
+    },
+    "items": [39, 13, 68, 49, 15]
+  },
+  {
+    "name": "Azir",
+    "id": "TFT4_Azir",
+    "cost": 5,
+    "traits": ["Warlord", "Keeper", "Emperor"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [950, 1710, 3078]
+      },
+      {
+        "name": "attack",
+        "values": [70, 126, 226.8]
+      },
+      {
+        "name": "dps",
+        "values": [60, 107, 193]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.85
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [75, 150]
+      }
+    ],
+    "ability": {
+      "name": "Emperor's Divide",
+      "type": "Active",
+      "description": "Azir calls forth a wall of charging soldiers from behind him, dealing magic damage to and slowing all enemies hit for 3 seconds. Enemies close to Azir are knocked back, while enemies further away are knocked up for 1.5 seconds.",
+      "values": [
+        {
+          "name": "Wall Damage",
+          "values": [200, 350, 8888]
+        }
+      ]
+    },
+    "items": [46, 17, 14, 37, 23]
+  },
+  {
+    "name": "Brand",
+    "id": "TFT4_Brand",
+    "cost": 1,
+    "traits": ["Set4_Dragonsoul", "Set4_Mage"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [500, 900, 1620]
+      },
+      {
+        "name": "attack",
+        "values": [40, 72, 129.6]
+      },
+      {
+        "name": "dps",
+        "values": [26, 47, 84]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [0, 60]
+      }
+    ],
+    "ability": {
+      "name": "Dragonfire Pillar",
+      "type": "Active",
+      "description": "After a brief delay, Brand erupts the ground under the enemy with the highest current Health to erupt in flames, dealing magic damage to enemies within. If an enemy is caught in the epicenter, they are stunned for a few seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [200, 300, 500]
+        },
+        {
+          "name": "Stun Duration",
+          "values": [1.5, 2, 3]
+        }
+      ]
+    },
+    "items": [34, 46, 39, 67, 17]
+  },
+  {
+    "name": "Braum",
+    "id": "TFT4_Braum",
+    "cost": 2,
+    "traits": ["Set4_Dragonsoul", "Set4_Vanguard"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [800, 1440, 2592]
+      },
+      {
+        "name": "attack",
+        "values": [40, 72, 129.6]
+      },
+      {
+        "name": "dps",
+        "values": [24, 43, 78]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 60
+      },
+      {
+        "name": "mana",
+        "values": [30, 70]
+      }
+    ],
+    "ability": {
+      "name": "Unbreakable",
+      "type": "Active",
+      "description": "Braum puts up his shield for 4 seconds, reducing his damage taken from that direction.",
+      "values": [
+        {
+          "name": "Damage Reduction (%)",
+          "values": [75, 80, 90]
+        }
+      ]
+    },
+    "items": [57, 27, 55, 36, 66]
+  },
+  {
+    "name": "Cho'Gath",
+    "id": "TFT4_ChoGath",
+    "cost": 4,
+    "traits": ["Set4_Fabled", "Set4_Brawler"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [1400, 2520, 4536]
+      },
+      {
+        "name": "attack",
+        "values": [100, 180, 324]
+      },
+      {
+        "name": "dps",
+        "values": [60, 108, 194]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [100, 180]
+      }
+    ],
+    "ability": {
+      "name": "Rupture",
+      "type": "Active",
+      "description": "Cho'Gath ruptures a large area, dealing magic damage and knocking up all enemies within for a few seconds. Set4_Fabled Bonus: Cho'Gath additionally knocks up all enemies on the board.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [200, 400, 1500]
+        },
+        {
+          "name": "Knock-up Duration",
+          "values": [2, 2.5, 8]
+        }
+      ]
+    },
+    "items": [37, 57, 17, 46, 35]
+  },
+  {
+    "name": "Darius",
+    "id": "TFT4_Darius",
+    "cost": 3,
+    "traits": ["Fortune", "Set4_Slayer"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [800, 1440, 2592]
+      },
+      {
+        "name": "attack",
+        "values": [70, 126, 226.8]
+      },
+      {
+        "name": "dps",
+        "values": [49, 88, 159]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 60
+      },
+      {
+        "name": "mana",
+        "values": [0, 50]
+      }
+    ],
+    "ability": {
+      "name": "Fortune's Guillotine",
+      "type": "Active",
+      "description": "Darius dunks an enemy, dealing magic damage. While dunking, Darius is unstoppable. If this kills the target, Darius immediately casts again dealing 25% reduced damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [550, 850, 1400]
+        }
+      ]
+    },
+    "items": [39, 13, 17, 33, 19]
+  },
+  {
+    "name": "Diana",
+    "id": "TFT4b_Diana",
+    "cost": 1,
+    "traits": ["Set4_Spirit", "Set4_Assassin"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [550, 990, 1782]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [35, 63, 113]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 70]
+      }
+    ],
+    "ability": {
+      "name": "Pale Cascade",
+      "type": "Active",
+      "description": "Diana shields herself against damage over 4 seconds and summons some orbs to orbit around her. These orbs explode for magic damage when they hit an enemy, refreshing her Shield the final one explodes.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [90, 100, 110]
+        },
+        {
+          "name": "Orbs",
+          "values": [4, 5, 6]
+        },
+        {
+          "name": "Shield Amount",
+          "values": [200, 300, 450]
+        }
+      ]
+    },
+    "items": [25, 13, 19, 49, 66]
+  },
+  {
+    "name": "Elise",
+    "id": "TFT4_Elise",
+    "cost": 1,
+    "traits": ["Cultist", "Keeper"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [29, 53, 95]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 75]
+      }
+    ],
+    "ability": {
+      "name": "Spider Form",
+      "type": "Active",
+      "description": "Elise transforms into a spider, gaining bonus Health. Elise's attacks in Spider Form heal her and inject her target with venom, increasing the cost of their next spell.",
+      "values": [
+        {
+          "name": "Bonus Health (%)",
+          "values": [25, 30, 45]
+        },
+        {
+          "name": "Health on Hit",
+          "values": [40, 80, 160]
+        },
+        {
+          "name": "Mana Cost Increase (%)",
+          "values": [35, 252, 50]
+        }
+      ]
+    },
+    "items": [57, 36, 66, 55, 27]
+  },
+  {
+    "name": "Fiora",
+    "id": "TFT4_Fiora",
+    "cost": 1,
+    "traits": ["Set4_Enlightened", "Duelist"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [34, 61, 109]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 35
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [0, 75]
+      }
+    ],
+    "ability": {
+      "name": "Riposte",
+      "type": "Active",
+      "description": "Fiora enters a defensive stance for a few seconds, becoming immune to damage and enemy spell effects. Afterwards, she strikes, dealing magic damage to a nearby enemy and stunning them for a few seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [250, 400, 600]
+        },
+        {
+          "name": "Stun Duration (s)",
+          "values": [2, 2.5, 4]
+        }
+      ]
+    },
+    "items": [57, 35, 66, 14, 49]
+  },
+  {
+    "name": "Garen",
+    "id": "TFT4_Garen",
+    "cost": 1,
+    "traits": ["Warlord", "Set4_Vanguard"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [30, 54, 97]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 35
+      },
+      {
+        "name": "mana",
+        "values": [0, 100]
+      }
+    ],
+    "ability": {
+      "name": "Judgement",
+      "type": "Active",
+      "description": "Garen spins his sword for 4 seconds, dealing magic damage to nearby enemies and reducing incoming magic damage by 80% over the duration.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [450, 675, 1125]
+        }
+      ]
+    },
+    "items": [57, 55, 27, 66, 36]
+  },
+  {
+    "name": "Irelia",
+    "id": "TFT4_Irelia",
+    "cost": 3,
+    "traits": ["Set4_Enlightened", "Divine", "Set4_Adept"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [800, 1440, 2592]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [36, 64, 116]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [50, 100]
+      }
+    ],
+    "ability": {
+      "name": "Bladestorm",
+      "type": "Active",
+      "description": "Irelia launches a storm of blades in front of her, dealing magic damage and disarming enemies for a few seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [200, 300, 350]
+        },
+        {
+          "name": "Disarm Duration (s)",
+          "values": [2.5, 3, 3.5]
+        }
+      ]
+    },
+    "items": [57, 35, 47, 37, 59]
+  },
+  {
+    "name": "Janna",
+    "id": "TFT4_Janna",
+    "cost": 2,
+    "traits": ["Set4_Enlightened", "Set4_Mystic"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [550, 990, 1782]
+      },
+      {
+        "name": "attack",
+        "values": [40, 72, 129.6]
+      },
+      {
+        "name": "dps",
+        "values": [24, 43, 78]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [40, 70]
+      }
+    ],
+    "ability": {
+      "name": "Eye of the Storm",
+      "type": "Active",
+      "description": "Janna shields her some lowest-Health allies for 4 seconds. Shielded allies also gain Attack Damage for the duration.",
+      "values": [
+        {
+          "name": "Number of Allies",
+          "values": [2, 3, 4]
+        },
+        {
+          "name": "Shield Amount",
+          "values": [250, 300, 400]
+        },
+        {
+          "name": "Bonus Attack Damage",
+          "values": [20, 30, 60]
+        }
+      ]
+    },
+    "items": [46, 44, 28, 17, 67]
+  },
+  {
+    "name": "Jarvan IV",
+    "id": "TFT4_JarvanIV",
+    "cost": 2,
+    "traits": ["Warlord", "Keeper"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [36, 65, 117]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [50, 100]
+      }
+    ],
+    "ability": {
+      "name": "Dragon Strike",
+      "type": "Active",
+      "description": "Jarvan IV throws his standard near the farthest enemy and pulls himself towards it with his lance, dealing magic damage to enemies he passes through, knocking them up and stunning them for 1 second.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [175, 250, 750]
+        }
+      ]
+    },
+    "items": [57, 36, 66, 55, 45]
+  },
+  {
+    "name": "Jax",
+    "id": "TFT4_Jax",
+    "cost": 2,
+    "traits": ["Divine", "Duelist"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [60, 110]
+      }
+    ],
+    "ability": {
+      "name": "Counter Strike",
+      "type": "Active",
+      "description": "Jax dodges all incoming attacks for 2 seconds, then strikes all nearby enemies, dealing magic damage and stunning them for 1.5 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [150, 250, 450]
+        }
+      ]
+    },
+    "items": [57, 35, 36, 66, 77]
+  },
+  {
+    "name": "Kalista",
+    "id": "TFT4_Kalista",
+    "cost": 3,
+    "traits": ["Cultist", "Duelist"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [65, 117, 210.6]
+      },
+      {
+        "name": "dps",
+        "values": [65, 117, 211]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 1
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 0]
+      }
+    ],
+    "ability": {
+      "name": "Rend",
+      "type": "Passive",
+      "description": "Kalista's spears remain in her target, each one capable of dealing % of the target's maximum Health in magic damage when removed. She removes the spears when doing so would kill the target.",
+      "values": [
+        {
+          "name": "Maximum Health Damage (%)",
+          "values": [4, 6, 9]
+        }
+      ]
+    },
+    "items": [26, 23, 22, 33, 15]
+  },
+  {
+    "name": "Katarina",
+    "id": "TFT4_Katarina",
+    "cost": 3,
+    "traits": ["Warlord", "Fortune", "Set4_Assassin"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [500, 900, 1620]
+      },
+      {
+        "name": "attack",
+        "values": [65, 117, 210.6]
+      },
+      {
+        "name": "dps",
+        "values": [42, 76, 137]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 90]
+      }
+    ],
+    "ability": {
+      "name": "Death Lotus",
+      "type": "Active",
+      "description": "Katarina channels for 2.5 seconds, throwing knives at nearby enemies, dealing magic damage over the duration and reducing healing by 50% to her targets for 5 seconds.",
+      "values": [
+        {
+          "name": "Total Damage",
+          "values": [600, 900, 1650]
+        },
+        {
+          "name": "Number of Targets",
+          "values": [4, 6, 8]
+        }
+      ]
+    },
+    "items": [13, 69, 25, 49, 46]
+  },
+  {
+    "name": "Kayle",
+    "id": "TFT4_Kayle",
+    "cost": 4,
+    "traits": ["Divine", "Set4_Executioner"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [75, 135, 243]
+      },
+      {
+        "name": "dps",
+        "values": [68, 122, 219]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.9
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 60]
+      }
+    ],
+    "ability": {
+      "name": "Divine Ascension",
+      "type": "Active",
+      "description": "Kayle Ascends, causing her attacks to launch waves that deal bonus magic damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [100, 180, 500]
+        }
+      ]
+    },
+    "items": [22, 23, 69, 49, 15]
+  },
+  {
+    "name": "Kennen",
+    "id": "TFT4_Kennen",
+    "cost": 3,
+    "traits": ["Set4_Ninja", "Keeper"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [39, 70, 126]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [50, 125]
+      }
+    ],
+    "ability": {
+      "name": "Slicing Maelstrom",
+      "type": "Active",
+      "description": "Kennen summons a storm around himself for 3 seconds, calling down lightning bolts on all enemies in the area every 0.5 second and dealing magic damage over the duration. Each enemy struck by 3 lightning bolts is stunned for 1.5 seconds.",
+      "values": [
+        {
+          "name": "Total Damage",
+          "values": [300, 450, 1200]
+        }
+      ]
+    },
+    "items": [37, 15, 89, 35, 46]
+  },
+  {
+    "name": "Kindred",
+    "id": "TFT4b_Kindred",
+    "cost": 3,
+    "traits": ["Set4_Spirit", "Set4_Executioner"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [70, 126, 226.8]
+      },
+      {
+        "name": "dps",
+        "values": [56, 101, 181]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 35]
+      }
+    ],
+    "ability": {
+      "name": "Dance of Dread",
+      "type": "Active",
+      "description": "Wolf mauls Kindred's target, dealing magic damage and reducing their healing by 50% for 5 seconds. Meanwhile, Lamb leaps away from Kindred's target.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [400, 600, 1000]
+        }
+      ]
+    },
+    "items": [17, 46, 35, 39, 44]
+  },
+  {
+    "name": "Lee Sin",
+    "id": "TFT4_LeeSin",
+    "cost": 5,
+    "traits": ["Divine", "Duelist"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [1000, 1800, 3240]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [51, 92, 165]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.85
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 60
+      },
+      {
+        "name": "mana",
+        "values": [0, 40]
+      }
+    ],
+    "ability": {
+      "name": "God Fist",
+      "type": "Active",
+      "description": "Lee Sin punches his target, dealing magic damage, knocking them back to the edge of the battlefield, and stunning them for a few seconds. Any enemies the target collides with during the knockback receive half the damage and are stunned for 1 second. If the target cannot be pushed back any further, they are knocked out of the battlefield instead, removing them from combat. If the target is still alive after being punched, Lee Sin will dash to them.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [200, 375, 1000]
+        },
+        {
+          "name": "Stun Duration (s)",
+          "values": [2, 3, 10]
+        }
+      ]
+    },
+    "items": [44, 15, 14, 22, 69]
+  },
+  {
+    "name": "Lulu",
+    "id": "TFT4_Lulu",
+    "cost": 2,
+    "traits": ["Set4_Elderwood", "Set4_Mage"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [500, 900, 1620]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [30, 54, 97]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [80, 120]
+      }
+    ],
+    "ability": {
+      "name": "Wild Growth",
+      "type": "Active",
+      "description": "Lulu makes a low-Health ally giant, knocking up nearby enemies for 1 second. Giant allies gain bonus Health for the rest of combat.",
+      "values": [
+        {
+          "name": "Bonus Health",
+          "values": [400, 600, 950]
+        }
+      ]
+    },
+    "items": [46, 17, 14, 35, 23]
+  },
+  {
+    "name": "Maokai",
+    "id": "TFT4_Maokai",
+    "cost": 1,
+    "traits": ["Set4_Elderwood", "Set4_Brawler"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [28, 50, 89]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.5
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [0, 75]
+      }
+    ],
+    "ability": {
+      "name": "Bramble Smash",
+      "type": "Active",
+      "description": "Maokai smashes the ground, sending forward a shockwave, that deals magic damage to enemies hit and slowing their Attack Speed by 50% for 3 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [225, 250, 550]
+        }
+      ]
+    },
+    "items": [57, 35, 27, 17, 47]
+  },
+  {
+    "name": "Morgana",
+    "id": "TFT4b_Morgana",
+    "cost": 4,
+    "traits": ["Set4_Enlightened", "Set4_Syphoner"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [35, 63, 113]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 60
+      },
+      {
+        "name": "mana",
+        "values": [60, 120]
+      }
+    ],
+    "ability": {
+      "name": "Hallowed Ground",
+      "type": "Active",
+      "description": "Morgana hallows the ground beneath a random enemy, dealing magic damage to enemies over 5 seconds, shredding their Attack Damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [325, 525, 2000]
+        },
+        {
+          "name": "AD Reduction (%)",
+          "values": [40, 40, 80]
+        }
+      ]
+    },
+    "items": [37, 46, 39, 66, 33]
+  },
+  {
+    "name": "Nasus",
+    "id": "TFT4_Nasus",
+    "cost": 1,
+    "traits": ["Divine", "Set4_Syphoner"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [29, 53, 95]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 50
+      },
+      {
+        "name": "mana",
+        "values": [0, 60]
+      }
+    ],
+    "ability": {
+      "name": "Wither",
+      "type": "Active",
+      "description": "Nasus withers the enemy with the highest percent Health, dealing magic damage over 5 seconds, and slowing their Attack Speed and Movement Speed by 50% for the duration.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [400, 600, 850]
+        }
+      ]
+    },
+    "items": [25, 39, 66, 57, 55]
+  },
+  {
+    "name": "Nautilus",
+    "id": "TFT4_Nautilus",
+    "cost": 2,
+    "traits": ["Set4_Fabled", "Set4_Vanguard"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [33, 59, 107]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [75, 150]
+      }
+    ],
+    "ability": {
+      "name": "Impact Crater",
+      "type": "Active",
+      "description": "Nautilus erupts the ground beneath his target, knocking them up, stunning them for a few seconds and dealing magic damage. Set4_Fabled Bonus: Nautilus also grants himself a shield that reduces incoming damage by 60% for 5 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [300, 450, 1000]
+        },
+        {
+          "name": "Stun Duration (s)",
+          "values": [3, 4, 5]
+        }
+      ]
+    },
+    "items": [57, 66, 25, 55, 36]
+  },
+  {
+    "name": "Neeko",
+    "id": "TFT4_Neeko",
+    "cost": 3,
+    "traits": ["Set4_Fabled", "Set4_Mystic"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [32, 57, 102]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 70]
+      }
+    ],
+    "ability": {
+      "name": "Pop Blossom",
+      "type": "Active",
+      "description": "Neeko throws a seed at a random target that explodes for magic damage three times. Each explosion affects a bigger area than the last. Set4_Fabled Bonus: The third explosion is empowered dealing 300 magic damage instead.\n",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [150, 225, 375]
+        }
+      ]
+    },
+    "items": [39, 15, 49, 19, 13]
+  },
+  {
+    "name": "Nidalee",
+    "id": "TFT4_Nidalee",
+    "cost": 1,
+    "traits": ["Warlord", "Sharpshooter"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [550, 990, 1782]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [32, 57, 102]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 70]
+      }
+    ],
+    "ability": {
+      "name": "Javelin Toss",
+      "type": "Active",
+      "description": "Nidalee throws her javelin at her farthest enemy, dealing magic damage plus 20% more for each hex traveled.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [225, 350, 600]
+        }
+      ]
+    },
+    "items": [14, 39, 12, 19, 49]
+  },
+  {
+    "name": "Nunu",
+    "id": "TFT4_Nunu",
+    "cost": 3,
+    "traits": ["Set4_Elderwood", "Set4_Brawler"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [65, 117, 210.6]
+      },
+      {
+        "name": "dps",
+        "values": [36, 64, 116]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.55
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [0, 85]
+      }
+    ],
+    "ability": {
+      "name": "Consume",
+      "type": "Active",
+      "description": "Willump bites his target, dealing magic damage. If Willump's target has less Health than he does before the bite, it deals an additional 50% damage and becomes true damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [450, 650, 1800]
+        }
+      ]
+    },
+    "items": [57, 13, 77, 66, 55]
+  },
+  {
+    "name": "Olaf",
+    "id": "TFT4_Olaf",
+    "cost": 4,
+    "traits": ["Set4_Dragonsoul", "Set4_Slayer"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [900, 1620, 2916]
+      },
+      {
+        "name": "attack",
+        "values": [80, 144, 259.2]
+      },
+      {
+        "name": "dps",
+        "values": [64, 115, 207]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 60
+      },
+      {
+        "name": "mana",
+        "values": [0, 70]
+      }
+    ],
+    "ability": {
+      "name": "Ragnarok",
+      "type": "Active",
+      "description": "Olaf gains Attack Speed, immunity to crowd control, and his attacks cleave in a cone in front of him for physical damage for the rest of combat.",
+      "values": [
+        {
+          "name": "Attack Speed (%)",
+          "values": [150, 175, 350]
+        },
+        {
+          "name": "Cleave Damage (%)",
+          "values": [40, 45, 50]
+        }
+      ]
+    },
+    "items": [26, 11, 49, 15, 22]
+  },
+  {
+    "name": "Ornn",
+    "id": "TFT4_Ornn",
+    "cost": 5,
+    "traits": ["Set4_Elderwood", "Set4_Vanguard", "Set4_Blacksmith"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [900, 1620, 2916]
+      },
+      {
+        "name": "attack",
+        "values": [100, 180, 324]
+      },
+      {
+        "name": "dps",
+        "values": [55, 99, 178]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.55
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 50
+      },
+      {
+        "name": "mana",
+        "values": [80, 160]
+      }
+    ],
+    "ability": {
+      "name": "Stampede",
+      "type": "Active",
+      "description": "Ornn summons an elemental from behind the farthest enemy to travel towards him, slowing the Attack Speed of enemies hit by 50% for a few seconds and dealing magic damage. If the elemental runs into Ornn, he headbutts it, redirecting it towards another distant enemy, stunning for 1.5 seconds and dealing magic Damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [150, 250, 750]
+        }
+      ]
+    },
+    "items": [57, 47, 67, 59, 37]
+  },
+  {
+    "name": "Pyke",
+    "id": "TFT4_Pyke",
+    "cost": 2,
+    "traits": ["Cultist", "Set4_Assassin", "Set4_Slayer"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [30, 54, 97]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [60, 120]
+      }
+    ],
+    "ability": {
+      "name": "Phantom Undertow",
+      "type": "Active",
+      "description": "Pyke leaves a phantom at his location, then dashes behind the farthest enemy. After 1 second, his phantom returns to Pyke, dealing magic damage to all enemies it passes through and stunning them for a few seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [100, 175, 275]
+        },
+        {
+          "name": "Stun Duration (s)",
+          "values": [2, 2.5, 4]
+        }
+      ]
+    },
+    "items": [57, 37, 45, 67, 78]
+  },
+  {
+    "name": "Rakan",
+    "id": "TFT4_Rakan",
+    "cost": 2,
+    "traits": ["Set4_Elderwood", "Keeper"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [30, 76, 136]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [60, 120]
+      }
+    ],
+    "ability": {
+      "name": "Disarming Diversion",
+      "type": "Active",
+      "description": "Rakan dashes to the furthest enemy within range, disarming all units he passes through for a few seconds and taunting his target. Rakan then creates a shield on himself for 4 seconds",
+      "values": [
+        {
+          "name": "Shield Amount",
+          "values": [200, 400, 800]
+        },
+        {
+          "name": "Disarm Duration (s)",
+          "values": [2.5, 23, 4]
+        }
+      ]
+    },
+    "items": [57, 36, 48, 45, 27]
+  },
+  {
+    "name": "Samira",
+    "id": "TFT4_Samira",
+    "cost": 5,
+    "traits": ["Set4_Daredevil", "Sharpshooter", "Set4_Slayer"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [900, 1620, 2916]
+      },
+      {
+        "name": "attack",
+        "values": [65, 117, 210.6]
+      },
+      {
+        "name": "dps",
+        "values": [55, 99, 179]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.85
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [0, 0]
+      }
+    ],
+    "ability": {
+      "name": "Inferno Trigger",
+      "type": "Passive",
+      "description": "Samira dashes and becomes unstoppable, unleashing a few shots per second at 3 enemies within 2.5 hexes for 2 seconds. Each shot does % of her Attack Damage. For the duration, Samira gains 100% dodge chance.",
+      "values": [
+        {
+          "name": "Shots per Second",
+          "values": [3, 4, 10]
+        },
+        {
+          "name": "Number of Targets",
+          "values": [3, 3, 9]
+        },
+        {
+          "name": "Attack Damage (%)",
+          "values": [50, 60, 80]
+        }
+      ]
+    },
+    "items": [78, 49, 15, 29, 12]
+  },
+  {
+    "name": "Sejuani",
+    "id": "TFT4_Sejuani",
+    "cost": 4,
+    "traits": ["Fortune", "Set4_Vanguard"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [1000, 1800, 3240]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [25, 45, 80]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.55
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [80, 160]
+      }
+    ],
+    "ability": {
+      "name": "Firecracker",
+      "type": "Active",
+      "description": "Sejuani throws a giant firecracker at the closest enemy that explodes after a 2-second delay. Enemies in the explosion are dealt magic damage and are stunned for a few seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [100, 200, 800]
+        },
+        {
+          "name": "Stun Duration (s)",
+          "values": [2.5, 3, 6]
+        }
+      ]
+    },
+    "items": [37, 57, 36, 66, 55]
+  },
+  {
+    "name": "Sett",
+    "id": "TFT4_Sett",
+    "cost": 5,
+    "traits": ["Boss", "Set4_Brawler"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [1100, 1980, 3564]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [45, 81, 146]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [100, 175]
+      }
+    ],
+    "ability": {
+      "name": "Showstopper",
+      "type": "Active",
+      "description": "Sett grabs his target and slams them forward, dealing % of their maximum Health in magic damage to them, and % of the slammed enemy's maximum Health to all other enemies in a large area.",
+      "values": [
+        {
+          "name": "Primary Damage (%)",
+          "values": [40, 60, 400]
+        },
+        {
+          "name": "Secondary Damage (%)",
+          "values": [20, 30, 200]
+        }
+      ]
+    },
+    "items": [39, 49, 13, 57, 25]
+  },
+  {
+    "name": "Shen",
+    "id": "TFT4_Shen",
+    "cost": 4,
+    "traits": ["Set4_Ninja", "Set4_Adept", "Set4_Mystic"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [950, 1710, 3078]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [39, 70, 126]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [50, 100]
+      }
+    ],
+    "ability": {
+      "name": "Shadow Dash",
+      "type": "Active",
+      "description": "Shen dashes past his target, shielding himself against damage and taunting all adjacent enemies for a seconds.",
+      "values": [
+        {
+          "name": "Shield Amount",
+          "values": [500, 800, 4000]
+        },
+        {
+          "name": "Duration (s)",
+          "values": [4, 8, 8]
+        }
+      ]
+    },
+    "items": [57, 36, 27, 56, 55]
+  },
+  {
+    "name": "Shyvana",
+    "id": "TFT4_Shyvana",
+    "cost": 3,
+    "traits": ["Set4_Dragonsoul", "Set4_Brawler"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [70, 126, 226.8]
+      },
+      {
+        "name": "dps",
+        "values": [53, 95, 170]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 35
+      },
+      {
+        "name": "resistance",
+        "values": 80
+      },
+      {
+        "name": "mana",
+        "values": [0, 75]
+      }
+    ],
+    "ability": {
+      "name": "Dragon's Descent",
+      "type": "Active",
+      "description": "Shyvana dashes away from her current target and transforms into dragon form. While in Dragon Form, Shyvana gains bonus Health, bonus AD, and her Basic Attacks become ranged attacks that deal bonus magic damage over 2 seconds on hit.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [150, 300, 600]
+        },
+        {
+          "name": "Bonus AD",
+          "values": [30, 60, 120]
+        },
+        {
+          "name": "Bonus Health (%)",
+          "values": [40, 45, 50]
+        }
+      ]
+    },
+    "items": [26, 49, 23, 22, 15]
+  },
+  {
+    "name": "Sivir",
+    "id": "TFT4_Sivir",
+    "cost": 3,
+    "traits": ["Cultist", "Sharpshooter"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [70, 126, 226.8]
+      },
+      {
+        "name": "dps",
+        "values": [60, 107, 193]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.85
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 70]
+      }
+    ],
+    "ability": {
+      "name": "On the Hunt",
+      "type": "Active",
+      "description": "Sivir rallies her allies within 2 hexes, granting them Attack Speed for 5 seconds. Sivir gains bonus Attack Damage for the duration.",
+      "values": [
+        {
+          "name": "Bonus Attack Speed (%)",
+          "values": [40, 50, 70]
+        },
+        {
+          "name": "Bonus Attack Damage",
+          "values": [100, 200, 400]
+        }
+      ]
+    },
+    "items": [17, 46, 29, 26, 49]
+  },
+  {
+    "name": "Swain",
+    "id": "TFT4_Swain",
+    "cost": 5,
+    "traits": ["Set4_Dragonsoul", "Set4_Syphoner"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [1000, 1800, 3240]
+      },
+      {
+        "name": "attack",
+        "values": [60, 108, 194.4]
+      },
+      {
+        "name": "dps",
+        "values": [39, 70, 126]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 80
+      },
+      {
+        "name": "mana",
+        "values": [40, 100]
+      }
+    ],
+    "ability": {
+      "name": "Draconic Ascension",
+      "type": "Active",
+      "description": "Swain transforms into his dragon form for 6 seconds, gaining maximum Health and dealing magic damage each second to enemies within a few hexes. While in dragon form, every 2 seconds Swain breaths fire in a cone in front of him, dealing magic damage, burning enemies for 25% of their maximum Health as true damage over 10 seconds, and reducing healing by 50% for the duration.",
+      "values": [
+        {
+          "name": "Damage Per Second",
+          "values": [75, 150, 1000]
+        },
+        {
+          "name": "Cone Damage",
+          "values": [175, 350, 5000]
+        },
+        {
+          "name": "Health Increase (%)",
+          "values": [60, 75, 100]
+        },
+        {
+          "name": "Hex Range",
+          "values": [2.5, 2.5, 5]
+        }
+      ]
+    },
+    "items": [66, 77, 25, 57, 13]
+  },
+  {
+    "name": "Tahm Kench",
+    "id": "TFT4_TahmKench",
+    "cost": 1,
+    "traits": ["Fortune", "Set4_Brawler"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [85, 153, 275.4]
+      },
+      {
+        "name": "dps",
+        "values": [43, 77, 138]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.5
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [0, 0]
+      }
+    ],
+    "ability": {
+      "name": "Thick Skin",
+      "type": "Active",
+      "description": "Tahm Kench takes reduced damage from all sources.",
+      "values": [
+        {
+          "name": "Damage Reduction",
+          "values": [15, 25, 75]
+        }
+      ]
+    },
+    "items": [57, 35, 17, 27, 55]
+  },
+  {
+    "name": "Talon",
+    "id": "TFT4_Talon",
+    "cost": 4,
+    "traits": ["Set4_Enlightened", "Set4_Assassin"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [800, 1440, 2592]
+      },
+      {
+        "name": "attack",
+        "values": [90, 162, 291.6]
+      },
+      {
+        "name": "dps",
+        "values": [72, 140, 233]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 40]
+      }
+    ],
+    "ability": {
+      "name": "Truestrike",
+      "type": "Active",
+      "description": "Talon stabs his target, striking them for % of his Attack Damage plus bonus physical damage. If this kills them, Talon becomes unstoppable, and untargetable while he leaps to the lowest Armor enemy.",
+      "values": [
+        {
+          "name": "Percent of Attack Damage (%)",
+          "values": [240, 250, 275]
+        },
+        {
+          "name": "Bonus Damage",
+          "values": [85, 125, 400]
+        }
+      ]
+    },
+    "items": [19, 15, 12, 49, 29]
+  },
+  {
+    "name": "Teemo",
+    "id": "TFT4_Teemo",
+    "cost": 2,
+    "traits": ["Set4_Spirit", "Sharpshooter"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [500, 900, 1620]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [39, 69, 125]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 60]
+      }
+    ],
+    "ability": {
+      "name": "Sporecloud Dart",
+      "type": "Active",
+      "description": "Teemo fires a dart at the enemy with the highest Attack Speed. The dart explodes into a cloud of spores on contact, poisoning nearby enemies. Poisoned enemies take magic damage over a few seconds and are blinded for the duration.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [250, 400, 900]
+        },
+        {
+          "name": "Duration (s)",
+          "values": [2.5, 3, 4.5]
+        }
+      ]
+    },
+    "items": [46, 17, 37, 35, 14]
+  },
+  {
+    "name": "Tristana",
+    "id": "TFT4_Tristana",
+    "cost": 1,
+    "traits": ["Set4_Dragonsoul", "Sharpshooter"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [500, 900, 1620]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [35, 63, 113]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [0, 40]
+      }
+    ],
+    "ability": {
+      "name": "Rapid Fire",
+      "type": "Active",
+      "description": "Tristana excites her Dragon, increasing her Attack Speed and dealing bonus magic damage on hit for 3 seconds.",
+      "values": [
+        {
+          "name": "Bonus Attack Speed (%)",
+          "values": [60, 70, 90]
+        },
+        {
+          "name": "Bonus Magic Damage",
+          "values": [30, 60, 90]
+        }
+      ]
+    },
+    "items": [23, 49, 69, 26, 12]
+  },
+  {
+    "name": "Tryndamere",
+    "id": "TFT4_Tryndamere",
+    "cost": 4,
+    "traits": ["Warlord", "Set4_Slayer", "Duelist"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [850, 1530, 2754]
+      },
+      {
+        "name": "attack",
+        "values": [85, 153, 275.4]
+      },
+      {
+        "name": "dps",
+        "values": [72, 130, 234]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.85
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 60
+      },
+      {
+        "name": "mana",
+        "values": [50, 100]
+      }
+    ],
+    "ability": {
+      "name": "Spinning Slash",
+      "type": "Active",
+      "description": "Tryndamere spins in a line towards the most enemies, dealing % of his Attack Damage to enemies in his path and empowering his next three auto attacks to deal more damage.",
+      "values": [
+        {
+          "name": "Spin Damage (%)",
+          "values": [140, 140, 140]
+        },
+        {
+          "name": "Bonus Damage (%)",
+          "values": [75, 100, 200]
+        }
+      ]
+    },
+    "items": [49, 15, 19, 26, 16]
+  },
+  {
+    "name": "Twisted Fate",
+    "id": "TFT4_TwistedFate",
+    "cost": 1,
+    "traits": ["Cultist", "Set4_Mage"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [550, 990, 1782]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [29, 53, 95]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 70]
+      }
+    ],
+    "ability": {
+      "name": "Wild Cards",
+      "type": "Active",
+      "description": "Twisted Fate throws three cards in a cone that deal magic damage to each enemy they pass through.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [250, 350, 475]
+        }
+      ]
+    },
+    "items": [39, 46, 19, 49, 67]
+  },
+  {
+    "name": "Veigar",
+    "id": "TFT4_Veigar",
+    "cost": 3,
+    "traits": ["Set4_Elderwood", "Set4_Mage"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [40, 72, 129.6]
+      },
+      {
+        "name": "dps",
+        "values": [26, 47, 84]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 55]
+      }
+    ],
+    "ability": {
+      "name": "Dark Blossom",
+      "type": "Active",
+      "description": "Veigar blasts the enemy with the lowest Health, dealing magic damage. If this kills his target, Veigar permanently gains spell power.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [450, 600, 900]
+        },
+        {
+          "name": "SP Gain on Kill",
+          "values": [1, 1, 2]
+        }
+      ]
+    },
+    "items": [13, 44, 46, 49, 39]
+  },
+  {
+    "name": "Vi",
+    "id": "TFT4_Vi",
+    "cost": 2,
+    "traits": ["Warlord", "Set4_Brawler"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [700, 1260, 2268]
+      },
+      {
+        "name": "attack",
+        "values": [65, 117, 210.6]
+      },
+      {
+        "name": "dps",
+        "values": [39, 70, 126]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [0, 50]
+      }
+    ],
+    "ability": {
+      "name": "Denting Blow",
+      "type": "Active",
+      "description": "Vi's attack blasts through her target, dealing magic damage to all enemies in a cone and reducing their Armor for 8 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [250, 400, 800]
+        },
+        {
+          "name": "Armour Reduction (%)",
+          "values": [40, 60, 80]
+        }
+      ]
+    },
+    "items": [57, 17, 39, 44, 35]
+  },
+  {
+    "name": "Vladimir",
+    "id": "TFT4_Vladimir",
+    "cost": 2,
+    "traits": ["Cultist", "Set4_Syphoner"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [40, 72, 129.6]
+      },
+      {
+        "name": "dps",
+        "values": [24, 43, 78]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [0, 60]
+      }
+    ],
+    "ability": {
+      "name": "Transfusion",
+      "type": "Active",
+      "description": "Vladimir deals magic damage to his target. All nearby allies are healed for 50% of damage dealt.\n",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [400, 600, 900]
+        }
+      ]
+    },
+    "items": [46, 66, 39, 44, 25]
+  },
+  {
+    "name": "Wukong",
+    "id": "TFT4_Wukong",
+    "cost": 1,
+    "traits": ["Divine", "Set4_Vanguard"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [36, 64, 116]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [0, 50]
+      }
+    ],
+    "ability": {
+      "name": "Crushing Blow",
+      "type": "Active",
+      "description": "Wukong slams his target with his staff, dealing % of his Attack Damage as physical damage and stunning them for a few seconds.",
+      "values": [
+        {
+          "name": "Damage (%)",
+          "values": [250, 265, 280]
+        },
+        {
+          "name": "Stun Duration (s)",
+          "values": [1.5, 2, 3]
+        }
+      ]
+    },
+    "items": [26, 49, 11, 57, 22]
+  },
+  {
+    "name": "Xayah",
+    "id": "TFT4_Xayah",
+    "cost": 4,
+    "traits": ["Set4_Elderwood", "Set4_Executioner", "Keeper"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [600, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [80, 144, 259.2]
+      },
+      {
+        "name": "dps",
+        "values": [68, 122, 220]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.85
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [70, 130]
+      }
+    ],
+    "ability": {
+      "name": "Featherstorm",
+      "type": "Active",
+      "description": "Xayah leaps into the air becoming untargetable, invulnerable, and throwing out a fan of feather daggers, dealing % of her Attack Damage as physical damage to enemies within the cone. Xayah then recalls her feathers, striking enemies hit for magic damage per feather.",
+      "values": [
+        {
+          "name": "Damage (%)",
+          "values": [250, 275, 325]
+        },
+        {
+          "name": "Damage Per Feather",
+          "values": [100, 200, 400]
+        }
+      ]
+    },
+    "items": [49, 15, 12, 17, 11]
+  },
+  {
+    "name": "Yasuo",
+    "id": "TFT4_Yasuo",
+    "cost": 1,
+    "traits": ["Set4_Exile", "Duelist"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [550, 990, 1782]
+      },
+      {
+        "name": "attack",
+        "values": [50, 90, 162]
+      },
+      {
+        "name": "dps",
+        "values": [35, 63, 113]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 45]
+      }
+    ],
+    "ability": {
+      "name": "Striking Steel",
+      "type": "Active",
+      "description": "Yasuo strikes forward two hexes, attacking for % of his Attack Damage. If he can't hit two targets from where he's standing, he'll first dash to a place where he can.",
+      "values": [
+        {
+          "name": "Damage (%)",
+          "values": [180, 200, 225]
+        }
+      ]
+    },
+    "items": [49, 69, 19, 15, 25]
+  },
+  {
+    "name": "Yone",
+    "id": "TFT4_Yone",
+    "cost": 5,
+    "traits": ["Set4_Exile", "Set4_Adept"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [950, 1710, 3078]
+      },
+      {
+        "name": "attack",
+        "values": [80, 144, 259.2]
+      },
+      {
+        "name": "dps",
+        "values": [76, 137, 246]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.95
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [0, 60]
+      }
+    ],
+    "ability": {
+      "name": "Seal Fate",
+      "type": "Active",
+      "description": "Yone strikes along a path in front of him, dealing magic damage split between all enemies hit. Enemies hit are marked for death, reducing their Armor and Magic Resist. Yone's spell is then replaced with Unforgotten until there are no remaining enemies marked for death. Unforgotten (20 mana): Yone dashes to the lowest-Health enemy that is marked for death, dealing physical damage plus their missing health as magic damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [600, 1200, 9999]
+        },
+        {
+          "name": "Unforgotten Base Damage",
+          "values": [350, 600, 1500]
+        },
+        {
+          "name": "AR and MR Reduction (%)",
+          "values": [40, 40, 80]
+        }
+      ]
+    },
+    "items": [44, 13, 37, 49, 57]
+  },
+  {
+    "name": "Yuumi",
+    "id": "TFT4_Yuumi",
+    "cost": 3,
+    "traits": ["Set4_Spirit", "Set4_Mystic"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1170, 2106]
+      },
+      {
+        "name": "attack",
+        "values": [40, 72, 129.6]
+      },
+      {
+        "name": "dps",
+        "values": [24, 43, 78]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 40]
+      }
+    ],
+    "ability": {
+      "name": "Zoomies",
+      "type": "Active",
+      "description": "Yuumi dashes to the lowest-Health ally, healing them for % of their missing Health and granting them Attack Speed for 5 seconds. She then repeats this on the farthest ally.",
+      "values": [
+        {
+          "name": "Healing (%)",
+          "values": [30, 45, 75]
+        },
+        {
+          "name": "Attack Speed Buff (%)",
+          "values": [30, 40, 60]
+        }
+      ]
+    },
+    "items": [46, 44, 17, 35, 33]
+  },
+  {
+    "name": "Zed",
+    "id": "TFT4b_Zed",
+    "cost": 2,
+    "traits": ["Set4_Ninja", "Set4_Slayer"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [650, 1080, 1944]
+      },
+      {
+        "name": "attack",
+        "values": [55, 99, 178.2]
+      },
+      {
+        "name": "dps",
+        "values": [44, 79, 143]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [0, 0]
+      }
+    ],
+    "ability": {
+      "name": "Contempt for the Weak",
+      "type": "Passive",
+      "description": "Innate: When combat starts, Zed teleports to the enemy backline. Every third attack, Zed deals bonus magic damage and steals % of the target's current Attack Damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [25, 50, 75]
+        },
+        {
+          "name": "Attack Damage Stolen (%)",
+          "values": [20, 25, 30]
+        }
+      ]
+    },
+    "items": [22, 69, 26, 15, 23]
+  },
+  {
+    "name": "Zilean",
+    "id": "TFT4_Zilean",
+    "cost": 5,
+    "traits": ["Cultist", "Set4_Mystic"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [750, 1350, 2430]
+      },
+      {
+        "name": "attack",
+        "values": [45, 81, 145.8]
+      },
+      {
+        "name": "dps",
+        "values": [34, 61, 109]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [100, 150]
+      }
+    ],
+    "ability": {
+      "name": "Rewind Fate",
+      "type": "Active",
+      "description": "Zilean places a protective Time Rune on the allies with the lowest Health other than himself. When they would die, they instead resurrect after a few seconds, returning to combat with some Health and shedding all negative effects. After resurrecting, they have bonus Attack Speed for the rest of combat.",
+      "values": [
+        {
+          "name": "Number of Targets",
+          "values": [3, 3, 10]
+        },
+        {
+          "name": "Revive Delay (s)",
+          "values": [3.5, 3, 1]
+        },
+        {
+          "name": "Health Restored",
+          "values": [3.35, 500, 3000]
+        },
+        {
+          "name": "Attack Speed Bonus (%)",
+          "values": [50, 75, 500]
+        }
+      ]
+    },
+    "items": [46, 44, 14, 17, 67]
+  }
+]

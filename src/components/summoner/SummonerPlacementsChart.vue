@@ -9,9 +9,13 @@
 <script>
 import chart from "@/constants/chart.json";
 import styles from "./SummonerPlacementsChart?vue&type=style&index=0&lang=scss&module=1";
-import VBarChart from "@/components/utility/VBarChart";
 import { hexToRGBA } from "@/utils/helpers";
 import { mapState } from "vuex";
+import { defineAsyncComponent } from "vue";
+
+const VBarChart = defineAsyncComponent(() =>
+  import("@/components/utility/VBarChart")
+);
 
 export default {
   name: "SummonerPlacementsChart",

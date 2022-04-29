@@ -1,0 +1,692 @@
+[
+  {
+    "id": 1,
+    "name": "B.F. Sword",
+    "description": "Gain Attack Damage.",
+    "stats": [{ "name": "attack", "value": "15" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 2,
+    "name": "Recurve Bow",
+    "description": "Gain Attack Speed.",
+    "stats": [{ "name": "speed", "value": "15%" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 3,
+    "name": "Needlessly Large Rod",
+    "description": "Gain Spell Power.",
+    "stats": [{ "name": "ap", "value": "20" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 4,
+    "name": "Tear of the Goddess",
+    "description": "Gain Mana.",
+    "stats": [{ "name": "mana", "value": "15" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 5,
+    "name": "Chain Vest",
+    "description": "Gain Armor.",
+    "stats": [{ "name": "armour", "value": "25" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 6,
+    "name": "Negatron Cloak",
+    "description": "Gain Magic Resist.",
+    "stats": [{ "name": "resistance", "value": "25" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 7,
+    "name": "Giant's Belt",
+    "description": "Gain Health.",
+    "stats": [{ "name": "health", "value": "200" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 9,
+    "name": "Sparring Gloves",
+    "description": "Gain Critical Strike Chance and Dodge Chance.",
+    "stats": [
+      { "name": "crit", "value": "10%" },
+      { "name": "dodge", "value": "10%" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 8,
+    "name": "Spatula",
+    "description": "It must do something...",
+    "stats": [],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 11,
+    "name": "Deathblade",
+    "components": [1, 1],
+    "description": "Contributing to a kill grants the holder addtional Attack Damage for the rest of combat.",
+    "stats": [{ "name": "attack", "value": "30" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 12,
+    "name": "Giant Slayer",
+    "components": [1, 2],
+    "description": "The holder's spells and basic attacks do bonus damage. If the target has more health, the bonus damage increases.",
+    "stats": [
+      { "name": "attack", "value": "15" },
+      { "name": "speed", "value": "15%" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 13,
+    "name": "Hextech Gunblade",
+    "components": [1, 3],
+    "description": "The holder's spells heal them for a percentage of the damage dealt. Excess healing fuels a shield that protects the holder.",
+    "stats": [
+      { "name": "attack", "value": "15" },
+      { "name": "ap", "value": "20" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 14,
+    "name": "Spear of Shojin",
+    "components": [1, 4],
+    "description": "The holder's basic attacks restore Mana on-hit.",
+    "stats": [
+      { "name": "attack", "value": "15" },
+      { "name": "mana", "value": "15" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 15,
+    "name": "Guardian Angel",
+    "components": [1, 5],
+    "description": "Prevents the wearer's first death, reviving them after a short delay and shedding all negative effects.",
+    "stats": [
+      { "name": "attack", "value": "15" },
+      { "name": "armour", "value": "25" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 16,
+    "name": "Bloodthirster",
+    "components": [1, 6],
+    "description": "Basic attacks heal the holder for a percentage of the damage dealt.",
+    "stats": [
+      { "name": "attack", "value": "15" },
+      { "name": "resistance", "value": "25" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 17,
+    "name": "Zeke's Herald",
+    "components": [1, 7],
+    "description": "When combat begins, the wearer and nearby allies in the same row gain Attack Speed for the rest of combat.",
+    "stats": [
+      { "name": "attack", "value": "15" },
+      { "name": "health", "value": "200" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 18,
+    "name": "Sword of the Divine",
+    "components": [1, 8],
+    "description": "The holder gains the Divine trait.",
+    "stats": [{ "name": "attack", "value": "15" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 19,
+    "name": "Infinity Edge",
+    "components": [1, 9],
+    "description": "Grants Critical Strike Chance. Each point of Critical Strike Chance above 100% becomes bonus Critical Strike Damage.",
+    "stats": [
+      { "name": "attack", "value": "15" },
+      { "name": "crit", "value": "10%" },
+      { "name": "dodge", "value": "10%" }
+    ],
+    "isShadow": false,
+    "isUnique": true
+  },
+  {
+    "id": 22,
+    "name": "Rapid Firecannon",
+    "components": [2, 2],
+    "description": "The holder gains Attack Range, and their Basic Attacks can't miss.",
+    "stats": [{ "name": "speed", "value": "30%" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 23,
+    "name": "Guinsoo's Rageblade",
+    "components": [2, 3],
+    "description": "Basic Attacks grant bonus Attack Speed for the rest of combat.",
+    "stats": [
+      { "name": "ap", "value": "20" },
+      { "name": "speed", "value": "15%" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 24,
+    "name": "Statikk Shiv",
+    "components": [2, 4],
+    "description": "Every third Basic Attack from the wearer deals Magic Damage to nearby enemies, and true damage if they are shielded or crowd-controlled.",
+    "stats": [
+      { "name": "speed", "value": "15%" },
+      { "name": "mana", "value": "15" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 25,
+    "name": "Titan's Resolve",
+    "components": [2, 5],
+    "description": "When the wearer takes damage or inflicts a critical hit, they gain a stacking damage bonus. The damage stacks up to a limit, at which point the wearer gains Armor and Magic Resistance, and increases in size.",
+    "stats": [
+      { "name": "speed", "value": "15%" },
+      { "name": "armour", "value": "25" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 26,
+    "name": "Runaan's Hurricane",
+    "components": [2, 6],
+    "description": "Basic Attacks fire a bolt at another nearby enemy, dealing a percentage of the wearer's Attack Damage and applying on-hit effects. These bolts can critical strike.",
+    "stats": [
+      { "name": "speed", "value": "15%" },
+      { "name": "resistance", "value": "25" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 27,
+    "name": "Zz'Rot Portal",
+    "components": [2, 7],
+    "description": "When the wearer dies, a Construct arises to continue the fight.",
+    "stats": [
+      { "name": "speed", "value": "15%" },
+      { "name": "health", "value": "200" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 28,
+    "name": "Duelist's Zeal",
+    "components": [2, 8],
+    "description": "The holder gains the Duelist trait.",
+    "stats": [{ "name": "speed", "value": "15%" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 29,
+    "name": "Last Whisper",
+    "components": [2, 9],
+    "description": "When the wearer inflicts a critical hit, the target's Armor is reduced for a number of seconds.",
+    "stats": [
+      { "name": "speed", "value": "15%" },
+      { "name": "crit", "value": "10%" },
+      { "name": "dodge", "value": "10%" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 33,
+    "name": "Rabadon's Deathcap",
+    "components": [3, 3],
+    "description": "The holder gains additional Spell Power.",
+    "stats": [{ "name": "ap", "value": "40" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 34,
+    "name": "Luden's Echo",
+    "components": [3, 4],
+    "description": "When the holder casts their spell, the first target dealt magic damage and to nearby enemies are dealt additional magic damage.",
+    "stats": [
+      { "name": "ap", "value": "20" },
+      { "name": "mana", "value": "15" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 35,
+    "name": "Locket of the Iron Solari",
+    "components": [3, 5],
+    "description": "When combat begins, the wearer and nearby allies in the same row gain a shield that blocks damage for several seconds.",
+    "stats": [
+      { "name": "ap", "value": "20" },
+      { "name": "armour", "value": "25" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 36,
+    "name": "Ionic Spark",
+    "components": [3, 6],
+    "description": "Nearby enemies have their Magic Resist reduced. When they cast a spell, they are zapped taking magic damage equal to a percentage of their max Mana.",
+    "stats": [
+      { "name": "ap", "value": "20" },
+      { "name": "resistance", "value": "25" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 37,
+    "name": "Morellonomicon",
+    "components": [3, 7],
+    "description": "When the holder deals damage with their spell, they burn the target, dealing a percentage of the target's maximum Health as true damage over several seconds, and reducing healing by a percentage for the duration of the burn.",
+    "stats": [
+      { "name": "ap", "value": "20" },
+      { "name": "health", "value": "200" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 38,
+    "name": "Spirit of the Dragon",
+    "components": [3, 8],
+    "description": "The holder gains the Dragonsoul trait.",
+    "stats": [{ "name": "ap", "value": "20" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 39,
+    "name": "Jeweled Gauntlet",
+    "components": [3, 9],
+    "description": "The holder's spells can cause critical hits, and the holder gains bonus Critical Strike Damage.",
+    "stats": [
+      { "name": "ap", "value": "20" },
+      { "name": "crit", "value": "10%" },
+      { "name": "dodge", "value": "10%" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 44,
+    "name": "Blue Buff",
+    "components": [4, 4],
+    "description": "After casting their spell, the wearer gains Mana.",
+    "stats": [{ "name": "mana", "value": "30" }],
+    "isShadow": false,
+    "isUnique": true
+  },
+  {
+    "id": 45,
+    "name": "Frozen Heart",
+    "components": [4, 5],
+    "description": "Reduces the Attack Speed of nearby enemies. Each Frozen Heart a champion carries beyond the first increases the radius of this effect.",
+    "stats": [
+      { "name": "mana", "value": "15" },
+      { "name": "armour", "value": "25" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 46,
+    "name": "Chalice of Power",
+    "components": [4, 6],
+    "description": "When combat begins, the wearer and all nearby allies in the same row gain Spell Power for the rest of combat.",
+    "stats": [
+      { "name": "mana", "value": "15" },
+      { "name": "resistance", "value": "25" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 47,
+    "name": "Redemption",
+    "components": [4, 7],
+    "description": "When the wearer dies, allies are healed.",
+    "stats": [
+      { "name": "mana", "value": "15" },
+      { "name": "health", "value": "200" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 48,
+    "name": "Mage's Hat",
+    "components": [4, 8],
+    "description": "The holder gains the Mage trait.",
+    "stats": [{ "name": "mana", "value": "15" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 49,
+    "name": "Hand Of Justice",
+    "components": [4, 9],
+    "description": "At the beginning of each planning phase, the wearer's basic attacks and spells deal additional damage or heal for a percentage of damage dealt.",
+    "stats": [
+      { "name": "mana", "value": "15" },
+      { "name": "crit", "value": "10%" },
+      { "name": "dodge", "value": "10%" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 55,
+    "name": "Bramble Vest",
+    "components": [5, 5],
+    "description": "Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal magic damage to all nearby enemies.",
+    "stats": [{ "name": "armour", "value": "50" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 56,
+    "name": "Gargoyle Stoneplate",
+    "components": [5, 6],
+    "description": "The holder gains Armor and Magic Resist for each enemy targeting them.",
+    "stats": [
+      { "name": "armour", "value": "25" },
+      { "name": "resistance", "value": "25" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 57,
+    "name": "Sunfire Cape",
+    "components": [5, 7],
+    "description": "At start of combat, and every couple seconds thereafter, a random nearby enemy is burned for a percentage of their maximum health. Any healing they receive is reduced.",
+    "stats": [
+      { "name": "health", "value": "200" },
+      { "name": "armour", "value": "25" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 58,
+    "name": "Vanguard's Cuirass",
+    "components": [5, 8],
+    "description": "The holder gains the Vanguard trait.",
+    "stats": [{ "name": "armour", "value": "25" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 59,
+    "name": "Shroud of Stillness",
+    "components": [5, 9],
+    "description": "When combat begins, shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana until they cast.",
+    "stats": [
+      { "name": "armour", "value": "25" },
+      { "name": "crit", "value": "15%" },
+      { "name": "dodge", "value": "15%" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 66,
+    "name": "Dragon's Claw",
+    "components": [6, 6],
+    "description": "Reduces incoming magic damage.",
+    "stats": [{ "name": "resistance", "value": "50" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 67,
+    "name": "Zephyr",
+    "components": [6, 7],
+    "description": "When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for several seconds.",
+    "stats": [
+      { "name": "health", "value": "200" },
+      { "name": "resistance", "value": "15" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 68,
+    "name": "Elderwood Sprout",
+    "components": [6, 8],
+    "description": "The holder gains the Elderwood trait.",
+    "stats": [{ "name": "resistance", "value": "25" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 69,
+    "name": "Quicksilver",
+    "components": [6, 9],
+    "description": "The wearer is immune to crowd control for the first several seconds of combat.",
+    "stats": [
+      { "name": "resistance", "value": "25" },
+      { "name": "crit", "value": "15%" },
+      { "name": "dodge", "value": "15%" }
+    ],
+    "isShadow": false,
+    "isUnique": true
+  },
+  {
+    "id": 77,
+    "name": "Warmog's Armour",
+    "components": [7, 7],
+    "description": "Grants 600 Health.",
+    "stats": [{ "name": "health", "value": "400" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 78,
+    "name": "Warlord's Banner",
+    "components": [7, 8],
+    "description": "The wearer gains the Warlord trait.",
+    "stats": [{ "name": "health", "value": "200" }],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 79,
+    "name": "Trap Claw",
+    "components": [7, 9],
+    "description": "Blocks the first enemy spell that hits the wearer, and stuns the spell's caster for several seconds.",
+    "stats": [
+      { "name": "health", "value": "200" },
+      { "name": "crit", "value": "15%" },
+      { "name": "dodge", "value": "15%" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 88,
+    "name": "Force of Nature",
+    "components": [8, 8],
+    "stats": [],
+    "description": "Gain +1 team size.",
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 89,
+    "name": "Youmuu's Ghostblade",
+    "components": [8, 9],
+    "description": "The wearer gains the Assassin trait.",
+    "stats": [
+      { "name": "crit", "value": "15%" },
+      { "name": "dodge", "value": "15%" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 99,
+    "name": "Thief's Gloves",
+    "components": [9, 9],
+    "description": "At the beginning of each planning phase, the wearer equips 2 temporary items. Temporary items increase in power based on your player level.",
+    "stats": [
+      { "name": "crit", "value": "30%" },
+      { "name": "dodge", "value": "30%" }
+    ],
+    "isShadow": false,
+    "isUnique": false
+  },
+  {
+    "id": 9001,
+    "name": "Anima Visage",
+    "components": [],
+    "description": "The wearer regenerates a percentage of their maximum Health each second.",
+    "stats": [
+      { "name": "health", "value": "200" },
+      { "name": "speed", "value": "15" },
+      { "name": "resistance", "value": "25" }
+    ]
+  },
+  {
+    "id": 9002,
+    "name": "Death's Defiance",
+    "components": [],
+    "description": "A percentage of the damage the wearer receives is instead dealt over time as non-lethal damage.",
+    "stats": [
+      { "name": "attack", "value": "15" },
+      { "name": "speed", "value": "15" },
+      { "name": "armour", "value": "25" }
+    ]
+  },
+  {
+    "id": 9003,
+    "name": "Eternal Winter",
+    "components": [],
+    "description": "Enemies who damage the wearer have their Attack Speed slowed for several seconds. After being slowed this way a certain number of times, the attacker is Frozen for the duration instead. An enemy can only be Frozen once every several seconds.",
+    "stats": [
+      { "name": "health", "value": "200" },
+      { "name": "ap", "value": "15" },
+      { "name": "armour", "value": "25" }
+    ]
+  },
+  {
+    "id": 9004,
+    "name": "Infinity Force",
+    "components": [],
+    "description": "Increase all stats.",
+    "stats": [
+      { "name": "health", "value": "333" },
+      { "name": "speed", "value": "33" },
+      { "name": "resistance", "value": "33" },
+      { "name": "armour", "value": "33" },
+      { "name": "ap", "value": "33" },
+      { "name": "crit", "value": "33" },
+      { "name": "dodge", "value": "33" },
+      { "name": "resistance", "value": "33" }
+    ]
+  },
+  {
+    "id": 9005,
+    "components": [],
+    "name": "Manazane",
+    "description": "After the wearer casts their spell for the first time each combat, they restore Mana over several seconds.",
+    "stats": [
+      { "name": "attack", "value": "20" },
+      { "name": "speed", "value": "20" },
+      { "name": "mana", "value": "15" }
+    ]
+  },
+  {
+    "id": 9006,
+    "name": "Obsidian Cleaver",
+    "components": [],
+    "description": "The wearer's attacks and spell damage shred enemy Armor and Magic Resistance by 40% for several seconds.",
+    "stats": [
+      { "name": "health", "value": "200" },
+      { "name": "attack", "value": "30" }
+    ]
+  },
+  {
+    "id": 9007,
+    "name": "Randuin's Sanctum",
+    "components": [],
+    "description": "At the start of combat, all allies adjacent to the wearer gain bonus Armor and Magic Resistance for the rest of combat.",
+    "stats": [
+      { "name": "health", "value": "200" },
+      { "name": "armour", "value": "25" },
+      { "name": "resistance", "value": "25" }
+    ]
+  },
+  {
+    "id": 9008,
+    "name": "Rocket-Propelled Fist",
+    "components": [],
+    "description": "At the start of combat, the wearer pulls the farthest enemy into melee range, stunning them for several seconds. Allies within range will prioritize attacking that enemy.",
+    "stats": [
+      { "name": "health", "value": "200" },
+      { "name": "mana", "value": "15" },
+      { "name": "armour", "value": "25" }
+    ]
+  },
+  {
+    "id": 9009,
+    "name": "Gold Collector",
+    "components": [],
+    "description": "The wearer executes enemies below a percentage of health on hit. Executions generate 1 gold.",
+    "stats": [
+      { "name": "attack", "value": "40" },
+      { "name": "crit", "value": "20%" }
+    ]
+  },
+  {
+    "id": 9010,
+    "name": "Zhonya's Paradox",
+    "components": [],
+    "description": "The first instance of damage that would reduce the wearer below a percentage of their Health is prevented, causing them to become invulnerable for several seconds.",
+    "stats": [
+      { "name": "ap", "value": "15" },
+      { "name": "armour", "value": "25" },
+      { "name": "resistance", "value": "25" }
+    ]
+  }
+]

@@ -13,7 +13,6 @@
     "core-js": "^3.6.5",
     "vue": "^3.1.0",
     "vue-chart-3": "^0.5.7",
-    "vue-chartjs": "https://github.com/davidrunger/vue-chartjs.git#vue-3",
     "vue-router": "^4.0.0",
     "vuex": "^4.0.0"
   },
@@ -35,10 +34,11 @@
     "eslint-plugin-prettier": "3.0.1",
     "eslint-plugin-vue": "^7.13.0",
     "lodash": "^4.17.15",
+    "moment-locales-webpack-plugin": "^1.2.0",
     "prettier": "1.14.3",
     "sass": "^1.49.9",
     "sass-loader": "^8.0.2",
-    "webpack-bundle-analyzer": "^4.5.0"
+    "vue-cli-plugin-webpack-bundle-analyzer": "~4.0.0"
   },
   "browserslist": [
     "> 1%",

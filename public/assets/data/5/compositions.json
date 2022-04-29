@@ -1,0 +1,124 @@
+[{
+  "name": "Nightbringer Rangers",
+  "type": "Standard",
+  "rating": "S",
+  "champions": [
+    {
+      "id": "TFT5_Morgana",
+      "position": 5,
+      "starred": 3,
+      "items": [
+        15,
+        37
+      ]
+    },
+    {
+      "id": "TFT5_Nautilus",
+      "position": 2,
+      "starred": 0
+    },
+    {
+      "id": "TFT5_Diana",
+      "position": 25,
+      "starred": 0
+    },
+    {
+      "id": "TFT5_Rell",
+      "position": 4,
+      "starred": 0
+    },
+    {
+      "id": "TFT5_Mordekaiser",
+      "position": 15,
+      "starred": 0
+    },
+    {
+      "id": "TFT5_Aphelios",
+      "position": 28,
+      "starred": 3,
+      "items": [
+        11,
+        23,
+        16
+      ]
+    },
+    {
+      "id": "TFT5_Darius",
+      "position": 3,
+      "starred": 0
+    },
+    {
+      "id": "TFT5_Kindred",
+      "position": 27,
+      "starred": 0
+    }
+  ],
+  "early": [
+    "TFT5_Kalista",
+    "TFT5_Viktor",
+    "TFT5_Sejuani",
+    "TFT5_Morgana",
+    "TFT5_Yasuo"
+  ],
+  "options": {
+    "nine": "TFT5_Ryze",
+    "alternatives": [
+      {
+        "names": [
+          "TFT5_Darius"
+        ],
+        "replacements": [
+          "TFT5_Sejuani"
+        ]
+      }
+    ]
+  },
+  "traits": [
+    {
+      "id": "Set5_Eternal",
+      "count": 1
+    },
+    {
+      "id": "Set5_GodKing",
+      "count": 1
+    },
+    {
+      "id": "Set5_Nightbringer",
+      "count": 2
+    },
+    {
+      "id": "Set5_Dragonslayer",
+      "count": 2
+    },
+    {
+      "id": "Set5_Ironclad",
+      "count": 2
+    },
+    {
+      "id": "Set5_Knight",
+      "count": 2
+    },
+    {
+      "id": "Set5_Mystic",
+      "count": 2
+    },
+    {
+      "id": "Set5_Ranger",
+      "count": 2
+    }
+  ],
+  "carousel": [
+    {
+      "component": 1,
+      "item": 15
+    },
+    {
+      "component": 5,
+      "item": 15
+    },
+    {
+      "component": 3,
+      "item": 37
+    }
+  ]
+}]

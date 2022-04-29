@@ -37,10 +37,10 @@ export default {
     );
   },
 
-  addMatch({ commit, dispatch }, match) {
+  addMatch: async ({ commit, dispatch }, match) => {
     commit(types.ADD_DATUM, match);
 
-    return dispatch("addPlacements", match);
+    await dispatch("addPlacements", match);
   },
 
   addPlacements: async ({ commit, dispatch, rootState }, match) => {
@@ -52,8 +52,6 @@ export default {
 
     await dispatch("addChampions", summoner.champions);
     await dispatch("addTraits", summoner.traits);
-
-    return summoner;
   },
 
   addChampions: async ({ commit, dispatch }, champions) =>
@@ -62,7 +60,7 @@ export default {
 
       commit(types.ADD_CHAMPION, { id, starred });
 
-      return await dispatch("addItems", champion.items);
+      await dispatch("addItems", champion.items);
     }),
 
   addItems: ({ commit }, items) =>

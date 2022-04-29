@@ -1,0 +1,1545 @@
+[
+  {
+    "name": "Aatrox",
+    "id": "TFT5_Aatrox",
+    "cost": 1,
+    "traits": ["Set5_Redeemed", "Set5_Legionnaire"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [60, 108, 194.4] },
+      { "name": "dps", "values": [39, 70, 126] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [0, 70] }
+    ],
+    "ability": {
+      "name": "Deathbringer Strike",
+      "description": "Aatrox strikes his target, dealing a percentage of his Attack Damage, and heals himself.",
+      "type": "Active",
+      "values": [
+        { "name": "Percent of Attack Damage (%)", "values": [220, 240, 280] },
+        { "name": "Healing", "values": [200, 300, 450] }
+      ]
+    },
+    "items": [57, 36, 77, 47, 35]
+  },
+  {
+    "name": "Akshan",
+    "id": "TFT5_Akshan",
+    "cost": 5,
+    "traits": [
+      "Set5_Sentinel",
+      "Set5_Ranger"
+    ],
+    "stats": [
+      { "name": "health", "values": [850, 1530, 2754] },
+      { "name": "attack", "values": [80, 144, 259.2] },
+      { "name": "dps", "values": [80, 144, 259] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 1 },
+      { "name": "armour", "values": 35 },
+      { "name": "resistance", "values": 35 },
+      { "name": "mana", "values": [60, 120] }
+    ],
+    "ability": {
+      "name": "Heroic Swing",
+      "description": "Passive: Akshan's attacks reduce the target's Armor by 50% for a few seconds.\n\nActive: Akshan launches his grappling hook and swings untargetably toward the farthest enemy, gaining Attack Speed for 4 seconds. Akshan will continue to attack the nearest enemy at double his Attack Speed while swinging.",
+      "type": "Active",
+      "values": [{ "name": "Attack Speed (%)", "values": [70, 85, 400] }]
+    },
+    "items": [16, 23, 11, 26, 49]
+  },
+  {
+    "name": "Aphelios",
+    "id": "TFT5_Aphelios",
+    "cost": 4,
+    "traits": ["Set5_Nightbringer", "Set5_Ranger"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [80, 144, 259.2] },
+      { "name": "dps", "values": [] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.9 },
+      { "name": "armour", "values": 25 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [0, 100] }
+    ],
+    "ability": {
+      "name": "Dark Vigil",
+      "description": "Aphelios launches attacks simultaneously, one at his target and the rest at the enemies nearest to them, dealing a percentage of his Attack Damage plus bonus physical damage to each.",
+      "type": "Active",
+      "values": [
+        { "name": "Percent of Attack Damage (%)", "values": [1.8, 2, 2.4] },
+        { "name": "Number of Targets", "values": [4, 4, 8] },
+        { "name": "Bonus Damage", "values": [150, 250, 400] }
+      ]
+    },
+    "items": [23, 16, 11, 49, 29]
+  },
+  {
+    "name": "Ashe",
+    "id": "TFT5_Ashe",
+    "cost": 3,
+    "traits": ["Set5_Draconic", "Set5_Ranger"],
+    "stats": [
+      { "name": "health", "values": [550, 990, 1782] },
+      { "name": "attack", "values": [65, 117, 210.6] },
+      { "name": "dps", "values": [49, 88, 158] },
+      { "name": "range", "values": 6 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 20 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [50, 90] }
+    ],
+    "ability": {
+      "name": "Enchanted Arrow",
+      "description": "Ashe fires an arrow at the farthest enemy, dealing magic damage to the first enemy hit and stunning them. If the arrow travels at least 5 hexes, the stun duration is doubled. Enemies within 1 hex receive 50% of these effects.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [300, 400, 600] },
+        { "name": "Stun Duration", "values": [1.5, 2, 2.5] }
+      ]
+    },
+    "items": [23, 14, 26, 17, 24]
+  },
+  {
+    "name": "Brand",
+    "id": "TFT5_Brand",
+    "cost": 2,
+    "traits": ["Set5_Abomination", "Set5_Spellweaver"],
+    "stats": [
+      { "name": "health", "values": [550, 990, 1782] },
+      { "name": "attack", "values": [45, 81, 145.8] },
+      { "name": "dps", "values": [29, 53, 95] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 20 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [0, 20] }
+    ],
+    "ability": {
+      "description": "Brand launches a ball of fire at the nearest non-seared enemy, searing them for magic damage over 12 seconds. Seared enemies have reduced Magic Resist.",
+      "type": "Active",
+      "name": "Sear",
+      "values": [
+        { "name": "Damage", "values": [700, 900, 1400] },
+        { "name": "Magic Resist Shred", "values": [40, 50, 70] }
+      ]
+    },
+    "items": [44, 37, 39, 46, 57]
+  },
+  {
+    "name": "Diana",
+    "id": "TFT5_Diana",
+    "cost": 4,
+    "traits": ["Set5_Nightbringer", "Set5_Assassin"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [55, 99, 178.2] },
+      { "name": "dps", "values": [36, 64, 116] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [80, 160] }
+    ],
+    "ability": {
+      "name": "Moonfall",
+      "description": "Diana calls forth moonlight, drawing in all nearby enemies, dealing magic damage and stunning them for several seconds.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [250, 350, 1500] },
+        { "name": "Stun Duration", "values": [2, 2.5, 4] }
+      ]
+    },
+    "items": [45, 28, 37, 79, 57]
+  },
+  {
+    "name": "Draven",
+    "id": "TFT5_Draven",
+    "cost": 4,
+    "traits": ["Set5_Forgotten", "Set5_Legionnaire"],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [90, 162, 291.6] },
+      { "name": "dps", "values": [68, 122, 219] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 25 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [0, 50] }
+    ],
+    "ability": {
+      "name": "Spinning Axes",
+      "description": "Draven starts spinning an axe, empowering his next attack to deal a percentage of his Attack Damage plus @ModifiedDamage@ bonus physical damage. It will return to his original location after striking the target. If Draven catches it, he will empower the axe again. Draven can spin up to 2 axes at a time.",
+      "type": "Active",
+      "values": [
+        {
+          "name": "Attack Damage (%)",
+          "values": [180, 200, 260]
+        },
+        { "name": "Bonus Damage", "values": [150, 200, 500] }
+      ]
+    },
+    "items": [16, 23, 29, 19, 26]
+  },
+  {
+    "name": "Fiddlesticks",
+    "id": "TFT5_Fiddlesticks",
+    "cost": 4,
+    "traits": [
+      "Set5_Abomination",
+      "Set5_Revenant",
+      "Set5_Mystic"
+    ],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [60, 108, 194.4] },
+      { "name": "dps", "values": [45, 81, 146] },
+      { "name": "range", "values": 2 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [50, 125] }
+    ],
+    "ability": {
+      "name": "Crowstorm",
+      "description": "After a brief channel, Fiddlesticks teleports behind his target and summons a murder of crows for a while, dealing magic damage per second to all enemies within. Enemies that die within the flock extend its duration by 1 second and heal Fiddlesticks Health.",
+      "type": "Active",
+      "values": [
+        { "name": "Magic Damage", "values": [150, 200, 600] },
+        { "name": "Healing (%)", "values": [20, 25, 25] },
+        { "name": "Duration (%)", "values": [5, 5, 5] }
+      ]
+    },
+    "items": [89, 26, 37, 39, 45]
+  },
+  {
+    "name": "Galio",
+    "id": "TFT5_Galio",
+    "cost": 4,
+    "traits": [
+      "Set5_Draconic",
+      "Set5_Sentinel",
+      "Set5_Knight"
+    ],
+    "stats": [
+      { "name": "health", "values": [1000, 1800, 3240] },
+      { "name": "attack", "values": [70, 126, 226.8] },
+      { "name": "dps", "values": [42, 76, 136] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 60 },
+      { "name": "resistance", "values": 60 },
+      { "name": "mana", "values": [120, 180] }
+    ],
+    "ability": {
+      "name": "Shield of Durand",
+      "description": "Galio charges the area around him for 2.5 seconds, taunting all enemies within while gaining Damage Reduction. Upon releasing the charge, Galio deals magic damage to all enemies within 3 hexes and heals for 60% of the damage blocked.\n",
+      "type": "Active",
+      "values": [
+        { "name": "Magic Damage", "values": [200, 300, 1200] },
+        { "name": "Damage Reduction (%)", "values": [60, 70, 90] }
+      ]
+    },
+    "items": [57, 56, 77, 55, 47]
+  },
+  {
+    "name": "Garen",
+    "id": "TFT5_Garen",
+    "cost": 5,
+    "traits": ["Set5_Dawnbringer", "Set5_Knight"],
+    "stats": [
+      { "name": "health", "values": [1050, 1890, 3402] },
+      { "name": "attack", "values": [80, 144, 259.2] },
+      { "name": "dps", "values": [60, 108, 194] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 60 },
+      { "name": "resistance", "values": 60 },
+      { "name": "mana", "values": [30, 100] }
+    ],
+    "ability": {
+      "name": "God-Lion's Justice",
+      "description": "Garen calls down a sword that strikes a large area around his target, dealing a percentage of each target's max Health in magic damage and reducing their Magic Resist by 70% for 10 seconds. Garen gains a shield equal to a percentage of his maximum Health for 5 seconds.",
+      "type": "Active",
+      "values": [
+        {
+          "name": "Maximum Health Damage (%)",
+          "values": [20, 25, 200]
+        },
+        { "name": "Shield Amount (%)", "values": [50, 50, 200] }
+      ]
+    },
+    "items": [57, 77, 66, 25, 56]
+  },
+  {
+    "name": "Gragas",
+    "id": "TFT5_Gragas",
+    "cost": 1,
+    "traits": ["Set5_Dawnbringer", "Set5_Brawler"],
+    "stats": [
+      { "name": "health", "values": [750, 1350, 2430] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [25, 45, 81] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.5 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [40, 70] }
+    ],
+    "ability": {
+      "name": "Drunken Rage",
+      "description": "Gragas drinks from his cask, granting him percentage damage reduction for 4 seconds, and causing his next attack to deal bonus magic damage.",
+      "type": "Active",
+      "values": [
+        { "name": "Magic Damage", "values": [175, 250, 400] },
+        { "name": "Damage Reduction (%)", "values": [40, 50, 60] }
+      ]
+    },
+    "items": [57, 27, 56, 77, 66]
+  },
+  {
+    "name": "Gwen",
+    "id": "TFT5_Gwen",
+    "cost": 5,
+    "traits": [
+      "Set5_Inanimate",
+      "Set5_Mystic"
+    ],
+    "stats": [
+      { "name": "health", "values": [950, 1710, 3078] },
+      { "name": "attack", "values": [60, 108, 194.4] },
+      { "name": "dps", "values": [54, 97, 175] },
+      { "name": "range", "values": 2 },
+      { "name": "speed", "values": 0.9 },
+      { "name": "armour", "values": 50 },
+      { "name": "resistance", "values": 50 },
+      { "name": "mana", "values": [0, 20] }
+    ],
+    "ability": {
+      "name": "Skip 'N Slash",
+      "description": "Gwen dashes around her target and performs 3 rapid snips in a cone in front of her, each dealing base damage plus % of the target’s maximum Health as magic damage. Snips steal Armor and Magic resist from their target.\n\nEvery other cast, Gwen will perform double the amount of snips.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [125, 200, 2222] },
+        { "name": "Max Health Damage (%)", "values": [4, 7, 50] },
+        { "name": "Armor & Magic Resist", "values": [2, 2, 11] }
+      ]
+    },
+    "items": [44, 13, 79, 49, 39]
+  },
+  {
+    "name": "Hecarim",
+    "id": "TFT5_Hecarim",
+    "cost": 2,
+    "traits": ["Set5_Forgotten", "Set5_Cavalier"],
+    "stats": [
+      { "name": "health", "values": [750, 1350, 2430] },
+      { "name": "attack", "values": [55, 99, 178.2] },
+      { "name": "dps", "values": [30, 54, 98] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.55 },
+      { "name": "armour", "values": 45 },
+      { "name": "resistance", "values": 45 },
+      { "name": "mana", "values": [0, 90] }
+    ],
+    "ability": {
+      "name": "Spirit of Dread",
+      "description": "Hecarim creates an aura around himself for 3 seconds. Each enemy within the aura takes magic damage and heals Hecarim over the duration.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [450, 600, 1200] },
+        { "name": "Healing", "values": [300, 400, 800] }
+      ]
+    },
+    "items": [57, 77, 56, 66, 55]
+  },
+  {
+    "name": "Heimerdinger",
+    "id": "TFT5_Heimerdinger",
+    "cost": 5,
+    "traits": ["Set5_Draconic", "Set5_Renewer", "Set5_Caretaker"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [45, 81, 145.8] },
+      { "name": "dps", "values": [34, 61, 109] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [0, 120] }
+    ],
+    "ability": {
+      "name": "Upgrade!!!",
+      "description": "Heimerdinger empowers his Baby Dragon's next attack. The Baby Dragon's overcharged attack launches 3 fireballs across the battlefield, dealing magic damage and burning enemies for 18% of their maximum Health as true damage over 6 seconds, reducing healing by 50% for the duration. If Heimerdinger does not have a Baby Dragon, this Ability will create one instead.",
+      "type": "Active",
+      "values": [
+        { "name": "TurretMagicDamage", "values": [350, 500, 7777] }
+      ]
+    },
+    "items": [39, 23, 14, 15, 49]
+  },
+  {
+    "name": "Ivern",
+    "id": "TFT5_Ivern",
+    "cost": 4,
+    "traits": ["Set5_Revenant", "Set5_Invoker", "Set5_Renewer"],
+    "stats": [
+      { "name": "health", "values": [1000, 1800, 3240] },
+      { "name": "attack", "values": [40, 72, 129.6] },
+      { "name": "dps", "values": [30, 54, 97] },
+      { "name": "range", "values": 2 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 50 },
+      { "name": "resistance", "values": 50 },
+      { "name": "mana", "values": [80, 160] }
+    ],
+    "ability": {
+      "name": "Daisy!",
+      "description": "Ivern summons his Sentinel friend Daisy to fight with him. Daisy receives 100% of Ivern's Ability Power and immediately casts Shockwave upon arrival.If Daisy is already in battle, Ivern increases her Ability Power by and commands her to cast Shockwave again.",
+      "type": "Active",
+      "values": [
+        { "name": "Daisy Health", "values": [1500, 2500, 10000] },
+        { "name": "Shield Amount", "values": [600, 900, 3000] },
+        { "name": "Ability Power (%)", "values": [50, 75, 300] }
+      ]
+    },
+    "items": [78, 57, 47, 77, 66]
+  },
+  {
+    "name": "Irelia",
+    "id": "TFT5_Irelia",
+    "cost": 2,
+    "traits": [
+      "Set5_Sentinel",
+      "Set5_Skirmisher",
+      "Set5_Legionnaire"
+    ],
+    "stats": [
+      { "name": "health", "values": [750, 1350, 2430] },
+      { "name": "attack", "values": [60, 108, 194.4] },
+      { "name": "dps", "values": [48, 86, 156] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.8 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [40, 80] }
+    ],
+    "ability": {
+      "name": "Defiant Dance",
+      "description": "Irelia surrounds herself with blades for 4 seconds and gains damage reduction, increasing by 10% each time she attacks, up to 80%. When the effect ends she strikes her target as magic damage.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [250, 400, 650] },
+        { "name": "Damage Reduction (%)", "values": [30, 40, 50] }
+      ]
+    },
+    "items": [57, 79, 47, 77, 55]
+
+  },
+  {
+    "name": "Jax",
+    "id": "TFT5_Jax",
+    "cost": 4,
+    "traits": ["Set5_Ironclad", "Set5_Skirmisher"],
+    "stats": [
+      { "name": "health", "values": [900, 1260, 2916] },
+      { "name": "attack", "values": [80, 144, 259.2] },
+      { "name": "dps", "values": [68, 122, 220] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.85 },
+      { "name": "armour", "values": 50 },
+      { "name": "resistance", "values": 50 },
+      { "name": "mana", "values": [0, 20] }
+    ],
+    "ability": {
+      "name": "Empowered Strike",
+      "description": "Jax slams his target for a percentage of his Attack Damage and gains stacking Attack Speed for the remainder of combat. Jax leaps to the nearest enemy if no target is in his Attack Range.",
+      "type": "Active",
+      "values": [
+        { "name": "Attack Damage (%)", "values": [200, 220, 300] },
+        {
+          "name": "Attack Speed (%)",
+          "values": [30, 35, 50]
+        }
+      ]
+    },
+    "items": [16, 69, 26, 49, 23]
+  },
+  {
+    "name": "Kalista",
+    "id": "TFT5_Kalista",
+    "cost": 1,
+    "traits": ["Set5_Abomination", "Set5_Legionnaire"],
+    "stats": [
+      { "name": "health", "values": [500, 900, 1620] },
+      { "name": "attack", "values": [60, 108, 194.4] },
+      { "name": "dps", "values": [45, 81, 146] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 15 },
+      { "name": "resistance", "values": 15 },
+      { "name": "mana", "values": [0, 120] }
+    ],
+    "ability": {
+      "name": "Pierce",
+      "description": "Kalista hurls a spear towards the farthest enemy, dealing a percentage of her Attack Damage plus bonus physical damage to the first enemy it hits. If it kills an enemy, the spear continues and will deal any excess damage to the next enemy it hits.",
+      "type": "Active",
+      "values": [
+        {
+          "name": "Attack Damage (%)",
+          "values": [180, 200, 240]
+        },
+        { "name": "Bonus Damage", "values": [350, 600, 950] }
+      ]
+    },
+    "items": [23, 16, 19, 26, 67]
+  },
+  {
+    "name": "Karma",
+    "id": "TFT5_Karma",
+    "cost": 4,
+    "traits": ["Set5_Dawnbringer", "Set5_Invoker"],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [45, 81, 145.8] },
+      { "name": "dps", "values": [32, 57, 102] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [0, 60] }
+    ],
+    "ability": {
+      "name": "Soulflare",
+      "description": "Karma fires a burst of energy towards a random enemy's location that detonates upon impact, dealing magic damage to adjacent enemies, and reducing Karma's maximum Mana (down to a minimum of 10). Karma empowers every third cast, causing it to launch 3 bursts of energy toward different targets instead of 1.",
+      "type": "Active",
+      "values": [
+        { "name": "Magic Damage", "values": [180, 240, 700] },
+        { "name": "Mana Cost Reduction", "values": [20, 20, 40] }
+      ]
+    },
+    "items": [44, 39, 33, 13, 14]
+  },
+  {
+    "name": "Kayle",
+    "id": "TFT5_Kayle",
+    "cost": 5,
+    "traits": ["Set5_Redeemed", "Set5_Legionnaire"],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [60, 108, 194.4] },
+      { "name": "dps", "values": [60, 108, 194] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 1 },
+      { "name": "armour", "values": 25 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [0, 5] }
+    ],
+    "ability": {
+      "name": "Divine Ascent",
+      "description": "Kayle ascends every few seconds. Each bonus stacks with the one before, until she is fully ascended.\n\n 1st: Attacks deal a percentage of Kayle's Attack Damage as bonus true damage.\n 2nd: Attacks explode around the target dealing her Attack Damage and bonus true damage to adjacent enemies.\n 3rd: Every 7th attack grants Kayle immunity to damage for 1 second.\n 4th: Attacks cause swords to rain down around the target, dealing magic damage.",
+      "type": "Passive",
+      "values": [
+        { "name": "Attack Damage (%)", "values": [90, 100, 1000] },
+        { "name": "AoE Damage", "values": [200, 300, 10000] },
+        { "name": "Ascension Delay (s)", "values": [5, 5, 1] }
+      ]
+    },
+    "items": [23, 15, 49, 22, 16]
+  },
+  {
+    "name": "Kennen",
+    "id": "TFT5_Kennen",
+    "cost": 2,
+    "traits": ["Set5_Hellion", "Set5_Skirmisher"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [33, 59, 105] },
+      { "name": "range", "values": 2 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [50, 100] }
+    ],
+    "ability": {
+      "name": "Flame Rush",
+      "description": "Kennen engulfs himself in flame, dashing behind his target, then to the farthest enemy. Enemies he passes through are zapped dealing magic damage and stunning them for several seconds.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [150, 200, 300] },
+        { "name": "Stun Duration (s)", "values": [1.5, 2, 3] }
+      ]
+    },
+    "items": [37, 45, 15, 79, 36]
+  },
+  {
+    "name": "Kha'Zix",
+    "id": "TFT5_Khazix",
+    "cost": 1,
+    "traits": ["Set5_Dawnbringer", "Set5_Assassin"],
+    "stats": [
+      { "name": "health", "values": [500, 900, 1620] },
+      { "name": "attack", "values": [55, 99, 178.2] },
+      { "name": "dps", "values": [39, 69, 125] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 25 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [0, 60] }
+    ],
+    "ability": {
+      "name": "Taste their Fear",
+      "description": "Kha'Zix slashes the nearest enemy, dealing magic damage. If the enemy has no adjacent allies, this damage is increased.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [250, 350, 550] },
+        {
+          "name": "Isolation Damage",
+          "values": [750, 1050, 1650]
+        }
+      ]
+    },
+    "items": [19, 22, 67, 15, 29]
+  },
+  {
+    "name": "Kled",
+    "id": "TFT5_Kled",
+    "cost": 1,
+    "traits": ["Set5_Hellion", "Set5_Cavalier"],
+    "stats": [
+      { "name": "health", "values": [400, 720, 1296] },
+      { "name": "attack", "values": [60, 108, 194.4] },
+      { "name": "dps", "values": [42, 76, 136] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [0, 0] }
+    ],
+    "ability": {
+      "name": "Violent Tendencies",
+      "description": "Kled enters combat on Skaarl, granting himself a shield for 80% of his maximum Health. When the shield is broken Kled dismounts, becoming untargetable briefly, and gaining Attack Speed and causing every 4th attack to deal 200% of his Attack Damage.",
+      "type": "Passive",
+      "values": [
+        {
+          "name": "Attack Speed (%)",
+          "values": [70, 80, 100]
+        }
+      ]
+    },
+    "items": [16, 57, 27, 25, 56]
+  },
+  {
+    "name": "Lee Sin",
+    "id": "TFT5_LeeSin",
+    "cost": 3,
+    "traits": ["Set5_Nightbringer", "Set5_Skirmisher"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [60, 108, 194.4] },
+      { "name": "dps", "values": [45, 81, 146] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 35 },
+      { "name": "resistance", "values": 35 },
+      { "name": "mana", "values": [30, 70] }
+    ],
+    "ability": {
+      "name": "Cripple",
+      "description": "Lee Sin slams the ground, dealing magic damage to nearby enemies and slowing their Attack Speed by 50% for 4 seconds.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [0, 200, 300, 650, 0, 0, 0] }
+      ]
+    },
+    "items": [17, 35, 57, 47, 55]
+  },
+  {
+    "name": "Leona",
+    "id": "TFT5_Leona",
+    "cost": 1,
+    "traits": ["Set5_Redeemed", "Set5_Knight"],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [28, 50, 89] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.55 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [0, 60] }
+    ],
+    "ability": {
+      "name": "Solar Barrier",
+      "description": "Leona creates a barrier around herself, reducing all incoming damage for 4 seconds.",
+      "type": "Active",
+      "values": [
+        {
+          "name": "Damage Reduction",
+          "values": [40, 80, 400]
+        }
+      ]
+    },
+    "items": [57, 56, 77, 55, 47]
+  },
+  {
+    "name": "Lucian",
+    "id": "TFT5_Lucian",
+    "cost": 4,
+    "traits": [
+      "Set5_Sentinel",
+      "Set5_Cannoneer"
+    ],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [70, 126, 226.8] },
+      { "name": "dps", "values": [53, 95, 170] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 25 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [0, 50] }
+    ],
+    "ability": {
+      "name": "The Culling",
+      "description": "Lucian faces the farthest enemy and fires 16 shots in that direction for 4 seconds, dashing on occasion to keep hitting enemies. Each shot hits for 50% of his Attack Damage and dealing magic damage. Lucian also fires extra shots based on his Attack Speed.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [50, 90, 400] }
+      ]
+    },
+    "items": [29, 49, 16, 11, 23]
+  },
+  {
+    "name": "Lulu",
+    "id": "TFT5_Lulu",
+    "cost": 3,
+    "traits": ["Set5_Hellion", "Set5_Mystic"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [40, 72, 129.6] },
+      { "name": "dps", "values": [24, 43, 78] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 25 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [50, 100] }
+    ],
+    "ability": {
+      "name": "Whimsy",
+      "description": "Lulu enchants the units nearest to her. Enchanted allies gain a percentage bonus Attack Speed for 4 seconds. Enchanted enemies are stunned and transformed into a docile feline for several seconds, taking 20% increased damage. If there are less than 3 units nearby, Lulu will enchant herself.",
+      "type": "Active",
+      "values": [
+        { "name": "Number of Targets", "values": [3, 4, 5] },
+        {
+          "name": "Attack Speed (%)",
+          "values": [70, 80, 100]
+        },
+        { "name": "Stun Duration", "values": [2, 2.5, 3] }
+      ]
+    },
+    "items": [46, 17, 14, 67, 24]
+  },
+  {
+    "name": "Lux",
+    "id": "TFT5_Lux",
+    "cost": 3,
+    "traits": ["Set5_Redeemed", "Set5_Mystic"],
+    "stats": [
+      { "name": "health", "values": [600, 1080, 1944] },
+      { "name": "attack", "values": [40, 72, 129.6] },
+      { "name": "dps", "values": [24, 43, 78] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 20 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [40, 70] }
+    ],
+    "ability": {
+      "name": "Prismatic Illumination",
+      "description": "Lux launches her wand toward her farthest ally, then calls the wand back to her hand. The wand shields each ally in its path for 3 seconds. Lux also empowers her next attack to deal an additional amount of magic damage.",
+      "type": "Active",
+      "values": [
+        {
+          "name": "ShieldAmount",
+          "values": [150, 225, 400]
+        },
+        { "name": "Damage", "values": [400, 600, 1000] }
+      ]
+    },
+    "items": [46, 67, 17, 14, 44]
+  },
+  {
+    "name": "Miss Fortune",
+    "id": "TFT5_MissFortune",
+    "cost": 3,
+    "traits": [
+      "Set5_Forgotten",
+      "Set5_Cannoneer"
+    ],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [55, 99, 178.2] },
+      { "name": "dps", "values": [44, 79, 143] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.8 },
+      { "name": "armour", "values": 25 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [0, 70] }
+    ],
+    "ability": {
+      "name": "Make it Rain",
+      "description": "Miss Fortune rains 4 waves of bullets down around her target, dealing total magic damage to enemies in the area and reducing their incoming healing by 50% for 6 seconds.",
+      "type": "Active",
+      "values": [{ "name": "Damage", "values": [250, 375, 600] }]
+    },
+    "items": [14, 79, 34, 17, 39]
+  },
+  {
+    "name": "Nautilus",
+    "id": "TFT5_Nautilus",
+    "cost": 2,
+    "traits": ["Set5_Ironclad", "Set5_Knight"],
+    "stats": [
+      { "name": "health", "values": [750, 1350, 2430] },
+      { "name": "attack", "values": [65, 117, 210.6] },
+      { "name": "dps", "values": [36, 64, 116] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.55 },
+      { "name": "armour", "values": 45 },
+      { "name": "resistance", "values": 45 },
+      { "name": "mana", "values": [50, 120] }
+    ],
+    "ability": {
+      "name": "Anchor Slam",
+      "description": "Nautilus causes the ground beneath his target to erupt, knocking them up, stunning them for several seconds, and dealing magic damage. Enemies adjacent to the target receive 50% of this effect.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [100, 200, 500] },
+        { "name": "Stun Duration", "values": [3, 4, 6] }
+      ]
+    },
+    "items": [57, 27, 59, 35, 47]
+  },
+  {
+    "name": "Nidalee",
+    "id": "TFT5_Nidalee",
+    "cost": 3,
+    "traits": ["Set5_Dawnbringer", "Set5_Skirmisher"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [65, 117, 210.6] },
+      { "name": "dps", "values": [59, 105, 190] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 0.9 },
+      { "name": "armour", "values": 35 },
+      { "name": "resistance", "values": 35 },
+      { "name": "mana", "values": [0, 75] }
+    ],
+    "ability": {
+      "name": "Aspect of the Cougar",
+      "description": "Nidalee transforms into a cougar, leaping behind the lowest Health enemy. While in cougar form, Nidalee gains Dodge Chance and her Attack Range is reduced to 1 hex. Whenever she Dodges or critically strikes, her next attack deals bonus magic damage.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [100, 150, 300] },
+        { "name": "Dodge Chance (%)", "values": [30, 40, 50] }
+      ]
+    },
+    "items": [23, 19, 26, 22, 16]
+  },
+  {
+    "name": "Nocturne",
+    "id": "TFT5_Nocturne",
+    "cost": 3,
+    "traits": ["Set5_Revenant", "Set5_Assassin"],
+    "stats": [
+      { "name": "health", "values": [600, 1080, 1944] },
+      { "name": "attack", "values": [80, 144, 259.2] },
+      { "name": "dps", "values": [68, 122, 220] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.85 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [0, 0] }
+    ],
+    "ability": {
+      "name": "Umbra Blades",
+      "description": "Every third attack, Nocturne slashes all adjacent enemies for 125% of his Attack Damage, and heals himself for a percentage of the damage dealt. If only one target is hit, Nocturne increases his Attack Speed by a percentage for 3 seconds.",
+      "type": "Passive",
+      "values": [
+        {
+          "name": "Healing (%)",
+          "values": [90, 95, 100]
+        },
+        { "name": "Attack Speed (%)", "values": [30, 35, 40] }
+      ]
+    },
+    "items": [29, 23, 26, 16, 19]
+  },
+  {
+    "name": "Nunu",
+    "id": "TFT5_Nunu",
+    "cost": 3,
+    "traits": ["Set5_Abomination", "Set5_Brawler"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [65, 117, 210.6] },
+      { "name": "dps", "values": [36, 64, 116] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.55 },
+      { "name": "armour", "values": 45 },
+      { "name": "resistance", "values": 45 },
+      { "name": "mana", "values": [0, 85] }
+    ],
+    "ability": {
+      "name": "Consume",
+      "description": "Willump bites his target, dealing magic damage. If Willump's target has less Health than he does before the bite, it deals an additional 50% damage and becomes true damage.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [200, 500, 750, 1800, 3200, 6400, 12800] }
+      ]
+    },
+    "items": [57, 77, 56, 45, 66]
+  },
+  {
+    "name": "Olaf",
+    "id": "TFT5_Olaf",
+    "cost": 1,
+    "traits": [
+      "Set5_Sentinel",
+      "Set5_Skirmisher"
+    ],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [65, 117, 210.6] },
+      { "name": "dps", "values": [46, 82, 147] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 35 },
+      { "name": "resistance", "values": 35 },
+      { "name": "mana", "values": [] }
+    ],
+    "ability": {
+      "name": "Berserker Rage",
+      "description": "Olaf gains Attack Speed for each 1% of missing health, and his attacks heal him.",
+      "type": "Passive",
+      "values": [
+        { "name": "Attack Speed (%)", "values": [2, 3, 4] },
+        { "name": "Healing", "values": [20, 30, 70] }
+      ]
+    },
+    "items": [79, 59, 17, 26, 67]
+  },
+  {
+    "name": "Poppy",
+    "id": "TFT5_Poppy",
+    "cost": 1,
+    "traits": ["Set5_Hellion", "Set5_Knight"],
+    "stats": [
+      { "name": "health", "values": [600, 1080, 1944] },
+      { "name": "attack", "values": [80, 144, 259.2] },
+      { "name": "dps", "values": [44, 79, 143] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.55 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [40, 80] }
+    ],
+    "ability": {
+      "name": "Buckler Toss",
+      "description": "Poppy throws her buckler at the farthest enemy, dealing magic damage. The buckler then bounces back, granting Poppy a shield that blocks damage.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [150, 250, 350] },
+        { "name": "Shield Amount", "values": [250, 350, 450] }
+      ]
+    },
+    "items": [57, 56, 66, 55, 27]
+  },
+  {
+    "name": "Pyke",
+    "id": "TFT5_Pyke",
+    "cost": 2,
+    "traits": [
+      "Set5_Sentinel",
+      "Set5_Assassin"
+    ],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [33, 59, 105] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [60, 120] }
+    ],
+    "ability": {
+      "name": "Phantom Undertow",
+      "description": "Pyke leaves a phantom at his location, then dashes behind the farthest enemy. After 1 second, his phantom returns to Pyke, dealing magic damage and stunning all enemies it passes through.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [150, 225, 325] },
+        { "name": "Stun Duration", "values": [1.5, 2, 3] }
+      ]
+    },
+    "items": [45, 67, 59, 37, 17]
+  },
+  {
+    "name": "Rakan",
+    "id": "TFT5_Rakan",
+    "cost": 3,
+    "traits": [
+      "Set5_Sentinel",
+      "Set5_Renewer"
+    ],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [50, 90, 162] },
+      { "name": "dps", "values": [30, 54, 97] },
+      { "name": "range", "values": 2 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 35 },
+      { "name": "resistance", "values": 35 },
+      { "name": "mana", "values": [40, 80] }
+    ],
+    "ability": {
+      "name": "Gleaming Quill",
+      "description": "Rakan launches a feather toward his target, dealing magic damage to the first enemy hit. Rakan then heals all nearby allies based on their missing health, with an increased radius if the feather killed an enemy.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [300, 500, 800] },
+        { "name": "Healing (%)", "values": [30, 50, 70] }
+      ]
+    },
+    "items": [79, 47, 14, 17, 34]
+  },
+  {
+    "name": "Rell",
+    "id": "TFT5_Rell",
+    "cost": 4,
+    "traits": ["Set5_Redeemed", "Set5_Ironclad", "Set5_Cavalier"],
+    "stats": [
+      { "name": "health", "values": [950, 1710, 3078] },
+      { "name": "attack", "values": [70, 126, 226.8] },
+      { "name": "dps", "values": [42, 76, 136] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 60 },
+      { "name": "resistance", "values": 60 },
+      { "name": "mana", "values": [80, 140] }
+    ],
+    "ability": {
+      "name": "Attract and Repel",
+      "description": "Rell leaps into the air and creates a tether between herself and her farthest ally. When she lands, the tether breaks, stunning all nearby enemies in its path for several seconds. This effect also grants a Health shield for 4 seconds to nearby allies in the same area.",
+      "type": "Active",
+      "values": [
+        { "name": "Shield Amount", "values": [350, 500, 3000] },
+        { "name": "Stun Duration", "values": [2, 2.5, 8] }
+      ]
+    },
+    "items": [57, 56, 77, 27, 66]
+  },
+  {
+    "name": "Riven",
+    "id": "TFT5_Riven",
+    "cost": 3,
+    "traits": ["Set5_Dawnbringer", "Set5_Legionnaire"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [90, 162, 291.6] },
+      { "name": "dps", "values": [72, 130, 233] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.8 },
+      { "name": "armour", "values": 35 },
+      { "name": "resistance", "values": 35 },
+      { "name": "mana", "values": [0, 40] }
+    ],
+    "ability": {
+      "description": "Riven empowers her blade, stunning nearby enemies for 1.5 seconds and dealing them magic damage. For the next 8 seconds, she gains bonus Attack Damage.",
+      "name": "Blade of the Dawn",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [100, 200, 500] },
+        { "name": "Bonus Attack Damage (%)", "values": [80, 90, 100] }
+      ]
+    },
+    "items": [46, 57, 17, 15, 49]
+  },
+  {
+    "name": "Sejuani",
+    "id": "TFT5_Sejuani",
+    "cost": 2,
+    "traits": ["Set5_Nightbringer", "Set5_Cavalier"],
+    "stats": [
+      { "name": "health", "values": [750, 1350, 2430] },
+      { "name": "attack", "values": [45, 81, 145.8] },
+      { "name": "dps", "values": [25, 45, 80] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.55 },
+      { "name": "armour", "values": 45 },
+      { "name": "resistance", "values": 45 },
+      { "name": "mana", "values": [0, 60] }
+    ],
+    "ability": {
+      "name": "Fury of the North",
+      "description": "Sejuani signals Bristle to charge, dealing  magic damage and stunning her target for several seconds. She then gains Frost armour, granting her Armour and Magic Resist for 4 seconds.",
+      "type": "Active",
+      "values": [
+        { "name": "Armour and Magic Resist", "values": [60, 120, 300] },
+        { "name": "Stun Duration", "values": [2, 3, 4] },
+        { "name": "Magic Damage", "values": [300, 450, 750] }
+      ]
+    },
+    "items": [57, 56, 77, 47, 55]
+  },
+  {
+    "name": "Senna",
+    "id": "TFT5_Senna",
+    "cost": 1,
+    "traits": [
+      "Set5_Sentinel",
+      "Set5_Cannoneer"
+    ],
+    "stats": [
+      { "name": "health", "values": [500, 900, 1620] },
+      { "name": "attack", "values": [55, 99, 178.2] },
+      { "name": "dps", "values": [39, 69, 125] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 15 },
+      { "name": "resistance", "values": 15 },
+      { "name": "mana", "values": [40, 80] }
+    ],
+    "ability": {
+      "name": "Last Embrace",
+      "description": "Senna launches black mist toward the farthest enemy. The first enemy hit along the path is stunned for 1.5 seconds, and all nearby enemies are dealt magic damage.",
+      "type": "Active",
+      "values": [{ "name": "Damage", "values": [200, 300, 450] }]
+    },
+    "items": [79, 17, 67, 46, 24]
+  },
+  {
+    "name": "Sett",
+    "id": "TFT5_Sett",
+    "cost": 2,
+    "traits": ["Set5_Draconic", "Set5_Brawler"],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [70, 126, 226.8] },
+      { "name": "dps", "values": [49, 88, 159] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.67 },
+      { "name": "armour", "values": 35 },
+      { "name": "resistance", "values": 35 },
+      { "name": "mana", "values": [0, 40] }
+    ],
+    "ability": {
+      "name": "Haymaker",
+      "description": "Sett pulls back for a punch, shredding armour for 10 seconds (stacks) and dealing a percentage of his Attack Damage as physical damage to all enemies in the area.",
+      "type": "Active",
+      "values": [
+        {
+          "name": "Attack Damage (%)",
+          "values": [160, 180, 220]
+        },
+        { "name": "Flat Armor Reduction", "values": [20, 25, 40] }
+      ]
+    },
+    "items": [57, 56, 77, 55, 66]
+  },
+  {
+    "name": "Soraka",
+    "id": "TFT5_Soraka",
+    "cost": 2,
+    "traits": ["Set5_Dawnbringer", "Set5_Renewer"],
+    "stats": [
+      { "name": "health", "values": [550, 990, 1782] },
+      { "name": "attack", "values": [40, 72, 129.6] },
+      { "name": "dps", "values": [24, 43, 77] },
+      { "name": "range", "values": 3 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 25 },
+      { "name": "resistance", "values": 25 },
+      { "name": "mana", "values": [30, 80] }
+    ],
+    "ability": {
+      "name": "Equinox",
+      "description": "Soraka calms the area around the enemy with the highest current percent Mana, dealing magic damage to all enemies hit and increasing the cost of their next Ability by a certain percentage.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [150, 250, 400] },
+        { "name": "Mana Cost Increase", "values": [35, 35, 50] }
+      ]
+    },
+    "items": [46, 79, 17, 37, 14]
+  },
+  {
+    "name": "Syndra",
+    "id": "TFT5_Syndra",
+    "cost": 2,
+    "traits": ["Set5_Redeemed", "Set5_Invoker"],
+    "stats": [
+      { "name": "health", "values": [550, 990, 1782] },
+      { "name": "attack", "values": [40, 72, 129.6] },
+      { "name": "dps", "values": [26, 47, 84] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 20 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [50, 90] }
+    ],
+    "ability": {
+      "name": "Force of Will",
+      "description": "Syndra grabs the nearest enemy and flings them towards the farthest enemy, dealing magic damage to all nearby enemies upon impact and stunning the thrown target for several seconds.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [300, 400, 600] },
+        { "name": "Stun Duration", "values": [2, 2.5, 4] }
+      ]
+    },
+    "items": [46, 39, 44, 14, 17]
+  },
+  {
+    "name": "Teemo",
+    "id": "TFT5_Teemo",
+    "cost": 5,
+    "traits": ["Set5_Cruel", "Set5_Hellion", "Set5_Invoker"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [65, 117, 210.6] },
+      { "name": "dps", "values": [52, 94, 168] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.8 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [0, 60] }
+    ],
+    "ability": {
+      "name": "Teemo's Cruelty",
+      "description": "Teemo scatters Infernal Souls around a random enemy. When an enemy nears an Infernal Soul (or after 3 seconds), it explodes dealing magic damage to nearby enemies and reducing their Attack Speed by 50%.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [140, 175, 666] },
+        { "name": "Infernal Souls", "values": [4, 6, 42] }
+      ]
+    },
+    "items": [39, 24, 44, 15, 14]
+  },
+  {
+    "name": "Thresh",
+    "id": "TFT5_Thresh",
+    "cost": 2,
+    "traits": ["Set5_Forgotten", "Set5_Knight"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [55, 99, 178.2] },
+      { "name": "dps", "values": [33, 59, 107] },
+      { "name": "range", "values": 2 },
+      { "name": "speed", "values": 0.6 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [40, 80] }
+    ],
+    "ability": {
+      "name": "Death Sentence",
+      "description": "Thresh hooks his farthest enemy with his chain scythe, dealing magic damage and pulling them toward himself for several seconds.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [200, 400, 1000] },
+        { "name": "Duration", "values": [2, 3, 4] }
+      ]
+    },
+    "items": [17, 47, 67, 77, 57]
+  },
+  {
+    "name": "Tristana",
+    "id": "TFT5_Tristana",
+    "cost": 2,
+    "traits": ["Set5_Hellion", "Set5_Cannoneer"],
+    "stats": [
+      { "name": "health", "values": [550, 990, 1782] },
+      { "name": "attack", "values": [60, 108, 194.4] },
+      { "name": "dps", "values": [45, 81, 146] },
+      { "name": "range", "values": 5 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 20 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [50, 125] }
+    ],
+    "ability": {
+      "name": "Rocket Jump",
+      "description": "Tristana leaps behind the farthest enemy, retargeting to them and gaining Attack Speed for 4 seconds. If there is an enemy adjacent to her, she instead leaps as far away from all enemies as she can.",
+      "type": "Active",
+      "values": [
+        { "name": "Attack Speed", "values": [120, 130, 140] }
+      ]
+    },
+    "items": [29, 16, 26, 19, 11]
+  },
+  {
+    "name": "Udyr",
+    "id": "TFT5_Udyr",
+    "cost": 1,
+    "traits": ["Set5_Draconic", "Set5_Skirmisher"],
+    "stats": [
+      { "name": "health", "values": [700, 1260, 2268] },
+      { "name": "attack", "values": [55, 99, 178.2] },
+      { "name": "dps", "values": [41, 74, 134] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.75 },
+      { "name": "armour", "values": 30 },
+      { "name": "resistance", "values": 30 },
+      { "name": "mana", "values": [30, 40] }
+    ],
+    "ability": {
+      "name": "Feral Instinct",
+      "description": "Udyr swaps between Turtle and Tiger stance with each cast, gaining the following benefits: \n\n: Gain a Health shield for 4 seconds.\n\nTiger: Strike 3 times quickly with his next attack for a percentage of his Attack Damage.",
+      "type": "Active",
+      "values": [
+        { "name": "Shield Amount", "values": [250, 350, 550] },
+        { "name": "Attack Damage (%)", "values": [110, 120, 160] }
+      ]
+    },
+    "items": [57, 77, 56, 55, 66]
+  },
+  {
+    "name": "Varus",
+    "id": "TFT5_Varus",
+    "cost": 2,
+    "traits": ["Set5_Redeemed", "Set5_Ranger"],
+    "stats": [
+      { "name": "health", "values": [550, 990, 1782] },
+      { "name": "attack", "values": [65, 117, 210.6] },
+      { "name": "dps", "values": [52, 94, 168] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.8 },
+      { "name": "armour", "values": 20 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [0, 60] }
+    ],
+    "ability": {
+      "name": "Holy Arrows",
+      "description": "Varus fires a hail of arrows around his target, dealing a percentage of his Attack Damage as physical damage. Varus and allies within the area are blessed, causing them to deal bonus magic damage with their attacks for 6 seconds.",
+      "type": "Active",
+      "values": [
+        { "name": "Bonus Magic Damage", "values": [40, 60, 100] },
+        { "name": "Attack Damage (%)", "values": [150, 160, 180] }
+      ]
+    },
+    "items": [23, 17, 26, 16, 19]
+  },
+  {
+    "name": "Vayne",
+    "id": "TFT5_Vayne",
+    "cost": 1,
+    "traits": ["Set5_Forgotten", "Set5_Ranger"],
+    "stats": [
+      { "name": "health", "values": [500, 900, 1620] },
+      { "name": "attack", "values": [25, 45, 81] },
+      { "name": "dps", "values": [20, 36, 65] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.8 },
+      { "name": "armour", "values": 15 },
+      { "name": "resistance", "values": 15 },
+      { "name": "mana", "values": [0, 0] }
+    ],
+    "ability": {
+      "name": "Silver Bolts",
+      "description": "Vayne's third attack on a target deals bonus true damage.",
+      "type": "Passive",
+      "values": [
+        { "name": "Bonus True Damage", "values": [90, 120, 160] }
+      ]
+    },
+    "items": [26, 23, 39, 49, 2026]
+  },
+  {
+    "name": "Vel'Koz",
+    "id": "TFT5_Velkoz",
+    "cost": 4,
+    "traits": ["Set5_Redeemed", "Set5_Spellweaver"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [45, 81, 145.8] },
+      { "name": "dps", "values": [29, 53, 95] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 20 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [0, 80] }
+    ],
+    "ability": {
+      "name": "Lifeform Disintegration Ray",
+      "description": "Vel'Koz channels a ray of energy for 3 seconds toward the enemy nearest the center of the battlefield, dealing total magic damage over the duration. The beam widens as Vel'Koz channels, and he will pivot if there are no enemies in the area.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [1000, 1250, 4000] }
+      ]
+    },
+    "items": [39, 13, 14, 34, 44]
+  },
+  {
+    "name": "Viego",
+    "id": "TFT5_Viego",
+    "cost": 5,
+    "traits": ["Set5_Forgotten", "Set5_Skirmisher", "Set5_Assassin"],
+    "stats": [
+      { "name": "health", "values": [1000, 1800, 3240] },
+      { "name": "attack", "values": [70, 126, 226.8] },
+      { "name": "dps", "values": [70, 126, 227] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 1 },
+      { "name": "armour", "values": 40 },
+      { "name": "resistance", "values": 40 },
+      { "name": "mana", "values": [0, 40] }
+    ],
+    "ability": {
+      "name": "Sovereign's Domination",
+      "description": "Viego corrupts the soul of his target for 5 seconds, stunning them and dealing magic damage, increasing 100% each second. Viego will be interrupted if he is stunned, and Viego's allies prefer not to target his victim during soul corruption. \n\n If his victim dies, they are resurrected at full Health to fight for him, but they lose a percentage of their maximum Health per second. Resurrected enemies receive the Trait bonuses of Viego's team instead of their own.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [200, 300, 1500] },
+        {
+          "name": "Resurrected Health Loss per second (%)",
+          "values": [15, 7, 0]
+        }
+      ]
+    },
+    "items": [15, 44, 69, 45, 14]
+  },
+  {
+    "name": "Vladimir",
+    "id": "TFT5_Vladimir",
+    "cost": 1,
+    "traits": ["Set5_Nightbringer", "Set5_Renewer"],
+    "stats": [
+      { "name": "health", "values": [650, 1170, 2106] },
+      { "name": "attack", "values": [45, 81, 145.8] },
+      { "name": "dps", "values": [29, 53, 95] },
+      { "name": "range", "values": 2 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 35 },
+      { "name": "resistance", "values": 35 },
+      { "name": "mana", "values": [0, 85] }
+    ],
+    "ability": {
+      "name": "Transfusion",
+      "description": "Vladimir deals magic damage to the target and heals for himself.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [250, 350, 450] },
+        { "name": "Heal", "values": [200, 280, 360] }
+      ]
+    },
+    "items": [77, 66, 56, 57, 25]
+  },
+  {
+    "name": "Volibear",
+    "id": "TFT5_Volibear",
+    "cost": 5,
+    "traits": ["Set5_Revenant", "Set5_Brawler"],
+    "stats": [
+      { "name": "health", "values": [1100, 1980, 3564] },
+      { "name": "attack", "values": [80, 144, 259.2] },
+      { "name": "dps", "values": [52, 94, 168] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 0.65 },
+      { "name": "armour", "values": 60 },
+      { "name": "resistance", "values": 60 },
+      { "name": "mana", "values": [100, 170] }
+    ],
+    "ability": {
+      "name": "Doombringer",
+      "description": "Volibear leaps toward his target, then slams the ground in a large area around him. This effect knocks up and stuns enemies for several seconds, removing any shields and dealing magic damage.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [150, 250, 2000] },
+        { "name": "Stun Duration", "values": [2.5, 3, 10] }
+      ]
+    },
+    "items": [37, 57, 56, 77, 66]
+  },
+  {
+    "name": "Yasuo",
+    "id": "TFT5_Yasuo",
+    "cost": 3,
+    "traits": ["Set5_Nightbringer", "Set5_Legionnaire"],
+    "stats": [
+      { "name": "health", "values": [800, 1440, 2592] },
+      { "name": "attack", "values": [60, 108, 194.4] },
+      { "name": "dps", "values": [60, 108, 194] },
+      { "name": "range", "values": 1 },
+      { "name": "speed", "values": 1 },
+      { "name": "armour", "values": 35 },
+      { "name": "resistance", "values": 35 },
+      { "name": "mana", "values": [0, 40] }
+    ],
+    "ability": {
+      "name": "Burning Blade",
+      "description": "Yasuo strikes his target, dealing magic damage. He then empowers his blade, gaining stacking bonus true damage on-hit for the rest of combat.",
+      "type": "Active",
+      "values": [
+        { "name": "Magic Damage", "values": [300, 400, 600] },
+        { "name": "Bonus True Damage", "values": [30, 40, 60] }
+      ]
+    },
+    "items": [46, 17, 22, 39, 35]
+  },
+  {
+    "name": "Ziggs",
+    "id": "TFT5_Ziggs",
+    "cost": 1,
+    "traits": ["Set5_Hellion", "Set5_Spellweaver"],
+    "stats": [
+      { "name": "health", "values": [500, 900, 1620] },
+      { "name": "attack", "values": [40, 72, 129.6] },
+      { "name": "dps", "values": [34, 61, 110] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.85 },
+      { "name": "armour", "values": 15 },
+      { "name": "resistance", "values": 15 },
+      { "name": "mana", "values": [0, 40] }
+    ],
+    "ability": {
+      "name": "Arcane Bomb",
+      "description": "Ziggs throws an arcane bomb at his target, dealing magic damage.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [250, 350, 450] }
+      ]
+    },
+    "items": [24, 39, 44, 13, 49]
+  },
+  {
+    "name": "Zyra",
+    "id": "TFT5_Zyra",
+    "cost": 3,
+    "traits": ["Set5_Draconic", "Set5_Spellweaver"],
+    "stats": [
+      { "name": "health", "values": [600, 1080, 1944] },
+      { "name": "attack", "values": [40, 72, 129.6] },
+      { "name": "dps", "values": [28, 50, 91] },
+      { "name": "range", "values": 4 },
+      { "name": "speed", "values": 0.7 },
+      { "name": "armour", "values": 20 },
+      { "name": "resistance", "values": 20 },
+      { "name": "mana", "values": [60, 120] }
+    ],
+    "ability": {
+      "name": "Grasping Roots",
+      "description": "Zyra sends a surge of vines toward her farthest enemy, dealing magic damage and stunning all enemies they hit.",
+      "type": "Active",
+      "values": [
+        { "name": "Damage", "values": [250, 350, 600] },
+        { "name": "Stun Duration", "values": [2, 2.5, 3] }
+      ]
+    },
+    "items": [46, 14, 39, 37, 23]
+  }
+]

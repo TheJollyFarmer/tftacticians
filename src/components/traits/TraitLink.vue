@@ -86,7 +86,7 @@ export default {
     },
 
     background() {
-      let image = require(`@/assets/images/traits/styles/${this.style}.svg`);
+      let image = `/assets/images/traits/styles/${this.style}.svg`;
 
       return { backgroundImage: "url(" + image + ")" };
     },
@@ -174,7 +174,6 @@ export default {
       top: 50%;
       transform: translateY(-50%);
       width: 100%;
-      //z-index: -1;
     }
   }
 }

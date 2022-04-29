@@ -1,9 +1,9 @@
-import items from "@/data/items.json";
+// import items from "@/data/items.json";
 import types from "./types";
 import { setQuery, setState } from "@/store/helpers/actions";
 
 export default {
-  setItems: setState(items),
+  setItems: setState("items"),
 
   setFilters({ dispatch }, { item, search }) {
     dispatch("setFilter", item);

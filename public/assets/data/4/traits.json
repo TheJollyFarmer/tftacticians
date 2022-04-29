@@ -1,0 +1,756 @@
+[
+  {
+    "key": "Set4_Adept",
+    "name": "Adept",
+    "description": "Adepts calm the flow of battle, reducing the Attack Speed of all enemies for a few seconds at the start of combat.",
+    "type": "class",
+    "champions": ["TFT4_Irelia", "TFT4_Shen", "TFT4_Yone"],
+    "sets": [
+      {
+        "description": "2 Seconds",
+        "style": "bronze",
+        "min": 2,
+        "max": 2
+      },
+      {
+        "description": "3.5 Seconds",
+        "style": "gold",
+        "min": 3,
+        "max": 3
+      },
+      {
+        "description": "6 Seconds",
+        "style": "chromatic",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "Set4_Assassin",
+    "name": "Assassin",
+    "innate": "At the start of combat, Assassins leap to the enemy backline.",
+    "description": "Assassins gain bonus Critical Strike Damage and Chance, and their spells can critically strike.",
+    "type": "class",
+    "champions": [
+      "TFT4b_Diana",
+      "TFT4_Pyke",
+      "TFT4_Akali",
+      "TFT4_Katarina",
+      "TFT4_Talon"
+    ],
+    "sets": [
+      {
+        "description": "25% Crit and 10% Crit Chance",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "60% Crit and 30% Crit Chance",
+        "style": "gold",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "100% Crit and 55% Crit Chance",
+        "style": "chromatic",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "Set4_Blacksmith",
+    "name": "Blacksmith",
+    "description": "",
+    "type": "class",
+    "champions": ["TFT4_Ornn"],
+    "sets": [
+      {
+        "description": "After each combat a Blacksmith participates in, they will make progress forging an Artifact. The higher their star-level, the faster they work. Once the Artifact is complete, it will become available to bestow upon an ally. Each ally may only equip one Artifact.",
+        "style": "gold",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "key": "Set4_Brawler",
+    "name": "Brawler",
+    "description": "Brawlers gain bonus Health.",
+    "type": "class",
+    "champions": [
+      "TFT4_TahmKench",
+      "TFT4_Maokai",
+      "TFT4_Vi",
+      "TFT4_Nunu",
+      "TFT4_Shyvana",
+      "TFT4_ChoGath",
+      "TFT4_Sett"
+    ],
+    "sets": [
+      {
+        "description": "400 Bonus Health and 10 Attack Damage",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "700 Bonus Health and 20 Attack Damage",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "1100 Bonus Health and 60 Attack Damage",
+        "style": "gold",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "description": "1600 Bonus Health and 120 Attack Damage",
+        "style": "chromatic",
+        "min": 8
+      }
+    ]
+  },
+  {
+    "key": "Cultist",
+    "name": "Cultist",
+    "description": "Once your team loses a percentage of their Health, Galio is summoned, slamming into the largest cluster of enemies and knocking them up.",
+    "type": "origin",
+    "champions": [
+      "TFT4_Elise",
+      "TFT4_TwistedFate",
+      "TFT4_Pyke",
+      "TFT4_Vladimir",
+      "TFT4_Kalista",
+      "TFT4_Sivir",
+      "TFT4_Aatrox",
+      "TFT4_Zilean"
+    ],
+    "sets": [
+      {
+        "description": "Tyrant Galio",
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "Demon Lord Galio",
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "description": "Supreme Overlord Galio",
+        "style": "chromatic",
+        "min": 9
+      }
+    ]
+  },
+  {
+    "key": "Set4_Daredevil",
+    "name": "Daredevil",
+    "description": "",
+    "type": "origin",
+    "champions": ["TFT4_Samira"],
+    "sets": [
+      {
+        "description": "Daredevils seek the thrill of battle, dashing after every other attack. After every dash, they shield themselves for a percentage of their max health and their next attack fires shots, gaining Style. At max Style, they cast their spell.",
+        "style": "gold",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "key": "Divine",
+    "name": "Divine",
+    "description": "Upon attacking several times or dropping below a percentage of their Health, Divine champions ascend, taking reduced damage and dealing bonus true damage for the rest of combat.",
+    "type": "origin",
+    "champions": [
+      "TFT4_Nasus",
+      "TFT4_Wukong",
+      "TFT4_Jax",
+      "TFT4_Irelia",
+      "TFT4_Kayle",
+      "TFT4_LeeSin"
+    ],
+    "sets": [
+      {
+        "description": "35% Damage Reduction and Bonus True Damage",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "45% Damage Reduction and Bonus True Damage",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "55% Damage Reduction and Bonus True Damage",
+        "style": "gold",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "description": "65% Damage Reduction and Bonus True Damage",
+        "style": "chromatic",
+        "min": 8
+      }
+    ]
+  },
+  {
+    "key": "Set4_Dragonsoul",
+    "name": "Dragonsoul",
+    "description": "The first Dragonsoul allies to take damage in combat receive the Dragon's Blessing. While blessed, the unit gains bonus stats, and every 5th attack fires a Dragonsoul blast, dealing a percentage of the target's maximum Health in magic damage. On death, this blessing passes to the closest Dragonsoul ally without a blessing.",
+    "type": "origin",
+    "champions": [
+      "TFT4_Tristana",
+      "TFT4_Brand",
+      "TFT4_Braum",
+      "TFT4_Shyvana",
+      "TFT4_AurelionSol",
+      "TFT4_Olaf",
+      "TFT4_Swain"
+    ],
+    "sets": [
+      {
+        "description": "1 Blessing, 40% Attack Speed and Spell Power",
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "1 Blessing, 80% Attack Speed and Spell Power",
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "description": "1 Blessing, 160% Attack Speed and Spell Power",
+        "style": "chromatic",
+        "min": 9
+      }
+    ]
+  },
+  {
+    "key": "Duelist",
+    "name": "Duelist",
+    "innate": "Duelists gain bonus Movement Speed.",
+    "description": "Duelists' attacks grant Attack Speed.",
+    "type": "class",
+    "champions": [
+      "TFT4_Fiora",
+      "TFT4_Yasuo",
+      "TFT4_Jax",
+      "TFT4_Kalista",
+      "TFT4_Tryndamere",
+      "TFT4_LeeSin"
+    ],
+    "sets": [
+      {
+        "description": "15% Attack Speed per Stack",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "25% Attack Speed per Stack",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+
+      {
+        "description": "40% Attack Speed per Stack",
+        "style": "gold",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "description": "60% Attack Speed per Stack",
+        "style": "chromatic",
+        "min": 8
+      }
+    ]
+  },
+  {
+    "key": "Set4_Elderwood",
+    "name": "Elderwood",
+    "description": "Every two seconds all Elderwood champions grow, gaining bonus stats. This effect stacks up to five times.",
+    "type": "origin",
+    "champions": [
+      "TFT4_Maokai",
+      "TFT4_Lulu",
+      "TFT4_Rakan",
+      "TFT4_Veigar",
+      "TFT4_Nunu",
+      "TFT4_Xayah",
+      "TFT4_Ornn"
+    ],
+    "sets": [
+      {
+        "description": "15 Armour and Magic Resist, 5 Attack Damage and Spell Power",
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "25 Armour and Magic Resist, 10 Attack Damage and Spell Power",
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "description": "40 Armour and Magic Resist, 20 Attack Damage and Spell Power",
+        "style": "chromatic",
+        "min": 9
+      }
+    ]
+  },
+  {
+    "key": "Emperor",
+    "name": "Emperor",
+    "description": "",
+    "type": "class",
+    "champions": ["TFT4_Azir"],
+    "sets": [
+      {
+        "description": "The Emperor deploys with two Sand Guards who can be placed anywhere on the battlefield. They do not move or attack, and die when their Emperor does.",
+        "style": "gold",
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "key": "Set4_Enlightened",
+    "name": "Enlightened",
+    "description": "Enlightened champions generate more Mana.",
+    "type": "origin",
+    "champions": [
+      "TFT4_Fiora",
+      "TFT4_Janna",
+      "TFT4_Irelia",
+      "TFT4b_Morgana",
+      "TFT4_Talon"
+    ],
+    "sets": [
+      {
+        "description": "50% increase",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "100% increase",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "150% increase",
+        "style": "gold",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "Set4_Executioner",
+    "name": "Executioner",
+    "description": "Executioner attacks and spells always critically hit targets beneath a certain Health threshold.",
+    "type": "class",
+    "champions": ["TFT4b_Kindred", "TFT4_Xayah", "TFT4_Kayle"],
+    "sets": [
+      {
+        "description": "33% Health",
+        "style": "bronze",
+        "min": 2,
+        "max": 2
+      },
+      {
+        "description": "66% Health",
+        "style": "gold",
+        "min": 3,
+        "max": 3
+      },
+      {
+        "description": "99% Health",
+        "style": "chromatic",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "Set4_Exile",
+    "name": "Exile",
+    "description": "If an Exile has no adjacent allies at the start of combat, they gain a shield equal to a percentage of their maximum health and Lifesteal if there are two or more Exiles.",
+    "type": "origin",
+    "champions": ["TFT4_Yasuo", "TFT4_Yone"],
+    "sets": [
+      {
+        "description": "Shield equal to 50% of their maximum health",
+        "style": "bronze",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "description": "Shield equal to 50% of their Maximum Health and 80% Lifesteal",
+        "style": "gold",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "key": "Set4_Fabled",
+    "name": "Fabled",
+    "description": "",
+    "type": "origin",
+    "champions": ["TFT4_Nautilus", "TFT4_Neeko", "TFT4_ChoGath"],
+    "sets": [
+      {
+        "description": "Fabled champions' abilities are empowered from tales of their past valor.",
+        "style": "gold",
+        "min": 3
+      }
+    ]
+  },
+  {
+    "key": "Fortune",
+    "name": "Fortune",
+    "description": "",
+    "type": "origin",
+    "champions": [
+      "TFT4_TahmKench",
+      "TFT4_Annie",
+      "TFT4_Darius",
+      "TFT4_Katarina",
+      "TFT4_Sejuani"
+    ],
+    "sets": [
+      {
+        "description": "Winning combat against a player will give bonus orbs. The longer you've gone without an orb, the bigger the payout!",
+        "style": "gold",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "Wins give an extra bonus orb with rare loot!",
+        "style": "chromatic",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "Keeper",
+    "name": "Keeper",
+    "description": "At the start of combat, Keepers grant themselves and all nearby allies a shield for several seconds. This shield is stronger on Keepers.",
+    "type": "class",
+    "champions": [
+      "TFT4_Elise",
+      "TFT4_JarvanIV",
+      "TFT4_Rakan",
+      "TFT4_Kennen",
+      "TFT4_Xayah",
+      "TFT4_Azir"
+    ],
+    "sets": [
+      {
+        "description": "150 Shield for 8 seconds",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "200 Shield for 10 seconds",
+        "style": "gold",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "250 Shield for 12 seconds",
+        "style": "chromatic",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "Set4_Mage",
+    "name": "Mage",
+    "description": "Mages cast twice and have modified Spell Power.",
+    "type": "class",
+    "champions": [
+      "TFT4_Brand",
+      "TFT4_TwistedFate",
+      "TFT4_Annie",
+      "TFT4_Lulu",
+      "TFT4_Veigar",
+      "TFT4_AurelionSol"
+    ],
+    "sets": [
+      {
+        "description": "80% of their total Spell Power",
+        "style": "bronze",
+        "min": 3,
+        "max": 4
+      },
+      {
+        "description": "105% of their total Spell Power",
+        "style": "gold",
+        "min": 5,
+        "max": 6
+      },
+      {
+        "description": "135% of their total Spell Power",
+        "style": "chromatic",
+        "min": 7
+      }
+    ]
+  },
+  {
+    "key": "Set4_Mystic",
+    "name": "Mystic",
+    "description": "All allies gain Magic Resistance.",
+    "type": "class",
+    "champions": [
+      "TFT4_Janna",
+      "TFT4_Yuumi",
+      "TFT4_Neeko",
+      "TFT4_Shen",
+      "TFT4_Zilean"
+    ],
+    "sets": [
+      {
+        "description": "40 Magic Resistance",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "100 Magic Resistance",
+        "style": "gold",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "300 Magic Resistance",
+        "style": "chromatic",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "Set4_Ninja",
+    "name": "Ninja",
+    "description": "Ninjas gain bonus Attack Damage and Spell Power. This trait is only active when you have exactly 1 or 4 unique Ninjas.",
+    "type": "origin",
+    "champions": ["TFT4b_Zed", "TFT4_Akali", "TFT4_Kennen", "TFT4_Shen"],
+    "sets": [
+      {
+        "description": "50 Attack Damage and Spell Power",
+        "style": "bronze",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "description": "140 Attack Damage and Spell Power",
+        "style": "gold",
+        "min": 4,
+        "max": 4
+      }
+    ]
+  },
+  {
+    "key": "Sharpshooter",
+    "name": "Sharpshooter",
+    "description": "Sharpshooters attacks and spells ricochet to nearby enemies dealing reduced damage.",
+    "type": "class",
+    "champions": [
+      "TFT4_Nidalee",
+      "TFT4_Tristana",
+      "TFT4_Teemo",
+      "TFT4_Sivir",
+      "TFT4_Samira"
+    ],
+    "sets": [
+      {
+        "description": "2 Ricochets with 65% Reduced Damage",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "3 Ricochets with 45% Reduced Damage",
+        "style": "gold",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "4 Ricochets with 30% Reduced Damage",
+        "style": "chromatic",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "Set4_Slayer",
+    "name": "Slayer",
+    "description": "Slayers gain Lifesteal that gets stronger as their own Health decreases, and deal bonus damage that scales up based on their target's missing Health.",
+    "type": "class",
+    "champions": [
+      "TFT4_Pyke",
+      "TFT4b_Zed",
+      "TFT4_Darius",
+      "TFT4_Tryndamere",
+      "TFT4_Olaf",
+      "TFT4_Samira"
+    ],
+    "sets": [
+      {
+        "description": "15 to 30% Lifesteal and 20 to 45% Bonus Damage",
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "30 to 60% Lifesteal and 35 to 80% Bonus Damage",
+        "style": "gold",
+        "min": 6
+      }
+    ]
+  },
+  {
+    "key": "Set4_Spirit",
+    "name": "Spirit",
+    "description": "The first time a Spirit casts their spell, all allies gain Attack Speed based on the spell's mana cost.",
+    "type": "origin",
+    "champions": ["TFT4b_Diana", "TFT4_Teemo", "TFT4b_Kindred", "TFT4_Yuumi"],
+    "sets": [
+      {
+        "description": "20% Attack Speed",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "35% Attack Speed",
+        "style": "gold",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "Set4_Syphoner",
+    "name": "Syphoner",
+    "description": "All allies heal for some of the damage they deal with spells and attacks.",
+    "type": "class",
+    "champions": [
+      "TFT4_Nasus",
+      "TFT4_Vladimir",
+      "TFT4b_Morgana",
+      "TFT4_Swain"
+    ],
+    "sets": [
+      {
+        "description": "10% for Allies; 40% for Syphoners",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "25% for Allies; 100% for Syphoners",
+        "style": "gold",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "key": "Boss",
+    "name": "The Boss",
+    "description": "",
+    "type": "origin",
+    "champions": ["TFT4_Sett"],
+    "sets": [
+      {
+        "description": "When The Boss first drops below a percentage of his Health, he leaves combat to start doing sit-ups. Each sit-up restores a percentage of his maximum Health and gives him Attack and Movement Speed. If he reaches full Health he returns to combat Pumped Up: all of his attacks and spells deal true damage. If all of his allies die, he will immediately return to combat.",
+        "style": "gold",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "key": "Set4_Vanguard",
+    "name": "Vanguard",
+    "description": "Vanguard champions gain bonus Armor.",
+    "type": "class",
+    "champions": [
+      "TFT4_Garen",
+      "TFT4_Wukong",
+      "TFT4_Braum",
+      "TFT4_Nautilus",
+      "TFT4_Aatrox",
+      "TFT4_Sejuani",
+      "TFT4_Ornn"
+    ],
+    "sets": [
+      {
+        "description": "100 Armour and 20 Magic Resist",
+        "style": "bronze",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "description": "250 Armour and 40 Magic Resist",
+        "style": "silver",
+        "min": 4,
+        "max": 5
+      },
+      {
+        "description": "500 Armour and 70 Magic Resist",
+        "style": "gold",
+        "min": 6,
+        "max": 7
+      },
+      {
+        "description": "1000 Armour and 100 Magic Resist",
+        "style": "chromatic",
+        "min": 8
+      }
+    ]
+  },
+  {
+    "key": "Warlord",
+    "name": "Warlord",
+    "description": "Warlords have bonus Health and Spell Power. Each victorious combat they participate in increases the bonus.",
+    "type": "origin",
+    "champions": [
+      "TFT4_Nidalee",
+      "TFT4_Garen",
+      "TFT4_JarvanIV",
+      "TFT4_Vi",
+      "TFT4_Katarina",
+      "TFT4_Tryndamere",
+      "TFT4_Azir"
+    ],
+    "sets": [
+      {
+        "description": "250 HP and 25 Spell Power",
+        "style": "bronze",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "description": "500 HP and 50 Spell Power",
+        "style": "gold",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "description": "850 HP and 85 Spell Power",
+        "style": "chromatic",
+        "min": 9
+      }
+    ]
+  }
+]

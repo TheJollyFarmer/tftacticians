@@ -1,4 +1,5 @@
 export default {
+  TOGGLE_INITIALISED: "toggleInitialised",
   SET_POPOVER_ID: "setPopoverId",
   SET_POPOVER_TYPE: "setPopoverType",
   SET_POPOVER_ELEMENT: "setPopoverElement",

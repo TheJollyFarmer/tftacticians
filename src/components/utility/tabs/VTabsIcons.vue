@@ -37,7 +37,6 @@ export default {
 <style lang="scss" scoped>
 li a {
   font-weight: bold;
-  color: var(--colour);
 
   &:hover {
     border-bottom-color: var(--colour);

@@ -4,7 +4,7 @@
     @click="toggleEvent">
     <SummonerMatchInfo
       :match="match"
-      :placement="summoner.placement"/>
+      :placement="placement"/>
     <CompanionImage :image="companion"/>
     <ChampionList
       :champions="summoner.champions"

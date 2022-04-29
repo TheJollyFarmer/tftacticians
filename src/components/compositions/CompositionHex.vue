@@ -30,7 +30,7 @@ export default {
   computed: {
     background() {
       let champion = `/${this.id}.png`;
-      let image = require("@/assets/images/" + this.directory + champion);
+      let image = "/assets/images/" + this.directory + champion;
 
       return { backgroundImage: "url(" + image + ")" };
     }

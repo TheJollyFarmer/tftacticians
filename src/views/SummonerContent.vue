@@ -52,6 +52,12 @@ export default {
       type: String,
       required: true
     }
+  },
+
+  computed: {
+    isRanked() {
+      return Object.keys(this.ranked).length !== 0;
+    }
   }
 };
 </script>

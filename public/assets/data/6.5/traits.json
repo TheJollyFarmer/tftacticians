@@ -1,0 +1,886 @@
+ [
+    {
+      "key": "Set6_Chemtech",
+      "name": "Chemtech",
+      "description": "After dropping below 75% Health, Chemtech champions become chem-powered, gaining Attack Speed, 20% damage reduction, and regenerating a percentage of their maximum Health each second for 8 seconds.",
+      "type": "origin",
+      "champions": [
+        "TFT6_Renata",
+        "TFT6_Singed",
+        "TFT6_Tryndamere",
+        "TFT6_Twitch",
+        "TFT6_Viktor",
+        "TFT6_Warwick",
+        "TFT6_Zac"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 3,
+          "max": 4,
+          "description": "15% Attack Speed, 4% Health"
+        },
+        {
+          "style": "silver",
+          "min": 5,
+          "max": 6,
+          "description": "40% Attack Speed, 7% Health"
+        },
+        {
+          "style": "gold",
+          "min": 7,
+          "max": 8,
+          "description": "80% Attack Speed, 10% Health"
+        },
+        {
+          "style": "chromatic",
+          "min": 9,
+          "max": 9,
+          "description": "150% Attack Speed, 18% Health"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Clockwork",
+      "name": "Clockwork",
+      "description": "Your team has increased Attack Speed, with an additional increase per augment in the Hexcore.",
+      "type": "origin",
+      "champions": [
+        "TFT6_Camille",
+        "TFT6_Jhin",
+        "TFT6_Orianna",
+        "TFT6_Zilean"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "10% Attack Speed + 5% per augment"
+        },
+        {
+          "style": "silver",
+          "min": 4,
+          "max": 5,
+          "description": "40% Attack Speed + 10% per augment"
+        },
+        {
+          "style": "gold",
+          "min": 6,
+          "max": 6,
+          "description": "80% Attack Speed + 15% per augment"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Debonair",
+      "name": "Debonair",
+      "description": "Debonair champions gain bonus Health and Ability Power. If there is a Debonair VIP in play, they activate their unique bonus. (Sell the old VIP for a chance to see a new one in your Shop.)",
+      "type": "origin",
+      "champions": [
+        "TFT6_Brand",
+        "TFT6_Draven",
+        "TFT6_Leona",
+        "TFT6_Syndra",
+        "TFT6_Talon",
+        "TFT6_Zeri"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 3,
+          "max": 4,
+          "description": "200 Health, 20 Ability Power"
+        },
+        {
+          "style": "silver",
+          "min": 5,
+          "max": 6,
+          "description": "450 Health, 45 Ability Power"
+        },
+        {
+          "style": "gold",
+          "min": 7,
+          "max": 7,
+          "description": "800 Health, 80 Ability Power"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Enforcer",
+      "name": "Enforcer",
+      "description": "Enforcers stun enemies at the start of combat. The target breaks free after 4 seconds, or after losing 40% of their maximum Health. Enforcers will not try to stun enemies who are immune to crowd control effects.",
+      "type": "origin",
+      "champions": [
+        "TFT6_Caitlyn",
+        "TFT6_Jayce",
+        "TFT6_Sejuani",
+        "TFT6b_Vi"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "The enemy who has the most Health."
+        },
+        {
+          "style": "silver",
+          "min": 4,
+          "max": 4,
+          "description": "And the enemy who dealt the most damage last combat."
+        }
+      ]
+    },
+    {
+      "key": "Set6_Glutton",
+      "name": "Glutton",
+      "description": "",
+      "type": "origin",
+      "champions": [
+        "TFT6_TahmKench"
+      ],
+      "sets": [
+        {
+          "style": "gold",
+          "min": 1,
+          "max": 1,
+          "description": "An ally from the bench can be fed to Tahm Kench once per planning phase, permanently granting him either Ability Power, Health, Armor, or Magic Resist.\n\nTo feed, hold an ally from the bench over Tahm Kench until his mouth opens, then release."
+        }
+      ]
+    },
+    {
+      "key": "Set6_Hextech",
+      "name": "Hextech",
+      "description": "At the start of combat and every 5 seconds afterwards, the Hexcore sends out a pulse that charges up allied Hextech champions with a shield for 4 seconds. While the shield is active, attacks deal bonus magic damage on hit. This shield does not stack.",
+      "type": "origin",
+      "champions": [
+        "TFT6_Alistar",
+        "TFT6_JarvanIV",
+        "TFT6_Lucian",
+        "TFT6_Nocturne",
+        "TFT6_Sejuani",
+        "TFT6_Sivir",
+        "TFT6_Swain"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "140 shield, 20 magic damage"
+        },
+        {
+          "style": "silver",
+          "min": 4,
+          "max": 5,
+          "description": "180 shield, 50 magic damage"
+        },
+        {
+          "style": "gold",
+          "min": 6,
+          "max": 7,
+          "description": "400 shield, 100 magic damage"
+        },
+        {
+          "style": "chromatic",
+          "min": 8,
+          "max": 8,
+          "description": "600 shield, 170 magic damage"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Mastermind",
+      "name": "Mastermind",
+      "description": "",
+      "type": "origin",
+      "champions": [
+        "TFT6_Silco"
+      ],
+      "sets": [
+        {
+          "style": "gold",
+          "min": 1,
+          "max": 1,
+          "description": "At the start of combat, the Mastermind grants the 2 allies directly in front of him 40 of their starting Mana."
+        }
+      ]
+    },
+    {
+      "key": "Set6_Mercenary",
+      "name": "Mercenary",
+      "description": "Gain a treasure chest that opens when you win combat against a player. At the start of each planning phase vs a player, dice rolls add loot to the chest. The longer you've gone without opening the chest, the luckier the dice.",
+      "type": "origin",
+      "champions": [
+        "TFT6_Gangplank",
+        "TFT6_Illaoi",
+        "TFT6_MissFortune",
+        "TFT6_Quinn",
+        "TFT6_TahmKench"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 3,
+          "max": 4,
+          "description": "Roll 2 dice"
+        },
+        {
+          "style": "silver",
+          "min": 5,
+          "max": 6,
+          "description": "The dice are even luckier!"
+        },
+        {
+          "style": "gold",
+          "min": 7,
+          "max": 7,
+          "description": "Upon winning, roll a 3rd dice that grants bonus loot."
+        }
+      ]
+    },
+    {
+      "key": "Set6_Mutant",
+      "name": "Mutant",
+      "description": "Mutants gain unique bonuses. These are different each game.\n\nCybernetic Enhancement grants bonus stats to Mutants with at least 1 item.\n\nVoracious Appetite strengthens Mutants on each ally's death.\n\nVoidborne executes targets below a Health threshold and deals true damage.\n\nHyper-Adrenal Glands give a chance for Mutants to deal additional attacks.\n\nSynaptic Web reduces the Mana cost of Mutants\u2019 Abilities.\n\nBio-Leeching grants Omnivamp (healing for a percentage of damage dealt) to your team.\n\nMetamorphosis grants stacking bonuses to Mutants at regular intervals.",
+      "type": "origin",
+      "champions": [
+        "TFT6_ChoGath",
+        "TFT6_Kaisa",
+        "TFT6_Kassadin",
+        "TFT6_KhaZix",
+        "TFT6_Malzahar",
+        "TFT6_RekSai"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 3,
+          "max": 4,
+          "description": "??? (Randomly selected per game)"
+        },
+        {
+          "style": "silver",
+          "min": 5,
+          "max": 6,
+          "description": "??? (Randomly selected per game)"
+        },
+        {
+          "style": "gold",
+          "min": 7,
+          "max": 7,
+          "description": "??? (Randomly selected per game)"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Rivals",
+      "name": "Rivals",
+      "description": "",
+      "type": "origin",
+      "champions": [
+        "TFT6_Jinx",
+        "TFT6b_Vi"
+      ],
+      "sets": [
+        {
+          "style": "gold",
+          "min": 1,
+          "max": 1,
+          "description": "This trait is only active when you have exactly 1 unique Rival unit, as Rivals refuse to work together.\r\n\r\nVi's mana cost is reduced by 20.\r\n\r\nJinx gains 40% Attack Speed for 3 seconds after scoring a takedown."
+        }
+      ]
+    },
+    {
+      "key": "Set6_Scrap",
+      "name": "Scrap",
+      "description": "At the start of combat, components held by Scrap champions turn into full items for the rest of combat. Also, your team gains a shield for each component equipped by your team, including those that are part of a full item.",
+      "type": "origin",
+      "champions": [
+        "TFT6_Blitzcrank",
+        "TFT6_Ekko",
+        "TFT6_Ezreal",
+        "TFT6_Irelia",
+        "TFT6_Jinx",
+        "TFT6_Ziggs"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "1 component, 20 shield"
+        },
+        {
+          "style": "silver",
+          "min": 4,
+          "max": 5,
+          "description": "3 components, 40 shield"
+        },
+        {
+          "style": "gold",
+          "min": 6,
+          "max": 6,
+          "description": "All components, 60 shield"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Socialite",
+      "name": "Socialite",
+      "description": "Socialite reveal a spotlight on the battlefield. The unit standing in the spotlight at the start of combat gains unique bonuses.",
+      "type": "origin",
+      "champions": [
+        "TFT6_Galio",
+        "TFT6_Gnar",
+        "TFT6_Senna",
+        "TFT6_Seraphine"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 1,
+          "max": 2,
+          "description": "20% bonus damage"
+        },
+        {
+          "style": "silver",
+          "min": 2,
+          "max": 3,
+          "description": "and 4 Mana per second"
+        },
+        {
+          "style": "gold",
+          "min": 3,
+          "max": 4,
+          "description": "and heal for 33% of all damage they deal"
+        },
+        {
+          "style": "chromatic",
+          "min": 5,
+          "max": 5,
+          "description": "all of the bonuses are doubled"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Syndicate",
+      "name": "Syndicate",
+      "description": "Certain allies are cloaked in shadows, gaining 55 Armor, 55 Magic Resist and 20% Omnivamp (healing for a percentage of all damage dealt.)",
+      "type": "origin",
+      "champions": [
+        "TFT6_Ahri",
+        "TFT6_Ashe",
+        "TFT6_Braum",
+        "TFT6_Darius",
+        "TFT6_Morgana",
+        "TFT6_Zyra"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 3,
+          "max": 4,
+          "description": "The Syndicate champion with the lowest percent Health."
+        },
+        {
+          "style": "silver",
+          "min": 5,
+          "max": 6,
+          "description": "All Syndicate champions"
+        },
+        {
+          "style": "gold",
+          "min": 7,
+          "max": 7,
+          "description": "Your whole team, and the effects are increased by 60%"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Yordle",
+      "name": "Yordle",
+      "description": "3After each player combat, a random Yordle is added to your bench for free.",
+      "type": "origin",
+      "champions": [
+        "TFT6_Corki",
+        "TFT6_Gnar",
+        "TFT6_Lulu",
+        "TFT6_Poppy",
+        "TFT6_Vex",
+        "TFT6_Ziggs"
+      ],
+      "sets": [
+        {
+          "style": "silver",
+          "min": 3,
+          "max": 4,
+          "description": "After each player combat, a random Yordle is added to your bench for free."
+        },
+        {
+          "style": "gold",
+          "min": 6,
+          "max": 6,
+          "description": "And Yordle's Abilities cost 25% less to cast."
+        }
+      ]
+    },
+    {
+      "key": "Set6_YordleLord",
+      "name": "Yordle-Lord",
+      "description": "Veigar is summoned from Yordle Portal when every Yordle is 3-star.",
+      "type": "origin",
+      "champions": [
+        "TFT6_Veigar"
+      ],
+      "sets": [
+        {
+          "style": "gold",
+          "min": 1,
+          "max": 1,
+          "description": "Benefits from Yordle trait."
+        }
+      ]
+    },
+    {
+      "key": "Set6_Arcanist",
+      "name": "Arcanist",
+      "description": "Arcanists increase the Ability Power of your team.",
+      "type": "class",
+      "champions": [
+        "TFT6_Brand",
+        "TFT6_Ziggs",
+        "TFT6_Swain",
+        "TFT6_Malzahar",
+        "TFT6_Vex",
+        "TFT6_Ahri",
+        "TFT6_Viktor"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "Your team gains 20% Ability Power"
+        },
+        {
+          "style": "silver",
+          "min": 4,
+          "max": 5,
+          "description": "Your team gains 20% Ability Power, Arcanists gain an additional 40%"
+        },
+        {
+          "style": "gold",
+          "min": 6,
+          "max": 7,
+          "description": "Your team gains 50% Ability Power, Arcanists gain an additional 50%"
+        },
+        {
+          "style": "chromatic",
+          "min": 8,
+          "max": 8,
+          "description": "Your team gains 145% Ability Power"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Assassin",
+      "name": "Assassin",
+      "description": "Innate: When combat starts, Assassins leap to the enemy backline.\n\nAssassins' Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.",
+      "type": "class",
+      "champions": [
+        "TFT6_Twitch",
+        "TFT6_Nocturne",
+        "TFT6_Talon",
+        "TFT6_Ekko",
+        "TFT6_KhaZix"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "10% Crit Chance & 20% Crit Damage"
+        },
+        {
+          "style": "silver",
+          "min": 4,
+          "max": 5,
+          "description": "30% Crit Chance & 40% Crit Damage"
+        },
+        {
+          "style": "gold",
+          "min": 6,
+          "max": 6,
+          "description": "50% Crit Chance & 60% Crit Damage"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Bodyguard",
+      "name": "Bodyguard",
+      "description": "Bodyguards have increased Armor. Shortly after combat begins, Bodyguards gain a shield and taunt adjacent enemies, forcing them to attack the Bodyguard.",
+      "type": "class",
+      "champions": [
+        "TFT6_Poppy",
+        "TFT6_Darius",
+        "TFT6_Blitzcrank",
+        "TFT6_Leona",
+        "TFT6_Braum",
+        "TFT6_Galio"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "80 Armor, 150 shield"
+        },
+        {
+          "style": "silver",
+          "min": 4,
+          "max": 5,
+          "description": "160 Armor, 350 shield"
+        },
+        {
+          "style": "gold",
+          "min": 6,
+          "max": 7,
+          "description": "250 Armor, 700 shield"
+        },
+        {
+          "style": "chromatic",
+          "min": 8,
+          "max": 8,
+          "description": "450 Armor, 1200 shield"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Bruiser",
+      "name": "Bruiser",
+      "description": "Your team gains bonus maximum Health. Bruisers gain double the bonus.",
+      "type": "class",
+      "champions": [
+        "TFT6_Illaoi",
+        "TFT6_RekSai",
+        "TFT6_Sejuani",
+        "TFT6_ChoGath",
+        "TFT6_Zac",
+        "TFT6b_Vi",
+        "TFT6_TahmKench"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "125 Health"
+        },
+        {
+          "style": "silver",
+          "min": 4,
+          "max": 5,
+          "description": "225 Health"
+        },
+        {
+          "style": "gold",
+          "min": 6,
+          "max": 7,
+          "description": "450 Health"
+        },
+        {
+          "style": "chromatic",
+          "min": 8,
+          "max": 8,
+          "description": "800 Health"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Challenger",
+      "name": "Challenger",
+      "description": "Challengers get bonus Attack Speed. Upon scoring a takedown, Challengers dash to a new target and double this bonus for 2.5 seconds.",
+      "type": "class",
+      "champions": [
+        "TFT6_Camille",
+        "TFT6_Warwick",
+        "TFT6_Quinn",
+        "TFT6_Tryndamere",
+        "TFT6_Draven",
+        "TFT6_Kaisa"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "25% Attack Speed"
+        },
+        {
+          "style": "silver",
+          "min": 4,
+          "max": 5,
+          "description": "55% Attack Speed"
+        },
+        {
+          "style": "gold",
+          "min": 6,
+          "max": 7,
+          "description": "90% Attack Speed"
+        },
+        {
+          "style": "chromatic",
+          "min": 8,
+          "max": 8,
+          "description": "150% Attack Speed"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Colossus",
+      "name": "Colossus",
+      "description": "Innate: Colossi are bigger, more powerful, and immune to crowd control effects. However, each Colossus requires 2 team slots.",
+      "type": "class",
+      "champions": [
+        "TFT6_ChoGath",
+        "TFT6_Alistar",
+        "TFT6_Galio"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 2,
+          "description": "Colossus champions take 25% less damage."
+        }
+      ]
+    },
+    {
+      "key": "Set6_Enchanter",
+      "name": "Enchanter",
+      "description": "Your team has bonus Magic Resist. Enchanters gain bonus healing and shielding.",
+      "type": "class",
+      "champions": [
+        "TFT6_Lulu",
+        "TFT6_Morgana",
+        "TFT6_Senna",
+        "TFT6_Orianna"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "+20 Magic Resist, 25% healing and shielding"
+        },
+        {
+          "style": "silver",
+          "min": 3,
+          "max": 4,
+          "description": "+35 Magic Resist, 40% healing and shielding"
+        },
+        {
+          "style": "gold",
+          "min": 4,
+          "max": 5,
+          "description": "+50 Magic Resist, 60% healing and shielding"
+        },
+        {
+          "style": "chromatic",
+          "min": 5,
+          "max": 5,
+          "description": "+75 Magic Resist, 100% healing and shielding"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Innovator",
+      "name": "Innovator",
+      "description": "Innovators build a mechanical companion to join the battle. The companion receives bonus Health and Attack Damage based on allied Innovators' star levels.",
+      "type": "class",
+      "champions": [
+        "TFT6_Ezreal",
+        "TFT6_Singed",
+        "TFT6_Zilean",
+        "TFT6_Ekko",
+        "TFT6_Seraphine",
+        "TFT6_Jayce"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 3,
+          "max": 4,
+          "description": "Mechanical Scarab"
+        },
+        {
+          "style": "silver",
+          "min": 5,
+          "max": 6,
+          "description": "Mechanical Bear"
+        },
+        {
+          "style": "gold",
+          "min": 7,
+          "max": 7,
+          "description": "Mechanical Dragon"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Scholar",
+      "name": "Scholar",
+      "description": "Your team gains Mana every 2 seconds.",
+      "type": "class",
+      "champions": [
+        "TFT6_Kassadin",
+        "TFT6_Syndra",
+        "TFT6_Zyra",
+        "TFT6_Renata",
+        "TFT6_Silco"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "5 Mana"
+        },
+        {
+          "style": "silver",
+          "min": 4,
+          "max": 5,
+          "description": "10 Mana"
+        },
+        {
+          "style": "gold",
+          "min": 6,
+          "max": 6,
+          "description": "20 Mana"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Sniper",
+      "name": "Sniper",
+      "description": "Innate: Snipers gain 1 hex Attack Range. \r\n\r\nSnipers deal bonus damage for each hex between themselves and their target.",
+      "type": "class",
+      "champions": [
+        "TFT6_Caitlyn",
+        "TFT6_Ashe",
+        "TFT6_MissFortune",
+        "TFT6_Jhin",
+        "TFT6_Zeri"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "8% bonus damage"
+        },
+        {
+          "style": "silver",
+          "min": 4,
+          "max": 5,
+          "description": "16% bonus damage"
+        },
+        {
+          "style": "gold",
+          "min": 6,
+          "max": 6,
+          "description": "30% bonus damage"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Striker",
+      "name": "Striker",
+      "description": "Strikers gain bonus Attack Damage.",
+      "type": "class",
+      "champions": [
+        "TFT6_JarvanIV",
+        "TFT6_RekSai",
+        "TFT6_Gnar",
+        "TFT6_Irelia",
+        "TFT6_Sivir"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "+30 Attack Damage"
+        },
+        {
+          "style": "silver",
+          "min": 4,
+          "max": 5,
+          "description": "+65 Attack Damage"
+        },
+        {
+          "style": "gold",
+          "min": 6,
+          "max": 6,
+          "description": "+110 Attack Damage"
+        }
+      ]
+    },
+    {
+      "key": "Set6_Transformer",
+      "name": "Transformer",
+      "description": "",
+      "type": "class",
+      "champions": [
+        "TFT6_Jayce"
+      ],
+      "sets": [
+        {
+          "style": "gold",
+          "min": 1,
+          "max": 1,
+          "description": "Jayce adopts melee form when placed in the front 2 rows, and ranged form in the back 2 rows."
+        }
+      ]
+    },
+    {
+      "key": "Set6_Twinshot",
+      "name": "Twinshot",
+      "description": "Twinshots gain bonus Attack Damage. When a Twinshot attacks, they have a chance to attack twice instead.",
+      "type": "class",
+      "champions": [
+        "TFT6_Corki",
+        "TFT6_Gangplank",
+        "TFT6_Lucian",
+        "TFT6_Jinx"
+      ],
+      "sets": [
+        {
+          "style": "bronze",
+          "min": 2,
+          "max": 3,
+          "description": "10 Attack Damage, 40% chance"
+        },
+        {
+          "style": "silver",
+          "min": 3,
+          "max": 4,
+          "description": "25 Attack Damage, 55% chance"
+        },
+        {
+          "style": "gold",
+          "min": 4,
+          "max": 5,
+          "description": "40 Attack Damage, 70% chance"
+        },
+        {
+          "style": "chromatic",
+          "min": 5,
+          "max": 5,
+          "description": "60 Attack Damage, 100% chance"
+        }
+      ]
+    }
+  ]

@@ -25,7 +25,7 @@ export default {
 
   computed: {
     background() {
-      let image = require("@/assets/images/general/" + this.image + ".png");
+      let image = "/assets/images/general/" + this.image + ".png";
       let grad = "linear-gradient(to left, transparent, var(--layer) 70%)";
 
       return { backgroundImage: grad + "," + "url(" + image + ")" };

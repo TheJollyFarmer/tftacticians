@@ -10,14 +10,14 @@ export default {
   },
 
   getSummoner({ region, name }) {
-    return api.request("summoner", { region, name });
+    return api.request("api/summoner", { region, name });
   },
 
   getName({ region, puuid }) {
-    return api.request("name", { region, puuid });
+    return api.request("api/name", { region, puuid });
   },
 
   getRanked(region, id) {
-    return api.request("ranked", { region, id });
+    return api.request("api/ranked", { region, id });
   }
 };

@@ -21,6 +21,11 @@ import VField from "@/components/utility/VField";
 import VInput from "@/components/utility/VInput";
 import VModal from "@/components/utility/VModal";
 import { mapActions, mapState } from "vuex";
+import { defineAsyncComponent } from "vue";
+
+const VLiVModal = defineAsyncComponent(() =>
+  import("@/components/utility/VModal")
+);
 
 export default {
   name: "SummonerSearch",
@@ -33,18 +38,14 @@ export default {
     VInput
   },
 
+  data() {
+    return {
+      name: ""
+    };
+  },
+
   computed: {
     ...mapState("summoner", ["form"]),
-
-    name: {
-      get() {
-        return this.form.name;
-      },
-
-      set(name) {
-        this.updateName(name);
-      }
-    },
 
     region: {
       get() {
@@ -68,16 +69,17 @@ export default {
       toggleModal: "toggleModal",
       updateName: "summoner/updateName",
       updateRegion: "summoner/updateRegion",
-      getSummoner: "summoner/getSummoner",
+      getSummoner: "summoner/getSummonerProfile",
       setError: "setError"
     }),
 
     getSummonerData() {
       let msg = "We can not find the summoner you are looking for.";
 
-      if (this.name) {
-        this.getSummoner()
+      if (this.name && this.name !== this.$route.params.name) {
+        this.getSummoner(this.name)
           .then(() => this.goToSummonerView())
+          .then(() => (this.name = ""))
           .catch(() => this.setError(msg));
       }
     },

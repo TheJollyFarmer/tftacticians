@@ -1,6 +1,6 @@
 import routes from "@/router/routes";
 import scrollBehavior from "@/router/scroll";
-import { beforeEach, beforeResolve } from "@/router/guards";
+import { beforeEach, beforeResolve, initialiseStore } from "@/router/guards";
 import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
@@ -10,6 +10,7 @@ const router = createRouter({
   routes
 });
 
+router.beforeEach((to, from, next) => initialiseStore(next));
 router.beforeEach((to, from, next) => beforeEach(to, from, next));
 router.beforeResolve((to, from, next) => beforeResolve(to, from, next));
 

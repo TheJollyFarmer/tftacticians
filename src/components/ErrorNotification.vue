@@ -7,7 +7,7 @@
       <VButton
         icon="undo"
         class="is-outlined is-inverted"
-        @click="getSummoner"/>
+        @click="getSummonerProfile"/>
     </template>
   </VNotification>
 </template>
@@ -36,7 +36,7 @@ export default {
     }
   },
 
-  methods: mapActions("summoner", ["getSummoner"])
+  methods: mapActions("summoner", ["getSummonerProfile"])
 };
 </script>
 

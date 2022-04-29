@@ -48,7 +48,6 @@ export default {
 
   a {
     align-items: center;
-    color: var(--colour);
     display: flex;
     margin: 0;
     line-height: 1;

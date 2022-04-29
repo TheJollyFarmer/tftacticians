@@ -1,0 +1,2184 @@
+[
+    {
+      "name": "Scholar Bruisers",
+      "type": "Fast 8",
+      "rating": "S",
+      "champions": [
+        {
+          "id": "TFT6_Sejuani",
+          "position": 3,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Zac",
+          "position": 6,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Ahri",
+          "position": 14,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Renata",
+          "position": 21,
+          "starred": 0,
+          "items": [44, 13, 37]
+        },
+        {
+          "id": "TFT6b_Vi",
+          "position": 4,
+          "starred": 0,
+          "items": [
+            55,
+            66,
+            77
+          ]
+        },
+        {
+          "id": "TFT6_Silco",
+          "position": 27,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_TahmKench",
+          "position": 5,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Viktor",
+          "position": 20,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Illaoi",
+        "TFT6_JarvanIV",
+        "TFT6_Sejuani",
+        "TFT6_RekSai",
+        "TFT6_Zac"
+      ],
+      "options": {
+        "nine": "",
+        "alternatives": [
+          {
+            "names": [
+              "TFT6_Ahri",
+              "TFT6_Viktor"
+            ],
+            "replacements": [
+              "TFT6_Illaoi",
+              "TFT6_RekSai"
+            ]
+          },
+          {
+            "names": [
+              "TFT6_Ahri",
+              "TFT6b_Vi",
+              "TFT6_TahmKench"
+            ],
+            "replacements": [
+              "TFT6_Warwick",
+              "TFT6_Tryndamere",
+              "TFT6_Jayce"
+            ]
+          }
+        ]
+      },
+      "traits": [
+        {
+          "id": "Set6_Glutton",
+          "count": 1
+        },
+        {
+          "id": "Set6_Mastermind",
+          "count": 1
+        },
+        {
+          "id": "Set6_Rivals",
+          "count": 1
+        },
+        {
+          "id": "Set6_Bruiser",
+          "count": 4
+        },
+        {
+          "id": "Set6_Chemtech",
+          "count": 3
+        },
+        {
+          "id": "Set6_Enforcer",
+          "count": 2
+        },
+        {
+          "id": "Set6_Arcanist",
+          "count": 2
+        },
+        {
+          "id": "Set6_Scholar",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 3,
+          "item": 37
+        },
+        {
+          "component": 4,
+          "item": 44
+        },
+        {
+          "component": 1,
+          "item": 13
+        }
+      ]
+    },
+    {
+      "name": "Chemtech Bruisers",
+      "type": "Standard",
+      "rating": "S",
+      "champions": [
+        {
+          "id": "TFT6_Sejuani",
+          "position": 2,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Warwick",
+          "position": 3,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Tryndamere",
+          "position": 5,
+          "starred": 3,
+          "items": [
+            16,
+            19,
+            29
+          ]
+        },
+        {
+          "id": "TFT6_Zac",
+          "position": 6,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Renata",
+          "position": 21,
+          "starred": 0,
+          "items": [
+            44,
+            13,
+            37
+          ]
+        },
+        {
+          "id": "TFT6_Jayce",
+          "position": 4,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Silco",
+          "position": 27,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Viktor",
+          "position": 20,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Camille",
+        "TFT6_Quinn",
+        "TFT6_Warwick",
+        "TFT6_Tryndamere",
+        "TFT6_Zac"
+      ],
+      "options": {
+        "nine": "",
+        "alternatives": [
+          {
+            "names": [
+              "TFT6_Jayce",
+              "TFT6_Silco"
+            ],
+            "replacements": [
+              "TFT6_Sejuani",
+              "TFT6b_Vi"
+            ]
+          },
+          {
+            "names": [
+              "TFT6_Jayce",
+              "TFT6_Silco"
+            ],
+            "replacements": [
+              "TFT6_Draven",
+              "TFT6_Kaisa"
+            ]
+          }
+        ]
+      },
+      "traits": [
+        {
+          "id": "Set6_Mastermind",
+          "count": 1
+        },
+        {
+          "id": "Set6_Transformer",
+          "count": 1
+        },
+        {
+          "id": "Set6_Chemtech",
+          "count": 5
+        },
+        {
+          "id": "Set6_Enforcer",
+          "count": 2
+        },
+        {
+          "id": "Set6_Bruiser",
+          "count": 2
+        },
+        {
+          "id": "Set6_Challenger",
+          "count": 2
+        },
+        {
+          "id": "Set6_Scholar",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 1,
+          "item": 16
+        },
+        {
+          "component": 9,
+          "item": 29
+        },
+        {
+          "component": 3,
+          "item": 37
+        }
+      ]
+    },
+    {
+      "name": "Chemtech Innovators",
+      "type": "Hyper Roll",
+      "rating": "S",
+      "champions": [
+        {
+          "id": "TFT6_Camille",
+          "position": 3,
+          "starred": 3,
+          "items": [
+            55,
+            66,
+            77
+          ]
+        },
+        {
+          "id": "TFT6_Ezreal",
+          "position": 22,
+          "starred": 3,
+          "items": []
+        },
+        {
+          "id": "TFT6_Singed",
+          "position": 5,
+          "starred": 3,
+          "items": []
+        },
+        {
+          "id": "TFT6_Twitch",
+          "position": 15,
+          "starred": 3,
+          "items": [
+            19,
+            29,
+            26
+          ]
+        },
+        {
+          "id": "TFT6_Warwick",
+          "position": 13,
+          "starred": 3,
+          "items": []
+        },
+        {
+          "id": "TFT6_Zilean",
+          "position": 27,
+          "starred": 3,
+          "items": []
+        },
+        {
+          "id": "TFT6_Ekko",
+          "position": 25,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Seraphine",
+          "position": 28,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Ezreal",
+        "TFT6_Twitch",
+        "TFT6_Singed",
+        "TFT6_Zilean",
+        "TFT6_Warwick"
+      ],
+      "options": {
+        "nine": "",
+        "alternatives": [
+          {
+            "names": [
+              "TFT6_Seraphine"
+            ],
+            "replacements": [
+              "TFT6_Jayce"
+            ]
+          }
+        ]
+      },
+      "traits": [
+        {
+          "id": "Set6_Innovator",
+          "count": 5
+        },
+        {
+          "id": "Set6_Chemtech",
+          "count": 3
+        },
+        {
+          "id": "Set6_Scrap",
+          "count": 2
+        },
+        {
+          "id": "Set6_Clockwork",
+          "count": 2
+        },
+        {
+          "id": "Set6_Challenger",
+          "count": 2
+        },
+        {
+          "id": "Set6_Assassin",
+          "count": 2
+        },
+        {
+          "id": "Set6_Socialite",
+          "count": 1
+        }
+      ],
+      "carousel": [
+        {
+          "component": 2,
+          "item": 29
+        },
+        {
+          "component": 9,
+          "item": 19
+        },
+        {
+          "component": 1,
+          "item": 19
+        }
+      ]
+    },
+    {
+      "name": "Debonair Assassins",
+      "type": "Slow Roll",
+      "rating": "S",
+      "champions": [
+        {
+          "id": "TFT6_Nocturne",
+          "position": 26,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Twitch",
+          "position": 23,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Blitzcrank",
+          "position": 27,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Syndra",
+          "position": 28,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Talon",
+          "position": 24,
+          "starred": 3,
+          "items": [
+            49,
+            19,
+            22
+          ]
+        },
+        {
+          "id": "TFT6_Ekko",
+          "position": 25,
+          "starred": 0,
+          "items": [
+            37
+          ]
+        },
+        {
+          "id": "TFT6_Leona",
+          "position": 18,
+          "starred": 3,
+          "items": [
+            56,
+            77
+          ]
+        }
+      ],
+      "early": [
+        "TFT6_Nocturne",
+        "TFT6_Twitch",
+        "TFT6_Blitzcrank",
+        "TFT6_Talon",
+        "TFT6_Ekko"
+      ],
+      "options": {
+        "nine": "TFT6_Silco",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Assassin",
+          "count": 4
+        },
+        {
+          "id": "Set6_Debonair",
+          "count": 3
+        },
+        {
+          "id": "Set6_Scrap",
+          "count": 2
+        },
+        {
+          "id": "Set6_Bodyguard",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 9,
+          "item": 19
+        },
+        {
+          "component": 2,
+          "item": 22
+        },
+        {
+          "component": 1,
+          "item": 19
+        }
+      ]
+    },
+    {
+      "name": "Hextech Strikers",
+      "type": "Standard",
+      "rating": "S",
+      "champions": [
+        {
+          "id": "TFT6_JarvanIV",
+          "position": 5,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Gnar",
+          "position": 2,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Sejuani",
+          "position": 6,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Alistar",
+          "position": 4,
+          "starred": 0,
+          "items": [
+            55,
+            37,
+            77
+          ]
+        },
+        {
+          "id": "TFT6_Irelia",
+          "position": 14,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Sivir",
+          "position": 28,
+          "starred": 0,
+          "items": [
+            23,
+            69,
+            24
+          ]
+        },
+        {
+          "id": "TFT6b_Vi",
+          "position": 3,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Caitlyn",
+        "TFT6_JarvanIV",
+        "TFT6_RekSai",
+        "TFT6_Sejuani",
+        "TFT6_Gnar"
+      ],
+      "options": {
+        "nine": "TFT6_Silco",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Glutton",
+          "count": 1
+        },
+        {
+          "id": "Set6_Rivals",
+          "count": 1
+        },
+        {
+          "id": "Set6_Striker",
+          "count": 4
+        },
+        {
+          "id": "Set6_Hextech",
+          "count": 4
+        },
+        {
+          "id": "Set6_Bruiser",
+          "count": 2
+        },
+        {
+          "id": "Set6_Enforcer",
+          "count": 2
+        },
+        {
+          "id": "Set6_Socialite",
+          "count": 1
+        }
+      ],
+      "carousel": [
+        {
+          "component": 2,
+          "item": 29
+        },
+        {
+          "component": 9,
+          "item": 29
+        },
+        {
+          "component": 1,
+          "item": 19
+        }
+      ]
+    },
+    {
+      "name": "Innovators",
+      "type": "Standard",
+      "rating": "S",
+      "champions": [
+        {
+          "id": "TFT6_Ezreal",
+          "position": 28,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Zilean",
+          "position": 26,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Ekko",
+          "position": 25,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Orianna",
+          "position": 20,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6b_Vi",
+          "position": 6,
+          "starred": 0,
+          "items": [
+            55,
+            66,
+            77
+          ]
+        },
+        {
+          "id": "TFT6_Seraphine",
+          "position": 21,
+          "starred": 0,
+          "items": [
+            34,
+            37,
+            14
+          ]
+        },
+        {
+          "id": "TFT6_Jayce",
+          "position": 5,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Silco",
+          "position": 27,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Ezreal",
+        "TFT6_Singed",
+        "TFT6_Talon",
+        "TFT6_Ekko",
+        "TFT6_Leona"
+      ],
+      "options": {
+        "nine": "TFT6_Senna",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Mastermind",
+          "count": 1
+        },
+        {
+          "id": "Set6_Rivals",
+          "count": 1
+        },
+        {
+          "id": "Set6_Transformer",
+          "count": 1
+        },
+        {
+          "id": "Set6_Innovator",
+          "count": 5
+        },
+        {
+          "id": "Set6_Clockwork",
+          "count": 2
+        },
+        {
+          "id": "Set6_Enforcer",
+          "count": 2
+        },
+        {
+          "id": "Set6_Scrap",
+          "count": 2
+        },
+        {
+          "id": "Set6_Socialite",
+          "count": 1
+        }
+      ],
+      "carousel": [
+        {
+          "component": 3,
+          "item": 37
+        },
+        {
+          "component": 4,
+          "item": 14
+        },
+        {
+          "component": 1,
+          "item": 14
+        }
+      ]
+    },
+    {
+      "name": "Mutant Colossus",
+      "type": "Slow Roll",
+      "rating": "S",
+      "champions": [
+        {
+          "id": "TFT6_RekSai",
+          "position": 6,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_ChoGath",
+          "position": 5,
+          "starred": 3,
+          "items": [
+            55,
+            47,
+            25
+          ]
+        },
+        {
+          "id": "TFT6_Malzahar",
+          "position": 28,
+          "starred": 3,
+          "items": [
+            44,
+            13,
+            37
+          ]
+        },
+        {
+          "id": "TFT6_Alistar",
+          "position": 4,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_KhaZix",
+          "position": 21,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Kaisa",
+          "position": 27,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Kassadin",
+        "TFT6_RekSai",
+        "TFT6_Sejuani",
+        "TFT6_Swain",
+        "TFT6_Malzahar"
+      ],
+      "options": {
+        "nine": "",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Mutant",
+          "count": 5
+        },
+        {
+          "id": "Set6_Colossus",
+          "count": 2
+        },
+        {
+          "id": "Set6_Bruiser",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 3,
+          "item": 37
+        },
+        {
+          "component": 4,
+          "item": 44
+        },
+        {
+          "component": 5,
+          "item": 55
+        }
+      ]
+    },
+    {
+      "name": "Socialite Strikers",
+      "type": "Fast 8",
+      "rating": "S",
+      "champions": [
+        {
+          "id": "TFT6_Zilean",
+          "position": 21,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Gnar",
+          "position": 20,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Senna",
+          "position": 26,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Irelia",
+          "position": 14,
+          "starred": 0,
+          "items": [
+            16,
+            19,
+            29
+          ]
+        },
+        {
+          "id": "TFT6_Orianna",
+          "position": 27,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Seraphine",
+          "position": 28,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6b_Vi",
+          "position": 5,
+          "starred": 0,
+          "items": [
+            55,
+            66,
+            77
+          ]
+        },
+        {
+          "id": "TFT6_Jayce",
+          "position": 6,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Caitlyn",
+        "TFT6_JarvanIV",
+        "TFT6_RekSai",
+        "TFT6_Sejuani",
+        "TFT6_Gnar"
+      ],
+      "options": {
+        "nine": "TFT6_Silco",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Socialite",
+          "count": 3
+        },
+        {
+          "id": "Set6_Glutton",
+          "count": 1
+        },
+        {
+          "id": "Set6_Rivals",
+          "count": 1
+        },
+        {
+          "id": "Set6_Transformer",
+          "count": 1
+        },
+        {
+          "id": "Set6_Innovator",
+          "count": 3
+        },
+        {
+          "id": "Set6_Enchanter",
+          "count": 2
+        },
+        {
+          "id": "Set6_Enforcer",
+          "count": 2
+        },
+        {
+          "id": "Set6_Striker",
+          "count": 2
+        },
+        {
+          "id": "Set6_Clockwork",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 1,
+          "item": 16
+        },
+        {
+          "component": 9,
+          "item": 29
+        },
+        {
+          "component": 2,
+          "item": 29
+        }
+      ]
+    },
+    {
+      "name": "Arcanist Scholars",
+      "type": "Standard",
+      "rating": "A",
+      "champions": [
+        {
+          "id": "TFT6_Zyra",
+          "position": 26,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Malzahar",
+          "position": 22,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Morgana",
+          "position": 6,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Vex",
+          "position": 5,
+          "starred": 0,
+          "items": [
+            55,
+            66
+          ]
+        },
+        {
+          "id": "TFT6_Ahri",
+          "position": 20,
+          "starred": 0,
+          "items": [
+            44,
+            19,
+            39
+          ]
+        },
+        {
+          "id": "TFT6_Orianna",
+          "position": 28,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Silco",
+          "position": 27,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Viktor",
+          "position": 21,
+          "starred": 0,
+          "items": [
+            37
+          ]
+        }
+      ],
+      "early": [
+        "TFT6_Ezreal",
+        "TFT6_Ziggs",
+        "TFT6_Lulu",
+        "TFT6_Senna",
+        "TFT6_Vex"
+      ],
+      "options": {
+        "nine": "",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Mastermind",
+          "count": 1
+        },
+        {
+          "id": "Set6_Arcanist",
+          "count": 4
+        },
+        {
+          "id": "Set6_Syndicate",
+          "count": 3
+        },
+        {
+          "id": "Set6_Scholar",
+          "count": 2
+        },
+        {
+          "id": "Set6_Enchanter",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 3,
+          "item": 39
+        },
+        {
+          "component": 4,
+          "item": 44
+        },
+        {
+          "component": 9,
+          "item": 39
+        }
+      ]
+    },
+    {
+      "name": "Chemtech Challengers",
+      "type": "Slow Roll",
+      "rating": "A",
+      "champions": [
+        {
+          "id": "TFT6_Camille",
+          "position": 3,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Quinn",
+          "position": 22,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Warwick",
+          "position": 5,
+          "starred": 3,
+          "items": [
+            24,
+            69,
+            25
+          ]
+        },
+        {
+          "id": "TFT6_Tryndamere",
+          "position": 4,
+          "starred": 3,
+          "items": [
+            16,
+            19,
+            29
+          ]
+        },
+        {
+          "id": "TFT6_Zac",
+          "position": 6,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Draven",
+          "position": 28,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Orianna",
+          "position": 27,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Kaisa",
+          "position": 23,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Camille",
+        "TFT6_Quinn",
+        "TFT6_Warwick",
+        "TFT6_Tryndamere",
+        "TFT6_Zac"
+      ],
+      "options": {
+        "nine": "TFT6_Silco",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Challenger",
+          "count": 6
+        },
+        {
+          "id": "Set6_Chemtech",
+          "count": 3
+        },
+        {
+          "id": "Set6_Clockwork",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 2,
+          "item": 25
+        },
+        {
+          "component": 9,
+          "item": 69
+        },
+        {
+          "component": 1,
+          "item": 16
+        }
+      ]
+    },
+    {
+      "name": "Debonair Challengers",
+      "type": "Standard",
+      "rating": "A",
+      "champions": [
+        {
+          "id": "TFT6_Sejuani",
+          "position": 3,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Syndra",
+          "position": 27,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Leona",
+          "position": 5,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Braum",
+          "position": 6,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Draven",
+          "position": 28,
+          "starred": 0,
+          "items": [
+            16,
+            23,
+            19
+          ]
+        },
+        {
+          "id": "TFT6b_Vi",
+          "position": 4,
+          "starred": 0,
+          "items": [
+            55,
+            66,
+            77
+          ]
+        },
+        {
+          "id": "TFT6_Kaisa",
+          "position": 21,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Silco",
+          "position": 12,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Camille",
+        "TFT6_Quinn",
+        "TFT6_Warwick",
+        "TFT6_Tryndamere",
+        "TFT6_Zac"
+      ],
+      "options": {
+        "nine": "",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Mastermind",
+          "count": 1
+        },
+        {
+          "id": "Set6_Rivals",
+          "count": 1
+        },
+        {
+          "id": "Set6_Debonair",
+          "count": 3
+        },
+        {
+          "id": "Set6_Challenger",
+          "count": 2
+        },
+        {
+          "id": "Set6_Bruiser",
+          "count": 2
+        },
+        {
+          "id": "Set6_Scholar",
+          "count": 2
+        },
+        {
+          "id": "Set6_Bodyguard",
+          "count": 2
+        },
+        {
+          "id": "Set6_Enforcer",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 1,
+          "item": 16
+        },
+        {
+          "component": 2,
+          "item": 23
+        },
+        {
+          "component": 9,
+          "item": 19
+        }
+      ]
+    },
+    {
+      "name": "Enchanter Snipers",
+      "type": "Standard",
+      "rating": "A",
+      "champions": [
+        {
+          "id": "TFT6_Caitlyn",
+          "position": 22,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Senna",
+          "position": 23,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Braum",
+          "position": 4,
+          "starred": 0,
+          "items": [
+            55,
+            66,
+            77
+          ]
+        },
+        {
+          "id": "TFT6_Jhin",
+          "position": 28,
+          "starred": 0,
+          "items": [
+            12,
+            19,
+            29
+          ]
+        },
+        {
+          "id": "TFT6_Orianna",
+          "position": 27,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Galio",
+          "position": 6,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Jayce",
+          "position": 2,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Caitlyn",
+        "TFT6_Illaoi",
+        "TFT6_Sejuani",
+        "TFT6_Quinn",
+        "TFT6_MissFortune"
+      ],
+      "options": {
+        "nine": "TFT6_Silco",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Transformer",
+          "count": 1
+        },
+        {
+          "id": "Set6_Socialite",
+          "count": 2
+        },
+        {
+          "id": "Set6_Enchanter",
+          "count": 2
+        },
+        {
+          "id": "Set6_Clockwork",
+          "count": 2
+        },
+        {
+          "id": "Set6_Bodyguard",
+          "count": 2
+        },
+        {
+          "id": "Set6_Sniper",
+          "count": 2
+        },
+        {
+          "id": "Set6_Enforcer",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 2,
+          "item": 29
+        },
+        {
+          "component": 9,
+          "item": 29
+        },
+        {
+          "component": 1,
+          "item": 19
+        }
+      ]
+    },
+    {
+      "name": "Mutant Assassins",
+      "type": "Standard",
+      "rating": "A",
+      "champions": [
+        {
+          "id": "TFT6_RekSai",
+          "position": 5,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_ChoGath",
+          "position": 3,
+          "starred": 0,
+          "items": [
+            55,
+            66,
+            77
+          ]
+        },
+        {
+          "id": "TFT6_Ekko",
+          "position": 25,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Malzahar",
+          "position": 28,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Irelia",
+          "position": 13,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_KhaZix",
+          "position": 24,
+          "starred": 0,
+          "items": [
+            16,
+            19,
+            29
+          ]
+        },
+        {
+          "id": "TFT6_Kaisa",
+          "position": 22,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Kassadin",
+        "TFT6_RekSai",
+        "TFT6_Sejuani",
+        "TFT6_Swain",
+        "TFT6_Malzahar"
+      ],
+      "options": {
+        "nine": "",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Mutant",
+          "count": 5
+        },
+        {
+          "id": "Set6_Assassin",
+          "count": 2
+        },
+        {
+          "id": "Set6_Bruiser",
+          "count": 2
+        },
+        {
+          "id": "Set6_Bruiser",
+          "count": 2
+        },
+        {
+          "id": "Set6_Scrap",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 2,
+          "item": 29
+        },
+        {
+          "component": 1,
+          "item": 19
+        },
+        {
+          "component": 9,
+          "item": 29
+        }
+      ]
+    },
+    {
+      "name": "Mutant Bruisers",
+      "type": "Slow Roll",
+      "rating": "A",
+      "champions": [
+        {
+          "id": "TFT6_JarvanIV",
+          "position": 2,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Sejuani",
+          "position": 6,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_RekSai",
+          "position": 4,
+          "starred": 3,
+          "items": [
+            11,
+            26,
+            25
+          ]
+        },
+        {
+          "id": "TFT6_ChoGath",
+          "position": 3,
+          "starred": 3,
+          "items": [
+            55,
+            47,
+            57
+          ]
+        },
+        {
+          "id": "TFT6_Malzahar",
+          "position": 22,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6b_Vi",
+          "position": 5,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Kassadin",
+        "TFT6_RekSai",
+        "TFT6_Sejuani",
+        "TFT6_Swain",
+        "TFT6_Malzahar"
+      ],
+      "options": {
+        "nine": "TFT6_Silco",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Rivals",
+          "count": 1
+        },
+        {
+          "id": "Set6_Bruiser",
+          "count": 4
+        },
+        {
+          "id": "Set6_Mutant",
+          "count": 3
+        },
+        {
+          "id": "Set6_Enforcer",
+          "count": 2
+        },
+        {
+          "id": "Set6_Hextech",
+          "count": 2
+        },
+        {
+          "id": "Set6_Striker",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 2,
+          "item": 25
+        },
+        {
+          "component": 7,
+          "item": 47
+        },
+        {
+          "component": 5,
+          "item": 25
+        }
+      ]
+    },
+    {
+      "name": "Syndicate Arcanists",
+      "type": "Standard",
+      "rating": "A",
+      "champions": [
+        {
+          "id": "TFT6_Darius",
+          "position": 6,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Zyra",
+          "position": 22,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Morgana",
+          "position": 20,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Ahri",
+          "position": 28,
+          "starred": 0,
+          "items": [
+            44,
+            19,
+            39
+          ]
+        },
+        {
+          "id": "TFT6_Braum",
+          "position": 5,
+          "starred": 0,
+          "items": [
+            55,
+            66
+          ]
+        },
+        {
+          "id": "TFT6_Orianna",
+          "position": 26,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Silco",
+          "position": 27,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Viktor",
+          "position": 21,
+          "starred": 0,
+          "items": [
+            37
+          ]
+        }
+      ],
+      "early": [
+        "TFT6_Darius",
+        "TFT6_Ashe",
+        "TFT6_Blitzcrank",
+        "TFT6_MissFortune",
+        "TFT6_Morgana"
+      ],
+      "options": {
+        "nine": "",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Mastermind",
+          "count": 1
+        },
+        {
+          "id": "Set6_Syndicate",
+          "count": 5
+        },
+        {
+          "id": "Set6_Scholar",
+          "count": 2
+        },
+        {
+          "id": "Set6_Arcanist",
+          "count": 2
+        },
+        {
+          "id": "Set6_Enchanter",
+          "count": 2
+        },
+        {
+          "id": "Set6_Bodyguard",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 3,
+          "item": 39
+        },
+        {
+          "component": 4,
+          "item": 44
+        },
+        {
+          "component": 9,
+          "item": 39
+        }
+      ]
+    },
+    {
+      "name": "Syndicate Snipers",
+      "type": "Slow Roll",
+      "rating": "A",
+      "champions": [
+        {
+          "id": "TFT6_Darius",
+          "position": 22,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Ashe",
+          "position": 28,
+          "starred": 3,
+          "items": [
+            23,
+            19,
+            29
+          ]
+        },
+        {
+          "id": "TFT6_Zyra",
+          "position": 20,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Morgana",
+          "position": 4,
+          "starred": 3,
+          "items": [
+            55,
+            36,
+            37
+          ]
+        },
+        {
+          "id": "TFT6_Senna",
+          "position": 21,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Braum",
+          "position": 6,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Jhin",
+          "position": 27,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Orianna",
+          "position": 26,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Darius",
+        "TFT6_Ashe",
+        "TFT6_Blitzcrank",
+        "TFT6_MissFortune",
+        "TFT6_Morgana"
+      ],
+      "options": {
+        "nine": "TFT6_Silco",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Syndicate",
+          "count": 5
+        },
+        {
+          "id": "Set6_Enchanter",
+          "count": 3
+        },
+        {
+          "id": "Set6_Socialite",
+          "count": 1
+        },
+        {
+          "id": "Set6_Clockwork",
+          "count": 2
+        },
+        {
+          "id": "Set6_Bodyguard",
+          "count": 2
+        },
+        {
+          "id": "Set6_Sniper",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 2,
+          "item": 23
+        },
+        {
+          "component": 3,
+          "item": 23
+        },
+        {
+          "component": 9,
+          "item": 29
+        }
+      ]
+    },
+    {
+      "name": "Debonair Arcanists",
+      "type": "Hyper Roll",
+      "rating": "B",
+      "champions": [
+        {
+          "id": "TFT6_Brand",
+          "position": 28,
+          "starred": 3,
+          "items": [
+            44,
+            19,
+            39
+          ]
+        },
+        {
+          "id": "TFT6_Poppy",
+          "position": 3,
+          "starred": 3,
+          "items": []
+        },
+        {
+          "id": "TFT6_Ziggs",
+          "position": 23,
+          "starred": 3,
+          "items": []
+        },
+        {
+          "id": "TFT6_Syndra",
+          "position": 27,
+          "starred": 3,
+          "items": []
+        },
+        {
+          "id": "TFT6_Leona",
+          "position": 4,
+          "starred": 3,
+          "items": []
+        },
+        {
+          "id": "TFT6_Malzahar",
+          "position": 22,
+          "starred": 3,
+          "items": []
+        },
+        {
+          "id": "TFT6_Vex",
+          "position": 5,
+          "starred": 3,
+          "items": [
+            55,
+            36,
+            77
+          ]
+        }
+      ],
+      "early": [
+        "TFT6_Brand",
+        "TFT6_Poppy",
+        "TFT6_Ziggs",
+        "TFT6_Leona",
+        "TFT6_Vex"
+      ],
+      "options": {
+        "nine": "TFT6_Silco",
+        "alternatives": []
+      },
+      "traits": [
+        {
+          "id": "Set6_Arcanist",
+          "count": 4
+        },
+        {
+          "id": "Set6_Debonair",
+          "count": 3
+        },
+        {
+          "id": "Set6_Yordle",
+          "count": 3
+        },
+        {
+          "id": "Set6_Bodyguard",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 4,
+          "item": 44
+        },
+        {
+          "component": 9,
+          "item": 39
+        },
+        {
+          "component": 3,
+          "item": 39
+        }
+      ]
+    },
+    {
+      "name": "Socialite Challengers",
+      "type": "Fast 8",
+      "rating": "B",
+      "champions": [
+        {
+          "id": "TFT6_Camille",
+          "position": 7,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Senna",
+          "position": 26,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Braum",
+          "position": 6,
+          "starred": 0,
+          "items": [
+            55,
+            66,
+            77
+          ]
+        },
+        {
+          "id": "TFT6_Orianna",
+          "position": 27,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Seraphine",
+          "position": 28,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Galio",
+          "position": 5,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Kaisa",
+          "position": 21,
+          "starred": 0,
+          "items": [
+            34,
+            37,
+            24
+          ]
+        }
+      ],
+      "early": [
+        "TFT6_Kassadin",
+        "TFT6_RekSai",
+        "TFT6_Sejuani",
+        "TFT6_Swain",
+        "TFT6_Malzahar"
+      ],
+      "options": {
+        "nine": "",
+        "alternatives": [
+          {
+            "names": [
+              "TFT6_Camille",
+              "TFT6_Senna",
+              "TFT6_Braum",
+              "TFT6_Orianna"
+            ],
+            "replacements": [
+              "TFT6_Leona",
+              "TFT6_Alistar",
+              "TFT6_Draven"
+            ]
+          }
+        ]
+      },
+      "traits": [
+        {
+          "id": "Set6_Socialite",
+          "count": 3
+        },
+        {
+          "id": "Set6_Enchanter",
+          "count": 2
+        },
+        {
+          "id": "Set6_Bodyguard",
+          "count": 2
+        },
+        {
+          "id": "Set6_Challenger",
+          "count": 2
+        },
+        {
+          "id": "Set6_Clockwork",
+          "count": 2
+        }
+      ],
+      "carousel": [
+        {
+          "component": 3,
+          "item": 37
+        },
+        {
+          "component": 4,
+          "item": 34
+        },
+        {
+          "component": 7,
+          "item": 37
+        }
+      ]
+    },
+    {
+      "name": "Yordles",
+      "type": "Slow Roll",
+      "rating": "B",
+      "champions": [
+        {
+          "id": "TFT6_Poppy",
+          "position": 3,
+          "starred": 3,
+          "items": []
+        },
+        {
+          "id": "TFT6_Ziggs",
+          "position": 22,
+          "starred": 3,
+          "items": []
+        },
+        {
+          "id": "TFT6_Corki",
+          "position": 27,
+          "starred": 3,
+          "items": [
+            44,
+            19,
+            39
+          ]
+        },
+        {
+          "id": "TFT6_Lulu",
+          "position": 26,
+          "starred": 3,
+          "items": []
+        },
+        {
+          "id": "TFT6_Gnar",
+          "position": 20,
+          "starred": 3,
+          "items": [
+            55,
+            66,
+            77
+          ]
+        },
+        {
+          "id": "TFT6_Lucian",
+          "position": 21,
+          "starred": 0,
+          "items": []
+        },
+        {
+          "id": "TFT6_Vex",
+          "position": 5,
+          "starred": 3,
+          "items": []
+        },
+        {
+          "id": "TFT6_Veigar",
+          "position": 28,
+          "starred": 0,
+          "items": []
+        }
+      ],
+      "early": [
+        "TFT6_Poppy",
+        "TFT6_Ziggs",
+        "TFT6_Blitzcrank",
+        "TFT6_Corki",
+        "TFT6_Swain"
+      ],
+      "options": {
+        "nine": "",
+        "alternatives": [
+          {
+            "names": [
+              "TFT6_Lucian"
+            ],
+            "replacements": [
+              "TFT6_Blitzcrank",
+              "TFT6_Braum"
+            ]
+          }
+        ]
+      },
+      "traits": [
+        {
+          "id": "Set6_YordleLord",
+          "count": 1
+        },
+        {
+          "id": "Set6_Yordle",
+          "count": 6
+        },
+        {
+          "id": "Set6_Arcanist",
+          "count": 2
+        },
+        {
+          "id": "Set6_Twinshot",
+          "count": 2
+        },
+        {
+          "id": "Set6_Scrap",
+          "count": 2
+        },
+        {
+          "id": "Set6_Socialite",
+          "count": 1
+        }
+      ],
+      "carousel": [
+        {
+          "component": 4,
+          "item": 44
+        },
+        {
+          "component": 3,
+          "item": 39
+        },
+        {
+          "component": 9,
+          "item": 39
+        }
+      ]
+    }
+  ]

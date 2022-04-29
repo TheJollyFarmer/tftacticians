@@ -1,6 +1,6 @@
 <template>
   <TransitionFade>
-    <template v-if="!loading">
+    <template v-if="!loading && !!summoner">
       <SummonerContent
         v-if="hasHistory"
         :summoner="summoner"
@@ -34,14 +34,6 @@ export default {
     VLoader
   },
 
-  // beforeRouteEnter: ({ params: { region, name } }, from, next) => {
-  //   next(vm => vm.setParameters().getSummoner());
-  // },
-  //
-  // beforeRouteUpdate({ params: { name } }) {
-  //   this.setParameters().getSummoner();
-  // },
-
   computed: mapState("summoner", {
     summoner: state => state.data,
     loading: state => state.loading,
@@ -51,19 +43,13 @@ export default {
   }),
 
   beforeMount() {
-    this.setParameters();
-    this.getSummoner();
+    let name = this.$route.params.name;
+
+    this.summoner.name === name
+      ? this.getSummonerData()
+      : this.getSummoner({ region: this.$route.params.region, name });
   },
 
-  methods: {
-    ...mapActions("summoner", ["updateRegion", "updateName", "getSummoner"]),
-
-    setParameters() {
-      this.updateRegion(this.$route.params.region);
-      this.updateName(this.$route.params.name);
-
-      return this;
-    }
-  }
+  methods: mapActions("summoner", ["getSummoner", "getSummonerData"])
 };
 </script>

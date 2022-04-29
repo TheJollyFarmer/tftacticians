@@ -173,11 +173,11 @@ export default {
     },
 
     getLocalUrl() {
-      return require(`@/assets/images/${this.dir}/${this.image}.${this.type}`);
+      return `/assets/images/${this.dir}/${this.image}.${this.type}`;
     },
 
     getAltUrl({ target: img }) {
-      img.src = require(`@/assets/images/error/${this.error}.png`);
+      img.src = `/assets/images/error/${this.error}.png`;
     },
 
     mouseenter() {
