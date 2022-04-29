@@ -194,7 +194,7 @@ export default {
 
   &::-webkit-search-cancel-button {
     //noinspection CssUnknownTarget
-    content: url("/api/images/general/cross.svg");
+    content: url("/assets/images/general/cross.svg");
     opacity: 0;
     position: absolute;
     right: 0.5em;
