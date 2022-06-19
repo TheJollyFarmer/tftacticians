@@ -57,13 +57,13 @@ export default {
       width: 550px;
     }
 
-    :deep(.image):first-of-type {
+    > :deep(.image):first-of-type {
       position: absolute;
       top: -13%;
       left: 40%;
     }
 
-    :deep(.image):last-of-type {
+    > :deep(.image):last-of-type {
       height: 300px;
       margin: auto;
     }

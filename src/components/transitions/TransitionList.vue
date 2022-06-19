@@ -30,7 +30,7 @@ TransitionList.props = {
   duration: {
     type: Number,
     required: false,
-    default: 0.5
+    default: 0.3
   },
 
   hasData: {
@@ -64,6 +64,7 @@ export default TransitionList;
   &-move {
     transition: 500ms cubic-bezier(0.59, 0.12, 0.34, 0.95);
     transition-property: background-color, opacity, transform;
+    will-change: transform, opacity;
   }
 
   &-enter-from {
@@ -80,6 +81,11 @@ export default TransitionList;
     min-height: 1em;
     margin-bottom: 1em;
     width: 100%;
+  }
+
+  &-leave-from {
+    opacity: 0.1;
+    transform: translateX(0) scaleY(1);
   }
 
   &-leave-to {

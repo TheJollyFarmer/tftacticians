@@ -10,7 +10,7 @@ export default {
 
   methods: {
     copyright() {
-      return "TFT " + new Date().getFullYear();
+      return "TFTacticians " + new Date().getFullYear();
     }
   }
 };

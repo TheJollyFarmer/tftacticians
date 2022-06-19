@@ -1,6 +1,6 @@
 <template>
   <TransitionFade>
-    <template v-if="!loading && !!summoner">
+    <template v-if="!loading">
       <SummonerContent
         v-if="hasHistory"
         :summoner="summoner"

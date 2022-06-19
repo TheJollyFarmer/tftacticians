@@ -4,6 +4,7 @@ import types from "./types";
 import dataStructures from "@/utils/dataStructures";
 
 export default {
+  resetState: ({ commit }) => commit(types.RESET_STATE),
   getKeys({ commit, dispatch, state }, { region, puuid }) {
     if (state.keys.length) commit(types.RESET_STATE);
 

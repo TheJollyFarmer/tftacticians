@@ -1,6 +1,6 @@
 <template>
   <VMediaObject
-    :id="trait.name"
+    :id="trait.name.toLowerCase()"
     :is-v-centered="false"
     has-wrap
     class="layer is-align-items-start">

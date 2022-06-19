@@ -1,5 +1,5 @@
 <template>
-  <header
+  <nav
     class="navbar is-fixed-top has-shadow"
     aria-label="main navigation">
     <div class="container">
@@ -13,7 +13,7 @@
         <NavBarEnd/>
       </div>
     </div>
-  </header>
+  </nav>
 </template>
 
 <script>

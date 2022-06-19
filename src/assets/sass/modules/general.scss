@@ -2,6 +2,10 @@
   display: none;
 }
 
+html, body {
+  scroll-behavior: smooth
+}
+
 body {
   &.has-navbar-fixed-top {
     padding-top: 3.5rem;
