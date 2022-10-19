@@ -62,11 +62,5 @@ export default {
     margin-right: $spacing;
     width: 40px;
   }
-
-  p {
-    font-size: 0.9em;
-    margin-bottom: 0;
-    overflow-wrap: break-word;
-  }
 }
 </style>

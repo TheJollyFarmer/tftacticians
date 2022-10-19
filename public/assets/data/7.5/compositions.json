@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Scalescorn Assassins",
+    "type": "Slow Roll",
+    "rating": "S",
+    "champions": [
+      {
+        "id": "TFT7_Braum",
+        "position": 2,
+        "starred": 0,
+        "items": []
+      },
+      {
+        "id": "TFT7_Lillia",
+        "position": 3,
+        "starred": 0,
+        "items": []
+      },
+      {
+        "id": "TFT7_Diana",
+        "position": 25,
+        "starred": 3,
+        "items": [
+          49,
+          36,
+          57
+        ]
+      },
+      {
+        "id": "TFT7_Olaf",
+        "position": 13,
+        "starred": 3,
+        "items": [
+          16,
+          11,
+          12
+        ]
+      },
+      {
+        "id": "TFT7_Sylas",
+        "position": 24,
+        "starred": 0,
+        "items": []
+      },
+      {
+        "id": "TFT7_Hecarim",
+        "position": 7,
+        "starred": 0,
+        "items": []
+      },
+      {
+        "id": "TFT7_Nilah",
+        "position": 15,
+        "starred": 0,
+        "items": []
+      },
+      {
+        "id": "TFT7_Pantheon",
+        "position": 5,
+        "starred": 0,
+        "items": []
+      }
+    ],
+    "early": [
+      "TFT7_Qiyana",
+      "TFT7_Jax",
+      "TFT7_Diana",
+      "TFT7_LeeSin",
+      "TFT7_Olaf"
+    ],
+    "options": {
+      "nine": "TFT7_Zoe",
+      "alternatives": [
+        {
+          "names": [
+            "TFT7_Nilah"
+          ],
+          "replacements": [
+            "TFT7_Zoe"
+          ]
+        },
+        {
+          "names": [
+            "TFT7_Nilah",
+            "TFT7_Hecarim"
+          ],
+          "replacements": [
+            "TFT7_Yone",
+            "TFT7_Yasuo"
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "id": "Set7_Scalescorn",
+        "count": 4
+      },
+      {
+        "id": "Set7_Warrior",
+        "count": 2
+      },
+      {
+        "id": "Set7_Assassin",
+        "count": 2
+      },
+      {
+        "id": "Set7_Cavalier",
+        "count": 2
+      },
+      {
+        "id": "Set7_Whispers",
+        "count": 2
+      },
+      {
+        "id": "Set7_Bruiser",
+        "count": 2
+      }
+    ],
+    "carousel": [
+      {
+        "component": 1,
+        "item": 16
+      },
+      {
+        "component": 2,
+        "item": 12
+      },
+      {
+        "component": 6,
+        "item": 16
+      }
+    ]
+  }
+]

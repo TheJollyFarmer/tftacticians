@@ -1,0 +1,1010 @@
+[
+  {
+    "key": "Set7_Astral",
+    "name": "Astral",
+    "description": "After each player combat, gain an Astral Orb. The combined star level of your Astral champions increases the quality of the orb.\n\nAstral champions gains bonus Ability Power.",
+    "type": "origin",
+    "champions": [
+      "TFT7_AurelionSol",
+      "TFT7_Lux",
+      "TFT7_Nidalee",
+      "TFT7_Skarner",
+      "TFT7_Varus",
+      "TFT7_Vladimir"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 3,
+        "max": 4,
+        "description": "5 Ability Power"
+      },
+      {
+        "style": "silver",
+        "min": 5,
+        "max": 6,
+        "description": "30 Ability Power"
+      },
+      {
+        "style": "gold",
+        "min": 8,
+        "max": 8,
+        "description": "75 Ability Power"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Darkflight",
+    "name": "Darkflight",
+    "description": "The unit in the Darkflight hex is sacrificed at start of combat, granting a copy of a random item they have to each Darkflight champion, and bonus health to each.\r\n\r\nNon-craftable items and Emblems are corrupted when they're copied, instead becoming Darkflight Essence.",
+    "type": "origin",
+    "champions": [
+      "TFT7_Aphelios",
+      "TFT7_Rell",
+      "TFT7_Rengar",
+      "TFT7_Swain"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "600 Health"
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5,
+        "description": "800 Health"
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 7,
+        "description": "1000 Health"
+      },
+      {
+        "style": "chromatic",
+        "min": 8,
+        "max": 8,
+        "description": "1800 Health"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Guild",
+    "name": "Guild",
+    "description": "Grant a unique bonus to your team; Guild members gain double the amount. Increases for each Guild member in play!\n\nSejuani: +130 Health\nTwitch: +13% Attack Speed\nZippy: +8 Armor and Magic Resist\nJayce: +5 Attack Damage and Ability Power\nBard: +2 Mana per attack\nEmblem: +4% Omnivamp",
+    "type": "origin",
+    "champions": [
+      "TFT7_Bard",
+      "TFT7_Jayce",
+      "TFT7_Sejuani",
+      "TFT7_Twitch",
+      "TFT7_DragonGuild"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 1,
+        "max": 2,
+        "description": "100% Guild bonus"
+      },
+      {
+        "style": "silver",
+        "min": 2,
+        "max": 3,
+        "description": "110% Guild bonus"
+      },
+      {
+        "style": "gold",
+        "min": 3,
+        "max": 4,
+        "description": "120% Guild bonus"
+      },
+      {
+        "style": "chromatic",
+        "min": 4,
+        "max": 5,
+        "description": "130% Guild bonus"
+      },
+      {
+        "style": null,
+        "min": 5,
+        "max": 6,
+        "description": "140% Guild bonus"
+      },
+      {
+        "style": null,
+        "min": 7,
+        "max": 8,
+        "description": "165% Guild bonus"
+      },
+      {
+        "style": null,
+        "min": 8,
+        "max": 8,
+        "description": "180% Guild bonus"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Jade",
+    "name": "Jade",
+    "description": "Summon movable Jade Statues that grow in power. \n\nEach combat, allies who start combat adjacent to a statue gain maximum Health healing every 2 seconds and bonus Attack Speed. When a statue is destroyed, it deals 33% of its Health as magic damage to nearby enemies.",
+    "type": "origin",
+    "champions": [
+      "TFT7_Gnar",
+      "TFT7_Jax",
+      "TFT7_Karma",
+      "TFT7_DragonGreen",
+      "TFT7_Soraka",
+      "TFT7_Wukong"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 3,
+        "max": 4,
+        "description": "1 statue, +2% healing, +10% Attack Speed"
+      },
+      {
+        "style": "silver",
+        "min": 5,
+        "max": 6,
+        "description": "2 statues, +3% healing, +25% Attack Speed"
+      },
+      {
+        "style": "gold",
+        "min": 7,
+        "max": 8,
+        "description": "3 statues, +5% healing, +45% Attack Speed"
+      },
+      {
+        "style": "chromatic",
+        "min": 9,
+        "max": 9,
+        "description": "4 statues, +8% healing, +88% Attack Speed"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Lagoon",
+    "name": "Lagoon",
+    "description": "Summon a Seastone. The Seastone grants loot based on the number of ability casts by Lagoon champions over time. Lagoon champions also gain Ability Power and Attack Speed.",
+    "type": "origin",
+    "champions": [
+      "TFT7_Kaisa",
+      "TFT7_Malphite",
+      "TFT7_Nilah",
+      "TFT7_Seraphine",
+      "TFT7_AquaticDragon",
+      "TFT7_Taliyah",
+      "TFT7_Zac",
+      "TFT7_Zeri"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 3,
+        "max": 4,
+        "description": "8 Ability Power, 8% Attack Speed"
+      },
+      {
+        "style": "silver",
+        "min": 6,
+        "max": 7,
+        "description": "30 Ability Power, 30% Attack Speed"
+      },
+      {
+        "style": "gold",
+        "min": 9,
+        "max": 10,
+        "description": "55 Ability Power, 55% Attack Speed"
+      },
+      {
+        "style": "chromatic",
+        "min": 12,
+        "max": 12,
+        "description": "200 Ability Power, 200% Attack Speed"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Mirage",
+    "name": "Mirage",
+    "description": "Mirage champions gain a different Trait bonus from game to game.\n\nElectric Overload: When attacking or being hit by an attack, gain a chance to deal 8% of their maximum Health as magic damage to adjacent enemies.\nWarlord's Honor: After winning any combat, gain bonus Health and Ability Power. Increases by 10% per win, stacks up to 5 times!\nPirate's Greed: Gain a chest of loot after each player combat.\nDawnbringer's Determination: Once per combat, rapidly heal at 50% Health.\nExecutioner's Edge: Always critically strike low Heath targets with Attacks and Abilities. Gain bonus Critical Strike Damage.\nSpellsword's Enchantment: Each player combat, gain Ability Power per attack.\nDuelist's Dexterity: Innate: Mirage units move faster. Attacks grant bonus Attack Speed, up to 10 stacks.",
+    "type": "origin",
+    "champions": [
+      "TFT7_DragonBlue",
+      "TFT7_Leona",
+      "TFT7_Nunu",
+      "TFT7_Yasuo",
+      "TFT7_Yone"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "??? (Randomly selected per game)"
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5,
+        "description": "??? (Randomly selected per game)"
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 7,
+        "description": "??? (Randomly selected per game)"
+      },
+      {
+        "style": "chromatic",
+        "min": 8,
+        "max": 8,
+        "description": "??? (Randomly selected per game)"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Monolith",
+    "name": "Monolith",
+    "description": "3Monoliths create 3 hexes on the battlefield. Units standing in the hex at the start of combat gain 18% damage reduction.",
+    "type": "origin",
+    "champions": [
+      "TFT7_DragonEarth"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 3,
+        "max": 3,
+        "description": "Monoliths create 3 hexes on the battlefield. Units standing in the hex at the start of combat gain 18% damage reduction."
+      }
+    ]
+  },
+  {
+    "key": "Set7_Prodigy",
+    "name": "Prodigy",
+    "description": "Nomsy gains a random trait each game (Mage, Cannoneer, or Evoker). She summons a former Trainer to aid her in battle, who also gains this trait.\n\nTrainers' Ability Power is always equal to Nomsy's Ability Power. When Nomsy dies, Trainers gain 100% Attack Speed.",
+    "type": "origin",
+    "champions": [
+      "TFT7_Nomsy"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 3,
+        "max": 3,
+        "description": "Nomsy gains a random trait each game (Mage, Cannoneer, or Evoker). She summons a former Trainer to aid her in battle, who also gains this trait.\n\nTrainers' Ability Power is always equal to Nomsy's Ability Power. When Nomsy dies, Trainers gain 100% Attack Speed."
+      }
+    ]
+  },
+  {
+    "key": "Set7_Ragewing",
+    "name": "Ragewing",
+    "description": "Innate: Convert Mana to Rage; attacks generate 15 Rage. After casting an Ability, enrage for 4 seconds: 25% Attack Speed but can't gain Rage.\n\nGain stats when enraged:",
+    "type": "origin",
+    "champions": [
+      "TFT7_Hecarim",
+      "TFT7_Rakan",
+      "TFT7_Senna",
+      "TFT7_Sett",
+      "TFT7_Shyvana",
+      "TFT7_Xayah"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "50% Attack Speed and 15% Omnivamp"
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5,
+        "description": "100% Attack Speed and 30% Omnivamp"
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 7,
+        "description": "175% Attack Speed and 50% Omnivamp"
+      },
+      {
+        "style": "chromatic",
+        "min": 8,
+        "max": 8,
+        "description": "250% Attack Speed and 75% Omnivamp"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Scalescorn",
+    "name": "Scalescorn",
+    "description": "Scalescorns take 20% reduced damage from enemies with more than 1900 Health. If you don't have a Dragon on your team, they also deal a percent of their damage as additional magic damage.",
+    "type": "origin",
+    "champions": [
+      "TFT7_Braum",
+      "TFT7_Diana",
+      "TFT7_Lillia",
+      "TFT7_Olaf"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "15% magic damage"
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5,
+        "description": "50% magic damage"
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 6,
+        "description": "115% magic damage"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Shimmerscale",
+    "name": "Shimmerscale",
+    "description": "Grant exclusive random Shimmerscale items. You can remove Shimmerscale items by benching the holder.",
+    "type": "origin",
+    "champions": [
+      "TFT7_DragonGold",
+      "TFT7_Jax",
+      "TFT7_Nasus",
+      "TFT7b_Volibear",
+      "TFT7_Zoe"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 3,
+        "max": 4,
+        "description": "1 unique item"
+      },
+      {
+        "style": "silver",
+        "min": 5,
+        "max": 6,
+        "description": "2 unique items"
+      },
+      {
+        "style": "gold",
+        "min": 7,
+        "max": 8,
+        "description": "4 unique items"
+      },
+      {
+        "style": "chromatic",
+        "min": 9,
+        "max": 9,
+        "description": "5 unique items, which includes Crown of Champions"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Tempest",
+    "name": "Tempest",
+    "description": "After 8 seconds, lightning strikes the battlefield. Enemies are stunned for 1 second and take a percent of their maximum Health as true damage. Then, Tempest champions deal increased damage.",
+    "type": "origin",
+    "champions": [
+      "TFT7_AoShin",
+      "TFT7_Ezreal",
+      "TFT7_Graves",
+      "TFT7_LeeSin",
+      "TFT7_Qiyana"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "5% lightning, 10% unit damage"
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5,
+        "description": "15% lightning, 30% unit damage"
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 7,
+        "description": "25% lightning, 60% unit damage"
+      },
+      {
+        "style": "chromatic",
+        "min": 8,
+        "max": 8,
+        "description": "35% lightning, 120% unit damage"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Whispers",
+    "name": "Whispers",
+    "description": "Whispers damage shrinks enemies, reducing their Armor and Magic Resist by 40% for 6 seconds.\n\nWhen they damage a shrunken enemy, Whispers gain stacking bonuses:",
+    "type": "origin",
+    "champions": [
+      "TFT7_Pantheon",
+      "TFT7_DragonPurple",
+      "TFT7_Sylas",
+      "TFT7_Zyra"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "1 Attack Damage and Ability Power"
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5,
+        "description": "3 Attack Damage and Ability Power"
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 6,
+        "description": "6 Attack Damage and Ability Power"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Assassin",
+    "name": "Assassin",
+    "description": "Innate: Leap to the enemy backline when combat starts.\n\nAssassins' Abilities can critically strike and they gain bonus Critical Strike Chance and bonus Critical Strike Damage.",
+    "type": "class",
+    "champions": [
+      "TFT7_Diana",
+      "TFT7_Nilah",
+      "TFT7_Qiyana",
+      "TFT7_Rengar"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "20% Crit Chance & 10% Crit Damage"
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5,
+        "description": "40% Crit Chance & 25% Crit Damage"
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 6,
+        "description": "75% Crit Chance & 75% Crit Damage"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Bard",
+    "name": "Bard",
+    "description": "1Allies that survive player combat have a 2% chance to create a Doot. Bard always creates a Doot when dancing.\n\nEach Doot you collect increases your Shop odds for higher-tier champions by 1%.",
+    "type": "class",
+    "champions": [
+      "TFT7_Bard"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 1,
+        "max": 1,
+        "description": "Allies that survive player combat have a 2% chance to create a Doot. Bard always creates a Doot when dancing.\n\nEach Doot you collect increases your Shop odds for higher-tier champions by 1%."
+      }
+    ]
+  },
+  {
+    "key": "Set7_Bruiser",
+    "name": "Bruiser",
+    "description": "Your team gains bonus maximum Health. Bruisers gain double this bonus.",
+    "type": "class",
+    "champions": [
+      "TFT7_Jax",
+      "TFT7_Malphite",
+      "TFT7_Olaf",
+      "TFT7_Skarner",
+      "TFT7_DragonPurple",
+      "TFT7_Sylas"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "180 Health"
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5,
+        "description": "350 Health"
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 7,
+        "description": "600 Health"
+      },
+      {
+        "style": "chromatic",
+        "min": 8,
+        "max": 8,
+        "description": "1000 Health"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Cannoneer",
+    "name": "Cannoneer",
+    "description": "Every 5th attack fires a cannon shot that explodes for physical damage around the target.",
+    "type": "class",
+    "champions": [
+      "TFT7_Aphelios",
+      "TFT7_Graves",
+      "TFT7_Senna",
+      "TFT7b_Tristana",
+      "TFT7_Zeri"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "175% Attack Damage"
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5,
+        "description": "350% Attack Damage"
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 6,
+        "description": "550% Attack Damage"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Cavalier",
+    "name": "Cavalier",
+    "description": "Innate: Charge quickly towards their target whenever they move.\n\nCavaliers gain Armor and Magic Resist. At the start of combat and after each charge, gain 200% the amount for 4 seconds.",
+    "type": "class",
+    "champions": [
+      "TFT7_Hecarim",
+      "TFT7_Lillia",
+      "TFT7_Nunu",
+      "TFT7_Rell",
+      "TFT7_Sejuani"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "30 Armor, 30 Magic Resist"
+      },
+      {
+        "style": "silver",
+        "min": 3,
+        "max": 4,
+        "description": "45 Armor, 45 Magic Resist"
+      },
+      {
+        "style": "gold",
+        "min": 4,
+        "max": 5,
+        "description": "60 Armor, 60 Magic Resist"
+      },
+      {
+        "style": "chromatic",
+        "min": 5,
+        "max": 6,
+        "description": "75 Armor, 75 Magic Resist"
+      },
+      {
+        "style": null,
+        "min": 6,
+        "max": 6,
+        "description": "110 Armor, 110 Magic Resist"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Dragon",
+    "name": "Dragon",
+    "description": "Innate: Require 2 team slots. \n\nDragons provide +3 to the marked trait, and gain additional bonuses based on how many Dragons are on your team.",
+    "type": "class",
+    "champions": [
+      "TFT7_AoShin",
+      "TFT7_AurelionSol",
+      "TFT7_DragonBlue",
+      "TFT7_DragonGold",
+      "TFT7_Nomsy",
+      "TFT7_DragonGreen",
+      "TFT7_Shyvana",
+      "TFT7_AquaticDragon",
+      "TFT7_Swain",
+      "TFT7_DragonPurple",
+      "TFT7_DragonEarth",
+      "TFT7_DragonGuild"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 1,
+        "max": 2,
+        "description": "500 bonus Health"
+      },
+      {
+        "style": "silver",
+        "min": 2,
+        "max": 3,
+        "description": "and 20 Armor and Magic Resist"
+      },
+      {
+        "style": "gold",
+        "min": 3,
+        "max": 4,
+        "description": "and 10% bonus damage"
+      },
+      {
+        "style": "chromatic",
+        "min": 4,
+        "max": 5,
+        "description": "and +1 to team size"
+      },
+      {
+        "style": null,
+        "min": 5,
+        "max": 5,
+        "description": "and 10% Attack Speed"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Dragonmancer",
+    "name": "Dragonmancer",
+    "description": "Use the Dragonmancer Blessing item to choose a Hero. The Hero gains massively increased Health and Ability Power, which increases by 20% per star level of your Dragonmancers.",
+    "type": "class",
+    "champions": [
+      "TFT7_Kaisa",
+      "TFT7_Karma",
+      "TFT7_LeeSin",
+      "TFT7_Sett",
+      "TFT7b_Volibear",
+      "TFT7_Yasuo"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "250 Health, +18 Ability Power"
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5,
+        "description": "600 Health, +30 Ability Power"
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 7,
+        "description": "900 Health, +55 Ability Power"
+      },
+      {
+        "style": "chromatic",
+        "min": 8,
+        "max": 8,
+        "description": "1200 Health, +85 Ability Power"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Evoker",
+    "name": "Evoker",
+    "description": "Evokers gain Mana whenever an ally or enemy casts an Ability.",
+    "type": "class",
+    "champions": [
+      "TFT7_AurelionSol",
+      "TFT7b_Lulu",
+      "TFT7_Seraphine",
+      "TFT7_Zyra"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "4 Mana"
+      },
+      {
+        "style": "silver",
+        "min": 3,
+        "max": 4,
+        "description": "6 Mana"
+      },
+      {
+        "style": "gold",
+        "min": 4,
+        "max": 4,
+        "description": "8 Mana"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Guardian",
+    "name": "Guardian",
+    "description": "Once per combat at 50% Health, Guardians shield themselves and their closest ally for a percent of their maximum Health. Shields stack!",
+    "type": "class",
+    "champions": [
+      "TFT7_Braum",
+      "TFT7_DragonGold",
+      "TFT7_Leona",
+      "TFT7_Nasus",
+      "TFT7_Rakan",
+      "TFT7_Zac"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "25% of max health shield"
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5,
+        "description": "40% of max health shield"
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 7,
+        "description": "70% of max health shield"
+      },
+      {
+        "style": "chromatic",
+        "min": 8,
+        "max": 8,
+        "description": "125% of max health shield"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Mage",
+    "name": "Mage",
+    "description": "Mages cast twice and have modified total Ability Power.",
+    "type": "class",
+    "champions": [
+      "TFT7b_Heimerdinger",
+      "TFT7_Lillia",
+      "TFT7_Lux",
+      "TFT7_AquaticDragon",
+      "TFT7_Sylas",
+      "TFT7_Taliyah",
+      "TFT7_Vladimir",
+      "TFT7_Zoe"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 3,
+        "max": 4,
+        "description": "75% Ability Power"
+      },
+      {
+        "style": "silver",
+        "min": 5,
+        "max": 6,
+        "description": "100% Ability Power"
+      },
+      {
+        "style": "gold",
+        "min": 7,
+        "max": 8,
+        "description": "125% Ability Power"
+      },
+      {
+        "style": "chromatic",
+        "min": 9,
+        "max": 9,
+        "description": "150% Ability Power"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Mystic",
+    "name": "Mystic",
+    "description": "Your team gains Magic Resist.",
+    "type": "class",
+    "champions": [
+      "TFT7_Bard",
+      "TFT7_Rakan",
+      "TFT7_Seraphine",
+      "TFT7_DragonGreen"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "40 Magic Resist"
+      },
+      {
+        "style": "silver",
+        "min": 3,
+        "max": 4,
+        "description": "80 Magic Resist"
+      },
+      {
+        "style": "gold",
+        "min": 4,
+        "max": 5,
+        "description": "150 Magic Resist"
+      },
+      {
+        "style": "chromatic",
+        "min": 5,
+        "max": 5,
+        "description": "300 Magic Resist"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Shapeshifter",
+    "name": "Shapeshifter",
+    "description": "Transforming grants bonus maximum Health.",
+    "type": "class",
+    "champions": [
+      "TFT7_Gnar",
+      "TFT7_Jayce",
+      "TFT7_Nidalee",
+      "TFT7_Shyvana"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "50% maximum Health"
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 4,
+        "description": "125% maximum Health"
+      }
+    ]
+  },
+  {
+    "key": "Set7_SpellThief",
+    "name": "Spell-Thief",
+    "description": "1Zoe nabs a new Ability after each cast and at the start of every round.",
+    "type": "class",
+    "champions": [
+      "TFT7_Zoe"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 1,
+        "max": 1,
+        "description": "Zoe nabs a new Ability after each cast and at the start of every round."
+      }
+    ]
+  },
+  {
+    "key": "Set7_Starcaller",
+    "name": "Starcaller",
+    "description": "1The first Starcaller to cast their Ability during player combat heals you for (2/3/75), depending on their star level. Excess healing disintegrates an enemy champion.",
+    "type": "class",
+    "champions": [
+      "TFT7_Soraka"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 1,
+        "max": 1,
+        "description": "The first Starcaller to cast their Ability during player combat heals you for (2/3/75), depending on their star level. Excess healing disintegrates an enemy champion."
+      }
+    ]
+  },
+  {
+    "key": "Set7_Swiftshot",
+    "name": "Swiftshot",
+    "description": "Innate: gain 2 hex Attack Range.\r\n\r\nSwiftshots gain Attack Speed for each hex between themselves and their target.",
+    "type": "class",
+    "champions": [
+      "TFT7_Ezreal",
+      "TFT7_Twitch",
+      "TFT7_Varus",
+      "TFT7_Xayah"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "10% Attack Speed"
+      },
+      {
+        "style": "silver",
+        "min": 3,
+        "max": 4,
+        "description": "15% Attack Speed"
+      },
+      {
+        "style": "gold",
+        "min": 4,
+        "max": 5,
+        "description": "25% Attack Speed"
+      },
+      {
+        "style": "chromatic",
+        "min": 5,
+        "max": 5,
+        "description": "35% Attack Speed"
+      }
+    ]
+  },
+  {
+    "key": "Set7_Warrior",
+    "name": "Warrior",
+    "description": "Warrior attacks have a 50% chance to increase the damage of their next attack.",
+    "type": "class",
+    "champions": [
+      "TFT7_Olaf",
+      "TFT7_Pantheon",
+      "TFT7_Wukong",
+      "TFT7_Yasuo",
+      "TFT7_Yone"
+    ],
+    "sets": [
+      {
+        "style": "bronze",
+        "min": 2,
+        "max": 3,
+        "description": "75% damage"
+      },
+      {
+        "style": "silver",
+        "min": 4,
+        "max": 5,
+        "description": "150% damage"
+      },
+      {
+        "style": "gold",
+        "min": 6,
+        "max": 6,
+        "description": "275% damage"
+      }
+    ]
+  }
+]

@@ -4,6 +4,7 @@
     :collection="champions"
     type="grid">
     <ChampionLink
+      v-if="isValid(champion)"
       :id="champion.id"
       :key="champion.name"
       dimension="48"
@@ -26,6 +27,12 @@ export default {
     champions: {
       type: Array,
       required: true
+    }
+  },
+
+  methods: {
+    isValid(champion) {
+      return champion.name !== "Nomsy" ? true : champion.id === "TFT7_Nomsy";
     }
   }
 };

@@ -50,7 +50,12 @@ export default {
   getRanked({ commit, state }) {
     return api
       .getRanked(state.regions[state.form.region].value, state.data.id)
-      .then(res => commit(types.SET_RANKED, res[0]));
+      .then(res =>
+        commit(
+          types.SET_RANKED,
+          res.find(queue => queue.queueType === "RANKED_TFT")
+        )
+      );
   },
 
   getMatches({ dispatch, state, getters }) {

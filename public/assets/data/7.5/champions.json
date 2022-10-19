@@ -1,0 +1,5632 @@
+[
+  {
+    "name": "Ao Shin",
+    "id": "TFT7_AoShin",
+    "cost": 8,
+    "traits": [
+      "Set7_Tempest",
+      "Set7_Dragon"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          48,
+          86,
+          156
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 35
+      },
+      {
+        "name": "resistance",
+        "values": 35
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          175
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Lightning Rain",
+      "type": "Active",
+      "description": "Ao Shin fires a barrage of 20 lightning strikes at random enemies. Each strike deals magic damage and reduces 10 current Mana from his target.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            185,
+            300,
+            2000
+          ]
+        }
+      ]
+    },
+    "items": [
+      34,
+      13,
+      14,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Aphelios",
+    "id": "TFT7_Aphelios",
+    "cost": 2,
+    "traits": [
+      "Set7_Darkflight",
+      "Set7_Cannoneer"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          500,
+          900,
+          1620
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          65,
+          117,
+          211
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          52,
+          94,
+          168
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 80
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [
+          80,
+          175
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Binding Eclipse",
+      "type": "Active",
+      "description": "Aphelios uses his Infernum cannon to blast bolts in a cone towards his target, each dealing a percent of his Attack Damage. Enemies can only take damage from one bolt. He then stuns all enemies hit.",
+      "values": [
+        {
+          "name": "Number of Bolts",
+          "values": [
+            5,
+            5,
+            7
+          ]
+        },
+        {
+          "name": "Stun Duration",
+          "values": [
+            1.25,
+            1.5,
+            1.75
+          ]
+        },
+        {
+          "name": "Attack Damage Percentage",
+          "values": [
+            325,
+            350,
+            400
+          ]
+        }
+      ]
+    },
+    "items": [
+      12,
+      23,
+      49,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Aurelion",
+    "id": "TFT7_AurelionSol",
+    "cost": 8,
+    "traits": [
+      "Set7_Astral",
+      "Set7_Dragon"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          45,
+          81,
+          146
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 35
+      },
+      {
+        "name": "resistance",
+        "values": 35
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          60
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Black Hole",
+      "type": "Active",
+      "description": "Aurelion Sol summons an unstable black hole underneath a random enemy. After 2 seconds it implodes, dealing magic damage to all enemies in the area and increasing their damage taken by 20% for 10 seconds.\n\nBlack holes generated after 18 seconds of combat are larger and deal 15% more damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            325,
+            550,
+            4000
+          ]
+        }
+      ]
+    },
+    "items": [
+      34,
+      13,
+      14,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Bard",
+    "id": "TFT7_Bard",
+    "cost": 5,
+    "traits": [
+      "Set7_Guild",
+      "Set7_Bard"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          850,
+          1530,
+          2754
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          42,
+          76,
+          136
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 160
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [
+          160,
+          240
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Tempered Fate",
+      "type": "Active",
+      "description": "Bard sends magical energy toward the largest group of enemies, stunning them and causing them to take increased damage while stunned. If he hits at least 1 enemy, Bard dances in celebration.",
+      "values": [
+        {
+          "name": "Stasis Duration",
+          "values": [
+            1.25,
+            2,
+            15
+          ]
+        },
+        {
+          "name": "Increased Damage",
+          "values": [
+            15,
+            20,
+            9999
+          ]
+        }
+      ]
+    },
+    "items": [
+      46,
+      17,
+      67,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Braum",
+    "id": "TFT7_Braum",
+    "cost": 2,
+    "traits": [
+      "Set7_Scalescorn",
+      "Set7_Guardian"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          70,
+          126,
+          227
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          42,
+          76,
+          136
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 60
+      },
+      {
+        "name": "mana",
+        "values": [
+          30,
+          60
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Unbreakable",
+      "type": "Active",
+      "description": "Braum raises his shield towards the largest group of enemies for 4 seconds, reducing his damage taken from that direction.",
+      "values": [
+        {
+          "name": "Damage Reduction",
+          "values": [
+            70,
+            75,
+            85
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Daeja",
+    "id": "TFT7_DragonBlue",
+    "cost": 7,
+    "traits": [
+      "Set7_Mirage",
+      "Set7_Dragon"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          100
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Windblast",
+      "type": "Active",
+      "description": "Passive: Daeja's attacks are replaced by three barrages that each deal magic damage and reduce the target's Magic Resist by 5. \n\nActive: Daeja sends a wind blast toward the most enemies in a line, dealing magic damage.",
+      "values": [
+        {
+          "name": "Passive Damage",
+          "values": [
+            45,
+            60,
+            180
+          ]
+        },
+        {
+          "name": "Windblast Damage",
+          "values": [
+            250,
+            350,
+            1600
+          ]
+        }
+      ]
+    },
+    "items": [
+      12,
+      23,
+      13,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Diana",
+    "id": "TFT7_Diana",
+    "cost": 3,
+    "traits": [
+      "Set7_Scalescorn",
+      "Set7_Assassin"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          700,
+          1260,
+          2268
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          50,
+          90,
+          162
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          38,
+          68,
+          122
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 35
+      },
+      {
+        "name": "mana",
+        "values": [
+          50,
+          100
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Pale Cascade",
+      "type": "Active",
+      "description": "Diana shields herself against damage for 6 seconds and summons orbs to orbit around her. These orbs burst dealing magic damage when they hit an enemy. When the final orbs bursts, her shield refreshes.",
+      "values": [
+        {
+          "name": "Orbs",
+          "values": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "name": "Damage",
+          "values": [
+            90,
+            105,
+            120
+          ]
+        },
+        {
+          "name": "Shield Amount",
+          "values": [
+            300,
+            350,
+            400
+          ]
+        }
+      ]
+    },
+    "items": [
+      49,
+      36,
+      57,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Ezreal",
+    "id": "TFT7_Ezreal",
+    "cost": 1,
+    "traits": [
+      "Set7_Tempest",
+      "Set7_Swiftshot"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          500,
+          900,
+          1620
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          35,
+          63,
+          113
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          25,
+          44,
+          79
+        ]
+      },
+      {
+        "name": "range",
+        "values": 5
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 15
+      },
+      {
+        "name": "resistance",
+        "values": 15
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          40
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Mystic Shot",
+      "type": "Active",
+      "description": "Ezreal fires an energy bolt towards his target. The first enemy hit takes magic damage and grants Ezreal 10% bonus Attack Speed, stacking up to 5 times.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            200,
+            275,
+            375
+          ]
+        }
+      ]
+    },
+    "items": [
+      44,
+      19,
+      39,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Gnar",
+    "id": "TFT7_Gnar",
+    "cost": 2,
+    "traits": [
+      "Set7_Jade",
+      "Set7_Shapeshifter"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          750,
+          1350,
+          2430
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          50,
+          90,
+          162
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          33,
+          59,
+          105
+        ]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          70
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Mega Gnar",
+      "type": "Active",
+      "description": "Gnar transforms into Mega Form, jumping to his target and knocking up nearby enemies for 1 second. Gnar also gains Attack Damage and Armor, but reduces his Attack Range to 1.",
+      "values": [
+        {
+          "name": "Attack Damage",
+          "values": [
+            60,
+            90,
+            150
+          ]
+        },
+        {
+          "name": "Armor",
+          "values": [
+            40,
+            50,
+            75
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Graves",
+    "id": "TFT7_Graves",
+    "cost": 4,
+    "traits": [
+      "Set7_Tempest",
+      "Set7_Cannoneer"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          65,
+          117,
+          211
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          42,
+          76,
+          137
+        ]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          40
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Quickdraw",
+      "type": "Active",
+      "description": "Passive: Graves' attacks spread in a cone of 4 bullets in front of him, each striking the first enemy hit for a percentage of his Attack Damage.\n\nActive: Graves dashes towards his target, quickly fires two attacks, and grants himself Armor and Magic Resist for 4 seconds.",
+      "values": [
+        {
+          "name": "Armor and Magic Resist",
+          "values": [
+            30,
+            40,
+            80
+          ]
+        },
+        {
+          "name": "Percent of Attack Damage",
+          "values": [
+            65,
+            65,
+            170
+          ]
+        }
+      ]
+    },
+    "items": [
+      16,
+      23,
+      25,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Hecarim",
+    "id": "TFT7_Hecarim",
+    "cost": 4,
+    "traits": [
+      "Set7_Ragewing",
+      "Set7_Cavalier"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          900,
+          1620,
+          2916
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          45,
+          81,
+          146
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 60
+      },
+      {
+        "name": "mana",
+        "values": [
+          60,
+          105
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Onslaught of Shadows",
+      "type": "Active",
+      "description": "Hecarim summons spectral riders that charge through his target, dealing magic damage and stunning enemies hit.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            150,
+            250,
+            1000
+          ]
+        },
+        {
+          "name": "Stun Duration",
+          "values": [
+            1.5,
+            2,
+            8
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      37,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Heimerdinger",
+    "id": "TFT7b_Heimerdinger",
+    "cost": 1,
+    "traits": ["Set7_Mage"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          600,
+          1080,
+          1944
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          50,
+          90,
+          162
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          33,
+          59,
+          105
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 25
+      },
+      {
+        "name": "mana",
+        "values": [
+          50,
+          100
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Egg Toss",
+      "type": "Active",
+      "description": "Heimerdinger lobs an egg at the highest percent Health enemy, dealing magic damage and stunning them for 0.5 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            225,
+            325,
+            475
+          ]
+        }
+      ]
+    },
+    "items": [
+      19,
+      39,
+      14,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Idas",
+    "id": "TFT7_DragonGold",
+    "cost": 7,
+    "traits": [
+      "Set7_Shimmerscale",
+      "Set7_Dragon"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          950,
+          1710,
+          3078
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          90,
+          162,
+          292
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          50,
+          89,
+          160
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.55
+      },
+      {
+        "name": "armour",
+        "values": 80
+      },
+      {
+        "name": "resistance",
+        "values": 60
+      },
+      {
+        "name": "mana",
+        "values": [
+          80,
+          160
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Golden Scales",
+      "type": "Active",
+      "description": "Idas hardens her scales for 2 seconds, reducing incoming damage. She then roars, healing herself and shielding other allies for 5 seconds. The shield grants 30% Attack Speed while it holds.",
+      "values": [
+        {
+          "name": "Damage Reduction",
+          "values": [
+            30,
+            50,
+            300
+          ]
+        },
+        {
+          "name": "Healing",
+          "values": [
+            450,
+            600,
+            3000
+          ]
+        },
+        {
+          "name": "Shield Amount",
+          "values": [
+            150,
+            250,
+            1200
+          ]
+        }
+      ]
+    },
+    "items": [
+      66,
+      56,
+      57,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Jax",
+    "id": "TFT7_Jax",
+    "cost": 2,
+    "traits": [
+      "Set7_Jade",
+      "Set7_Shimmerscale"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          750,
+          1350,
+          2430
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          55,
+          99,
+          178
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          39,
+          69,
+          125
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [
+          50,
+          125
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Counter Strike",
+      "type": "Active",
+      "description": "Jax enters a defensive stance for 2 seconds, dodging all incoming attacks. When the stance ends, he strikes all nearby enemies, dealing magic damage and stunning them.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            200,
+            300,
+            550
+          ]
+        },
+        {
+          "name": "Stun Duration",
+          "values": [
+            1,
+            1.25,
+            1.5
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Jayce",
+    "id": "TFT7_Jayce",
+    "cost": 4,
+    "traits": [
+      "Set7_Guild",
+      "Set7_Shapeshifter"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          900,
+          1620,
+          2916
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          48,
+          86,
+          156
+        ]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 50
+      },
+      {
+        "name": "mana",
+        "values": [
+          20,
+          80
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Mercurial Justice",
+      "type": "Active",
+      "description": "Jayce transforms into his melee form, then slams the ground around his target, dealing magic damage and knocking up enemies in the area for 1.5 seconds. He then replaces his ability with Mercurial Hammer for the rest of combat.\n\nMercury Judgement: Jayce calls lightning upon his target, smiting them for magic damage and dealing additional magic damage to other enemies in the area. He then heals for an amount and an additional 20% per enemy struck.",
+      "values": [
+        {
+          "name": "Transform Magic Damage",
+          "values": [
+            225,
+            300,
+            800
+          ]
+        },
+        {
+          "name": "Smite Magic Damage",
+          "values": [
+            375,
+            500,
+            1500
+          ]
+        },
+        {
+          "name": "Secondary Magic Damage",
+          "values": [
+            125,
+            175,
+            500
+          ]
+        },
+        {
+          "name": "Healing",
+          "values": [
+            150,
+            210,
+            375
+          ]
+        }
+      ]
+    },
+    "items": [
+      49,
+      19,
+      39,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Kai'Sa",
+    "id": "TFT7_Kaisa",
+    "cost": 2,
+    "traits": [
+      "Set7_Lagoon",
+      "Set7_Dragonmancer"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          550,
+          990,
+          1782
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          35,
+          63,
+          113
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          28,
+          50,
+          91
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 25
+      },
+      {
+        "name": "resistance",
+        "values": 25
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          45
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Tidal Burst",
+      "type": "Active",
+      "description": "Kaisa fires 4 missiles split between her target and up to 2 other targets within her attack range that each deal magic damage. This increases by 2 missiles each cast, up to 12.",
+      "values": [
+        {
+          "name": "Magic Damage",
+          "values": [
+            35,
+            55,
+            75
+          ]
+        }
+      ]
+    },
+    "items": [
+      44,
+      19,
+      39,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Karma",
+    "id": "TFT7_Karma",
+    "cost": 1,
+    "traits": [
+      "Set7_Jade",
+      "Set7_Dragonmancer"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          500,
+          900,
+          1620
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          40,
+          72,
+          130
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          28,
+          50,
+          91
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          50
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Inner Flame",
+      "type": "Active",
+      "description": "Karma fires a burst of energy towards her target, dealing magic damage in a small area around the first enemy hit.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            210,
+            280,
+            350
+          ]
+        }
+      ]
+    },
+    "items": [
+      44,
+      19,
+      39,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Lee Sin",
+    "id": "TFT7_LeeSin",
+    "cost": 3,
+    "traits": [
+      "Set7_Tempest",
+      "Set7_Dragonmancer"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          55,
+          99,
+          178
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          41,
+          74,
+          134
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 50
+      },
+      {
+        "name": "mana",
+        "values": [
+          30,
+          80
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Dragon's Rage",
+      "type": "Active",
+      "description": "LeeSin kicks his target, stunning them for 1.25 seconds and knocking them back. The target and all enemies they hit take magic damage and have their Magic Resist reduced by 40% for 5 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            230,
+            300,
+            385
+          ]
+        }
+      ]
+    },
+    "items": [
+      49,
+      19,
+      39,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Leona",
+    "id": "TFT7_Leona",
+    "cost": 1,
+    "traits": [
+      "Set7_Mirage",
+      "Set7_Guardian"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          650,
+          1170,
+          2106
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          75,
+          135,
+          243
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          41,
+          74,
+          134
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.55
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 45
+      },
+      {
+        "name": "mana",
+        "values": [
+          40,
+          80
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Solar Barrier",
+      "type": "Active",
+      "description": "Leona creates a barrier around herself, reducing all incoming damage for 4 seconds.",
+      "values": [
+        {
+          "name": "Damage Reduction",
+          "values": [
+            30,
+            40,
+            60
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Lillia",
+    "id": "TFT7_Lillia",
+    "cost": 2,
+    "traits": [
+      "Set7_Scalescorn",
+      "Set7_Cavalier"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          750,
+          1350,
+          2430
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          40,
+          72,
+          130
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          28,
+          50,
+          91
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          50
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Watch Out!",
+      "type": "Active",
+      "description": "Lillia strikes a small area around her target's current location, dealing magic damage spread amongst all enemies hit and bonus magic damage to the enemy at the center of the blast.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            215,
+            275,
+            350
+          ]
+        },
+        {
+          "name": "Bonus Damage",
+          "values": [
+            190,
+            240,
+            320
+          ]
+        }
+      ]
+    },
+    "items": [
+      46,
+      17,
+      67,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Lulu",
+    "id": "TFT7b_Lulu",
+    "cost": 3,
+    "traits": ["Set7_Evoker"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          600,
+          1080,
+          1944
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          50,
+          90,
+          162
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          33,
+          59,
+          105
+        ]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 25
+      },
+      {
+        "name": "mana",
+        "values": [
+          50,
+          100
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Whimsy",
+      "type": "Active",
+      "description": "Lulu enchants the 2 nearest champions. Enchanted allies gain Attack Speed for 5 seconds. Enchanted enemies are stunned and transformed into harmless dragonlings for 1 second. If there are less than 3 units nearby, Lulu will enchant herself.",
+      "values": [
+        {
+          "name": "Number of Targets",
+          "values": [
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "Attack Speed Bonus",
+          "values": [
+            30,
+            40,
+            60
+          ]
+        }
+      ]
+    },
+    "items": [
+      46,
+      17,
+      67,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Lux",
+    "id": "TFT7_Lux",
+    "cost": 2,
+    "traits": [
+      "Set7_Astral",
+      "Set7_Mage"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          600,
+          1080,
+          1944
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          30,
+          54,
+          97
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          21,
+          38,
+          68
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 20
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          60
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Cosmic Spark",
+      "type": "Active",
+      "description": "Lux fires a star towards the farthest enemy, dealing magic damage to the first enemy struck, and magic damage to subsequent enemies.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            350,
+            425,
+            575
+          ]
+        },
+        {
+          "name": "Additional Damage",
+          "values": [
+            175,
+            200,
+            230
+          ]
+        }
+      ]
+    },
+    "items": [
+      34,
+      13,
+      14,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Malphite",
+    "id": "TFT7_Malphite",
+    "cost": 1,
+    "traits": [
+      "Set7_Lagoon",
+      "Set7_Bruiser"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          700,
+          1260,
+          2268
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          70,
+          126,
+          227
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          35,
+          63,
+          113
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.5
+      },
+      {
+        "name": "armour",
+        "values": 90
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [
+          90,
+          90
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Coral Shield",
+      "type": "Active",
+      "description": "Malphite shields himself for 5 seconds.",
+      "values": [
+        {
+          "name": "Base Shield Armor",
+          "values": [
+            200,
+            250,
+            325
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Nasus",
+    "id": "TFT7_Nasus",
+    "cost": 1,
+    "traits": [
+      "Set7_Shimmerscale",
+      "Set7_Guardian"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          600,
+          1080,
+          1944
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          33,
+          59,
+          107
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.55
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [
+          60,
+          120
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Fury of the Dawn",
+      "type": "Active",
+      "description": "Nasus surrounds himself in light for 6 seconds, gaining maximum health and dealing magic damage to adjacent enemies every second.",
+      "values": [
+        {
+          "name": "Bonus Health",
+          "values": [
+            225,
+            300,
+            550
+          ]
+        },
+        {
+          "name": "Damage Per Second",
+          "values": [
+            70,
+            100,
+            170
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Nidalee",
+    "id": "TFT7_Nidalee",
+    "cost": 1,
+    "traits": [
+      "Set7_Astral",
+      "Set7_Shapeshifter"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          600,
+          1080,
+          1944
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          42,
+          76,
+          136
+        ]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          50
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Primal Surge",
+      "type": "Active",
+      "description": "Nidalee transforms into Cougar Form for the rest of combat, reducing her Attack Range to 1 and gaining bonus movement speed and Attack Speed. While in cougar form, every 3rd attack swipes her target dealing 225% of her Attack Damage.",
+      "values": [
+        {
+          "name": "Attack Speed",
+          "values": [
+            40,
+            45,
+            50
+          ]
+        }
+      ]
+    },
+    "items": [
+      11,
+      23,
+      69,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Nilah",
+    "id": "TFT7_Nilah",
+    "cost": 4,
+    "traits": [
+      "Set7_Lagoon",
+      "Set7_Assassin"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          70,
+          126,
+          227
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          53,
+          95,
+          170
+        ]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 45
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          60
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Slipstream",
+      "type": "Active",
+      "description": "Nilah cracks her whip-blade at her target, dashing through them and dealing 200% of her Attack Damage plus magic damage. If this does damage to a shield, she steals a percent of the damage she deals to it. She instantly recasts if the target is killed or remains shielded.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            130,
+            200,
+            1000
+          ]
+        },
+        {
+          "name": "Shield Steal",
+          "values": [
+            80,
+            100,
+            300
+          ]
+        }
+      ]
+    },
+    "items": [
+      16,
+      12,
+      19,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Nomsy",
+    "id": "TFT7_Nomsy",
+    "cost": 6,
+    "traits": [
+      "Set7_Prodigy",
+      "Set7_Dragon"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          650,
+          1170,
+          2106
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          45,
+          81,
+          146
+        ]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          90
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Fireballs!",
+      "type": "Active",
+      "description": "Nomsy bellows, lobbing a massive fireball towards a random enemy that explodes on impact, dealing magic damage to enemies within 1 hex, and bouncing additional fireballs outward that deal a percent of the damage.",
+      "values": [
+        {
+          "name": "Magic Damage",
+          "values": [
+            210,
+            300,
+            480
+          ]
+        },
+        {
+          "name": "Percentage Damage",
+          "values": [
+            30,
+            35,
+            40
+          ]
+        }
+      ]
+    },
+    "items": [
+      34,
+      13,
+      14,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Nomsy",
+    "id": "TFT7_NomsyEvoker",
+    "cost": 6,
+    "traits": [
+      "Set7_Prodigy",
+      "Set7_Dragon",
+      "Set7_Evoker"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          650,
+          1170,
+          2106
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          45,
+          81,
+          146
+        ]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          90
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Fireballs!",
+      "type": "Active",
+      "description": "Nomsy bellows, lobbing a massive fireball towards a random enemy that explodes on impact, dealing magic damage to enemies within 1 hex, and bouncing additional fireballs outward that deal a percent of the damage.",
+      "values": [
+        {
+          "name": "Magic Damage",
+          "values": [
+            210,
+            300,
+            480
+          ]
+        },
+        {
+          "name": "Percentage Damage",
+          "values": [
+            30,
+            35,
+            40
+          ]
+        }
+      ]
+    },
+    "items": [
+      34,
+      13,
+      14,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Nomsy",
+    "id": "TFT7_NomsyCannoneer",
+    "cost": 6,
+    "traits": [
+      "Set7_Prodigy",
+      "Set7_Dragon",
+      "Set7_Cannoneer"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          650,
+          1170,
+          2106
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          45,
+          81,
+          146
+        ]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          90
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Fireballs!",
+      "type": "Active",
+      "description": "Nomsy bellows, lobbing a massive fireball towards a random enemy that explodes on impact, dealing magic damage to enemies within 1 hex, and bouncing additional fireballs outward that deal a percent of the damage.",
+      "values": [
+        {
+          "name": "Magic Damage",
+          "values": [
+            210,
+            300,
+            480
+          ]
+        },
+        {
+          "name": "Percentage Damage",
+          "values": [
+            30,
+            35,
+            40
+          ]
+        }
+      ]
+    },
+    "items": [
+      34,
+      13,
+      14,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Nomsy",
+    "id": "TFT7_NomsyMage",
+    "cost": 6,
+    "traits": [
+      "Set7_Prodigy",
+      "Set7_Dragon",
+      "Set7_Mage"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          650,
+          1170,
+          2106
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          45,
+          81,
+          146
+        ]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          90
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Fireballs!",
+      "type": "Active",
+      "description": "Nomsy bellows, lobbing a massive fireball towards a random enemy that explodes on impact, dealing magic damage to enemies within 1 hex, and bouncing additional fireballs outward that deal a percent of the damage.",
+      "values": [
+        {
+          "name": "Magic Damage",
+          "values": [
+            210,
+            300,
+            480
+          ]
+        },
+        {
+          "name": "Percentage Damage",
+          "values": [
+            30,
+            35,
+            40
+          ]
+        }
+      ]
+    },
+    "items": [
+      34,
+      13,
+      14,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Nunu",
+    "id": "TFT7_Nunu",
+    "cost": 3,
+    "traits": [
+      "Set7_Mirage",
+      "Set7_Cavalier"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          850,
+          1530,
+          2754
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          65,
+          117,
+          211
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          36,
+          64,
+          116
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.55
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 50
+      },
+      {
+        "name": "mana",
+        "values": [
+          40,
+          100
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Consume",
+      "type": "Active",
+      "description": "Nunu encourages Willump to bite his target, dealing magic damage. If Willump's target has less Health than he does before the bite, it deals an additional 33% damage and becomes true damage.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            350,
+            500,
+            800
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Olaf",
+    "id": "TFT7_Olaf",
+    "cost": 3,
+    "traits": [
+      "Set7_Scalescorn",
+      "Set7_Bruiser"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          55,
+          99,
+          178
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          39,
+          69,
+          125
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 50
+      },
+      {
+        "name": "mana",
+        "values": [
+          50,
+          100
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Recklessness",
+      "type": "Active",
+      "description": "Passive: Olaf seeks glorious death, permanently gaining 5 Attack Damage (10 in Hyper Roll) whenever he dies.\n\nActive: Olaf strikes his target, dealing a percent of his Attack Damage and gaining Attack Speed for 6 seconds. If he's below 50% Health, the Attack Speed is doubled.",
+      "values": [
+        {
+          "name": "Attack Speed Bonus",
+          "values": [
+            35,
+            45,
+            60
+          ]
+        },
+        {
+          "name": "Percent of Attack Damage",
+          "values": [
+            220,
+            230,
+            240
+          ]
+        }
+      ]
+    },
+    "items": [
+      16,
+      12,
+      26,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Pantheon",
+    "id": "TFT7_Pantheon",
+    "cost": 4,
+    "traits": [
+      "Set7_Whispers",
+      "Set7_Warrior"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          1000,
+          1800,
+          3240
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          39,
+          70,
+          126
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 50
+      },
+      {
+        "name": "mana",
+        "values": [
+          30,
+          60
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Aegis Assault",
+      "type": "Active",
+      "description": "Passive: Pantheon takes reduced damage.\n\nActive: Pantheon braces his shield for 2 seconds, doubling the effectiveness of his passive and dealing a percent of his Attack Damage plus bonus damage in the area in front of him over the duration. Enemies hit have their incoming healing reduced by 50% for 3 seconds.",
+      "values": [
+        {
+          "name": "Damage Reduction",
+          "values": [
+            20,
+            25,
+            40
+          ]
+        },
+        {
+          "name": "Base Damage",
+          "values": [
+            100,
+            150,
+            700
+          ]
+        },
+        {
+          "name": "Percent of Attack Damage",
+          "values": [
+            280,
+            300,
+            400
+          ]
+        }
+      ]
+    },
+    "items": [
+      16,
+      12,
+      25,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Qiyana",
+    "id": "TFT7_Qiyana",
+    "cost": 2,
+    "traits": [
+      "Set7_Tempest",
+      "Set7_Assassin"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          700,
+          1260,
+          2268
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          50,
+          90,
+          162
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          38,
+          68,
+          122
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 35
+      },
+      {
+        "name": "mana",
+        "values": [
+          40,
+          100
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Elemental Blade",
+      "type": "Active",
+      "description": "Qiyana dashes to the best position to strike enemies with her blade, dealing magic damage in a short line and disarming enemies hit.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            225,
+            300,
+            450
+          ]
+        },
+        {
+          "name": "Disarm Duration",
+          "values": [
+            1.5,
+            1.75,
+            2
+          ]
+        }
+      ]
+    },
+    "items": [
+      13,
+      19,
+      14,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Rakan",
+    "id": "TFT7_Rakan",
+    "cost": 3,
+    "traits": [
+      "Set7_Ragewing",
+      "Set7_Guardian"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          45,
+          81,
+          146
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          34,
+          61,
+          109
+        ]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 50
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          60
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Disarming Diversion",
+      "type": "Active",
+      "description": "Rakan dashes to the furthest enemy within his attack range, disarming all units he passes through, and taunting his target.\n\nThen for 4 seconds, Rakan creates a shield on himself and his attacks grant him an additional shield.",
+      "values": [
+        {
+          "name": "Shield Amount",
+          "values": [
+            200,
+            375,
+            550
+          ]
+        },
+        {
+          "name": "Disarm Duration",
+          "values": [
+            1.5,
+            1.75,
+            2
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Rell",
+    "id": "TFT7_Rell",
+    "cost": 2,
+    "traits": [
+      "Set7_Darkflight",
+      "Set7_Cavalier"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          700,
+          1260,
+          2268
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          50,
+          90,
+          162
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          30,
+          54,
+          97
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 45
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          70
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Iron Bond",
+      "type": "Active",
+      "description": "Rell forms a tether between herself and her lowest percent health ally, dealing magic damage to all enemies between herself and her bound ally. She also grants herself and her bound ally a percent of Rell's current Armor and Magic Resist for 4 seconds.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            150,
+            225,
+            400
+          ]
+        },
+        {
+          "name": "Percent Armor and Magic Resist",
+          "values": [
+            35,
+            40,
+            50
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Rengar",
+    "id": "TFT7_Rengar",
+    "cost": 3,
+    "traits": [
+      "Set7_Darkflight",
+      "Set7_Assassin"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          700,
+          1260,
+          2268
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          70,
+          126,
+          227
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          53,
+          95,
+          170
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [
+          60,
+          120
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Unseen Predator",
+      "type": "Active",
+      "description": "Rengar leaps to the lowest armor enemy, dealing a percent of his Attack Damage plus bonus magic damage. He then gains a burst of Attack Speed for his next 2 attacks.",
+      "values": [
+        {
+          "name": "Percent of Attack Damage",
+          "values": [
+            255,
+            265,
+            275
+          ]
+        },
+        {
+          "name": "Bonus Damage",
+          "values": [
+            60,
+            80,
+            100
+          ]
+        }
+      ]
+    },
+    "items": [
+      16,
+      19,
+      25,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Sejuani",
+    "id": "TFT7_Sejuani",
+    "cost": 1,
+    "traits": [
+      "Set7_Guild",
+      "Set7_Cavalier"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          650,
+          1170,
+          2106
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          33,
+          59,
+          107
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.55
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [
+          50,
+          90
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Warrior's Wrath",
+      "type": "Active",
+      "description": "Sejuani swings her mace wide, hitting all enemies in a cone for magic damage equal to 5% of her maximum Health. She quickly strikes again, repeating the damage on her target and the enemy directly behind it and stunning them.",
+      "values": [
+        {
+          "name": "Stun Duration",
+          "values": [
+            1.5,
+            1.75,
+            2
+          ]
+        }
+      ]
+    },
+    "items": [
+      55,
+      47,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Senna",
+    "id": "TFT7_Senna",
+    "cost": 1,
+    "traits": [
+      "Set7_Ragewing",
+      "Set7_Cannoneer"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          500,
+          900,
+          1620
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          50,
+          90,
+          162
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          35,
+          63,
+          113
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 15
+      },
+      {
+        "name": "mana",
+        "values": [
+          30,
+          90
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Last Embrace",
+      "type": "Active",
+      "description": "Senna launches black mist toward the farthest enemy, striking the first enemy hit and dealing a percent of her Attack Damage on a small area and additional magic damage to the target hit.",
+      "values": [
+        {
+          "name": "Bonus Damage",
+          "values": [
+            300,
+            450,
+            600
+          ]
+        },
+        {
+          "name": "Percent of Attack Damage",
+          "values": [
+            200,
+            240,
+            300
+          ]
+        }
+      ]
+    },
+    "items": [
+      46,
+      17,
+      67,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Seraphine",
+    "id": "TFT7_Seraphine",
+    "cost": 3,
+    "traits": [
+      "Set7_Lagoon",
+      "Set7_Evoker"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          750,
+          1350,
+          2430
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          50,
+          90,
+          162
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          35,
+          63,
+          113
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 75
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [
+          75,
+          125
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Serenade of the Seas",
+      "type": "Active",
+      "description": "Seraphine sings a serenade of the seas, granting a shield and magic damage on attacks to all allies within 2 hexes for 5 seconds.",
+      "values": [
+        {
+          "name": "Shield Amount",
+          "values": [
+            160,
+            220,
+            300
+          ]
+        },
+        {
+          "name": "On-Hit Damage",
+          "values": [
+            20,
+            35,
+            100
+          ]
+        }
+      ]
+    },
+    "items": [
+      46,
+      17,
+      67,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Sett",
+    "id": "TFT7_Sett",
+    "cost": 1,
+    "traits": [
+      "Set7_Ragewing",
+      "Set7_Dragonmancer"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          650,
+          1170,
+          2106
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          42,
+          76,
+          136
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [
+          30,
+          60
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Knuckle Down",
+      "type": "Active",
+      "description": "For the next 4 seconds, Sett gains Armor and Magic Resist, and every other punch deals a percent of his Attack Damage as bonus physical damage.",
+      "values": [
+        {
+          "name": "Armor and Magic Resist",
+          "values": [
+            50,
+            60,
+            80
+          ]
+        },
+        {
+          "name": "Percent of Attack Damage",
+          "values": [
+            150,
+            155,
+            160
+          ]
+        }
+      ]
+    },
+    "items": [
+      12,
+      23,
+      69,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Shi Oh Yu",
+    "id": "TFT7_DragonGreen",
+    "cost": 7,
+    "traits": [
+      "Set7_Jade",
+      "Set7_Dragon"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          850,
+          1530,
+          2754
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          75,
+          135,
+          243
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          56,
+          101,
+          182
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 60
+      },
+      {
+        "name": "mana",
+        "values": [
+          30,
+          90
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Jade Form",
+      "type": "Active",
+      "description": "ShiOhYu enters Jade stance, gaining damage reduction, immunity to crowd control, and empowering her next 3 attacks with special effects that deal a percent of her Attack Damage.\n\nAttack 1: Deals a percent of her Attack Damage and knocks the target into the air for 1.25 second.\nAttack 2: Deals true damage.\nAttack 3: Ends the stance, dealing a percent of her Attack Damage to all enemies in a line and knocking them up for 1.25 seconds.",
+      "values": [
+        {
+          "name": "Percent of Attack Damage",
+          "values": [
+            230,
+            250,
+            1000
+          ]
+        },
+        {
+          "name": "Damage Reduction",
+          "values": [
+            15,
+            20,
+            50
+          ]
+        }
+      ]
+    },
+    "items": [
+      16,
+      94,
+      25,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Shyvana",
+    "id": "TFT7_Shyvana",
+    "cost": 8,
+    "traits": [
+      "Set7_Ragewing",
+      "Set7_Dragon"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          900,
+          1620,
+          2916
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          120,
+          216,
+          389
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          96,
+          173,
+          311
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.8
+      },
+      {
+        "name": "armour",
+        "values": 15
+      },
+      {
+        "name": "resistance",
+        "values": 70
+      },
+      {
+        "name": "mana",
+        "values": [
+          15,
+          60
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Dragon's Descent",
+      "type": "Active",
+      "description": "Shyvana transforms into Dragon Form for the rest of combat, replacing her ability with Flame Breath. She then becomes untargetable before dive-bombing the largest group of enemies, dealing magic damage and stunning them for 1.5 seconds. After landing, Shyvana casts Flame Breath again immediately.\n\nFlame Breath: Shyvana breathes fire in a cone, dealing magic damage. While breathing fire, Shyvana is always enraged.",
+      "values": [
+        {
+          "name": "Initial Damage",
+          "values": [
+            80,
+            150,
+            500
+          ]
+        },
+        {
+          "name": "Breath Damage",
+          "values": [
+            700,
+            1200,
+            20000
+          ]
+        }
+      ]
+    },
+    "items": [
+      34,
+      36,
+      37,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Skarner",
+    "id": "TFT7_Skarner",
+    "cost": 1,
+    "traits": [
+      "Set7_Astral",
+      "Set7_Bruiser"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          650,
+          1170,
+          2106
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          36,
+          65,
+          117
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 45
+      },
+      {
+        "name": "mana",
+        "values": [
+          40,
+          90
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Crystalline Exoskeleton",
+      "type": "Active",
+      "description": "Skarner shields himself for 8 seconds, and gains Attack Speed while it holds.",
+      "values": [
+        {
+          "name": "Shield Amount",
+          "values": [
+            300,
+            375,
+            450
+          ]
+        },
+        {
+          "name": "Attack Speed",
+          "values": [
+            160,
+            180,
+            200
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Sohm",
+    "id": "TFT7_AquaticDragon",
+    "cost": 7,
+    "traits": [
+      "Set7_Lagoon",
+      "Set7_Dragon"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          30,
+          54,
+          97
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          23,
+          41,
+          73
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          40
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Tideblossom",
+      "type": "Active",
+      "description": "Sohm sends out a tide to an unmarked target, marking them with a Tideblossom and dealing magic damage to enemies along the way. Tideblossoms transfer to a nearby target if the enemy dies.\n\nAfter 3 casts, his next cast instead summons a vortex under each Tideblossom, dealing magic damage to enemies in the area.",
+      "values": [
+        {
+          "name": "Tide Damage",
+          "values": [
+            165,
+            225,
+            600
+          ]
+        },
+        {
+          "name": "Vortex Damage",
+          "values": [
+            275,
+            375,
+            1500
+          ]
+        }
+      ]
+    },
+    "items": [
+      44,
+      19,
+      39,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Soraka",
+    "id": "TFT7_Soraka",
+    "cost": 5,
+    "traits": [
+      "Set7_Jade",
+      "Set7_Starcaller"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          40,
+          72,
+          130
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          28,
+          50,
+          91
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 100
+      },
+      {
+        "name": "resistance",
+        "values": 30
+      },
+      {
+        "name": "mana",
+        "values": [
+          100,
+          200
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Starfall",
+      "type": "Active",
+      "description": "Passive: While any ally is below 50% Health, Soraka gains an additional 15 mana per attack.\n\nActive: Soraka calls down a shower of stars over the next 2 seconds. Allies are healed each time a star hits them.",
+      "values": [
+        {
+          "name": "Healing",
+          "values": [
+            105,
+            165,
+            1000
+          ]
+        }
+      ]
+    },
+    "items": [
+      46,
+      17,
+      67,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Swain",
+    "id": "TFT7_Swain",
+    "cost": 7,
+    "traits": [
+      "Set7_Darkflight",
+      "Set7_Dragon"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          900,
+          1620,
+          2916
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          40,
+          72,
+          130
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          24,
+          43,
+          78
+        ]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 60
+      },
+      {
+        "name": "resistance",
+        "values": 70
+      },
+      {
+        "name": "mana",
+        "values": [
+          60,
+          110
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Dragon Master's Decree",
+      "type": "Active",
+      "description": "Swain releases his dragonling flock, launching 8 dragonlings toward nearby enemies that each deal magic damage to their target, then return to Swain and heal him for 11% of his missing Health.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            70,
+            100,
+            600
+          ]
+        }
+      ]
+    },
+    "items": [
+      34,
+      37,
+      25,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Sy'fen",
+    "id": "TFT7_DragonPurple",
+    "cost": 7,
+    "traits": [
+      "Set7_Whispers",
+      "Set7_Bruiser"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          900,
+          1620,
+          2916
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          90,
+          162,
+          292
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          63,
+          113,
+          204
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 100
+      },
+      {
+        "name": "resistance",
+        "values": 60
+      },
+      {
+        "name": "mana",
+        "values": [
+          100,
+          175
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Rampage",
+      "type": "Active",
+      "description": "Sy'fen charges towards the farthest enemy within 2.5 hexes, dealing a percent of his Attack Damage and knocking up enemies he passes through.\n\nAfter charging, Sy'fen bites an enemy dealing a percent of his Attack Damage and ignoring 28% of the target's Armor. This bite cannot be dodged.",
+      "values": [
+        {
+          "name": "Charge % of Attack Damage",
+          "values": [
+            150,
+            170,
+            450
+          ]
+        },
+        {
+          "name": "Bite % of Attack Damage",
+          "values": [
+            475,
+            550,
+            2500
+          ]
+        }
+      ]
+    },
+    "items": [
+      16,
+      69,
+      25,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Sylas",
+    "id": "TFT7_Sylas",
+    "cost": 3,
+    "traits": [
+      "Set7_Whispers",
+      "Set7_Bruiser"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          36,
+          65,
+          117
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 70
+      },
+      {
+        "name": "resistance",
+        "values": 50
+      },
+      {
+        "name": "mana",
+        "values": [
+          70,
+          140
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Petricite Burst",
+      "type": "Active",
+      "description": "Sylas whirls his chains, dealing magic damage to enemies hit and shielding himself for 6 seconds. If Sylas has already shielded himself, he hits in a larger area and applies Mana-Reave to enemies hit, increasing the cost of their next ability by 35%.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            110,
+            170,
+            240
+          ]
+        },
+        {
+          "name": "Shield Amount",
+          "values": [
+            365,
+            415,
+            475
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Taliyah",
+    "id": "TFT7_Taliyah",
+    "cost": 1,
+    "traits": [
+      "Set7_Lagoon",
+      "Set7_Mage"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          550,
+          990,
+          1782
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          30,
+          54,
+          97
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          21,
+          38,
+          68
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 15
+      },
+      {
+        "name": "resistance",
+        "values": 15
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          60
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Flowing Volley",
+      "type": "Active",
+      "description": "Taliyah throws 3 stones at her target, each dealing damage to the first enemy hit.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            145,
+            215,
+            325
+          ]
+        }
+      ]
+    },
+    "items": [
+      19,
+      39,
+      14,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Terra",
+    "id": "TFT7_DragonEarth",
+    "cost": 8,
+    "traits": [
+      "Set7_Monolith",
+      "Set7_Dragon"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          1200,
+          2160,
+          3888
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          80,
+          144,
+          259
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          52,
+          94,
+          168
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.65
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 100
+      },
+      {
+        "name": "mana",
+        "values": [
+          30,
+          70
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Earthquake",
+      "type": "Active",
+      "description": "Terra stomps three times causing an earthquake around them, dealing 200% of their Attack Damage plus a percent of their combined Armor and Magic Resist. At the end of the earthquake Terra's scales are hardened for 8 seconds, granting Armor and Magic Resist.",
+      "values": [
+        {
+          "name": "Armor and Magic Resist Damage Percent",
+          "values": [
+            150,
+            200,
+            4000
+          ]
+        },
+        {
+          "name": "Armor and Magic Resist Buff",
+          "values": [
+            150,
+            200,
+            4000
+          ]
+        }
+      ]
+    },
+    "items": [
+      66,
+      56,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Tristana",
+    "id": "TFT7b_Tristana",
+    "cost": 2,
+    "traits": ["Set7_Cannoneer"],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          600,
+          1080,
+          1944
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          42,
+          76,
+          136
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 25
+      },
+      {
+        "name": "mana",
+        "values": [
+          50,
+          100
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Explosive Charge",
+      "type": "Active",
+      "description": "Tristana fires up to 1 explosive charge, prioritizing the closest targets without a charge. Charges detonate after 1 second, dealing a percent of her Attack Damage to nearby enemies and additional magic damage to the target.",
+      "values": [
+        {
+          "name": "Percent of Attack Damage",
+          "values": [
+            140,
+            170,
+            210
+          ]
+        },
+        {
+          "name": "Magic Damage",
+          "values": [
+            130,
+            160,
+            200
+          ]
+        },
+        {
+          "name": "Bonus Attack Damage",
+          "values": [
+            30,
+            45,
+            70
+          ]
+        }
+      ]
+    },
+    "items": [
+      12,
+      19,
+      29,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Twitch",
+    "id": "TFT7_Twitch",
+    "cost": 2,
+    "traits": [
+      "Set7_Guild",
+      "Set7_Swiftshot"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          550,
+          990,
+          1782
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          55,
+          99,
+          178
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          39,
+          69,
+          125
+        ]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [
+          40,
+          80
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Blast Potion",
+      "type": "Active",
+      "description": "Twitch hurls an exploding flask at his target, dealing 120% of his Attack Damage plus bonus physical damage in an area and reducing the Armor of enemies hit by 40% for 5 seconds.",
+      "values": [
+        {
+          "name": "Base Damage",
+          "values": [
+            40,
+            80,
+            150
+          ]
+        }
+      ]
+    },
+    "items": [
+      11,
+      23,
+      26,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Varus",
+    "id": "TFT7_Varus",
+    "cost": 3,
+    "traits": [
+      "Set7_Astral",
+      "Set7_Swiftshot"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          650,
+          1170,
+          2106
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          55,
+          99,
+          178
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          39,
+          69,
+          125
+        ]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 75
+      },
+      {
+        "name": "resistance",
+        "values": 25
+      },
+      {
+        "name": "mana",
+        "values": [
+          75,
+          150
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Chain of Constellations",
+      "type": "Active",
+      "description": "Varus sends out a cosmic tendril towards his target that strikes the first enemy hit, dealing 300% of his Attack Damage and stunning them. Tendrils then spread to 3 nearby enemies, dealing magic damage and stunning them for the same duration.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            150,
+            250,
+            400
+          ]
+        },
+        {
+          "name": "Stun Duration",
+          "values": [
+            1.5,
+            1.75,
+            2
+          ]
+        }
+      ]
+    },
+    "items": [
+      11,
+      23,
+      26,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Vladimir",
+    "id": "TFT7_Vladimir",
+    "cost": 1,
+    "traits": [
+      "Set7_Astral",
+      "Set7_Mage"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          700,
+          1260,
+          2268
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          40,
+          72,
+          130
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          24,
+          43,
+          78
+        ]
+      },
+      {
+        "name": "range",
+        "values": 2
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 45
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          70
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Transfusion",
+      "type": "Active",
+      "description": "Vladimir deals magic damage to his target and heals himself.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            275,
+            325,
+            375
+          ]
+        },
+        {
+          "name": "Healing",
+          "values": [
+            275,
+            325,
+            375
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Volibear",
+    "id": "TFT7b_Volibear",
+    "cost": 3,
+    "traits": [
+      "Set7_Shimmerscale",
+      "Set7_Dragonmancer"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          50,
+          90,
+          162
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          38,
+          68,
+          122
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 50
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          60
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Relentless Storm",
+      "type": "Active",
+      "description": "Volibear rages, gaining bonus Health. For the rest of combat, every 3rd attack deals bonus magic damage to the target, and magic damage to up to 4 additional enemies.",
+      "values": [
+        {
+          "name": "Bonus Health",
+          "values": [
+            400,
+            700,
+            1200
+          ]
+        },
+        {
+          "name": "Damage",
+          "values": [
+            110,
+            155,
+            215
+          ]
+        }
+      ]
+    },
+    "items": [
+      16,
+      23,
+      25,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Wukong",
+    "id": "TFT7_Wukong",
+    "cost": 1,
+    "traits": [
+      "Set7_Jade",
+      "Set7_Warrior"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          650,
+          1170,
+          2106
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          55,
+          99,
+          178
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          39,
+          69,
+          125
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          60
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Crushing Blow",
+      "type": "Active",
+      "description": "Wukong slams his target with his staff, dealing a percent of his Attack Damage plus bonus physical damage and stunning them.",
+      "values": [
+        {
+          "name": "Percent of Attack Damage",
+          "values": [
+            165,
+            180,
+            195
+          ]
+        },
+        {
+          "name": "Stun Duration",
+          "values": [
+            1,
+            1.25,
+            1.5
+          ]
+        },
+        {
+          "name": "Base Damage",
+          "values": [
+            50,
+            75,
+            100
+          ]
+        }
+      ]
+    },
+    "items": [
+      19,
+      22,
+      26,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Xayah",
+    "id": "TFT7_Xayah",
+    "cost": 4,
+    "traits": [
+      "Set7_Ragewing",
+      "Set7_Swiftshot"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          750,
+          1350,
+          2430
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          75,
+          135,
+          243
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          56,
+          101,
+          182
+        ]
+      },
+      {
+        "name": "range",
+        "values": 3
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 25
+      },
+      {
+        "name": "resistance",
+        "values": 25
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          60
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Feathers FLY!",
+      "type": "Active",
+      "description": "For 4 seconds, whenever Xayah attacks she fires a feather behind her target and nearby enemies.\n\nAt the end of this duration Xayah recalls her feathers, dealing a percent of her Attack Damage plus bonus magic damage per feather to enemies struck.",
+      "values": [
+        {
+          "name": "Bonus Feathers",
+          "values": [
+            2,
+            2,
+            4
+          ]
+        },
+        {
+          "name": "Recall Attack Percentage",
+          "values": [
+            18,
+            18,
+            18
+          ]
+        },
+        {
+          "name": "Recall Damage",
+          "values": [
+            15,
+            20,
+            60
+          ]
+        }
+      ]
+    },
+    "items": [
+      12,
+      23,
+      19,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Yasuo",
+    "id": "TFT7_Yasuo",
+    "cost": 5,
+    "traits": [
+      "Set7_Mirage",
+      "Set7_Dragonmancer"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          1000,
+          1800,
+          3240
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          90,
+          162,
+          292
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          90,
+          162,
+          292
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 1
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 50
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          25
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Sweeping Blade",
+      "type": "Active",
+      "description": "Yasuo shields himself for 2 seconds and dashes through his target, slashing nearby enemies for a percent of his Attack Damage.\n\nEvery third cast, his slash deals 250% damage, hits a larger area, and knocks up enemies for 1.5 seconds. If Yasuo hits only the last enemy left alive, he repeatedly slashes them until they die.",
+      "values": [
+        {
+          "name": "Percent of Attack Damage",
+          "values": [
+            150,
+            180,
+            3000
+          ]
+        },
+        {
+          "name": "Shield Amount",
+          "values": [
+            180,
+            240,
+            2500
+          ]
+        }
+      ]
+    },
+    "items": [
+      16,
+      19,
+      25,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Yone",
+    "id": "TFT7_Yone",
+    "cost": 2,
+    "traits": [
+      "Set7_Mirage",
+      "Set7_Warrior"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          55,
+          99,
+          178
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          47,
+          84,
+          151
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.85
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 40
+      },
+      {
+        "name": "mana",
+        "values": []
+      }
+    ],
+    "ability": {
+      "name": "Way of the Hunter",
+      "type": "Active",
+      "description": "Passive: Yone's attacks alternate between dealing bonus magic damage and dealing a percent of his Attack Damage.",
+      "values": [
+        {
+          "name": "Bonus Damage",
+          "values": [
+            90,
+            140,
+            200
+          ]
+        },
+        {
+          "name": "Percent of Attack Damage",
+          "values": [
+            30,
+            35,
+            40
+          ]
+        }
+      ]
+    },
+    "items": [
+      23,
+      49,
+      69,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Zac",
+    "id": "TFT7_Zac",
+    "cost": 2,
+    "traits": [
+      "Set7_Lagoon",
+      "Set7_Guardian"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          36,
+          65,
+          117
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.6
+      },
+      {
+        "name": "armour",
+        "values": 45
+      },
+      {
+        "name": "resistance",
+        "values": 45
+      },
+      {
+        "name": "mana",
+        "values": [
+          0,
+          60
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Unstable Current",
+      "type": "Active",
+      "description": "Zac explodes outward towards enemies within 2 hexes, dealing a percent of their maximum Health as magic damage and healing himself.",
+      "values": [
+        {
+          "name": "Percent Maximum Health",
+          "values": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "name": "Heal",
+          "values": [
+            200,
+            220,
+            270
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Zeri",
+    "id": "TFT7_Zeri",
+    "cost": 3,
+    "traits": [
+      "Set7_Lagoon",
+      "Set7_Cannoneer"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          600,
+          1080,
+          1944
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          65,
+          117,
+          211
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          49,
+          88,
+          158
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [
+          40,
+          80
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Watershock Laser",
+      "type": "Active",
+      "description": "Zeri fires a water pulse at the closest enemy within 3 hexes, or at the centermost enemy, stunning them briefly for 0.75 seconds. When the pulse explodes,, it deals a percent of her Attack Damage and creates a laser behind the target that deals magic damage to all enemies hit.",
+      "values": [
+        {
+          "name": "Percent of Attack Damage",
+          "values": [
+            110,
+            115,
+            120
+          ]
+        },
+        {
+          "name": "Laser Damage",
+          "values": [
+            160,
+            240,
+            420
+          ]
+        }
+      ]
+    },
+    "items": [
+      23,
+      49,
+      19,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Zippy",
+    "id": "TFT7_DragonGuild",
+    "cost": 6,
+    "traits": [
+      "Set7_Guild",
+      "Set7_Dragon"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          80,
+          144,
+          259
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          60,
+          108,
+          194
+        ]
+      },
+      {
+        "name": "range",
+        "values": 1
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 40
+      },
+      {
+        "name": "resistance",
+        "values": 50
+      },
+      {
+        "name": "mana",
+        "values": [
+          40,
+          100
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Somersault Assault",
+      "type": "Active",
+      "description": "Zippy shields himself for 2 seconds and somersaults toward the highest percent health enemy, dealing a percent of his Attack Damage and knocking them back slightly.",
+      "values": [
+        {
+          "name": "Shield Amount",
+          "values": [
+            375,
+            450,
+            650
+          ]
+        },
+        {
+          "name": "Percent of Attack Damage",
+          "values": [
+            400,
+            425,
+            550
+          ]
+        }
+      ]
+    },
+    "items": [
+      56,
+      57,
+      77,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Zoe",
+    "id": "TFT7_Zoe",
+    "cost": 5,
+    "traits": [
+      "Set7_Shimmerscale",
+      "Set7_Mage"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          800,
+          1440,
+          2592
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          45,
+          81,
+          146
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          34,
+          61,
+          109
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.75
+      },
+      {
+        "name": "armour",
+        "values": 30
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [
+          30,
+          100
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Nothing!",
+      "type": "Active",
+      "description": "Zoe nabs a spell from another dimension and casts it as if it were her own.",
+      "values": []
+    },
+    "items": [
+      34,
+      23,
+      14,
+      55,
+      34
+    ]
+  },
+  {
+    "name": "Zyra",
+    "id": "TFT7_Zyra",
+    "cost": 2,
+    "traits": [
+      "Set7_Whispers",
+      "Set7_Evoker"
+    ],
+    "stats": [
+      {
+        "name": "health",
+        "values": [
+          600,
+          1080,
+          1944
+        ]
+      },
+      {
+        "name": "attack",
+        "values": [
+          40,
+          72,
+          130
+        ]
+      },
+      {
+        "name": "dps",
+        "values": [
+          28,
+          50,
+          91
+        ]
+      },
+      {
+        "name": "range",
+        "values": 4
+      },
+      {
+        "name": "speed",
+        "values": 0.7
+      },
+      {
+        "name": "armour",
+        "values": 50
+      },
+      {
+        "name": "resistance",
+        "values": 20
+      },
+      {
+        "name": "mana",
+        "values": [
+          50,
+          125
+        ]
+      }
+    ],
+    "ability": {
+      "name": "Grasping Spines",
+      "type": "Active",
+      "description": "Zyra summons vines in the row with the most enemies, dealing magic damage and stunning them.",
+      "values": [
+        {
+          "name": "Damage",
+          "values": [
+            325,
+            425,
+            550
+          ]
+        },
+        {
+          "name": "Stun Duration",
+          "values": [
+            1,
+            1.25,
+            1.5
+          ]
+        }
+      ]
+    },
+    "items": [
+      19,
+      39,
+      14,
+      55,
+      34
+    ]
+  }
+]

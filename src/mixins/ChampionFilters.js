@@ -1,20 +1,27 @@
 import costs from "@/constants/costs";
 import { defineAsyncComponent as async } from "vue";
-import { mapGetters } from "vuex";
+import { mapGetters, mapState } from "vuex";
 
 export default {
   computed: {
+    ...mapState({ set: state => state.activeSet }),
     ...mapGetters("champions", {
       types: "getFilterTypes",
       origins: "traits/getOrigins",
       classes: "traits/getClasses"
     }),
 
+    cost() {
+      return this.set >= 7
+        ? this.types.cost
+        : this.types.cost.filter(cost => cost <= 5);
+    },
+
     filters() {
       return {
         cost: {
           props: {
-            label: this.types.cost,
+            label: this.cost,
             options: costs
           },
           component: async(() => import("@/components/champions/ChampionCost")),
