@@ -12,17 +12,15 @@ export default {
     }),
 
     cost() {
-      return this.set >= 7
-        ? this.types.cost
-        : this.types.cost.filter(cost => cost <= 5);
+      return this.set >= 7 ? costs : costs.filter(cost => cost <= 5);
     },
 
     filters() {
       return {
         cost: {
           props: {
-            label: this.cost,
-            options: costs
+            label: this.types.cost,
+            options: this.cost
           },
           component: async(() => import("@/components/champions/ChampionCost")),
           click: opt => this.pushQuery(this.types.cost, opt.toLowerCase()),
